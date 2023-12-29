@@ -82,8 +82,8 @@
  4.0K   │ ├── tailscaled_amd_geode_systemd.defaults_Linux
  4.0K   │ ├── tailscaled_aarch64_arm64_systemd.service_Linux
  4.0K   │ └── tailscaled_aarch64_arm64_systemd.defaults_Linux
- 628M   ├─┬ baseutils
- 310M   │ ├─┬ x86_64
+ 625M   ├─┬ baseutils
+ 307M   │ ├─┬ x86_64
   29M   │ │ ├── tailscaled
   23M   │ │ ├── ngrok
   12M   │ │ ├── gost
@@ -109,7 +109,6 @@
  1.6M   │ │ ├── lsblk
  1.6M   │ │ ├── fdisk
  1.6M   │ │ ├── sfdisk
- 1.5M   │ │ ├── grep
  1.5M   │ │ ├── dbclient
  1.5M   │ │ ├── mount
  1.4M   │ │ ├── umount
@@ -181,7 +180,6 @@
  988K   │ │ ├── uuidgen
  980K   │ │ ├── scriptlive
  980K   │ │ ├── mkfs.minix
- 972K   │ │ ├── uptime
  972K   │ │ ├── readprofile
  964K   │ │ ├── nsenter
  964K   │ │ ├── blkzone
@@ -200,6 +198,7 @@
  940K   │ │ ├── ul
  932K   │ │ ├── hardlink
  928K   │ │ ├── mesg
+ 920K   │ │ ├── grep
  912K   │ │ ├── prlimit
  912K   │ │ ├── fincore
  908K   │ │ ├── rename
@@ -213,7 +212,6 @@
  836K   │ │ ├── free
  832K   │ │ ├── taskset
  828K   │ │ ├── ldattach
- 828K   │ │ ├── kill
  828K   │ │ ├── enosys
  828K   │ │ ├── chrt
  824K   │ │ ├── mcookie
@@ -294,6 +292,7 @@
  112K   │ │ ├── od
  112K   │ │ ├── numfmt
  112K   │ │ ├── chgrp
+ 108K   │ │ ├── uptime
  108K   │ │ ├── timeout
  108K   │ │ ├── stty
  108K   │ │ ├── sha512sum
@@ -351,6 +350,7 @@
   84K   │ │ ├── nice
   84K   │ │ ├── mktemp
   84K   │ │ ├── mknod
+  84K   │ │ ├── kill
   84K   │ │ ├── fold
   84K   │ │ ├── expand
   84K   │ │ ├── cat
@@ -425,7 +425,7 @@
    0B   │ │ ├── insmod
    0B   │ │ ├── i386
    0B   │ │ └── depmod
- 270M   │ ├─┬ aarch64_arm64
+ 269M   │ ├─┬ aarch64_arm64
   40M   │ │ ├── tailscaled
   22M   │ │ ├── ngrok
   15M   │ │ ├── tailscale
@@ -529,7 +529,6 @@
  652K   │ │ ├── rtcwake
  652K   │ │ ├── mkfs.minix
  636K   │ │ ├── uuidgen
- 636K   │ │ ├── uptime
  636K   │ │ ├── uclampset
  636K   │ │ ├── scriptreplay
  636K   │ │ ├── readprofile
@@ -566,7 +565,6 @@
  556K   │ │ ├── mkfs
  556K   │ │ ├── mcookie
  556K   │ │ ├── ldattach
- 556K   │ │ ├── kill
  556K   │ │ ├── ipcrm
  556K   │ │ ├── ipcmk
  556K   │ │ ├── ionice
@@ -623,6 +621,7 @@
  132K   │ │ ├── xzdec
  132K   │ │ ├── xargs
  132K   │ │ ├── wc
+ 132K   │ │ ├── uptime
  132K   │ │ ├── tr
  132K   │ │ ├── timeout
  132K   │ │ ├── tail
@@ -689,6 +688,7 @@
  116K   │ │ ├── md5sum
  116K   │ │ ├── logname
  116K   │ │ ├── link
+ 116K   │ │ ├── kill
  116K   │ │ ├── head
  116K   │ │ ├── groups
  116K   │ │ ├── fold
