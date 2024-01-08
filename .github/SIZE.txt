@@ -1109,7 +1109,7 @@
   20K   │ ├── README.md
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
-  34M   ├─┬ toybox
+  32M   ├─┬ toybox
  1.4M   │ ├── toybox_microblaze_Linux.base64
  1.3M   │ ├── toybox_mipsel_Linux.base64
  1.3M   │ ├── toybox_mips_Linux.base64
@@ -1118,7 +1118,6 @@
  1.2M   │ ├── toybox_powerpc64_Linux.base64
  1.1M   │ ├── toybox_s390x_Linux.base64
  1.1M   │ ├── toybox_powerpc_Linux.base64
- 1.1M   │ ├── toybox_arm64_aarch64_Linux.base64
  1.1M   │ ├── toybox_microblaze_Linux
  1.0M   │ ├── toybox_armv4l_Linux.base64
  1.0M   │ ├── toybox_armv5l_Linux.base64
@@ -1136,7 +1135,6 @@
  884K   │ ├── toybox_armv7m_Linux.base64
  876K   │ ├── toybox_s390x_Linux
  844K   │ ├── toybox_powerpc_Linux
- 824K   │ ├── toybox_arm64_aarch64_Linux
  792K   │ ├── toybox_armv4l_Linux
  784K   │ ├── toybox_armv5l_Linux
  776K   │ ├── toybox_armv7l_Linux
@@ -1146,6 +1144,8 @@
  740K   │ ├── toybox_amd_x86_64_Linux
  720K   │ ├── toybox_sh4_Linux
  664K   │ ├── toybox_armv7m_Linux
+ 156K   │ ├── toybox_arm64_aarch64_Linux.base64
+ 116K   │ ├── toybox_arm64_aarch64_Linux
   12K   │ ├── README.md
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
