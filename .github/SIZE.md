@@ -858,8 +858,8 @@
  4.0K   │ └── version.txt
  221M   ├─┬ croc
  8.1M   │ ├── croc_x86_64_macOS
- 8.1M   │ ├── croc_mips64_Linux
  8.1M   │ ├── croc_mips64le_Linux
+ 8.1M   │ ├── croc_mips64_Linux
  7.9M   │ ├── croc_aarch64_arm64_macOS
  7.9M   │ ├── croc_mipsle_Linux
  7.9M   │ ├── croc_mips_Linux
