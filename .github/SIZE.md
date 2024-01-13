@@ -1,5 +1,5 @@
 ```mathematica
-  3.5G └─┬ main
+ 3.5G └─┬ main
  1.1G   ├─┬ tailscale
   50M   │ ├── tailscale_setup_Windows.exe
   45M   │ ├── tailscale_ipn_setup_Windows.exe
@@ -881,8 +881,8 @@
  7.1M   │ ├── croc_aarch64_arm64_FreeBSD
  7.1M   │ ├── croc_powerpc64le_ppc64le_Linux
  7.1M   │ ├── croc_aarch64_arm64_Linux
- 7.1M   │ ├── croc_amd_x86_OpenBSD
  7.1M   │ ├── croc_riscv64_Linux
+ 7.1M   │ ├── croc_amd_x86_OpenBSD
  7.1M   │ ├── croc_amd_x86_FreeBSD
  7.0M   │ ├── croc_powerpc64_ppc64_Linux
  7.0M   │ ├── croc_amd_x86_NetBSD
