@@ -82,10 +82,10 @@
  4.0K   │ ├── tailscaled_amd_geode_systemd.defaults_Linux
  4.0K   │ ├── tailscaled_aarch64_arm64_systemd.service_Linux
  4.0K   │ └── tailscaled_aarch64_arm64_systemd.defaults_Linux
- 626M   ├─┬ baseutils
- 307M   │ ├─┬ x86_64
-  29M   │ │ ├── tailscaled
+ 605M   ├─┬ baseutils
+ 299M   │ ├─┬ x86_64
   23M   │ │ ├── ngrok
+  20M   │ │ ├── tailscaled
   12M   │ │ ├── gost
   10M   │ │ ├── tailscale
  7.4M   │ │ ├── croc
@@ -425,8 +425,8 @@
    0B   │ │ ├── insmod
    0B   │ │ ├── i386
    0B   │ │ └── depmod
- 269M   │ ├─┬ aarch64_arm64
-  40M   │ │ ├── tailscaled
+ 257M   │ ├─┬ aarch64_arm64
+  28M   │ │ ├── tailscaled
   22M   │ │ ├── ngrok
   15M   │ │ ├── tailscale
   12M   │ │ ├── gost
