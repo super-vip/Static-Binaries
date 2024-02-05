@@ -270,7 +270,7 @@
  216K   │ │ ├── vdir
  216K   │ │ ├── ls
  216K   │ │ ├── dir
- 192K   │ │ ├── locate
+ 196K   │ │ ├── locate
  188K   │ │ ├── toe
  188K   │ │ ├── sed
  172K   │ │ ├── sort
