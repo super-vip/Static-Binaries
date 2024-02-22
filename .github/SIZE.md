@@ -92,12 +92,13 @@
  4.0K   │ ├── tailscaled_amd_geode_systemd.defaults_Linux
  4.0K   │ ├── tailscaled_aarch64_arm64_systemd.service_Linux
  4.0K   │ └── tailscaled_aarch64_arm64_systemd.defaults_Linux
- 572M   ├─┬ baseutils
- 291M   │ ├─┬ x86_64
+ 582M   ├─┬ baseutils
+ 295M   │ ├─┬ x86_64
   23M   │ │ ├── ngrok
-  20M   │ │ ├── tailscaled
+  21M   │ │ ├── tailscaled
   12M   │ │ ├── gost
-  10M   │ │ ├── tailscale
+  11M   │ │ ├── tailscale
+ 7.4M   │ │ ├── croc
  5.7M   │ │ ├── git-upload-pack
  5.7M   │ │ ├── git-upload-archive
  5.7M   │ │ ├── git-receive-pack
@@ -111,7 +112,6 @@
  3.9M   │ │ ├── scalar
  3.9M   │ │ ├── ssh-agent
  3.9M   │ │ ├── git-shell
- 2.3M   │ │ ├── croc
  2.2M   │ │ ├── slirp4netns
  2.0M   │ │ ├── cfdisk
  1.6M   │ │ ├── lsblk
@@ -145,7 +145,6 @@
  1.2M   │ │ ├── lslogins
  1.2M   │ │ ├── lsipc
  1.2M   │ │ ├── sysctl
- 1.2M   │ │ ├── uptime
  1.2M   │ │ ├── partx
  1.2M   │ │ ├── logger
  1.1M   │ │ ├── last
@@ -214,7 +213,6 @@
  868K   │ │ ├── chmem
  864K   │ │ ├── waitpid
  864K   │ │ ├── fsck.cramfs
- 852K   │ │ ├── kill
  848K   │ │ ├── look
  836K   │ │ ├── free
  832K   │ │ ├── taskset
@@ -304,6 +302,7 @@
  112K   │ │ ├── od
  112K   │ │ ├── numfmt
  112K   │ │ ├── chgrp
+ 108K   │ │ ├── uptime
  108K   │ │ ├── timeout
  108K   │ │ ├── stty
  108K   │ │ ├── sha512sum
@@ -361,6 +360,7 @@
   84K   │ │ ├── nice
   84K   │ │ ├── mktemp
   84K   │ │ ├── mknod
+  84K   │ │ ├── kill
   84K   │ │ ├── fold
   84K   │ │ ├── expand
   84K   │ │ ├── cat
@@ -436,11 +436,12 @@
    0B   │ │ ├── insmod
    0B   │ │ ├── i386
    0B   │ │ └── depmod
- 231M   │ ├─┬ aarch64_arm64
+ 236M   │ ├─┬ aarch64_arm64
   23M   │ │ ├── ngrok
-  19M   │ │ ├── tailscaled
+  20M   │ │ ├── tailscaled
   12M   │ │ ├── gost
   10M   │ │ ├── tailscale
+ 7.1M   │ │ ├── croc
  7.0M   │ │ ├── curl
  4.8M   │ │ ├── sshd
  4.7M   │ │ ├── ssh
@@ -449,7 +450,6 @@
  4.2M   │ │ ├── ssh-keygen
  4.0M   │ │ ├── ssh-add
  4.0M   │ │ ├── ssh-agent
- 2.0M   │ │ ├── croc
  1.9M   │ │ ├── slirp4netns
  1.6M   │ │ ├── cfdisk
  1.3M   │ │ ├── dropbearmulti
@@ -493,7 +493,6 @@
  844K   │ │ ├── lsclocks
  844K   │ │ ├── blkid
  844K   │ │ ├── agetty
- 828K   │ │ ├── uptime
  828K   │ │ ├── mkswap
  824K   │ │ ├── toybox
  816K   │ │ ├── dmesg
@@ -571,7 +570,6 @@
  556K   │ │ ├── mkfs.bfs
  556K   │ │ ├── mcookie
  556K   │ │ ├── ldattach
- 556K   │ │ ├── kill
  556K   │ │ ├── ipcrm
  556K   │ │ ├── ipcmk
  556K   │ │ ├── ionice
@@ -634,6 +632,7 @@
  132K   │ │ ├── xzdec
  132K   │ │ ├── xargs
  132K   │ │ ├── wc
+ 132K   │ │ ├── uptime
  132K   │ │ ├── tr
  132K   │ │ ├── timeout
  132K   │ │ ├── tail
@@ -701,6 +700,7 @@
  116K   │ │ ├── md5sum
  116K   │ │ ├── logname
  116K   │ │ ├── link
+ 116K   │ │ ├── kill
  116K   │ │ ├── head
  116K   │ │ ├── groups
  116K   │ │ ├── fold
@@ -782,14 +782,14 @@
  376K   │ │ ├── sftp
  280K   │ │ ├── sftp-server
  4.0K   │ │ └── sshd_config
-  17M   │ └── README.md
+  18M   │ └── README.md
  456M   ├─┬ ngrok
   26M   │ ├── ngrok_amd_x86_64_macOS
   26M   │ ├── ngrok_mips64le_Linux
   26M   │ ├── ngrok_mips64_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
-  25M   │ ├── ngrok_mips_Linux
   25M   │ ├── ngrok_mipsle_Linux
+  25M   │ ├── ngrok_mips_Linux
   24M   │ ├── ngrok_s390x_Linux
   24M   │ ├── ngrok_amd_x86_64_Windows.exe
   23M   │ ├── ngrok_amd_x86_64_Linux
@@ -892,8 +892,8 @@
  7.1M   │ ├── croc_arm_abi_NetBSD
  7.1M   │ ├── croc_aarch64_arm64_OpenBSD
  7.1M   │ ├── croc_aarch64_arm64_FreeBSD
- 7.1M   │ ├── croc_powerpc64le_ppc64le_Linux
  7.1M   │ ├── croc_amd_x86_OpenBSD
+ 7.1M   │ ├── croc_powerpc64le_ppc64le_Linux
  7.1M   │ ├── croc_amd_x86_FreeBSD
  7.1M   │ ├── croc_riscv64_Linux
  7.0M   │ ├── croc_amd_x86_NetBSD
