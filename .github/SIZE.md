@@ -92,8 +92,8 @@
  4.0K   │ ├── tailscaled_amd_geode_systemd.defaults_Linux
  4.0K   │ ├── tailscaled_aarch64_arm64_systemd.service_Linux
  4.0K   │ └── tailscaled_aarch64_arm64_systemd.defaults_Linux
- 585M   ├─┬ baseutils
- 297M   │ ├─┬ x86_64
+ 582M   ├─┬ baseutils
+ 295M   │ ├─┬ x86_64
   23M   │ │ ├── ngrok
   21M   │ │ ├── tailscaled
   12M   │ │ ├── gost
@@ -145,7 +145,6 @@
  1.2M   │ │ ├── lslogins
  1.2M   │ │ ├── lsipc
  1.2M   │ │ ├── sysctl
- 1.2M   │ │ ├── uptime
  1.2M   │ │ ├── partx
  1.2M   │ │ ├── logger
  1.1M   │ │ ├── last
@@ -214,7 +213,6 @@
  868K   │ │ ├── chmem
  864K   │ │ ├── waitpid
  864K   │ │ ├── fsck.cramfs
- 852K   │ │ ├── kill
  848K   │ │ ├── look
  836K   │ │ ├── free
  832K   │ │ ├── taskset
@@ -250,10 +248,10 @@
  656K   │ │ ├── tar
  588K   │ │ ├── gawk
  588K   │ │ ├── awk
- 508K   │ │ ├── dropbearmulti
- 432K   │ │ ├── dropbear
+ 540K   │ │ ├── dropbearmulti
+ 460K   │ │ ├── dropbear
+ 412K   │ │ ├── dbclient
  396K   │ │ ├── gitk
- 388K   │ │ ├── dbclient
  336K   │ │ ├── scp
  328K   │ │ ├── sftp
  308K   │ │ ├── find
@@ -263,9 +261,9 @@
  256K   │ │ ├── du
  244K   │ │ ├── printf
  244K   │ │ ├── kmod
+ 244K   │ │ ├── dropbearkey
  240K   │ │ ├── sftp-server
- 224K   │ │ ├── dropbearkey
- 220K   │ │ ├── dropbearconvert
+ 240K   │ │ ├── dropbearconvert
  216K   │ │ ├── vdir
  216K   │ │ ├── ls
  216K   │ │ ├── dir
@@ -304,6 +302,7 @@
  112K   │ │ ├── od
  112K   │ │ ├── numfmt
  112K   │ │ ├── chgrp
+ 108K   │ │ ├── uptime
  108K   │ │ ├── timeout
  108K   │ │ ├── stty
  108K   │ │ ├── sha512sum
@@ -361,6 +360,7 @@
   84K   │ │ ├── nice
   84K   │ │ ├── mktemp
   84K   │ │ ├── mknod
+  84K   │ │ ├── kill
   84K   │ │ ├── fold
   84K   │ │ ├── expand
   84K   │ │ ├── cat
@@ -382,10 +382,10 @@
   76K   │ │ ├── true
   76K   │ │ ├── false
   76K   │ │ ├── echo
+  76K   │ │ ├── dropbearscp
   64K   │ │ ├── which
   64K   │ │ ├── lzmadec
   64K   │ │ ├── frcode
-  64K   │ │ ├── dropbearscp
   40K   │ │ ├── make-prime-list
   12K   │ │ ├── zgrep
   12K   │ │ ├── xzgrep
@@ -436,7 +436,7 @@
    0B   │ │ ├── i386
    0B   │ │ ├── gunzip
    0B   │ │ └── depmod
- 237M   │ ├─┬ aarch64_arm64
+ 236M   │ ├─┬ aarch64_arm64
   23M   │ │ ├── ngrok
   20M   │ │ ├── tailscaled
   12M   │ │ ├── gost
@@ -493,7 +493,6 @@
  844K   │ │ ├── lsclocks
  844K   │ │ ├── blkid
  844K   │ │ ├── agetty
- 828K   │ │ ├── uptime
  828K   │ │ ├── mkswap
  824K   │ │ ├── toybox
  816K   │ │ ├── dmesg
@@ -571,7 +570,6 @@
  556K   │ │ ├── mkfs.bfs
  556K   │ │ ├── mcookie
  556K   │ │ ├── ldattach
- 556K   │ │ ├── kill
  556K   │ │ ├── ipcrm
  556K   │ │ ├── ipcmk
  556K   │ │ ├── ionice
@@ -634,6 +632,7 @@
  132K   │ │ ├── xzdec
  132K   │ │ ├── xargs
  132K   │ │ ├── wc
+ 132K   │ │ ├── uptime
  132K   │ │ ├── tr
  132K   │ │ ├── timeout
  132K   │ │ ├── tail
@@ -701,6 +700,7 @@
  116K   │ │ ├── md5sum
  116K   │ │ ├── logname
  116K   │ │ ├── link
+ 116K   │ │ ├── kill
  116K   │ │ ├── head
  116K   │ │ ├── groups
  116K   │ │ ├── fold
@@ -785,8 +785,8 @@
   18M   │ └── README.md
  456M   ├─┬ ngrok
   26M   │ ├── ngrok_amd_x86_64_macOS
-  26M   │ ├── ngrok_mips64le_Linux
   26M   │ ├── ngrok_mips64_Linux
+  26M   │ ├── ngrok_mips64le_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
   25M   │ ├── ngrok_mipsle_Linux
   25M   │ ├── ngrok_mips_Linux
@@ -877,8 +877,8 @@
   10M   │ ├── croc_aarch64_arm64_OpenBSD
   10M   │ ├── croc_aarch64_arm64_FreeBSD
  8.2M   │ ├── croc_amd_x86_64_Windows.exe
- 8.1M   │ ├── croc_mips64le_Linux
  8.1M   │ ├── croc_mips64_Linux
+ 8.1M   │ ├── croc_mips64le_Linux
  7.9M   │ ├── croc_mipsle_Linux
  7.9M   │ ├── croc_mips_Linux
  7.8M   │ ├── croc_amd_x86_Windows.exe
