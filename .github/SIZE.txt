@@ -91,13 +91,13 @@
  4.0K   │ ├── tailscaled_amd_geode_systemd.defaults_Linux
  4.0K   │ ├── tailscaled_aarch64_arm64_systemd.service_Linux
  4.0K   │ └── tailscaled_aarch64_arm64_systemd.defaults_Linux
- 588M   ├─┬ baseutils
- 298M   │ ├─┬ x86_64
+ 585M   ├─┬ baseutils
+ 296M   │ ├─┬ x86_64
   23M   │ │ ├── ngrok
   21M   │ │ ├── tailscaled
   12M   │ │ ├── gost
   11M   │ │ ├── tailscale
- 7.4M   │ │ ├── croc
+ 7.5M   │ │ ├── croc
  5.7M   │ │ ├── git-upload-pack
  5.7M   │ │ ├── git-upload-archive
  5.7M   │ │ ├── git-receive-pack
@@ -144,7 +144,6 @@
  1.2M   │ │ ├── lslogins
  1.2M   │ │ ├── lsipc
  1.2M   │ │ ├── sysctl
- 1.2M   │ │ ├── uptime
  1.2M   │ │ ├── partx
  1.2M   │ │ ├── logger
  1.1M   │ │ ├── last
@@ -204,8 +203,8 @@
  940K   │ │ ├── ul
  932K   │ │ ├── hardlink
  928K   │ │ ├── mesg
- 916K   │ │ ├── grep
  912K   │ │ ├── prlimit
+ 912K   │ │ ├── grep
  912K   │ │ ├── fincore
  908K   │ │ ├── rename
  872K   │ │ ├── mkfs.cramfs
@@ -213,7 +212,6 @@
  868K   │ │ ├── chmem
  864K   │ │ ├── waitpid
  864K   │ │ ├── fsck.cramfs
- 852K   │ │ ├── kill
  848K   │ │ ├── look
  836K   │ │ ├── free
  832K   │ │ ├── taskset
@@ -249,7 +247,7 @@
  656K   │ │ ├── tar
  588K   │ │ ├── gawk
  588K   │ │ ├── awk
- 540K   │ │ ├── dropbearmulti
+ 544K   │ │ ├── dropbearmulti
  460K   │ │ ├── dropbear
  412K   │ │ ├── dbclient
  396K   │ │ ├── gitk
@@ -310,6 +308,7 @@
  108K   │ │ ├── sha512sum
  108K   │ │ ├── sha384sum
  108K   │ │ ├── rm
+ 104K   │ │ ├── uptime
  104K   │ │ ├── stty
  104K   │ │ ├── shred
  104K   │ │ ├── sha256sum
@@ -364,6 +363,7 @@
   84K   │ │ ├── nice
   84K   │ │ ├── mktemp
   84K   │ │ ├── mkfifo
+  84K   │ │ ├── kill
   84K   │ │ ├── expand
   80K   │ │ ├── yes
   80K   │ │ ├── unlink
@@ -435,7 +435,7 @@
    0B   │ │ ├── i386
    0B   │ │ ├── gunzip
    0B   │ │ └── depmod
- 238M   │ ├─┬ aarch64_arm64
+ 237M   │ ├─┬ aarch64_arm64
   22M   │ │ ├── ngrok
   20M   │ │ ├── tailscaled
   12M   │ │ ├── gost
@@ -492,7 +492,6 @@
  844K   │ │ ├── lsclocks
  844K   │ │ ├── blkid
  844K   │ │ ├── agetty
- 828K   │ │ ├── uptime
  828K   │ │ ├── mkswap
  824K   │ │ ├── toybox
  816K   │ │ ├── dmesg
@@ -570,7 +569,6 @@
  556K   │ │ ├── mkfs.bfs
  556K   │ │ ├── mcookie
  556K   │ │ ├── ldattach
- 556K   │ │ ├── kill
  556K   │ │ ├── ipcrm
  556K   │ │ ├── ipcmk
  556K   │ │ ├── ionice
@@ -634,6 +632,7 @@
  132K   │ │ ├── xzdec
  132K   │ │ ├── xargs
  132K   │ │ ├── wc
+ 132K   │ │ ├── uptime
  132K   │ │ ├── tr
  132K   │ │ ├── timeout
  132K   │ │ ├── tail
@@ -701,6 +700,7 @@
  116K   │ │ ├── md5sum
  116K   │ │ ├── logname
  116K   │ │ ├── link
+ 116K   │ │ ├── kill
  116K   │ │ ├── hostid
  116K   │ │ ├── head
  116K   │ │ ├── groups
@@ -843,8 +843,8 @@
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mips64le_Linux
+  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
@@ -1011,9 +1011,9 @@
  1.8M   │ ├── busybox_mipsel_musl_Linux
  1.7M   │ ├── busybox_m68k_gcc_Linux
  1.7M   │ ├── busybox_riscv64_gcc_Linux
+ 1.7M   │ ├── busybox_riscv32_gcc_Linux
  1.6M   │ ├── busybox_mips64_musl_Linux
  1.6M   │ ├── busybox_mips64el_musl_Linux
- 1.6M   │ ├── busybox_riscv32_gcc_Linux
  1.6M   │ ├── busybox_powerpc64le_musl_Linux
  1.5M   │ ├── busybox_arm_abihf_gcc_Linux
  1.4M   │ ├── busybox_s390x_musl_Linux
