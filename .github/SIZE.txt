@@ -784,8 +784,8 @@
   19M   │ └── README.md
  451M   ├─┬ ngrok
   25M   │ ├── ngrok_amd_x86_64_macOS
-  25M   │ ├── ngrok_mips64le_Linux
   25M   │ ├── ngrok_mips64_Linux
+  25M   │ ├── ngrok_mips64le_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
   24M   │ ├── ngrok_mips_Linux
   24M   │ ├── ngrok_mipsle_Linux
@@ -876,8 +876,8 @@
   10M   │ ├── croc_aarch64_arm64_OpenBSD
   10M   │ ├── croc_aarch64_arm64_FreeBSD
  8.2M   │ ├── croc_amd_x86_64_Windows.exe
- 8.2M   │ ├── croc_mips64_Linux
  8.2M   │ ├── croc_mips64le_Linux
+ 8.2M   │ ├── croc_mips64_Linux
  8.0M   │ ├── croc_mipsle_Linux
  8.0M   │ ├── croc_mips_Linux
  7.9M   │ ├── croc_s390x_Linux
@@ -939,8 +939,8 @@
   11M   │ ├── twingate_connectorctl_amd_x86_64_dynamic_Linux
   11M   │ ├── twingate_connectorctl_aarch64_arm64_dynamic_Linux
   11M   │ ├── twingate_connector_arm32v7_dynamic_Linux
- 6.9M   │ ├── twingate_connector_amd_x86_64_staticx_Linux
- 6.7M   │ ├── twingate_connectorctl_arm32v7_dynamic_Linux
+ 7.0M   │ ├── twingate_connector_amd_x86_64_staticx_Linux
+ 6.8M   │ ├── twingate_connectorctl_arm32v7_dynamic_Linux
  4.9M   │ ├── twingate_client_amd_x86_64_dynamic_Linux
  4.3M   │ ├── twingate_connectorctl_amd_x86_64_staticx_Linux
  4.3M   │ ├── twingate_client_aarch64_arm64_dynamic_Linux
