@@ -147,20 +147,20 @@ $env:PROCESSOR_ARCHITECTURE
 
 --> METADATA
 ./croc/croc_386_Linux:                 ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
-./croc/croc_aarch64_arm64_FreeBSD:     ELF 64-bit LSB executable, ARM aarch64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=RhwjIC5MF_6qGlUU44Nk/ZBWtOluREm7rY3xUPlDE/mXJ_V66zTaikch_N4TKC/e8aBocdGQ4fANagGO5xd, with debug_info, not stripped
-./croc/croc_aarch64_arm64_Linux:       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=BXLrD5JdRTuGlMcu_4vv/BeZypl2y86k2bQHuhDKh/OVbLa_b7yrnJ98wN0cb2/pG-xKZ8FzRScumrGb8sU, with debug_info, not stripped
-./croc/croc_aarch64_arm64_OpenBSD:     ELF 64-bit LSB executable, ARM aarch64, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=O5Tr01djkNwjiO-KvQb9/SC-6gaj60HAGMdZnKILC/gw_esM2EwYswq6YB1zUT/a42JVIQYe8QGFKw9rXoI, with debug_info, not stripped
+./croc/croc_aarch64_arm64_FreeBSD:     ELF 64-bit LSB executable, ARM aarch64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=3Gcz3ps_Wwim_lSdtBa1/NykO_cit91ZGFf4scpC9/uhmF6-mpFRgqh5qFravh/JIQboC1cgS7sF4rqEDaH, with debug_info, not stripped
+./croc/croc_aarch64_arm64_Linux:       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=bbORRfU62NVWahsXyD2J/u_J2rnEnGGAaGFxMAE1L/STPcl3cev8JmilWtE1P_/fq_t9Gt7IPzD0oc_OvkR, with debug_info, not stripped
+./croc/croc_aarch64_arm64_OpenBSD:     ELF 64-bit LSB executable, ARM aarch64, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=N1q_IYh-9j_QZFwVbIGF/JvKcySJE-ZxqahTcNs7z/3vGS8HyqHXRL28K4S4GS/RaG0XlJF3_RVYuFgUbKB, with debug_info, not stripped
 ./croc/croc_aarch64_arm64_Windows.exe: PE32+ executable (console) Aarch64, for MS Windows
 ./croc/croc_aarch64_arm64_macOS:       Mach-O 64-bit arm64 executable, flags:<|DYLDLINK|PIE>
-./croc/croc_amd_x86_64_DragonFlyBSD:   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=nVo6_Lz1J7kwOgViz6AY/5F2IviBQqFpiL2K66yKz/VbS2G6TqagQrdQDwItJw/Vop7DqhbNz9ETfqymGfh, stripped
-./croc/croc_amd_x86_64_FreeBSD:        ELF 64-bit LSB executable, x86-64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=L5tg8jSDdbFjeQ63kMXx/8btWJvytH2-HCy-wUt8b/on8Sa6jGLxvqBPeoqLlR/hMViQtMP_WIqFwgZBIrK, stripped
-./croc/croc_amd_x86_64_Linux:          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_gCkO2LJLFKBZDTULXO6/1e_PpSHYpLgd-UnKKV3u/Ng8dGjBGZ__vA5qJfc4S/vQQCKbk_rKtT6MsWcdC1, stripped
-./croc/croc_amd_x86_64_NetBSD:         ELF 64-bit LSB executable, x86-64, version 1 (NetBSD), statically linked, for NetBSD 7.0, Go BuildID=M-77edbm0GC2I6vupvuz/ftzuUP_MbpB9fO1D8tYQ/-Ongf1VATwTXg4a7MUEs/lXa242-zMG6V4Cmkl40I, stripped
-./croc/croc_amd_x86_64_OpenBSD:        ELF 64-bit LSB executable, x86-64, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=nvJqUmE-utb99jq-N5ZH/RboJWQkfApBQP3cTrZ23/20a4qsuGxbKxWk_VRnA7/kFimWaBbbrr_Xi1RZa2L, stripped
+./croc/croc_amd_x86_64_DragonFlyBSD:   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=I7d-Nm77T42i4zo1kN_7/YRYIST9EnB-U8J4v1M-D/VY-7kKP9dovBkRRlv4kW/5-R-MXwKjqX_wjuxJ-PP, stripped
+./croc/croc_amd_x86_64_FreeBSD:        ELF 64-bit LSB executable, x86-64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=n_w0H7VTEwWNKI1W01oJ/FKBjswIh03eTgZqoxTaF/v4nAkJsta74oO259qYYq/flXwtOHmMf8KaAqw8a3D, stripped
+./croc/croc_amd_x86_64_Linux:          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=B-FqU_4SSxD-zCd4t_nq/d7Hsq5MXztecvdFTrcLe/-a372fRLTXA7n3oJJ2Je/cfj3I208VSpanEtsDYUa, stripped
+./croc/croc_amd_x86_64_NetBSD:         ELF 64-bit LSB executable, x86-64, version 1 (NetBSD), statically linked, for NetBSD 7.0, Go BuildID=QxrBhU0oQCfSzo1fKs-m/I45dLFUEzxwJ-UwO2-pA/EZiE6a3ts0yHJ0345-Fx/SyGzktVYYddCBrjAuN9L, stripped
+./croc/croc_amd_x86_64_OpenBSD:        ELF 64-bit LSB executable, x86-64, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=dcJV5gTfg1ML_lWoV42g/M4mNpuXqM7OEw2lkT6i9/PA8NgwHw4L7cQ9O3B0MX/pjugy18C99wPkeD8XHd4, stripped
 ./croc/croc_amd_x86_64_Windows.exe:    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 ./croc/croc_amd_x86_FreeBSD:           ELF 32-bit LSB executable, Intel 80386, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=pzNrEUJBJW2rS8WbBo1i/efB3Y9OPU_FNUsEveobp/eHFP7W8to9BzwgUQ0dYW/9Bo7qlkEzoieE5kfcHL3, stripped
-./croc/croc_amd_x86_Linux:             ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=9TZmZGtfv4cJM169tzgW/Yd5UPeub5C2bBCYQWqe4/A4dV4K5HefptrgBqrTgf/QdrgOvsEgKxfybTOn73q, stripped
-./croc/croc_amd_x86_NetBSD:            ELF 32-bit LSB executable, Intel 80386, version 1 (NetBSD), statically linked, for NetBSD 7.0, Go BuildID=xSAwmrk1F7haDjFw_eS-/6jiuxgD_vNomqoT9YMFN/HvC5l9__tamI18mMZkxS/KZCWP_oqCWUkvl0N6N3h, stripped
+./croc/croc_amd_x86_Linux:             ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=Vrtl7_cLn1TR70ldy9gH/RHzYZO_yuRiUVm4btwTP/MZuDqpZmlvRI1mgtvwOw/aiV0-4T3lcqz0iJkM4Qu, stripped
+./croc/croc_amd_x86_NetBSD:            ELF 32-bit LSB executable, Intel 80386, version 1 (NetBSD), statically linked, for NetBSD 7.0, Go BuildID=BmfovRJ78Y1777ZVdXj5/-dgOi4BhE8RRW7BgrO5b/Hf4vrKSmbwDL4d5dvyBQ/zVqpW5PpqwvhI5LyjRMQ, stripped
 ./croc/croc_amd_x86_OpenBSD:           ELF 32-bit LSB executable, Intel 80386, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=QJxeN-dGsKofnMKOHiqI/-nycADcw5xsi0Hxak8HL/DuUbViwnVIXgJHYxTg-F/NnSTXqNJaWdfOy8QkASY, stripped
 ./croc/croc_amd_x86_Windows.exe:       PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows
 ./croc/croc_arm_Windows.exe:           PE32 executable (console) ARMv7 Thumb, for MS Windows
@@ -178,36 +178,36 @@ $env:PROCESSOR_ARCHITECTURE
 ./croc/croc_x86_64_macOS:              Mach-O 64-bit x86_64 executable
 
 --> SHA256SUM
-45227157ff4961aac22e1d42f628d13e4c95e1e2f2264c94c3dc0d747b3dbb21  ./croc/croc_386_Linux
-bf6b1b3f73db2efe4d90864b6f0fe15333b84c07ff04a31add692fe0c2841fc0  ./croc/croc_aarch64_arm64_FreeBSD
-5343b6123e4217fde7a9bf7ba1f8303c581f0d319f13c60eb23089f0d62da9dd  ./croc/croc_aarch64_arm64_Linux
-171a453e7363071f2aaf76a6eb0f2f5e14762cf15e2638e7af3477e1b8b8412a  ./croc/croc_aarch64_arm64_OpenBSD
-9621a047acf65308d84b0a8acc06294cd4b51d959b2988f88ece7e2a03f6e5e8  ./croc/croc_aarch64_arm64_Windows.exe
-3cad2905cc7274afc9c7834044c5a87554ca0f7feb701d82d2de0499cb01c673  ./croc/croc_aarch64_arm64_macOS
-c3c76dd0715352f2ea335c3900d00d1c749d286fd0deab51bd19d31b0b920850  ./croc/croc_amd_x86_64_DragonFlyBSD
-4d4556e5fda27f841a592cb6761b69ed6b5766f8e654b10b2452e93fe246e035  ./croc/croc_amd_x86_64_FreeBSD
-fb05eded5a619a754c3480eecaa89e91a7fea285971f8b97bc3fd56665cd4698  ./croc/croc_amd_x86_64_Linux
-e32af31fcd6c49b9c554764fb39c213bf854451e808aacc7e1be241a13e8cee5  ./croc/croc_amd_x86_64_NetBSD
-403e4fb0260e273509a0afcb151c0b76c94c173ccad83efe3d253c8b2060f93c  ./croc/croc_amd_x86_64_OpenBSD
-428c5eb5e7d151b29684cafee5ca65e0e5c95cbf030007d5891d1c8761ed0428  ./croc/croc_amd_x86_64_Windows.exe
+c2ec4bb9d163b9e84c63419bab55d651951cd1ae934c7648f6ebcbfef1a20d2b  ./croc/croc_386_Linux
+4828869a784a791d4fe0fb1d96c27c110a189615df98223e86c7eef9e4672c9a  ./croc/croc_aarch64_arm64_FreeBSD
+07c03ddf82162857ccc583724c54fc1fdf7062a28e834c74df9e9d159271369b  ./croc/croc_aarch64_arm64_Linux
+ee01095b7a78016020ae107b24c4ccb6ee071b8b7d61032d9f872fbe4fa70c22  ./croc/croc_aarch64_arm64_OpenBSD
+fb310283e4fc1b89f980c663cd0d9c5e051f9a9f0c489746d9b606ce8389884a  ./croc/croc_aarch64_arm64_Windows.exe
+0dc65dacb3c8290775073e8d69ff9bc0faec224ac007c6867b37b2e15beeb110  ./croc/croc_aarch64_arm64_macOS
+21b19506bdc95311ad485d984177abfb6d16935e5f18635ba50be26daa2e6b58  ./croc/croc_amd_x86_64_DragonFlyBSD
+a52ab12df002daf3d93e74486219ed7816205e8d5f7592bcff0feae746df57df  ./croc/croc_amd_x86_64_FreeBSD
+87d89d2a1dd458009eae7500d1bd71dbd28f73bed275c475f777d96e4f2695cc  ./croc/croc_amd_x86_64_Linux
+5cc96db61ad0be972811c7bf9ff816b46ac385daaa34bf4a7621024e32eb2adc  ./croc/croc_amd_x86_64_NetBSD
+ead94dc7d3634f3a687fa46183dd2ba0d5eb12c3723b26e6f684c9c6fe4de3d9  ./croc/croc_amd_x86_64_OpenBSD
+07c013298498e9b152618f854add5f7d5aef022b6f6568a75676030698bb91cd  ./croc/croc_amd_x86_64_Windows.exe
 7ff1b6c223ed59e440118debc349e65254d507e82865377f3e2904184258b08e  ./croc/croc_amd_x86_FreeBSD
-dff04c532c7728b240224207a79f0518baf42120670060381fadad4702d1ae6e  ./croc/croc_amd_x86_Linux
-78d68e8a11cc748cbae8a5c559f6d01579bba55848ac274e153711cfa594b314  ./croc/croc_amd_x86_NetBSD
+2a9e329c0c5822571a30a602f454a642e0bd8d37bfbd0fde1ef2e044036d25bb  ./croc/croc_amd_x86_Linux
+a5870cad22f3a96c498817762764ca43c9539c987345619c489901127d4591bb  ./croc/croc_amd_x86_NetBSD
 9964c8ee5e7abcce36d282ccadeae66e1f2244bcff4befdb2b2bf9f974da957d  ./croc/croc_amd_x86_OpenBSD
-d420de580def50206d73d9e14326a847a9e04f9b442f3993bac0e7135974f378  ./croc/croc_amd_x86_Windows.exe
-55c5a336742dbb2b77b3cf0d115e8e735b326b61f616b7dcea8de4b0a8356cd3  ./croc/croc_arm_Windows.exe
+cd6d6a44327b750cfaa84b46384cf08794838700754126c5728585772becd289  ./croc/croc_amd_x86_Windows.exe
+3c43ae0dc4021e877f2ce38b4bda603f21e370e17ffcb66d76780930ff281d14  ./croc/croc_arm_Windows.exe
 2419b6a55fc015b0548bc9ce29c849bb9baf346889d459f463ac0dbe8575a48f  ./croc/croc_arm_abi_NetBSD
 b6f4ae2184afec08f332e4bae80293eac0f9004b25e0bac46639e66a713b3cb2  ./croc/croc_arm_abi_OpenBSD
-c904c0b97562596f0db44f54c5449e9aacde68a51d46289a5dcd8e3ce200274c  ./croc/croc_loong64_Linux
-8a4212d3a584445707c3662e40cc87bd8b154dd20dda168b184540eea2bd7705  ./croc/croc_mips64_Linux
-a2777103cf5d40d31c03a18489734e20a25ea107e352bf9e94e2f75d502438c8  ./croc/croc_mips64le_Linux
-74f8ab92772108ebc05fbe246780d1cf3b2090393fd9760c858ba4c1be8721e7  ./croc/croc_mips_Linux
-ad69980f2db4fe70aa58a4a8a5c0439442b1b3ace52305759bd53d1ebc25912a  ./croc/croc_mipsle_Linux
-88860f7fbe9ba50ef3fff8e767cf111a82b18675c5a00afab210e7dff05fd465  ./croc/croc_powerpc64_ppc64_Linux
-06eba4f80e807ecc97033608ef578254a26c2ad26269f724f01501ea72287c7e  ./croc/croc_powerpc64le_ppc64le_Linux
-4537471cdf128d6e8c3bb9118bd5930cdd72328e46034232b472a93b2199d665  ./croc/croc_riscv64_Linux
-21a55ee92e7d0dbd9da75cf8727fc2c6d4b70d7348dd80b12ad5d27ba7d6d4d1  ./croc/croc_s390x_Linux
-1e5a4c64a36fd492fdd868512d5dcfde349a856b9f13b47cb3021899678690d2  ./croc/croc_x86_64_macOS
+7cacce38cc2ba321bc36e799200f622098d0630c180f816b9c090023b8fa2722  ./croc/croc_loong64_Linux
+4a8d53a11937c53749290c77ffba8d0b0bdf21d7c7d3e7d5991283f45bdc49c2  ./croc/croc_mips64_Linux
+501674ea8215e430fee1165832e60d6465c74add2715d596d145474062280d0b  ./croc/croc_mips64le_Linux
+9ffff7f2fbfb550f26677c0a3ea9fc6f87978b0df0d60e1f23a8022999b96884  ./croc/croc_mips_Linux
+fafea59002217f6010c7cf33b55dedcdfbb04593511b6dc281120d65dbbaf0a4  ./croc/croc_mipsle_Linux
+ac6653ff37b2bd54dab8c9ff14315ceb012eac6a6e4de8a996126da39b936957  ./croc/croc_powerpc64_ppc64_Linux
+d6027cfb5097795d35d946e3658637d25ef3f48cc447198b8fcf1395300872b3  ./croc/croc_powerpc64le_ppc64le_Linux
+30f7ae4fa7397b97a35921c27e2282ee7bf4bc6bdf6d08b4551a883d41aa31f4  ./croc/croc_riscv64_Linux
+30eae384ce09620c9d47f5330a7d412b26554419f792ea4735404d65473185b0  ./croc/croc_s390x_Linux
+0fb2a9293edaed0c944eded41df4d3f883598ee417d9ee3b90a16ca41fcadcc9  ./croc/croc_x86_64_macOS
 ```
 
 
@@ -222,26 +222,26 @@ ad69980f2db4fe70aa58a4a8a5c0439442b1b3ace52305759bd53d1ebc25912a  ./croc/croc_mi
 11M   ./croc/croc_aarch64_arm64_OpenBSD
 11M   ./croc/croc_aarch64_arm64_Windows.exe
 11M   ./croc/croc_aarch64_arm64_macOS
-7.5M  ./croc/croc_amd_x86_64_DragonFlyBSD
-7.5M  ./croc/croc_amd_x86_64_FreeBSD
-7.5M  ./croc/croc_amd_x86_64_Linux
-7.5M  ./croc/croc_amd_x86_64_NetBSD
+7.6M  ./croc/croc_amd_x86_64_DragonFlyBSD
+7.6M  ./croc/croc_amd_x86_64_FreeBSD
+7.6M  ./croc/croc_amd_x86_64_Linux
+7.6M  ./croc/croc_amd_x86_64_NetBSD
 7.6M  ./croc/croc_amd_x86_64_OpenBSD
 8.3M  ./croc/croc_amd_x86_64_Windows.exe
 7.1M  ./croc/croc_amd_x86_FreeBSD
 7.2M  ./croc/croc_amd_x86_Linux
-7.1M  ./croc/croc_amd_x86_NetBSD
+7.2M  ./croc/croc_amd_x86_NetBSD
 7.1M  ./croc/croc_amd_x86_OpenBSD
-7.9M  ./croc/croc_amd_x86_Windows.exe
+8.0M  ./croc/croc_amd_x86_Windows.exe
 11M   ./croc/croc_arm_Windows.exe
 7.2M  ./croc/croc_arm_abi_NetBSD
 7.2M  ./croc/croc_arm_abi_OpenBSD
 7.5M  ./croc/croc_loong64_Linux
-8.3M  ./croc/croc_mips64_Linux
-8.3M  ./croc/croc_mips64le_Linux
+8.4M  ./croc/croc_mips64_Linux
+8.4M  ./croc/croc_mips64le_Linux
 8.1M  ./croc/croc_mips_Linux
 8.1M  ./croc/croc_mipsle_Linux
-7.3M  ./croc/croc_powerpc64_ppc64_Linux
+7.4M  ./croc/croc_powerpc64_ppc64_Linux
 7.4M  ./croc/croc_powerpc64le_ppc64le_Linux
 7.4M  ./croc/croc_riscv64_Linux
 8.0M  ./croc/croc_s390x_Linux
@@ -254,7 +254,7 @@ ad69980f2db4fe70aa58a4a8a5c0439442b1b3ace52305759bd53d1ebc25912a  ./croc/croc_mi
 ```console
 
 $ ./croc/croc_amd_x86_64_Linux --version
-croc version v10.0.5
+croc version v10.0.6
 
 $ ./croc/croc_amd_x86_64_Linux -h
 NAME:
@@ -280,7 +280,7 @@ USAGE:
       croc secret-code
 
 VERSION:
-   v10.0.5
+   v10.0.6
 
 COMMANDS:
    send     send file(s), or folder (see options with croc send -h)
