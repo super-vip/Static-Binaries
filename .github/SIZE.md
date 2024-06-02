@@ -877,8 +877,8 @@
   10M   │ ├── croc_aarch64_arm64_OpenBSD
   10M   │ ├── croc_aarch64_arm64_FreeBSD
  8.3M   │ ├── croc_amd_x86_64_Windows.exe
- 8.2M   │ ├── croc_mips64le_Linux
  8.2M   │ ├── croc_mips64_Linux
+ 8.2M   │ ├── croc_mips64le_Linux
  8.1M   │ ├── croc_mipsle_Linux
  8.1M   │ ├── croc_mips_Linux
  8.0M   │ ├── croc_s390x_Linux
@@ -1171,7 +1171,7 @@
  8.0K   │ ├── README.md
  4.0K   │ └── INFO.md
  2.6M   ├─┬ massdns
- 928K   │ ├── massdns_linux_x86_64_gcc
+ 932K   │ ├── massdns_linux_x86_64_gcc
  836K   │ ├── massdns_linux_s390x_gcc
  716K   │ ├── massdns_linux_arm64_aarch64_gcc
  148K   │ ├── massdns_linux_arm64_aarch64_musl
