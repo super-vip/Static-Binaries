@@ -844,8 +844,8 @@
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mips64le_Linux
+  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
@@ -877,8 +877,8 @@
   10M   │ ├── croc_aarch64_arm64_FreeBSD
   10M   │ ├── croc_aarch64_arm64_OpenBSD
  8.3M   │ ├── croc_amd_x86_64_Windows.exe
- 8.2M   │ ├── croc_mips64le_Linux
  8.2M   │ ├── croc_mips64_Linux
+ 8.2M   │ ├── croc_mips64le_Linux
  8.1M   │ ├── croc_mipsle_Linux
  8.1M   │ ├── croc_mips_Linux
  8.0M   │ ├── croc_s390x_Linux
