@@ -806,14 +806,14 @@
   16K   │ ├── README.md
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
- 315M   ├─┬ aria2
+ 316M   ├─┬ aria2
   13M   │ ├── aria2c_mips64_musl_latest_Linux
-  13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mipsel_musl_latest_Linux
+  13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mips64_musl_Linux
   12M   │ ├── aria2c_mips_musl_Linux
   12M   │ ├── aria2c_mipsel_musl_Linux
-  11M   │ ├── aria2c_amd_x86_64_musl_latest_Linux
+  12M   │ ├── aria2c_amd_x86_64_musl_latest_Linux
   11M   │ ├── aria2c_amd_x86_64_musl_Linux
   11M   │ ├── aria2c_aarch64_arm64_musl_latest_Linux
   10M   │ ├── aria2c_mips64_libressl_musl_Linux
@@ -825,7 +825,7 @@
   10M   │ ├── aria2c_aarch64_arm64_musl_Linux
   10M   │ ├── aria2c_x86_Android
  9.5M   │ ├── aria2c_x86_64_Android
- 8.8M   │ ├── aria2c_arm_abi_musl_latest_Linux
+ 8.9M   │ ├── aria2c_arm_abi_musl_latest_Linux
  8.6M   │ ├── aria2c_aarch64_arm64_Android
  8.5M   │ ├── aria2c_arm_abi_musl_Linux
  8.3M   │ ├── aria2c_amd_x86_64_libressl_musl_Linux
@@ -844,8 +844,8 @@
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mips64le_Linux
+  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
