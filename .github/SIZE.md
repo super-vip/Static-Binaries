@@ -934,7 +934,7 @@
   16K   │ ├── README.md
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
- 110M   ├─┬ twingate
+ 111M   ├─┬ twingate
   17M   │ ├── twingate_connector_amd_x86_64_dynamic_Linux
   16M   │ ├── twingate_connector_aarch64_arm64_dynamic_Linux
   11M   │ ├── twingate_connectorctl_amd_x86_64_dynamic_Linux
@@ -943,7 +943,7 @@
  7.0M   │ ├── twingate_connector_amd_x86_64_staticx_Linux
  6.8M   │ ├── twingate_connectorctl_arm32v7_dynamic_Linux
  4.9M   │ ├── twingate_client_amd_x86_64_dynamic_Linux
- 4.3M   │ ├── twingate_connectorctl_amd_x86_64_staticx_Linux
+ 4.4M   │ ├── twingate_connectorctl_amd_x86_64_staticx_Linux
  4.3M   │ ├── twingate_notifier_amd_x86_64_dynamic_Linux
  4.3M   │ ├── twingate_client_aarch64_arm64_dynamic_Linux
  3.9M   │ ├── twingate_notifier_amd_x86_64_staticx_Linux
