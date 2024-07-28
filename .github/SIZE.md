@@ -808,8 +808,8 @@
  4.0K   │ └── INFO.md
  316M   ├─┬ aria2
   13M   │ ├── aria2c_mips64_musl_latest_Linux
-  13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mipsel_musl_latest_Linux
+  13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mips64_musl_Linux
   12M   │ ├── aria2c_mips_musl_Linux
   12M   │ ├── aria2c_mipsel_musl_Linux
