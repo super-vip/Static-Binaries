@@ -829,7 +829,7 @@
  8.6M   │ ├── aria2c_aarch64_arm64_Android
  8.5M   │ ├── aria2c_arm_abi_musl_Linux
  8.3M   │ ├── aria2c_amd_x86_64_libressl_musl_Linux
- 8.1M   │ ├── aria2c_amd_x86_64_libressl_musl_latest_Linux
+ 8.2M   │ ├── aria2c_amd_x86_64_libressl_musl_latest_Linux
  8.0M   │ ├── aria2c_aarch64_arm64_libressl_musl_Linux
  7.9M   │ ├── aria2c_aarch64_arm64_libressl_musl_latest_Linux
  7.5M   │ ├── aria2c_aarch_arm_Android
