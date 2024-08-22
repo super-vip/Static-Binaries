@@ -786,8 +786,8 @@
  532M   ├─┬ ngrok
   30M   │ ├── ngrok_mips64_Linux
   30M   │ ├── ngrok_mips64le_Linux
-  29M   │ ├── ngrok_mipsle_Linux
   29M   │ ├── ngrok_mips_Linux
+  29M   │ ├── ngrok_mipsle_Linux
   29M   │ ├── ngrok_s390x_Linux
   28M   │ ├── ngrok_amd_x86_64_Windows.exe
   28M   │ ├── ngrok_amd_x86_64_macOS
@@ -934,7 +934,7 @@
   16K   │ ├── README.md
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
- 111M   ├─┬ twingate
+ 113M   ├─┬ twingate
   17M   │ ├── twingate_connector_amd_x86_64_dynamic_Linux
   16M   │ ├── twingate_connector_aarch64_arm64_dynamic_Linux
   11M   │ ├── twingate_connectorctl_amd_x86_64_dynamic_Linux
@@ -942,12 +942,12 @@
   11M   │ ├── twingate_connectorctl_aarch64_arm64_dynamic_Linux
  7.0M   │ ├── twingate_connector_amd_x86_64_staticx_Linux
  6.8M   │ ├── twingate_connectorctl_arm32v7_dynamic_Linux
- 4.9M   │ ├── twingate_client_amd_x86_64_dynamic_Linux
+ 5.5M   │ ├── twingate_client_amd_x86_64_dynamic_Linux
+ 4.8M   │ ├── twingate_notifier_amd_x86_64_dynamic_Linux
+ 4.7M   │ ├── twingate_client_aarch64_arm64_dynamic_Linux
  4.4M   │ ├── twingate_connectorctl_amd_x86_64_staticx_Linux
- 4.3M   │ ├── twingate_notifier_amd_x86_64_dynamic_Linux
- 4.3M   │ ├── twingate_client_aarch64_arm64_dynamic_Linux
+ 4.1M   │ ├── twingate_notifier_aarch64_arm64_dynamic_Linux
  3.9M   │ ├── twingate_notifier_amd_x86_64_staticx_Linux
- 3.7M   │ ├── twingate_notifier_aarch64_arm64_dynamic_Linux
  3.5M   │ ├── twingate_client_amd_x86_64_staticx_Linux
   16K   │ ├── README.md
  4.0K   │ ├── twingate_version.txt
