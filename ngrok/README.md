@@ -96,46 +96,46 @@ tar -xzvf "$Path_To_ngrok_Binary.tgz"
 ```console
 
 --> METADATA
-./ngrok/ngrok_386_FreeBSD:            ELF 32-bit LSB executable, Intel 80386, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=N8Yc2GURYTfZUsVty10Q/tIgumjBcyQY2-RTEMCQK/qo0f-p24i5RzUoornp7z/LuBnCsDPJZAN6sxRA1rf, stripped
-./ngrok/ngrok_aarch64_arm64_Linux:    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=eLGhnorA5ps2EKM4rcfv/vbV4GI9uwWL42Zv8kgYj/MTFOUvloYfMY0HX4kuik/Ql8wVMHqgOEhwvjoa_-c, stripped
+./ngrok/ngrok_386_FreeBSD:            ELF 32-bit LSB executable, Intel 80386, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=j2rb4Ei24eC6NIt8_3DT/2pPYVugehprMpxRheXUW/PY8jIIVgOR0BE-ZfXYcZ/MH3AHhRK1fc7cVBEoTKo, stripped
+./ngrok/ngrok_aarch64_arm64_Linux:    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Oli89Yt2DHvDu1tOcZSC/8ahnia6ht6zxduC4ZF2P/LMpnSFLGasVTvjGqZ5MZ/7eQoepJjMYyCBNPyJ8Hy, stripped
 ./ngrok/ngrok_aarch64_arm64_macOS:    Mach-O 64-bit arm64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE>
-./ngrok/ngrok_amd_x86_64_FreeBSD:     ELF 64-bit LSB executable, x86-64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=E6R1-azqhGlN9KQw0ZN6/3d3AsAy-6CZxUOVwvNUJ/rJu7358jWB-OenaaqFM4/KeKn71D3FVuEEZtps9hU, stripped
-./ngrok/ngrok_amd_x86_64_Linux:       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=lrs4dRO8p9KxqWDIY3r9/e24N9rQQNlQDGKQcZ2Sv/XWZbXmh5zuUIrW8Oohhd/z4EHwdFgBgXuO8bZEX6Y, stripped
-./ngrok/ngrok_amd_x86_64_Solaris:     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib/amd64/ld.so.1, Go BuildID=1fW3EWNXlNJvpfjqFziw/j30lW7os8eLeyP6M6lHm/azvplKHXjWIFhvMFxOeL/QX7yEEVGno-OhXso-UEO, stripped
+./ngrok/ngrok_amd_x86_64_FreeBSD:     ELF 64-bit LSB executable, x86-64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=2EDkqpe7e6mcvPzXEO_T/ok4utQpIoirho7z33GVG/UC1-s_FYa-OPTJgK4WpA/gB3G7jhRU72dl0yepfsj, stripped
+./ngrok/ngrok_amd_x86_64_Linux:       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=3RBZIhip_s2nSMAngkvE/6WgkeIVZJPfB7TcIwCr8/2Lm-jOx_YkpiSqtRTBL1/7vNN8ggjF6hugNsOUtGB, stripped
+./ngrok/ngrok_amd_x86_64_Solaris:     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib/amd64/ld.so.1, Go BuildID=OeA4EtyIvaV08oNTgm1S/NbTFPSYE670xnt41znud/CRKJY5xwzBshfGOlCN_a/j7oOlIqfwuTys6Gv6Qej, stripped
 ./ngrok/ngrok_amd_x86_64_Windows.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 ./ngrok/ngrok_amd_x86_64_macOS:       Mach-O 64-bit x86_64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE>
 ./ngrok/ngrok_amd_x86_Windows.exe:    PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows
-./ngrok/ngrok_arm_FreeBSD:            ELF 32-bit LSB executable, ARM, EABI5 version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=JwYn32qFu9U-yuLr6q6B/ZOSjXLRfWdwlsrB2cH0J/5DSRDtmOSYDaBhB_ZV2a/pd5v4P7CyARcqA9MA3BB, stripped
-./ngrok/ngrok_arm_Linux:              ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, Go BuildID=OZjymUGNKE1KxQKlMqWQ/o3mnuKrFoO5ab2CZtbpF/mmyHSlU9IHL-CjLq0V4P/AXLAF2eKuFi17OyZR6BV, stripped
-./ngrok/ngrok_i386_Linux:             ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=IHR5moR-d-uO5v0zXreO/1fKcdXpBsmr8oJ48tmFo/tOMupoWNr_KpwoFgVnEg/NTPmPbKm1lDhFzk1Ztb5, stripped
-./ngrok/ngrok_mips64_Linux:           ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=ohGUryGEiftnkIU_rY7c/JZJTX9syh0Y1lJRa7T2H/EN5-sFHnDTQzftajDG3l/KS5fPed4zybxRHdi0acY, stripped
-./ngrok/ngrok_mips64le_Linux:         ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=lEBDj7Zdp0gzhC9d9my-/fDBpE2bbS3EeRWBl0Gel/rbjUKUEyRW35DyKD8lS4/qpebjGwgyON3_giw216f, stripped
-./ngrok/ngrok_mips_Linux:             ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=OkaKzq_6SiiBsY14bYLj/B5n_5MNjMw6bkdQvNLy1/qnuhokgIN_Oenh_SoVgr/5xlYsLVj4RQ4LvhaePC_, stripped
-./ngrok/ngrok_mipsle_Linux:           ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=wrNb-n4hxMU7fuNyhYy6/8DcXSx55TWQvZbbAm-9Y/wTU0JZjMmLJlmAebhOsu/ZtpMgOvmlByN6HaW-_dg, stripped
-./ngrok/ngrok_powerpc64_Linux:        ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, Go BuildID=vr8TMF_L6OrGnS9FH4cn/zlOWPBHWD0hV_BdKfGiC/5FPHFIq5XLqEQmo8OgQz/XK1t-Ldhtrh4wUwJieiY, stripped
-./ngrok/ngrok_powerpc64le_Linux:      ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, Go BuildID=dQhc80-TeO_CAIIXkpqu/TSVvga4grIbIvw1vOhIa/qS8tMBTeZCb1oeqxR8qw/3isPaLwA1G3kB3PgsYrL, stripped
-./ngrok/ngrok_s390x_Linux:            ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, Go BuildID=xYrGoe7VdgwTWbn1ZNp_/okpS-z7O6oHP3KfLv8dY/CLdzBbdhuAJBAsMauJUm/rXfMkCo-x8VELOGwtbMK, stripped
+./ngrok/ngrok_arm_FreeBSD:            ELF 32-bit LSB executable, ARM, EABI5 version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=HBefusSdh4WfLxC5F51y/7qs3RYHh-tFHSzlB0FU5/4iy84cHV_ZHLwEByA3qK/Qn8R4JLR0v5LwmSAjw4o, stripped
+./ngrok/ngrok_arm_Linux:              ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, Go BuildID=K5TNNurMaEB9gCOBUtYV/PurKjklcT-3vr3uE_q_F/aKkjDt4npCJSjyGUPFNT/f9FSJPof10MlBnKddEe7, stripped
+./ngrok/ngrok_i386_Linux:             ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=UMW69q2lO5HpFKmaEfM7/SP7QvIaHygv17F2By9si/ijqqE-vTypLefLi8kChi/ZepYam09hA3vWvAoLECW, stripped
+./ngrok/ngrok_mips64_Linux:           ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=ZxM91ZEaUZL0veK1Glh5/dMdbQF6iuMuWI8Zbe2QX/NE_Ar7vM00oQjh95N1MT/AauGhW_RWkV_Jjt6SaQk, stripped
+./ngrok/ngrok_mips64le_Linux:         ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=CVmjUHB2wUfSJtdcre9j/hO8jfUIxcuajYEYW1peK/h1kPPGhBTh34P0gVJBlu/D68maJaRrDGBm7cueFEz, stripped
+./ngrok/ngrok_mips_Linux:             ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=RWf_uxutpELn9_ytYOYj/rfXtGK3-IJ7UOULVV5Of/hkG0paQipmG7Alf9zb7h/31DXs5oUQIOYPrw5CajI, stripped
+./ngrok/ngrok_mipsle_Linux:           ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=dtm125w_3RqTq9AruNlZ/KDTaFMC2tJ62tw-oPx9w/ABzqSbTvbxvcnsCOFJ-T/hLWszyhm91KVdAMwlFz3, stripped
+./ngrok/ngrok_powerpc64_Linux:        ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, Go BuildID=wK0A8-ajCYPjEmHbEBWB/r9eOGrhXcBFwuygnkEPp/SiJzLR3QlZ3aRVuT0P8L/BcTnvT_7hoUSQj2KJrYs, stripped
+./ngrok/ngrok_powerpc64le_Linux:      ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, Go BuildID=1nDhPZJUb4TTuYkac_88/j5mJKaoL5RZfteWwAf41/LokDHbIoATxwLJP763ZA/rGN9sjCTW0l_Ix9Xre_C, stripped
+./ngrok/ngrok_s390x_Linux:            ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, Go BuildID=S5Q_Nlj8yrNmuqkMXbgM/7Avqq0U8QEt40HpgxVfr/8QfiWRxbbtWUarA14xiu/DwbHnFQk6Ux6LfyVpv0V, stripped
 
 --> SHA256SUM
-9856f5b427d5501f8dbe8912da3adc47a6c8b6165baf2a74eab29c2047206c85  ./ngrok/ngrok_386_FreeBSD
-021e698af6ccff051184e72bf02de4a5ce45b8e4ace28e000f004e8af841db23  ./ngrok/ngrok_aarch64_arm64_Linux
-da5112d50a4b4d27163373effff66a09acaa966a733be4197cc96ca5776432fa  ./ngrok/ngrok_aarch64_arm64_macOS
-0e3d93e71a0aceeacca4b9a720d92002b0a7c7f30ccac564326a72d58b7a8a69  ./ngrok/ngrok_amd_x86_64_FreeBSD
-89212baa906d970831a97a7cc080bea2df32f4b18c2ee71c0f16c48d84d95704  ./ngrok/ngrok_amd_x86_64_Linux
-cd00faa7d614efc93fb82bcebb6c788a2f91ada363b61d98b62a982f391c1257  ./ngrok/ngrok_amd_x86_64_Solaris
-4e7f39466761f997f0419faab790da43ec915180d05d48c848e089bd93d84df5  ./ngrok/ngrok_amd_x86_64_Windows.exe
-f82d9521e8cb4d8e08b0a2b7d7f6ff4c4db2123c64d9e02ed59de71b8c6f98c5  ./ngrok/ngrok_amd_x86_64_macOS
-849a5752e4fe094b4df3493017c68e2ceeaf202b4e6c76bd29fc750df3912159  ./ngrok/ngrok_amd_x86_Windows.exe
-5b10c676b7ee76132ac0ad36e4b0dce501298cc37d68441c454c1b6197980671  ./ngrok/ngrok_arm_FreeBSD
-8baeb05eab0bf3c4adde0a3aba63ec21cdd53f2ade8d1b556dea716597242fb1  ./ngrok/ngrok_arm_Linux
-3bbdd0254291dbb77394cac201d37147b652a76aeb21469d3ba573235e0e4abb  ./ngrok/ngrok_i386_Linux
-64bc719f393bf098761650c25c7f525b02979f987684aec42bec4ffdc55a7dee  ./ngrok/ngrok_mips64_Linux
-8630bdc12c17f81a4e1b2c912ed63c7f3d73936886ae0399fcd8762a341ad7fa  ./ngrok/ngrok_mips64le_Linux
-24f4b13e2ce5429e4407ba67c410480c9e5d76170e8c8f473d56fcf200622b34  ./ngrok/ngrok_mips_Linux
-d27daecc860f54b7fe42ffbc774e07d71eb8292fa49064ce3f37073bd1ca5924  ./ngrok/ngrok_mipsle_Linux
-282bb657b447005d2747b3850cb392956b587e643ba7f4f9ea86b54120174d81  ./ngrok/ngrok_powerpc64_Linux
-5fc3a037777eacf7015b3322ac6f0d5e4e01de49edc8c41b3d3d1e69bc174976  ./ngrok/ngrok_powerpc64le_Linux
-d7083807397ce7f6d5131ab844ed726543497c713bbce24dcf8e2431cfd277db  ./ngrok/ngrok_s390x_Linux
+548694b3ac789b27e3b638f59e6a660d8d8c03259353c19986a2b320804c3ed4  ./ngrok/ngrok_386_FreeBSD
+f727e13feedc7c75fed95e212eaad8c72624c10762eb50ab2478998a7a4be3b1  ./ngrok/ngrok_aarch64_arm64_Linux
+df03b299268baf9c91fa4cf7d9a591f4726da0680d8a30feb5708a57b99651ea  ./ngrok/ngrok_aarch64_arm64_macOS
+21ce093ae1f7b8a72ba42c4d52ddb8ecf7ffbe04ded323c8b69e901c39c97108  ./ngrok/ngrok_amd_x86_64_FreeBSD
+25ffc1a190538b9ae936b2206e36423b9254b628afef4888b991b43bd519435b  ./ngrok/ngrok_amd_x86_64_Linux
+daf59dc42163817752277faca510a8a0889ed0b73d0a154f0b2e5c764dc604eb  ./ngrok/ngrok_amd_x86_64_Solaris
+c979a5b225a73de735f7edfd4819ea26a4e6688c9325f581420eeabbee0ac8cb  ./ngrok/ngrok_amd_x86_64_Windows.exe
+631168df60fea37d9e30ed94e9d8aae0b8fba52fdd8ca8dac65374b241d47ab3  ./ngrok/ngrok_amd_x86_64_macOS
+567a63c137d6bf34b66f7f6af63d71089a0a7f7943e87c585ad3cda5722358f8  ./ngrok/ngrok_amd_x86_Windows.exe
+cd2cf83f13580cb55f2f08bd6c83aa137433188dd4d48307ef16c07c9450f6f4  ./ngrok/ngrok_arm_FreeBSD
+971626d53ef8275bee6b870a338b1a6e48cefaf23dc6c4f1f2ef5ada2b831759  ./ngrok/ngrok_arm_Linux
+0043ccbe2c54aca5bf8534eadc81e38db01cccc798b9a298482d64587cce7f3b  ./ngrok/ngrok_i386_Linux
+4ee5c0d97201d528fa30da4269b09c49a63550bd55dc16ae3414eb760d270c5c  ./ngrok/ngrok_mips64_Linux
+d7c1b0e82bb61363ffa05388c7598da4a507bd61496afe4bf9c8b59c28bf4aed  ./ngrok/ngrok_mips64le_Linux
+10ccdb617d0781e45bdc0b1e6d96ed87c9567c149b509a40e86535228741fdeb  ./ngrok/ngrok_mips_Linux
+bf9e7e16fd137dcbad396a2bc0348534e5ca94ab2f90aad2b0cc2b6ea15a6c3c  ./ngrok/ngrok_mipsle_Linux
+186904068cc2785aa72e26eeab360e5661c21d4cece5527e4d3fdfc4d7d4bcff  ./ngrok/ngrok_powerpc64_Linux
+10b7b104e9470d35532ab57ac922b4435863c529b59a08373bf37b3b0e8dca68  ./ngrok/ngrok_powerpc64le_Linux
+50099f6dd7d3762d75830461c7a31771fdd27948e942872b330d92e6a6b5b1eb  ./ngrok/ngrok_s390x_Linux
 ```
 
 
@@ -143,7 +143,7 @@ d7083807397ce7f6d5131ab844ed726543497c713bbce24dcf8e2431cfd277db  ./ngrok/ngrok_
 
 - #### Version
 ```console
-ngrok version 3.14.0
+ngrok version 3.14.1
 
 NAME:
   ngrok - tunnel local ports to public URLs and inspect traffic
