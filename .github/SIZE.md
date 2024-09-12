@@ -902,7 +902,7 @@
   12K   │ ├── README.md
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
- 146M   ├─┬ curl
+ 147M   ├─┬ curl
  8.5M   │ ├── curl_powerpc64le_Linux
  8.1M   │ ├── curl_mips_Linux
  8.1M   │ ├── curl_mipsel_Linux
@@ -921,10 +921,10 @@
  5.1M   │ ├── curl_x86_64_Android
  4.7M   │ ├── curl_arm32_Android
  4.6M   │ ├── curl_armv7_Linux
- 3.2M   │ ├── curl_amd_x86_64_Windows.exe
+ 3.4M   │ ├── curl_amd_x86_64_Windows.exe
+ 3.3M   │ ├── curl_arm_x64_Windows.exe
+ 3.3M   │ ├── curl_amd_x86_Windows.exe
  3.2M   │ ├── curl_armhf_arm32_Android
- 3.1M   │ ├── curl_arm_x64_Windows.exe
- 3.0M   │ ├── curl_amd_x86_Windows.exe
  2.1M   │ ├── curl_mips_Android
  2.0M   │ ├── curl_mips64el_Linux
  2.0M   │ ├── curl_mipsel_Android
