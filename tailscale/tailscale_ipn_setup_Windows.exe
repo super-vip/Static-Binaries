@@ -28,6 +28,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.74.1" >1.74.1</option>
+    
     <option value="1.74.0" >1.74.0</option>
     
     <option value="1.72.2" >1.72.2</option>
@@ -63,8 +65,6 @@ file URL to obtain its checksum.</p>
     <option value="1.60.1" >1.60.1</option>
     
     <option value="1.60.0" >1.60.0</option>
-    
-    <option value="1.58.2" >1.58.2</option>
     
   </select>
 </form>
@@ -1118,25 +1118,25 @@ sudo tailscale up
 
   <ul>
   
-    <li>386: <a href="tailscale_1.74.0_386.tgz">tailscale_1.74.0_386.tgz</a></li>
+    <li>386: <a href="tailscale_1.74.1_386.tgz">tailscale_1.74.1_386.tgz</a></li>
   
-    <li>amd64: <a href="tailscale_1.74.0_amd64.tgz">tailscale_1.74.0_amd64.tgz</a></li>
+    <li>amd64: <a href="tailscale_1.74.1_amd64.tgz">tailscale_1.74.1_amd64.tgz</a></li>
   
-    <li>arm: <a href="tailscale_1.74.0_arm.tgz">tailscale_1.74.0_arm.tgz</a></li>
+    <li>arm: <a href="tailscale_1.74.1_arm.tgz">tailscale_1.74.1_arm.tgz</a></li>
   
-    <li>arm64: <a href="tailscale_1.74.0_arm64.tgz">tailscale_1.74.0_arm64.tgz</a></li>
+    <li>arm64: <a href="tailscale_1.74.1_arm64.tgz">tailscale_1.74.1_arm64.tgz</a></li>
   
-    <li>geode: <a href="tailscale_1.74.0_geode.tgz">tailscale_1.74.0_geode.tgz</a></li>
+    <li>geode: <a href="tailscale_1.74.1_geode.tgz">tailscale_1.74.1_geode.tgz</a></li>
   
-    <li>mips: <a href="tailscale_1.74.0_mips.tgz">tailscale_1.74.0_mips.tgz</a></li>
+    <li>mips: <a href="tailscale_1.74.1_mips.tgz">tailscale_1.74.1_mips.tgz</a></li>
   
-    <li>mips64: <a href="tailscale_1.74.0_mips64.tgz">tailscale_1.74.0_mips64.tgz</a></li>
+    <li>mips64: <a href="tailscale_1.74.1_mips64.tgz">tailscale_1.74.1_mips64.tgz</a></li>
   
-    <li>mips64le: <a href="tailscale_1.74.0_mips64le.tgz">tailscale_1.74.0_mips64le.tgz</a></li>
+    <li>mips64le: <a href="tailscale_1.74.1_mips64le.tgz">tailscale_1.74.1_mips64le.tgz</a></li>
   
-    <li>mipsle: <a href="tailscale_1.74.0_mipsle.tgz">tailscale_1.74.0_mipsle.tgz</a></li>
+    <li>mipsle: <a href="tailscale_1.74.1_mipsle.tgz">tailscale_1.74.1_mipsle.tgz</a></li>
   
-    <li>riscv64: <a href="tailscale_1.74.0_riscv64.tgz">tailscale_1.74.0_riscv64.tgz</a></li>
+    <li>riscv64: <a href="tailscale_1.74.1_riscv64.tgz">tailscale_1.74.1_riscv64.tgz</a></li>
   
   </ul>
 
@@ -1390,7 +1390,7 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="tailscale-android-universal-1.72.0.apk">tailscale-android-universal-1.72.0.apk</a></li>
+    <li><a href="tailscale-android-universal-1.74.1.apk">tailscale-android-universal-1.74.1.apk</a></li>
   
   </ul>
 
