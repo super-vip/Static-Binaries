@@ -807,8 +807,8 @@
  4.0K   │ └── INFO.md
  317M   ├─┬ aria2
   13M   │ ├── aria2c_mips64_musl_latest_Linux
-  13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mipsel_musl_latest_Linux
+  13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mips64_musl_Linux
   12M   │ ├── aria2c_mips_musl_Linux
   12M   │ ├── aria2c_mipsel_musl_Linux
@@ -877,8 +877,8 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64le_Linux
   13M   │ ├── gost_mips64_Linux
+  13M   │ ├── gost_mips64le_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
