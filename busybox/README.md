@@ -104,14 +104,14 @@ $env:PROCESSOR_ARCHITECTURE
 --> METADATA
 ./busybox/busybox_aarch64_arm64_gcc_Linux:  ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=a8a4014916bacad7da45e82ede9052642d9a93c5, for GNU/Linux 3.7.0, stripped
 ./busybox/busybox_aarch64_arm64_musl_Linux: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
-./busybox/busybox_amd_x86_64_gcc_Linux:     ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=818cdf6053c3b3fe2b61387c91ec2637feaaa395, for GNU/Linux 3.2.0, stripped
+./busybox/busybox_amd_x86_64_gcc_Linux:     ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=ca2399f459b144379ea034a5d3e2e718869eb966, for GNU/Linux 3.2.0, stripped
 ./busybox/busybox_amd_x86_64_musl_Linux:    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./busybox/busybox_arm_abi_gcc_Linux:        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=a5c2e73df718ba267f553e7a12f0115a8c3d0418, for GNU/Linux 3.2.0, stripped
 ./busybox/busybox_arm_abi_musl_Linux:       ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), static-pie linked, stripped
 ./busybox/busybox_arm_abihf_gcc_Linux:      ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, BuildID[sha1]=5056e2d7b5b5b29ec67853546e7e2903f2a40ae4, for GNU/Linux 3.2.0, stripped
 ./busybox/busybox_arm_abihf_musl_Linux:     ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), static-pie linked, stripped
 ./busybox/busybox_armv7l_abihf_musl_Linux:  ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), static-pie linked, stripped
-./busybox/busybox_i686_x86_gcc_Linux:       ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), statically linked, BuildID[sha1]=dbb3dfd7721220a5c4a14d7ca9357543dc25b45c, for GNU/Linux 3.2.0, stripped
+./busybox/busybox_i686_x86_gcc_Linux:       ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), statically linked, BuildID[sha1]=fbc493c4993da74c964d758c637e0f9dba5b72c3, for GNU/Linux 3.2.0, stripped
 ./busybox/busybox_m68k_gcc_Linux:           ELF 32-bit MSB executable, Motorola m68k, 68020, version 1 (SYSV), statically linked, BuildID[sha1]=2bcd931a3573fbfb3408e8b24b44072b9c03580b, for GNU/Linux 3.2.0, stripped
 ./busybox/busybox_m68k_linux_musl_Linux:    ELF 32-bit MSB pie executable, Motorola m68k, 68020, version 1 (SYSV), static-pie linked, stripped
 ./busybox/busybox_mips64_gcc_Linux:         ELF 64-bit MSB executable, MIPS, MIPS64 rel2 version 1 (SYSV), statically linked, BuildID[sha1]=e3c74ac6365d3a395554a5a03e8b6785906e7206, for GNU/Linux 3.2.0, stripped
@@ -137,14 +137,14 @@ $env:PROCESSOR_ARCHITECTURE
 --> SHA256SUM
 95ecdbbae5797b18f91048078a4d71960099a27d2534213da963b97d12634b83  ./busybox/busybox_aarch64_arm64_gcc_Linux
 89e8e12b6933d966fab05b3935223f085b4de055e35f775aacc4b795e0445865  ./busybox/busybox_aarch64_arm64_musl_Linux
-4a32f43115bac88da8f9f850e34938c9eb9bbc49bd74202c10383bcf4a8b289a  ./busybox/busybox_amd_x86_64_gcc_Linux
+25672a706941e62b8a627504a7d11cdbb73c8f582a5e6d2b0f421465699c4f89  ./busybox/busybox_amd_x86_64_gcc_Linux
 72b59cfbcbce34f7480354c9209c8e852b34d0c8863cb9ea290e1a23a80153d4  ./busybox/busybox_amd_x86_64_musl_Linux
 9517ff35e576d5b189d5c99100fe98b2a525d6474a387820dff9e59725c723aa  ./busybox/busybox_arm_abi_gcc_Linux
 4605a149bc47d0ac99851471abe7045bd19f50d66f1b0c2c6680ccd1d4494538  ./busybox/busybox_arm_abi_musl_Linux
 08876a8d0dd8dd7932566fb6e492e4ab10f6cc490a903f2ac9f0158802fe71b9  ./busybox/busybox_arm_abihf_gcc_Linux
 4260118d29a95826adbf570a73910ed899813d42b7fde1ef44612c807a06ead9  ./busybox/busybox_arm_abihf_musl_Linux
 e8fd62962d6612161320713623a238d333710f9d9ee35f7964abf9a791f0379d  ./busybox/busybox_armv7l_abihf_musl_Linux
-df9c68994742f42e9fd10e8787731ea76ebaffbdd7d9f14652b7fcc1ecc0240e  ./busybox/busybox_i686_x86_gcc_Linux
+eee231e435478956c0f81a3f9fb3257fd67102d16e857b1ec436e7fd6dfa34f0  ./busybox/busybox_i686_x86_gcc_Linux
 fad7cf77b8cb4343121deecac5c59d51e79036791bf425fbcbc70f01b25c66b4  ./busybox/busybox_m68k_gcc_Linux
 32bfb1391a2e01c8483db5d3f368dbf22eb18d4a20040178cab16bbfd5070024  ./busybox/busybox_m68k_linux_musl_Linux
 75157d9d1f8d06643095864a5efb0df8e0ea54876f0fb083d158319a0abcc8c0  ./busybox/busybox_mips64_gcc_Linux
@@ -213,7 +213,7 @@ c2020629df39e385cd564ce75d4f5dec1a9b70a9fe13281ba3a578a1b7b76c78  ./busybox/busy
 ```console
 
 $ ./busybox/busybox_amd_x86_64_gcc_Linux
-BusyBox v1.36.1 (2024-08-09 20:37:39 UTC) multi-call binary.
+BusyBox v1.37.0 (2024-09-27 20:41:01 UTC) multi-call binary.
 BusyBox is copyrighted by many authors between 1998-2015.
 Licensed under GPLv2. See source distribution for detailed
 copyright notices.
@@ -242,41 +242,41 @@ Currently defined functions:
 	expr, factor, fakeidentd, fallocate, false, fatattr, fbset, fbsplash,
 	fdflush, fdformat, fdisk, fgconsole, fgrep, find, findfs, flock, fold,
 	free, freeramdisk, fsck, fsck.minix, fsfreeze, fstrim, fsync, ftpd,
-	ftpget, ftpput, fuser, getopt, getty, grep, groups, gunzip, gzip, halt,
-	hd, hdparm, head, hexdump, hexedit, hostid, hostname, httpd, hush,
-	hwclock, i2cdetect, i2cdump, i2cget, i2cset, i2ctransfer, id, ifconfig,
-	ifdown, ifenslave, ifplugd, ifup, inetd, init, insmod, install, ionice,
-	iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink, ipneigh, iproute,
-	iprule, iptunnel, kbd_mode, kill, killall, killall5, klogd, last, less,
-	link, linux32, linux64, linuxrc, ln, loadfont, loadkmap, logger, login,
-	logname, logread, losetup, lpd, lpq, lpr, ls, lsattr, lsmod, lsof,
-	lspci, lsscsi, lsusb, lzcat, lzma, lzop, makedevs, makemime, man,
-	md5sum, mdev, mesg, microcom, mim, mkdir, mkdosfs, mke2fs, mkfifo,
-	mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd, mkswap, mktemp,
-	modinfo, modprobe, more, mount, mountpoint, mpstat, mt, mv, nameif,
-	nanddump, nandwrite, nbd-client, nc, netstat, nice, nl, nmeter, nohup,
-	nologin, nproc, nsenter, nslookup, ntpd, od, openvt, partprobe, passwd,
-	paste, patch, pgrep, pidof, ping, ping6, pipe_progress, pivot_root,
-	pkill, pmap, popmaildir, poweroff, powertop, printenv, printf, ps,
-	pscan, pstree, pwd, pwdx, raidautorun, rdate, rdev, readahead,
-	readlink, readprofile, realpath, reboot, reformime, remove-shell,
-	renice, reset, resize, resume, rev, rm, rmdir, rmmod, route, rpm,
-	rpm2cpio, rtcwake, run-init, run-parts, runlevel, runsv, runsvdir, rx,
-	script, scriptreplay, sed, seedrng, sendmail, seq, setarch, setconsole,
-	setfattr, setfont, setkeycodes, setlogcons, setpriv, setserial, setsid,
-	setuidgid, sh, sha1sum, sha256sum, sha3sum, sha512sum, showkey, shred,
-	shuf, slattach, sleep, smemcap, softlimit, sort, split, ssl_client,
-	start-stop-daemon, stat, strings, stty, su, sulogin, sum, sv, svc,
-	svlogd, svok, swapoff, swapon, switch_root, sync, sysctl, syslogd, tac,
-	tail, tar, taskset, tc, tcpsvd, tee, telnet, telnetd, test, tftp,
-	tftpd, time, timeout, top, touch, tr, traceroute, traceroute6, tree,
-	true, truncate, ts, tsort, tty, ttysize, tunctl, ubiattach, ubidetach,
-	ubimkvol, ubirename, ubirmvol, ubirsvol, ubiupdatevol, udhcpc, udhcpc6,
-	udhcpd, udpsvd, uevent, umount, uname, unexpand, uniq, unix2dos,
-	unlink, unlzma, unshare, unxz, unzip, uptime, users, usleep, uudecode,
-	uuencode, vconfig, vi, vlock, volname, w, wall, watch, watchdog, wc,
-	wget, which, who, whoami, whois, xargs, xxd, xz, xzcat, yes, zcat,
-	zcip
+	ftpget, ftpput, fuser, getfattr, getopt, getty, grep, groups, gunzip,
+	gzip, halt, hd, hdparm, head, hexdump, hexedit, hostid, hostname,
+	httpd, hush, hwclock, i2cdetect, i2cdump, i2cget, i2cset, i2ctransfer,
+	id, ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init, insmod,
+	install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm, ipcs, iplink,
+	ipneigh, iproute, iprule, iptunnel, kbd_mode, kill, killall, killall5,
+	klogd, last, less, link, linux32, linux64, linuxrc, ln, loadfont,
+	loadkmap, logger, login, logname, logread, losetup, lpd, lpq, lpr, ls,
+	lsattr, lsmod, lsof, lspci, lsscsi, lsusb, lzcat, lzma, lzop, makedevs,
+	makemime, man, md5sum, mdev, mesg, microcom, mim, mkdir, mkdosfs,
+	mke2fs, mkfifo, mkfs.ext2, mkfs.minix, mkfs.vfat, mknod, mkpasswd,
+	mkswap, mktemp, modinfo, modprobe, more, mount, mountpoint, mpstat, mt,
+	mv, nameif, nanddump, nandwrite, nbd-client, nc, netstat, nice, nl,
+	nmeter, nohup, nologin, nproc, nsenter, nslookup, ntpd, od, openvt,
+	partprobe, passwd, paste, patch, pgrep, pidof, ping, ping6,
+	pipe_progress, pivot_root, pkill, pmap, popmaildir, poweroff, powertop,
+	printenv, printf, ps, pscan, pstree, pwd, pwdx, raidautorun, rdate,
+	rdev, readahead, readlink, readprofile, realpath, reboot, reformime,
+	remove-shell, renice, reset, resize, resume, rev, rm, rmdir, rmmod,
+	route, rpm, rpm2cpio, rtcwake, run-init, run-parts, runlevel, runsv,
+	runsvdir, rx, script, scriptreplay, sed, seedrng, sendmail, seq,
+	setarch, setconsole, setfattr, setfont, setkeycodes, setlogcons,
+	setpriv, setserial, setsid, setuidgid, sh, sha1sum, sha256sum, sha3sum,
+	sha512sum, showkey, shred, shuf, slattach, sleep, smemcap, softlimit,
+	sort, split, ssl_client, start-stop-daemon, stat, strings, stty, su,
+	sulogin, sum, sv, svc, svlogd, svok, swapoff, swapon, switch_root,
+	sync, sysctl, syslogd, tac, tail, tar, taskset, tc, tcpsvd, tee,
+	telnet, telnetd, test, tftp, tftpd, time, timeout, top, touch, tr,
+	traceroute, traceroute6, tree, true, truncate, ts, tsort, tty, ttysize,
+	tunctl, ubiattach, ubidetach, ubimkvol, ubirename, ubirmvol, ubirsvol,
+	ubiupdatevol, udhcpc, udhcpc6, udhcpd, udpsvd, uevent, umount, uname,
+	unexpand, uniq, unix2dos, unlink, unlzma, unshare, unxz, unzip, uptime,
+	users, usleep, uudecode, uuencode, vconfig, vi, vlock, volname, w,
+	wall, watch, watchdog, wc, wget, which, who, whoami, whois, xargs, xxd,
+	xz, xzcat, yes, zcat, zcip
 
 
 ```
