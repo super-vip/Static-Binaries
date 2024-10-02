@@ -784,8 +784,8 @@
  4.0K   │ │ └── sshd_config
   19M   │ └── README.md
  487M   ├─┬ ngrok
-  27M   │ ├── ngrok_mips64le_Linux
   27M   │ ├── ngrok_mips64_Linux
+  27M   │ ├── ngrok_mips64le_Linux
   27M   │ ├── ngrok_mipsle_Linux
   27M   │ ├── ngrok_mips_Linux
   26M   │ ├── ngrok_s390x_Linux
@@ -843,33 +843,33 @@
   20K   │ ├── README.md
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
- 259M   ├─┬ croc
-  11M   │ ├── croc_x86_64_macOS
-  11M   │ ├── croc_aarch64_arm64_macOS
+ 260M   ├─┬ croc
   11M   │ ├── croc_aarch64_arm64_Windows.exe
-  11M   │ ├── croc_arm_Windows.exe
   11M   │ ├── croc_aarch64_arm64_Linux
   11M   │ ├── croc_aarch64_arm64_OpenBSD
   11M   │ ├── croc_aarch64_arm64_FreeBSD
- 8.8M   │ ├── croc_amd_x86_64_Windows.exe
- 8.7M   │ ├── croc_mips64le_Linux
- 8.7M   │ ├── croc_mips64_Linux
- 8.5M   │ ├── croc_mipsle_Linux
- 8.5M   │ ├── croc_mips_Linux
- 8.4M   │ ├── croc_s390x_Linux
- 8.4M   │ ├── croc_amd_x86_Windows.exe
- 8.0M   │ ├── croc_amd_x86_64_OpenBSD
- 8.0M   │ ├── croc_amd_x86_64_FreeBSD
- 7.9M   │ ├── croc_amd_x86_64_Linux
- 7.9M   │ ├── croc_amd_x86_64_DragonFlyBSD
- 7.9M   │ ├── croc_amd_x86_64_NetBSD
- 7.9M   │ ├── croc_loong64_Linux
- 7.7M   │ ├── croc_powerpc64le_ppc64le_Linux
+  11M   │ ├── croc_arm_Windows.exe
+ 9.1M   │ ├── croc_amd_x86_64_Windows.exe
+ 8.9M   │ ├── croc_mips64le_Linux
+ 8.9M   │ ├── croc_mips64_Linux
+ 8.8M   │ ├── croc_mipsle_Linux
+ 8.8M   │ ├── croc_mips_Linux
+ 8.7M   │ ├── croc_s390x_Linux
+ 8.6M   │ ├── croc_amd_x86_Windows.exe
+ 8.5M   │ ├── croc_x86_64_macOS
+ 8.3M   │ ├── croc_amd_x86_64_OpenBSD
+ 8.3M   │ ├── croc_amd_x86_64_FreeBSD
+ 8.2M   │ ├── croc_amd_x86_64_Linux
+ 8.2M   │ ├── croc_amd_x86_64_DragonFlyBSD
+ 8.2M   │ ├── croc_amd_x86_64_NetBSD
+ 8.2M   │ ├── croc_aarch64_arm64_macOS
+ 8.1M   │ ├── croc_powerpc64le_ppc64le_Linux
+ 8.0M   │ ├── croc_loong64_Linux
+ 8.0M   │ ├── croc_powerpc64_ppc64_Linux
+ 7.8M   │ ├── croc_386_Linux
+ 7.8M   │ ├── croc_amd_x86_Linux
  7.7M   │ ├── croc_riscv64_Linux
- 7.6M   │ ├── croc_powerpc64_ppc64_Linux
- 7.6M   │ ├── croc_amd_x86_Linux
- 7.6M   │ ├── croc_386_Linux
- 7.5M   │ ├── croc_amd_x86_NetBSD
+ 7.7M   │ ├── croc_amd_x86_NetBSD
  7.1M   │ ├── croc_arm_abi_OpenBSD
  7.1M   │ ├── croc_arm_abi_NetBSD
  7.1M   │ ├── croc_amd_x86_OpenBSD
