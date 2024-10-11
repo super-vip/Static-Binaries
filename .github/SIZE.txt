@@ -18,8 +18,8 @@
   21M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux
   21M   │ ├── tailscale_merged_powerpc64_ppc64_Linux
   21M   │ ├── tailscale_merged_aarch64_arm64_Linux
+  21M   │ ├── tailscale_merged_i386_Linux
   21M   │ ├── tailscaled_powerpc64le_ppc64le_Linux
-  20M   │ ├── tailscale_merged_i386_Linux
   20M   │ ├── tailscaled_powerpc64_ppc64_Linux
   20M   │ ├── tailscale_merged_arm_Linux
   20M   │ ├── tailscaled_amd_geode_Linux
@@ -32,8 +32,8 @@
   18M   │ ├── tailscale_mips64le_Linux
   17M   │ ├── tailscale_mips_Linux
   17M   │ ├── tailscale_mipsle_Linux
-  16M   │ ├── tailscale_riscv64_Linux
   16M   │ ├── tailscale_aarch64_arm64_Linux
+  16M   │ ├── tailscale_riscv64_Linux
   16M   │ ├── tailscale_arm_abi_Linux
   13M   │ ├── tailscaled_aarch64_arm64_Linux.upx
   12M   │ ├── tailscale_s390x_Linux
@@ -49,8 +49,8 @@
   10M   │ ├── tailscale_aarch64_arm64_macOS
  7.6M   │ ├── tailscale_aarch64_arm64_Linux.upx
  7.3M   │ ├── tailscale_mips_Linux.upx
- 7.2M   │ ├── tailscale_mipsle_Linux.upx
- 7.2M   │ ├── tailscale_arm_abi_Linux.upx
+ 7.3M   │ ├── tailscale_mipsle_Linux.upx
+ 7.3M   │ ├── tailscale_arm_abi_Linux.upx
  6.7M   │ ├── tailscaled_amd_x86_64_Linux.upx
  6.6M   │ ├── tailscale_merged_amd_x86_64_Linux.upx
  6.1M   │ ├── tailscale_merged_i386_Linux.upx
@@ -60,9 +60,9 @@
  5.5M   │ ├── tailscale_merged_aarch64_arm64_Linux.upx
  5.4M   │ ├── tailscaled_powerpc64le_ppc64le_Linux.upx
  5.3M   │ ├── tailscale_merged_powerpc64_ppc64_Linux.upx
- 5.2M   │ ├── tailscale_merged_arm_Linux.upx
- 5.0M   │ ├── tailscaled_powerpc64_ppc64_Linux.upx
- 3.7M   │ ├── tailscale_amd_x86_64_Linux.upx
+ 5.3M   │ ├── tailscale_merged_arm_Linux.upx
+ 5.1M   │ ├── tailscaled_powerpc64_ppc64_Linux.upx
+ 3.6M   │ ├── tailscale_amd_x86_64_Linux.upx
  3.2M   │ ├── tailscale_powerpc64le_ppc64le_Linux.upx
  3.2M   │ ├── tailscale_amd_geode_Linux.upx
  3.2M   │ ├── tailscale_i386_Linux.upx
@@ -791,8 +791,8 @@
   26M   │ ├── ngrok_amd_x86_64_Windows.exe
   25M   │ ├── ngrok_amd_x86_64_macOS
   25M   │ ├── ngrok_amd_x86_64_Linux
-  25M   │ ├── ngrok_powerpc64le_Linux
   25M   │ ├── ngrok_amd_x86_64_FreeBSD
+  25M   │ ├── ngrok_powerpc64le_Linux
   25M   │ ├── ngrok_powerpc64_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
   25M   │ ├── ngrok_amd_x86_64_Solaris
