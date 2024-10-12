@@ -792,8 +792,8 @@
   26M   │ ├── ngrok_amd_x86_64_Windows.exe
   25M   │ ├── ngrok_amd_x86_64_macOS
   25M   │ ├── ngrok_amd_x86_64_Linux
-  25M   │ ├── ngrok_amd_x86_64_FreeBSD
   25M   │ ├── ngrok_powerpc64le_Linux
+  25M   │ ├── ngrok_amd_x86_64_FreeBSD
   25M   │ ├── ngrok_powerpc64_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
   25M   │ ├── ngrok_amd_x86_64_Solaris
@@ -878,8 +878,8 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mips64le_Linux
+  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
