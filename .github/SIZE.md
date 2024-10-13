@@ -786,14 +786,14 @@
  487M   ├─┬ ngrok
   27M   │ ├── ngrok_mips64le_Linux
   27M   │ ├── ngrok_mips64_Linux
-  27M   │ ├── ngrok_mipsle_Linux
   27M   │ ├── ngrok_mips_Linux
+  27M   │ ├── ngrok_mipsle_Linux
   26M   │ ├── ngrok_s390x_Linux
   26M   │ ├── ngrok_amd_x86_64_Windows.exe
   25M   │ ├── ngrok_amd_x86_64_macOS
   25M   │ ├── ngrok_amd_x86_64_Linux
-  25M   │ ├── ngrok_powerpc64le_Linux
   25M   │ ├── ngrok_amd_x86_64_FreeBSD
+  25M   │ ├── ngrok_powerpc64le_Linux
   25M   │ ├── ngrok_powerpc64_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
   25M   │ ├── ngrok_amd_x86_64_Solaris
@@ -820,8 +820,8 @@
   10M   │ ├── aria2c_mipsel_libressl_musl_Linux
   10M   │ ├── aria2c_mips_libressl_musl_Linux
   10M   │ ├── aria2c_mips64_libressl_musl_latest_Linux
-  10M   │ ├── aria2c_mipsel_libressl_musl_latest_Linux
   10M   │ ├── aria2c_mips_libressl_musl_latest_Linux
+  10M   │ ├── aria2c_mipsel_libressl_musl_latest_Linux
   10M   │ ├── aria2c_aarch64_arm64_musl_Linux
   10M   │ ├── aria2c_x86_Android
  9.5M   │ ├── aria2c_x86_64_Android
@@ -835,9 +835,9 @@
  7.5M   │ ├── aria2c_aarch_arm_Android
  6.8M   │ ├── aria2c_arm_abi_libressl_musl_Linux
  6.6M   │ ├── aria2c_arm_abi_libressl_musl_latest_Linux
- 6.3M   │ ├── aria2c_i686_latest_Windows.exe
- 5.8M   │ ├── aria2c_amd_x86_x64_Windows.exe
+ 6.4M   │ ├── aria2c_i686_latest_Windows.exe
  5.8M   │ ├── aria2c_amd_x86_x64_latest_Windows.exe
+ 5.8M   │ ├── aria2c_amd_x86_x64_Windows.exe
  5.8M   │ ├── aria2c_i686_Windows.exe
  4.4M   │ ├── aria2c_aarch64_arm64_Windows.exe
   20K   │ ├── README.md
