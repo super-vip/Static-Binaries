@@ -791,8 +791,8 @@
   26M   │ ├── ngrok_amd_x86_64_Windows.exe
   25M   │ ├── ngrok_amd_x86_64_macOS
   25M   │ ├── ngrok_amd_x86_64_Linux
-  25M   │ ├── ngrok_amd_x86_64_FreeBSD
   25M   │ ├── ngrok_powerpc64le_Linux
+  25M   │ ├── ngrok_amd_x86_64_FreeBSD
   25M   │ ├── ngrok_powerpc64_Linux
   25M   │ ├── ngrok_aarch64_arm64_macOS
   25M   │ ├── ngrok_amd_x86_64_Solaris
