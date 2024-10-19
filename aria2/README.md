@@ -153,20 +153,20 @@ $ sha256sum ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Wi
 cb2bd8beafb566ef55d217837edff00e3f660aa6050927b5f9b68651ff4ba51a  ./aria2/aria2c_aarch64_arm64_Android
 8aeaf6bcf7f4e897acbfc5dde154e1894403aa89722bddc45468d4e6a734d50f  ./aria2/aria2c_aarch64_arm64_Windows.exe
 a43651c11aaf39847a9ac860da9908e14764129e13777b5ba24ae8678124e59b  ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux
-6328a17a64b04c6b6917645cf9e2297201c7b7455789dc76cd709cb0366a4fdd  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
+851035e138ef5a28581f2f3bc66c38920b388c454e4117ff62faa011d3a9ee2f  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
 bcf59dd2ba97a0f55a6950a34af00bf12494a92757608aa2eea4508c59a89842  ./aria2/aria2c_aarch64_arm64_musl_Linux
-af04435d7226bd24d032eb846ce378a47afea5f5588336aa4ca177c9de45cd24  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
+1b228936eeb90c26fe5cb599b466bbe1af5a584a94f58fa7f37b2da90a9f1711  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
 793502af1321f715dff1b19fe6a3c686d71be83c52fa017868d30b31eb8f02b7  ./aria2/aria2c_aarch_arm_Android
 3e5575d7798a6cd363454e303b9bb7850753df67a80edeb824ccf6f778e20227  ./aria2/aria2c_amd_x86_64_libressl_musl_Linux
-e3e3879998245ce836732f7db6fef564536b564c9c3a0c67ab0b57b02bcc41a6  ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux
+b7bc0897ce9ef76245783e9536d3509debafa7e387983e668fb36900ba276d61  ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux
 2359b539e6e23e4845f02208d0b4cc4f550da19d5f4fa02d3be5a5846a172748  ./aria2/aria2c_amd_x86_64_musl_Linux
-17bd2a419f2fb548018ee7badd26a6d96569a8000d470fa76a7df84defd68034  ./aria2/aria2c_amd_x86_64_musl_latest_Linux
+d93c74141a4015cb83044cc49b1d9a045cab07adfa3d788e4f67bd09272818ad  ./aria2/aria2c_amd_x86_64_musl_latest_Linux
 fb58da27a9dda5b6a7137283770a5a041158f1676c4bdd33762987b5e6cad179  ./aria2/aria2c_amd_x86_x64_Windows.exe
 d138cfc718e4b38c8c6aa868d4ba6662ac6635b2135138e8179a5d23cb7df4b8  ./aria2/aria2c_amd_x86_x64_latest_Windows.exe
 c98f6511e54e85f84f378c3878524fe0bb3f14bfa67a6c9ebc1ead5cac4ab378  ./aria2/aria2c_arm_abi_libressl_musl_Linux
-9f4c3a3b549293ef5935f7d89440ea2c207ef6c17e894e00fef1f64e9d64a619  ./aria2/aria2c_arm_abi_libressl_musl_latest_Linux
+46c4cf585d3fef89ab9d663e73e353a1c2f3d7b53502bef421e31962b01ceaee  ./aria2/aria2c_arm_abi_libressl_musl_latest_Linux
 6cf66e155511050228dfa45e5f6bd5c8edb6a338beabe32a223889ae413319ab  ./aria2/aria2c_arm_abi_musl_Linux
-39f775a6047dcabf8b6f886b33ed2811ad5e95b263bc00ee190d2427a8c54c56  ./aria2/aria2c_arm_abi_musl_latest_Linux
+b9558c31a31d88c10bc51521a8118799727bfe8a797b884f311bc0e718c1c149  ./aria2/aria2c_arm_abi_musl_latest_Linux
 0b51fc224b746751c5145137b917af324d7fc7dc5618441aa68cf224488a4f2f  ./aria2/aria2c_i686_Windows.exe
 c702b0ba503c702abbb44d2e1d1eca7c35e1d9aeb739541cef7d3a1ad343ad8c  ./aria2/aria2c_i686_latest_Windows.exe
 e9367d848b900c6de2337f70faa38c4b2055c8fcf252ec1a2bbdd986ac87f0fd  ./aria2/aria2c_mips64_libressl_musl_Linux
@@ -176,7 +176,7 @@ b8ae9210c0ac3cad8df247ed5f749ef8cedc0df5c152c8c55ddb55251a5d5e9f  ./aria2/aria2c
 6f178b057c16feb597e3b9ce8d6be258bdc1d4ef5bf86b8661ef10dbcac14d5c  ./aria2/aria2c_mips_libressl_musl_Linux
 b13b5f97e0c01dd1848f669ec8bf0f0a895faff6f2bf2962b91b41935c204801  ./aria2/aria2c_mips_libressl_musl_latest_Linux
 45748825f3c36a17c6893d66f6f977a5f076bae2cf5b839279b5c9dea2fca901  ./aria2/aria2c_mips_musl_Linux
-11ca970dcf2e3415b3f099f5bdbd9c623601067392a4655867dffd3aaf726779  ./aria2/aria2c_mips_musl_latest_Linux
+ad7da323498dd46bd632def850cb24013768f8f4b5aab0f3f59246e0e401a89f  ./aria2/aria2c_mips_musl_latest_Linux
 355d7a460d4481984d871007f3e8a23a58125d260fa1b023488f35aa71c5df09  ./aria2/aria2c_mipsel_libressl_musl_Linux
 3adbbb5ee6e4cbeab17276cc5a6517a980dc3ce9127b9645ed9c86084d422115  ./aria2/aria2c_mipsel_libressl_musl_latest_Linux
 c63eeda047fcbed2008438ca45673941a696dbfd723ec0f741c64f474e8bdf61  ./aria2/aria2c_mipsel_musl_Linux
@@ -250,11 +250,11 @@ GNU General Public License for more details.
 ** Configuration **
 Enabled Features: Async DNS, BitTorrent, Firefox3 Cookie, GZip, HTTPS, Message Digest, Metalink, XML-RPC, SFTP
 Hash Algorithms: sha-1, sha-224, sha-256, sha-384, sha-512, md5, adler32
-Libraries: zlib/1.3.1.zlib-ng libxml2/2.13.4 sqlite3/3.46.1 OpenSSL/2.0.0 c-ares/1.34.1 libssh2/1.11.0
+Libraries: zlib/1.3.1.zlib-ng libxml2/2.13.4 sqlite3/3.46.1 OpenSSL/2.0.0 c-ares/1.34.2 libssh2/1.11.1
 Compiler: gcc 11.2.1 20211120
   built by  x86_64-pc-linux-gnu
   targeting aarch64-unknown-linux-musl
-  on        Oct 15 2024 09:01:52
+  on        Oct 19 2024 01:27:34
 System: Linux 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 aarch64
 
 Report bugs to https://github.com/aria2/aria2/issues
