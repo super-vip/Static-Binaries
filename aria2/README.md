@@ -119,7 +119,7 @@ $ file ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Windows
 ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux:        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_musl_Linux:                 ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
-./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
+./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_aarch_arm_Android:                        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_Linux:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux:    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -155,7 +155,7 @@ cb2bd8beafb566ef55d217837edff00e3f660aa6050927b5f9b68651ff4ba51a  ./aria2/aria2c
 a43651c11aaf39847a9ac860da9908e14764129e13777b5ba24ae8678124e59b  ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux
 106f8bda4748f41e41ac6c9d7940916eade60c2456add3c596a2d90996a9db85  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
 bcf59dd2ba97a0f55a6950a34af00bf12494a92757608aa2eea4508c59a89842  ./aria2/aria2c_aarch64_arm64_musl_Linux
-4aee9ddb0b317af07799242bab0bf9d90e77f099b4eea277f8eb5fbee17c362e  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
+5d1935ca6100b6600a38ed3db91b645656e7dd4967d84a26a7d66cf93bd18590  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
 793502af1321f715dff1b19fe6a3c686d71be83c52fa017868d30b31eb8f02b7  ./aria2/aria2c_aarch_arm_Android
 3e5575d7798a6cd363454e303b9bb7850753df67a80edeb824ccf6f778e20227  ./aria2/aria2c_amd_x86_64_libressl_musl_Linux
 eba651b3d28f41f41d3c9d7e69c821947338374401b951e244c26b1633120537  ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux
@@ -198,7 +198,7 @@ a10f9dce07065edd25b832d653b0e0949e4a498d738bc5903013dea981b50054  ./aria2/aria2c
 8.1M  aria2c_aarch64_arm64_libressl_musl_Linux
 8.0M  aria2c_aarch64_arm64_libressl_musl_latest_Linux
 11M   aria2c_aarch64_arm64_musl_Linux
-12M   aria2c_aarch64_arm64_musl_latest_Linux
+11M   aria2c_aarch64_arm64_musl_latest_Linux
 7.5M  aria2c_aarch_arm_Android
 8.3M  aria2c_amd_x86_64_libressl_musl_Linux
 8.2M  aria2c_amd_x86_64_libressl_musl_latest_Linux
