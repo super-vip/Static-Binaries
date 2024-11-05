@@ -806,7 +806,7 @@
   16K   │ ├── README.md
  4.0K   │ ├── version.txt
  4.0K   │ └── INFO.md
- 317M   ├─┬ aria2
+ 316M   ├─┬ aria2
   13M   │ ├── aria2c_mips64_musl_latest_Linux
   13M   │ ├── aria2c_mips_musl_latest_Linux
   13M   │ ├── aria2c_mipsel_musl_latest_Linux
@@ -815,7 +815,6 @@
   12M   │ ├── aria2c_mipsel_musl_Linux
   12M   │ ├── aria2c_amd_x86_64_musl_latest_Linux
   11M   │ ├── aria2c_amd_x86_64_musl_Linux
-  11M   │ ├── aria2c_aarch64_arm64_musl_latest_Linux
   10M   │ ├── aria2c_mips64_libressl_musl_Linux
   10M   │ ├── aria2c_mipsel_libressl_musl_Linux
   10M   │ ├── aria2c_mips_libressl_musl_Linux
@@ -824,6 +823,7 @@
   10M   │ ├── aria2c_mipsel_libressl_musl_latest_Linux
   10M   │ ├── aria2c_aarch64_arm64_musl_Linux
   10M   │ ├── aria2c_x86_Android
+  10M   │ ├── aria2c_aarch64_arm64_musl_latest_Linux
  9.5M   │ ├── aria2c_x86_64_Android
  9.0M   │ ├── aria2c_arm_abi_musl_latest_Linux
  8.6M   │ ├── aria2c_aarch64_arm64_Android
@@ -878,8 +878,8 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mips64le_Linux
+  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
@@ -935,7 +935,7 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  115M   ├─┬ twingate
-  17M   │ ├── twingate_connector_amd_x86_64_dynamic_Linux
+  18M   │ ├── twingate_connector_amd_x86_64_dynamic_Linux
   16M   │ ├── twingate_connector_aarch64_arm64_dynamic_Linux
   12M   │ ├── twingate_connectorctl_amd_x86_64_dynamic_Linux
   11M   │ ├── twingate_connectorctl_aarch64_arm64_dynamic_Linux
