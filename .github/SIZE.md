@@ -19,8 +19,8 @@
   21M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux
   21M   │ ├── tailscale_merged_powerpc64_ppc64_Linux
   21M   │ ├── tailscale_merged_aarch64_arm64_Linux
-  21M   │ ├── tailscale_merged_i386_Linux
   21M   │ ├── tailscaled_powerpc64le_ppc64le_Linux
+  21M   │ ├── tailscale_merged_i386_Linux
   20M   │ ├── tailscaled_powerpc64_ppc64_Linux
   20M   │ ├── tailscale_merged_arm_Linux
   20M   │ ├── tailscaled_amd_geode_Linux
@@ -55,18 +55,18 @@
  6.7M   │ ├── tailscaled_amd_x86_64_Linux.upx
  6.6M   │ ├── tailscale_merged_amd_x86_64_Linux.upx
  6.1M   │ ├── tailscale_merged_i386_Linux.upx
- 5.8M   │ ├── tailscaled_amd_geode_Linux.upx
  5.8M   │ ├── tailscaled_i386_Linux.upx
  5.6M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux.upx
  5.5M   │ ├── tailscale_merged_aarch64_arm64_Linux.upx
  5.4M   │ ├── tailscaled_powerpc64le_ppc64le_Linux.upx
+ 5.4M   │ ├── tailscaled_amd_geode_Linux.upx
  5.3M   │ ├── tailscale_merged_powerpc64_ppc64_Linux.upx
  5.3M   │ ├── tailscale_merged_arm_Linux.upx
  5.1M   │ ├── tailscaled_powerpc64_ppc64_Linux.upx
  3.6M   │ ├── tailscale_amd_x86_64_Linux.upx
+ 3.4M   │ ├── tailscale_i386_Linux.upx
  3.2M   │ ├── tailscale_powerpc64le_ppc64le_Linux.upx
  3.2M   │ ├── tailscale_amd_geode_Linux.upx
- 3.2M   │ ├── tailscale_i386_Linux.upx
  2.9M   │ ├── tailscale_powerpc64_ppc64_Linux.upx
   48K   │ ├── README.md
   44K   │ ├── tailscale_ipn_setup_Windows.exe
