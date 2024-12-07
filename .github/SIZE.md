@@ -58,7 +58,7 @@
  6.0M   │ ├── tailscaled_amd_geode_Linux.upx
  6.0M   │ ├── tailscaled_i386_Linux.upx
  5.7M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux.upx
- 5.6M   │ ├── tailscale_merged_aarch64_arm64_Linux.upx
+ 5.7M   │ ├── tailscale_merged_aarch64_arm64_Linux.upx
  5.5M   │ ├── tailscaled_powerpc64le_ppc64le_Linux.upx
  5.4M   │ ├── tailscale_merged_powerpc64_ppc64_Linux.upx
  5.4M   │ ├── tailscale_merged_arm_Linux.upx
@@ -850,8 +850,8 @@
   12M   │ ├── croc_aarch64_arm64_OpenBSD
   12M   │ ├── croc_aarch64_arm64_FreeBSD
 10.0M   │ ├── croc_amd_x86_64_Windows.exe
- 9.7M   │ ├── croc_mips64_Linux
  9.7M   │ ├── croc_mips64le_Linux
+ 9.7M   │ ├── croc_mips64_Linux
  9.5M   │ ├── croc_mipsle_Linux
  9.5M   │ ├── croc_mips_Linux
  9.4M   │ ├── croc_s390x_Linux
@@ -878,8 +878,8 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64le_Linux
   13M   │ ├── gost_mips64_Linux
+  13M   │ ├── gost_mips64le_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
