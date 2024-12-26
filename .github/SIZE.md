@@ -850,8 +850,8 @@
   12M   │ ├── croc_aarch64_arm64_OpenBSD
   12M   │ ├── croc_aarch64_arm64_FreeBSD
 10.0M   │ ├── croc_amd_x86_64_Windows.exe
- 9.7M   │ ├── croc_mips64_Linux
  9.7M   │ ├── croc_mips64le_Linux
+ 9.7M   │ ├── croc_mips64_Linux
  9.5M   │ ├── croc_mipsle_Linux
  9.5M   │ ├── croc_mips_Linux
  9.4M   │ ├── croc_s390x_Linux
