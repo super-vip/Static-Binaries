@@ -77,19 +77,19 @@ export MASSCAN_ARCH="$YOUR_CPU_ARCH_FROM_LIST_ABOVE"
 ---
 ```console
 $ file ./masscan/masscan_linux_arm64_aarch64_gcc ./masscan/masscan_linux_arm64_aarch64_musl ./masscan/masscan_linux_s390x_gcc ./masscan/masscan_linux_x86_64_gcc ./masscan/masscan_linux_x86_gcc
-./masscan/masscan_linux_arm64_aarch64_gcc:  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=8e2e89bd55c667b45b1c43280a8a4fbdbbde20e8, for GNU/Linux 6.1.35, stripped
+./masscan/masscan_linux_arm64_aarch64_gcc:  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=32d3f0218c2c7f5501db649926784b5cf4eb8e1e, for GNU/Linux 6.1.35, stripped
 ./masscan/masscan_linux_arm64_aarch64_musl: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
-./masscan/masscan_linux_s390x_gcc:          ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, BuildID[sha1]=801b89bb7b51b464b8e8447628ab2fe004df3dc2, for GNU/Linux 5.4.0, stripped
-./masscan/masscan_linux_x86_64_gcc:         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=644b4194662f13d798d8e4b5d9aa4deee5209998, for GNU/Linux 3.2.0, stripped
-./masscan/masscan_linux_x86_gcc:            ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, BuildID[sha1]=1066f1f7c6516ee327bdd9c1fb0122a2f763f216, for GNU/Linux 3.2.0, stripped
+./masscan/masscan_linux_s390x_gcc:          ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, BuildID[sha1]=89ad687833b040b7b9ca2feafd0689825ec38d43, for GNU/Linux 5.4.0, stripped
+./masscan/masscan_linux_x86_64_gcc:         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=fe7fa9de5c6e3556dfc441729b2582978aadde7a, for GNU/Linux 3.2.0, stripped
+./masscan/masscan_linux_x86_gcc:            ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, BuildID[sha1]=e6005a673b50b4cd843652afbb6f0ab5663feacd, for GNU/Linux 3.2.0, stripped
 
 --> SHA256SUM
 $ sha256sum ./masscan/masscan_linux_arm64_aarch64_gcc ./masscan/masscan_linux_arm64_aarch64_musl ./masscan/masscan_linux_s390x_gcc ./masscan/masscan_linux_x86_64_gcc ./masscan/masscan_linux_x86_gcc
-80974880c92542ac8e4c52fbdb6465be4088d8b683e0547cf2aa558df9dc43fe  ./masscan/masscan_linux_arm64_aarch64_gcc
-ad026ed5133a61cb7dc27f6e0e169d88d69c1310a033c89d27b2866739227783  ./masscan/masscan_linux_arm64_aarch64_musl
-466b5755d4f3d157451caa2b8397824ec16a29e2ecadea8b3341b47147baee2d  ./masscan/masscan_linux_s390x_gcc
-6f4d77eacf0bbd930b23b604261c9335b4103d98d2c1ddf2d80d3143db75f0ea  ./masscan/masscan_linux_x86_64_gcc
-2fde39a697bc7e31fa369ad9e428f495facf360f3cde1d41ccf7b2ba1991e00f  ./masscan/masscan_linux_x86_gcc
+e36d278b389fdc0c8a2a194cc906516ccef9eaf65b9c8b9e91232c7f58b65549  ./masscan/masscan_linux_arm64_aarch64_gcc
+9b4d622e8aeb2e3a00d7364317c1e5bc77918d28705bae10e810c32d1f1a9db1  ./masscan/masscan_linux_arm64_aarch64_musl
+b0d491c2a5071551aaf4f2a1bfa903894c2c36ed9ebb5cf1d6f6e6d8a20099be  ./masscan/masscan_linux_s390x_gcc
+240011fc031bb8ef9fc82f1c4bb3b1660afd45810d11ff32c28890bee35e2c84  ./masscan/masscan_linux_x86_64_gcc
+d0702cc6225745dd9f8fbd12e7b30908745dded5af9ecb61eab069cf3c655201  ./masscan/masscan_linux_x86_gcc
 ```
 
 
