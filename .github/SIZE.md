@@ -852,8 +852,8 @@
 10.0M   │ ├── croc_amd_x86_64_Windows.exe
  9.7M   │ ├── croc_mips64_Linux
  9.7M   │ ├── croc_mips64le_Linux
- 9.5M   │ ├── croc_mipsle_Linux
  9.5M   │ ├── croc_mips_Linux
+ 9.5M   │ ├── croc_mipsle_Linux
  9.4M   │ ├── croc_s390x_Linux
  9.4M   │ ├── croc_amd_x86_Windows.exe
  9.2M   │ ├── croc_x86_64_macOS
@@ -878,8 +878,8 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64le_Linux
   13M   │ ├── gost_mips64_Linux
+  13M   │ ├── gost_mips64le_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
