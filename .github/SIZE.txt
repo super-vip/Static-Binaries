@@ -32,8 +32,8 @@
   18M   │ ├── tailscaled_amd_x86_64_macOS
   18M   │ ├── tailscale_mipsle_Linux
   18M   │ ├── tailscaled_aarch64_arm64_macOS
-  17M   │ ├── tailscale_aarch64_arm64_Linux
   17M   │ ├── tailscale_riscv64_Linux
+  17M   │ ├── tailscale_aarch64_arm64_Linux
   17M   │ ├── tailscale_arm_abi_Linux
   14M   │ ├── tailscaled_aarch64_arm64_Linux.upx
   13M   │ ├── tailscale_s390x_Linux
