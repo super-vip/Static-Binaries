@@ -32,8 +32,8 @@
   18M   │ ├── tailscaled_amd_x86_64_macOS
   18M   │ ├── tailscale_mipsle_Linux
   18M   │ ├── tailscaled_aarch64_arm64_macOS
-  17M   │ ├── tailscale_aarch64_arm64_Linux
   17M   │ ├── tailscale_riscv64_Linux
+  17M   │ ├── tailscale_aarch64_arm64_Linux
   17M   │ ├── tailscale_arm_abi_Linux
   14M   │ ├── tailscaled_aarch64_arm64_Linux.upx
   13M   │ ├── tailscale_s390x_Linux
@@ -1173,7 +1173,7 @@
  932K   │ ├── massdns_linux_x86_64_gcc
  836K   │ ├── massdns_linux_s390x_gcc
  732K   │ ├── massdns_linux_arm64_aarch64_gcc
- 148K   │ ├── massdns_linux_arm64_aarch64_musl
+ 152K   │ ├── massdns_linux_arm64_aarch64_musl
  4.0K   │ ├── README.md
  4.0K   │ └── INFO.md
  4.0K   └── README.md
