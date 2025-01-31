@@ -2,18 +2,18 @@
  3.5G └─┬ main
  1.1G   ├─┬ tailscale
   50M   │ ├── tailscale_setup_Windows.exe
-  33M   │ ├── tailscaled_mips64_Linux
+  34M   │ ├── tailscaled_mips64_Linux
   33M   │ ├── tailscaled_mips64le_Linux
   33M   │ ├── tailscaled_aarch64_arm64_Linux
   33M   │ ├── tailscaled_mips_Linux
-  32M   │ ├── tailscaled_mipsle_Linux
+  33M   │ ├── tailscaled_mipsle_Linux
   31M   │ ├── tailscaled_riscv64_Linux
   30M   │ ├── tailscale_amd_x86_64_Windows.msi
-  29M   │ ├── tailscaled_arm_abi_Linux
-  28M   │ ├── tailscale_x86_Windows.msi
+  30M   │ ├── tailscaled_arm_abi_Linux
+  29M   │ ├── tailscale_x86_Windows.msi
   28M   │ ├── tailscale_aarch64_arm64_Windows.msi
   24M   │ ├── tailscale_merged_s390x_Linux
-  23M   │ ├── tailscaled_amd_x86_64_Linux
+  24M   │ ├── tailscaled_amd_x86_64_Linux
   23M   │ ├── tailscaled_s390x_Linux
   23M   │ ├── tailscale_merged_amd_x86_64_Linux
   22M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux
@@ -27,46 +27,46 @@
   20M   │ ├── tailscaled_i386_Linux
   19M   │ ├── tailscale_merged_amd_x86_64_macOS
   19M   │ ├── tailscale_mips64_Linux
-  19M   │ ├── tailscale_merged_aarch64_arm64_macOS
   19M   │ ├── tailscale_mips64le_Linux
-  18M   │ ├── tailscale_mips_Linux
-  18M   │ ├── tailscaled_amd_x86_64_macOS
+  19M   │ ├── tailscale_merged_aarch64_arm64_macOS
+  19M   │ ├── tailscale_mips_Linux
   18M   │ ├── tailscale_mipsle_Linux
+  18M   │ ├── tailscaled_amd_x86_64_macOS
   18M   │ ├── tailscaled_aarch64_arm64_macOS
-  17M   │ ├── tailscale_riscv64_Linux
   17M   │ ├── tailscale_aarch64_arm64_Linux
+  17M   │ ├── tailscale_riscv64_Linux
   17M   │ ├── tailscale_arm_abi_Linux
   14M   │ ├── tailscaled_aarch64_arm64_Linux.upx
   13M   │ ├── tailscale_s390x_Linux
   12M   │ ├── tailscaled_mips_Linux.upx
   12M   │ ├── tailscaled_mipsle_Linux.upx
-  12M   │ ├── tailscale_amd_x86_64_Linux
   12M   │ ├── tailscaled_arm_abi_Linux.upx
+  12M   │ ├── tailscale_amd_x86_64_Linux
   12M   │ ├── tailscale_powerpc64le_ppc64le_Linux
   12M   │ ├── tailscale_powerpc64_ppc64_Linux
   11M   │ ├── tailscale_amd_geode_Linux
   11M   │ ├── tailscale_i386_Linux
   10M   │ ├── tailscale_amd_x86_64_macOS
   10M   │ ├── tailscale_aarch64_arm64_macOS
- 7.9M   │ ├── tailscale_aarch64_arm64_Linux.upx
- 7.7M   │ ├── tailscale_mips_Linux.upx
- 7.6M   │ ├── tailscale_mipsle_Linux.upx
- 7.6M   │ ├── tailscale_arm_abi_Linux.upx
+ 8.0M   │ ├── tailscale_aarch64_arm64_Linux.upx
+ 7.8M   │ ├── tailscale_mips_Linux.upx
+ 7.7M   │ ├── tailscale_mipsle_Linux.upx
+ 7.7M   │ ├── tailscale_arm_abi_Linux.upx
  6.9M   │ ├── tailscaled_amd_x86_64_Linux.upx
- 6.8M   │ ├── tailscale_merged_amd_x86_64_Linux.upx
- 6.2M   │ ├── tailscale_merged_i386_Linux.upx
+ 6.9M   │ ├── tailscale_merged_amd_x86_64_Linux.upx
+ 6.3M   │ ├── tailscale_merged_i386_Linux.upx
  6.0M   │ ├── tailscaled_amd_geode_Linux.upx
  6.0M   │ ├── tailscaled_i386_Linux.upx
- 5.7M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux.upx
+ 5.8M   │ ├── tailscale_merged_powerpc64le_ppc64le_Linux.upx
  5.7M   │ ├── tailscale_merged_aarch64_arm64_Linux.upx
  5.5M   │ ├── tailscaled_powerpc64le_ppc64le_Linux.upx
- 5.4M   │ ├── tailscale_merged_powerpc64_ppc64_Linux.upx
+ 5.5M   │ ├── tailscale_merged_powerpc64_ppc64_Linux.upx
  5.4M   │ ├── tailscale_merged_arm_Linux.upx
  5.2M   │ ├── tailscaled_powerpc64_ppc64_Linux.upx
- 3.9M   │ ├── tailscale_amd_x86_64_Linux.upx
- 3.3M   │ ├── tailscale_amd_geode_Linux.upx
- 3.3M   │ ├── tailscale_i386_Linux.upx
- 3.3M   │ ├── tailscale_powerpc64le_ppc64le_Linux.upx
+ 4.0M   │ ├── tailscale_amd_x86_64_Linux.upx
+ 3.4M   │ ├── tailscale_amd_geode_Linux.upx
+ 3.4M   │ ├── tailscale_i386_Linux.upx
+ 3.4M   │ ├── tailscale_powerpc64le_ppc64le_Linux.upx
  3.1M   │ ├── tailscale_powerpc64_ppc64_Linux.upx
   48K   │ ├── README.md
   44K   │ ├── tailscale_ipn_setup_Windows.exe
@@ -878,8 +878,8 @@
  8.0K   │ ├── INFO.md
  4.0K   │ └── version.txt
  259M   ├─┬ gost
-  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mips64le_Linux
+  13M   │ ├── gost_mips64_Linux
   13M   │ ├── gost_mipsle_softfloat_Linux
   13M   │ ├── gost_mips_softfloat_Linux
   13M   │ ├── gost_mipsle_hardfloat_Linux
