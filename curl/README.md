@@ -96,20 +96,20 @@ $env:PROCESSOR_ARCHITECTURE
 ```console
 
 --> METADATA
-./curl/curl_DOS:                    MS-DOS executable, COFF for MS-DOS, DJGPP go32 DOS extender, UPX compressed
+./curl/curl_DOS:                    MS-DOS executable, MZ for MS-DOS, COFF for MS-DOS, DJGPP go32 DOS extender, UPX compressed
 ./curl/curl_aarch64_arm64_Linux:    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./curl/curl_aarch64_arm64_macOS:    Mach-O 64-bit arm64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE>
 ./curl/curl_amd_x86_64_Linux:       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./curl/curl_amd_x86_64_Windows.exe: PE32+ executable (console) x86-64, for MS Windows
+./curl/curl_amd_x86_64_Windows.exe: PE32+ executable (console) x86-64, for MS Windows, 10 sections
 ./curl/curl_amd_x86_64_macOS:       Mach-O 64-bit x86_64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE>
-./curl/curl_amd_x86_Windows.exe:    PE32 executable (console) Intel 80386, for MS Windows
+./curl/curl_amd_x86_Windows.exe:    PE32 executable (console) Intel 80386, for MS Windows, 8 sections
 ./curl/curl_arm32_Android:          ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./curl/curl_arm64_Android:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./curl/curl_arm_x64_Windows.exe:    PE32+ executable (console) Aarch64, for MS Windows
+./curl/curl_arm_x64_Windows.exe:    PE32+ executable (console) Aarch64, for MS Windows, 7 sections
 ./curl/curl_armhf_arm32_Android:    ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./curl/curl_armv7_Linux:            ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./curl/curl_i686_Linux:             ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
-./curl/curl_lite_DOS:               MS-DOS executable, COFF for MS-DOS, DJGPP go32 DOS extender, UPX compressed
+./curl/curl_lite_DOS:               MS-DOS executable, MZ for MS-DOS, COFF for MS-DOS, DJGPP go32 DOS extender, UPX compressed
 ./curl/curl_mips64_Linux:           ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, stripped
 ./curl/curl_mips64el_Linux:         XZ compressed data, checksum CRC64
 ./curl/curl_mips_Android:           ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, stripped
@@ -120,7 +120,7 @@ $env:PROCESSOR_ARCHITECTURE
 ./curl/curl_powerpc_Linux:          ELF 32-bit MSB executable, PowerPC or cisco 4500, version 1 (SYSV), statically linked, stripped
 ./curl/curl_riscv64_Linux:          ELF 64-bit LSB executable, UCB RISC-V, RVC, double-float ABI, version 1 (SYSV), statically linked, stripped
 ./curl/curl_s390x_Linux:            ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, stripped
-./curl/curl_tiny_DOS:               MS-DOS executable, COFF for MS-DOS, DJGPP go32 DOS extender, UPX compressed
+./curl/curl_tiny_DOS:               MS-DOS executable, MZ for MS-DOS, COFF for MS-DOS, DJGPP go32 DOS extender, UPX compressed
 ./curl/curl_x64_Android:            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./curl/curl_x86_64_Android:         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./curl/curl_x86_Android:            ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
@@ -130,12 +130,12 @@ $env:PROCESSOR_ARCHITECTURE
 cae4b723c121dcc5c7c54809c49b286be32904384d757896fa9c4b90e6c1e807  ./curl/curl_aarch64_arm64_Linux
 da1ac488da905181db0cf3265eecf516197950874a676146cbc6867242e55591  ./curl/curl_aarch64_arm64_macOS
 69edc753b0c10afebc967a2408d573290b9642065b3afdda605eba30e41fbd8e  ./curl/curl_amd_x86_64_Linux
-8c78df8de7b2f404168d35534f85765a2bd9ab456b8fa331ef0d8bf87fc53258  ./curl/curl_amd_x86_64_Windows.exe
+51902d2a87066d78c0c0edbc3581236e557fe5489516b1801bcd81d3c9bf9ef6  ./curl/curl_amd_x86_64_Windows.exe
 cf310da347daa827087b6d9b69ed9a5cd6369262bfc4c89ce148166f7b24a3fe  ./curl/curl_amd_x86_64_macOS
-5af63c6ced921df9b17e45320f1a5ea1058cb70335949f94b78a52952c3fcc37  ./curl/curl_amd_x86_Windows.exe
+b7c5fccdc1ad4496f304c57eb0b002d090473bc917b142a4c97c0c1234a014ea  ./curl/curl_amd_x86_Windows.exe
 8907162a6ae85e0441ab4009728f3329ee34009733856592a364bd8f8581ebbb  ./curl/curl_arm32_Android
 6ef83cabbe570d753fa271fff9ad01473342718239ca327e738304f7ea8a5712  ./curl/curl_arm64_Android
-013de74908d44418f30f81f22d1b343b6be2d70bdb45e6c742f32aa605477aff  ./curl/curl_arm_x64_Windows.exe
+153ed82c8655b725a84aa9b8fb06cdf8622e0ebf311746d016351f94cd62cecd  ./curl/curl_arm_x64_Windows.exe
 81ec9164f1146c12be106c839778a5b54183525c50e667b2284350b8a737b4ae  ./curl/curl_armhf_arm32_Android
 aed3e4e4c1cc2bca7520cc0392d380b069c116b764168338ed05be3f7c84477b  ./curl/curl_armv7_Linux
 5a75dc5c37045fa225a014a59dde948cd693fdaa1a06b30e8004d242f5c096db  ./curl/curl_i686_Linux
@@ -166,9 +166,9 @@ ec78be372dc7759fdf725d648056de668709285c28ec1452deb6d943273fa9bc  ./curl/curl_x8
 7.2M  ./curl/curl_aarch64_arm64_Linux
 7.1M  ./curl/curl_aarch64_arm64_macOS
 7.8M  ./curl/curl_amd_x86_64_Linux
-3.5M  ./curl/curl_amd_x86_64_Windows.exe
+3.6M  ./curl/curl_amd_x86_64_Windows.exe
 7.8M  ./curl/curl_amd_x86_64_macOS
-3.3M  ./curl/curl_amd_x86_Windows.exe
+3.4M  ./curl/curl_amd_x86_Windows.exe
 4.8M  ./curl/curl_arm32_Android
 6.4M  ./curl/curl_arm64_Android
 3.4M  ./curl/curl_arm_x64_Windows.exe
