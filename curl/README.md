@@ -130,12 +130,12 @@ $env:PROCESSOR_ARCHITECTURE
 cae4b723c121dcc5c7c54809c49b286be32904384d757896fa9c4b90e6c1e807  ./curl/curl_aarch64_arm64_Linux
 da1ac488da905181db0cf3265eecf516197950874a676146cbc6867242e55591  ./curl/curl_aarch64_arm64_macOS
 69edc753b0c10afebc967a2408d573290b9642065b3afdda605eba30e41fbd8e  ./curl/curl_amd_x86_64_Linux
-51902d2a87066d78c0c0edbc3581236e557fe5489516b1801bcd81d3c9bf9ef6  ./curl/curl_amd_x86_64_Windows.exe
+205986633ff767002cccac2623ba46bae225399d1e50a8d67177ed07ca85f447  ./curl/curl_amd_x86_64_Windows.exe
 cf310da347daa827087b6d9b69ed9a5cd6369262bfc4c89ce148166f7b24a3fe  ./curl/curl_amd_x86_64_macOS
-b7c5fccdc1ad4496f304c57eb0b002d090473bc917b142a4c97c0c1234a014ea  ./curl/curl_amd_x86_Windows.exe
+4bc0ab9c057605c13914462fa49c70e37d7a7230f4461b1cccecb14c18ebe615  ./curl/curl_amd_x86_Windows.exe
 8907162a6ae85e0441ab4009728f3329ee34009733856592a364bd8f8581ebbb  ./curl/curl_arm32_Android
 6ef83cabbe570d753fa271fff9ad01473342718239ca327e738304f7ea8a5712  ./curl/curl_arm64_Android
-153ed82c8655b725a84aa9b8fb06cdf8622e0ebf311746d016351f94cd62cecd  ./curl/curl_arm_x64_Windows.exe
+ef7fff3b4a737a50726d5252e54368af9a6bad7e2f045a5e863d49c58618c2b5  ./curl/curl_arm_x64_Windows.exe
 81ec9164f1146c12be106c839778a5b54183525c50e667b2284350b8a737b4ae  ./curl/curl_armhf_arm32_Android
 aed3e4e4c1cc2bca7520cc0392d380b069c116b764168338ed05be3f7c84477b  ./curl/curl_armv7_Linux
 5a75dc5c37045fa225a014a59dde948cd693fdaa1a06b30e8004d242f5c096db  ./curl/curl_i686_Linux
@@ -168,7 +168,7 @@ ec78be372dc7759fdf725d648056de668709285c28ec1452deb6d943273fa9bc  ./curl/curl_x8
 7.8M  ./curl/curl_amd_x86_64_Linux
 3.6M  ./curl/curl_amd_x86_64_Windows.exe
 7.8M  ./curl/curl_amd_x86_64_macOS
-3.4M  ./curl/curl_amd_x86_Windows.exe
+3.3M  ./curl/curl_amd_x86_Windows.exe
 4.8M  ./curl/curl_arm32_Android
 6.4M  ./curl/curl_arm64_Android
 3.4M  ./curl/curl_arm_x64_Windows.exe
