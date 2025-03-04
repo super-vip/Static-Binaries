@@ -30,6 +30,10 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.80.2" >1.80.2</option>
+    
+    <option value="1.80.1" >1.80.1</option>
+    
     <option value="1.80.0" >1.80.0</option>
     
     <option value="1.78.1" >1.78.1</option>
@@ -63,10 +67,6 @@ file URL to obtain its checksum.</p>
     <option value="1.68.0" >1.68.0</option>
     
     <option value="1.66.4" >1.66.4</option>
-    
-    <option value="1.66.3" >1.66.3</option>
-    
-    <option value="1.66.1" >1.66.1</option>
     
   </select>
 </form>
@@ -107,6 +107,8 @@ file URL to obtain its checksum.</p>
     <li><a href="#ubuntu-noble">Ubuntu 24.04 (Noble Numbat)</a></li>
   
     <li><a href="#ubuntu-oracular">Ubuntu 24.10 (Oracular Oriole)</a></li>
+  
+    <li><a href="#ubuntu-plucky">Ubuntu 25.04 (Plucky Puffin)</a></li>
   
     <li><a href="#debian-stretch">Debian Stretch</a></li>
   
@@ -451,6 +453,22 @@ sudo mkdir -p --mode=0755 /usr/share/keyrings
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/oracular.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
 # Add the tailscale repository
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/oracular.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  
+
+  
+    <h2><a name="ubuntu-plucky" href="#ubuntu-plucky">Ubuntu 25.04 (Plucky Puffin)</a></h2>
+
+<pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/plucky.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/plucky.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
 # Install Tailscale
 sudo apt-get update && sudo apt-get install tailscale
 # Start Tailscale!
@@ -1173,25 +1191,25 @@ sudo tailscale up
 
   <ul>
   
-    <li>386: <a href="tailscale_1.80.0_386.tgz">tailscale_1.80.0_386.tgz</a></li>
+    <li>386: <a href="tailscale_1.80.2_386.tgz">tailscale_1.80.2_386.tgz</a></li>
   
-    <li>amd64: <a href="tailscale_1.80.0_amd64.tgz">tailscale_1.80.0_amd64.tgz</a></li>
+    <li>amd64: <a href="tailscale_1.80.2_amd64.tgz">tailscale_1.80.2_amd64.tgz</a></li>
   
-    <li>arm: <a href="tailscale_1.80.0_arm.tgz">tailscale_1.80.0_arm.tgz</a></li>
+    <li>arm: <a href="tailscale_1.80.2_arm.tgz">tailscale_1.80.2_arm.tgz</a></li>
   
-    <li>arm64: <a href="tailscale_1.80.0_arm64.tgz">tailscale_1.80.0_arm64.tgz</a></li>
+    <li>arm64: <a href="tailscale_1.80.2_arm64.tgz">tailscale_1.80.2_arm64.tgz</a></li>
   
-    <li>geode: <a href="tailscale_1.80.0_geode.tgz">tailscale_1.80.0_geode.tgz</a></li>
+    <li>geode: <a href="tailscale_1.80.2_geode.tgz">tailscale_1.80.2_geode.tgz</a></li>
   
-    <li>mips: <a href="tailscale_1.80.0_mips.tgz">tailscale_1.80.0_mips.tgz</a></li>
+    <li>mips: <a href="tailscale_1.80.2_mips.tgz">tailscale_1.80.2_mips.tgz</a></li>
   
-    <li>mips64: <a href="tailscale_1.80.0_mips64.tgz">tailscale_1.80.0_mips64.tgz</a></li>
+    <li>mips64: <a href="tailscale_1.80.2_mips64.tgz">tailscale_1.80.2_mips64.tgz</a></li>
   
-    <li>mips64le: <a href="tailscale_1.80.0_mips64le.tgz">tailscale_1.80.0_mips64le.tgz</a></li>
+    <li>mips64le: <a href="tailscale_1.80.2_mips64le.tgz">tailscale_1.80.2_mips64le.tgz</a></li>
   
-    <li>mipsle: <a href="tailscale_1.80.0_mipsle.tgz">tailscale_1.80.0_mipsle.tgz</a></li>
+    <li>mipsle: <a href="tailscale_1.80.2_mipsle.tgz">tailscale_1.80.2_mipsle.tgz</a></li>
   
-    <li>riscv64: <a href="tailscale_1.80.0_riscv64.tgz">tailscale_1.80.0_riscv64.tgz</a></li>
+    <li>riscv64: <a href="tailscale_1.80.2_riscv64.tgz">tailscale_1.80.2_riscv64.tgz</a></li>
   
   </ul>
 
@@ -1210,24 +1228,24 @@ sudo tailscale up
   <ul>
   
     
-  <li><a href="tailscale-setup-1.80.0.exe">tailscale-setup-1.80.0.exe</a></li>
+  <li><a href="tailscale-setup-1.80.2.exe">tailscale-setup-1.80.2.exe</a></li>
 
   
     
-  <li><a href="tailscale-setup-full-1.80.0.exe">tailscale-setup-full-1.80.0.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
+  <li><a href="tailscale-setup-full-1.80.2.exe">tailscale-setup-full-1.80.2.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
 
   
   
     
-  <li><a href="tailscale-setup-1.80.0-amd64.msi">tailscale-setup-1.80.0-amd64.msi</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-setup-1.80.2-amd64.msi">tailscale-setup-1.80.2-amd64.msi</a>: 64-bit x86 (amd64)</li>
 
   
     
-  <li><a href="tailscale-setup-1.80.0-arm64.msi">tailscale-setup-1.80.0-arm64.msi</a>: 64-bit ARM64</li>
+  <li><a href="tailscale-setup-1.80.2-arm64.msi">tailscale-setup-1.80.2-arm64.msi</a>: 64-bit ARM64</li>
 
   
     
-  <li><a href="tailscale-setup-1.80.0-x86.msi">tailscale-setup-1.80.0-x86.msi</a>: 32-bit x86</li>
+  <li><a href="tailscale-setup-1.80.2-x86.msi">tailscale-setup-1.80.2-x86.msi</a>: 32-bit x86</li>
 
   
   </ul>
@@ -1423,9 +1441,9 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="Tailscale-1.80.0-macos.zip">Tailscale-1.80.0-macos.zip</a></li>
+    <li><a href="Tailscale-1.80.2-macos.zip">Tailscale-1.80.2-macos.zip</a></li>
   
-    <li><a href="Tailscale-1.80.0-macos.pkg">Tailscale-1.80.0-macos.pkg</a></li>
+    <li><a href="Tailscale-1.80.2-macos.pkg">Tailscale-1.80.2-macos.pkg</a></li>
   
   </ul>
 
@@ -1445,7 +1463,7 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="tailscale-android-universal-1.80.0.apk">tailscale-android-universal-1.80.0.apk</a></li>
+    <li><a href="tailscale-android-universal-1.80.2.apk">tailscale-android-universal-1.80.2.apk</a></li>
   
   </ul>
 
