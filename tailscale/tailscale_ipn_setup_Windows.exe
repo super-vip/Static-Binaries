@@ -30,6 +30,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.80.3" >1.80.3</option>
+    
     <option value="1.80.2" >1.80.2</option>
     
     <option value="1.80.1" >1.80.1</option>
@@ -65,8 +67,6 @@ file URL to obtain its checksum.</p>
     <option value="1.68.1" >1.68.1</option>
     
     <option value="1.68.0" >1.68.0</option>
-    
-    <option value="1.66.4" >1.66.4</option>
     
   </select>
 </form>
@@ -1191,25 +1191,25 @@ sudo tailscale up
 
   <ul>
   
-    <li>386: <a href="tailscale_1.80.2_386.tgz">tailscale_1.80.2_386.tgz</a></li>
+    <li>386: <a href="tailscale_1.80.3_386.tgz">tailscale_1.80.3_386.tgz</a></li>
   
-    <li>amd64: <a href="tailscale_1.80.2_amd64.tgz">tailscale_1.80.2_amd64.tgz</a></li>
+    <li>amd64: <a href="tailscale_1.80.3_amd64.tgz">tailscale_1.80.3_amd64.tgz</a></li>
   
-    <li>arm: <a href="tailscale_1.80.2_arm.tgz">tailscale_1.80.2_arm.tgz</a></li>
+    <li>arm: <a href="tailscale_1.80.3_arm.tgz">tailscale_1.80.3_arm.tgz</a></li>
   
-    <li>arm64: <a href="tailscale_1.80.2_arm64.tgz">tailscale_1.80.2_arm64.tgz</a></li>
+    <li>arm64: <a href="tailscale_1.80.3_arm64.tgz">tailscale_1.80.3_arm64.tgz</a></li>
   
-    <li>geode: <a href="tailscale_1.80.2_geode.tgz">tailscale_1.80.2_geode.tgz</a></li>
+    <li>geode: <a href="tailscale_1.80.3_geode.tgz">tailscale_1.80.3_geode.tgz</a></li>
   
-    <li>mips: <a href="tailscale_1.80.2_mips.tgz">tailscale_1.80.2_mips.tgz</a></li>
+    <li>mips: <a href="tailscale_1.80.3_mips.tgz">tailscale_1.80.3_mips.tgz</a></li>
   
-    <li>mips64: <a href="tailscale_1.80.2_mips64.tgz">tailscale_1.80.2_mips64.tgz</a></li>
+    <li>mips64: <a href="tailscale_1.80.3_mips64.tgz">tailscale_1.80.3_mips64.tgz</a></li>
   
-    <li>mips64le: <a href="tailscale_1.80.2_mips64le.tgz">tailscale_1.80.2_mips64le.tgz</a></li>
+    <li>mips64le: <a href="tailscale_1.80.3_mips64le.tgz">tailscale_1.80.3_mips64le.tgz</a></li>
   
-    <li>mipsle: <a href="tailscale_1.80.2_mipsle.tgz">tailscale_1.80.2_mipsle.tgz</a></li>
+    <li>mipsle: <a href="tailscale_1.80.3_mipsle.tgz">tailscale_1.80.3_mipsle.tgz</a></li>
   
-    <li>riscv64: <a href="tailscale_1.80.2_riscv64.tgz">tailscale_1.80.2_riscv64.tgz</a></li>
+    <li>riscv64: <a href="tailscale_1.80.3_riscv64.tgz">tailscale_1.80.3_riscv64.tgz</a></li>
   
   </ul>
 
@@ -1272,63 +1272,63 @@ sudo tailscale up
     <ul>
       
         
-  <li><a href="tailscale-x86_64-1.80.0-600080000-dsm6.spk">tailscale-x86_64-1.80.0-600080000-dsm6.spk</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-x86_64-1.80.3-600080003-dsm6.spk">tailscale-x86_64-1.80.3-600080003-dsm6.spk</a>: 64-bit x86 (amd64)</li>
 
       
         
-  <li><a href="tailscale-armv8-1.80.0-600080000-dsm6.spk">tailscale-armv8-1.80.0-600080000-dsm6.spk</a>: ARMv8 (arm64)</li>
+  <li><a href="tailscale-armv8-1.80.3-600080003-dsm6.spk">tailscale-armv8-1.80.3-600080003-dsm6.spk</a>: ARMv8 (arm64)</li>
 
       
         
-  <li><a href="tailscale-armv7-1.80.0-600080000-dsm6.spk">tailscale-armv7-1.80.0-600080000-dsm6.spk</a>: ARMv7</li>
+  <li><a href="tailscale-armv7-1.80.3-600080003-dsm6.spk">tailscale-armv7-1.80.3-600080003-dsm6.spk</a>: ARMv7</li>
 
       
         
-  <li><a href="tailscale-armv5-1.80.0-600080000-dsm6.spk">tailscale-armv5-1.80.0-600080000-dsm6.spk</a>: ARMv5</li>
+  <li><a href="tailscale-armv5-1.80.3-600080003-dsm6.spk">tailscale-armv5-1.80.3-600080003-dsm6.spk</a>: ARMv5</li>
 
       
         
-  <li><a href="tailscale-i686-1.80.0-600080000-dsm6.spk">tailscale-i686-1.80.0-600080000-dsm6.spk</a>: 32-bit x86</li>
+  <li><a href="tailscale-i686-1.80.3-600080003-dsm6.spk">tailscale-i686-1.80.3-600080003-dsm6.spk</a>: 32-bit x86</li>
 
       
         
-  <li><a href="tailscale-88f6281-1.80.0-600080000-dsm6.spk">tailscale-88f6281-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-88f6281-1.80.3-600080003-dsm6.spk">tailscale-88f6281-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-88f6282-1.80.0-600080000-dsm6.spk">tailscale-88f6282-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-88f6282-1.80.3-600080003-dsm6.spk">tailscale-88f6282-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-alpine-1.80.0-600080000-dsm6.spk">tailscale-alpine-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-alpine-1.80.3-600080003-dsm6.spk">tailscale-alpine-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-armada370-1.80.0-600080000-dsm6.spk">tailscale-armada370-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-armada370-1.80.3-600080003-dsm6.spk">tailscale-armada370-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-armada375-1.80.0-600080000-dsm6.spk">tailscale-armada375-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-armada375-1.80.3-600080003-dsm6.spk">tailscale-armada375-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-armada38x-1.80.0-600080000-dsm6.spk">tailscale-armada38x-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-armada38x-1.80.3-600080003-dsm6.spk">tailscale-armada38x-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-armadaxp-1.80.0-600080000-dsm6.spk">tailscale-armadaxp-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-armadaxp-1.80.3-600080003-dsm6.spk">tailscale-armadaxp-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-comcerto2k-1.80.0-600080000-dsm6.spk">tailscale-comcerto2k-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-comcerto2k-1.80.3-600080003-dsm6.spk">tailscale-comcerto2k-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-hi3535-1.80.0-600080000-dsm6.spk">tailscale-hi3535-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-hi3535-1.80.3-600080003-dsm6.spk">tailscale-hi3535-1.80.3-600080003-dsm6.spk</a></li>
 
       
         
-  <li><a href="tailscale-monaco-1.80.0-600080000-dsm6.spk">tailscale-monaco-1.80.0-600080000-dsm6.spk</a></li>
+  <li><a href="tailscale-monaco-1.80.3-600080003-dsm6.spk">tailscale-monaco-1.80.3-600080003-dsm6.spk</a></li>
 
       
     </ul>
@@ -1337,63 +1337,63 @@ sudo tailscale up
     <ul>
       
         
-  <li><a href="tailscale-x86_64-1.80.0-700080000-dsm7.spk">tailscale-x86_64-1.80.0-700080000-dsm7.spk</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-x86_64-1.80.3-700080003-dsm7.spk">tailscale-x86_64-1.80.3-700080003-dsm7.spk</a>: 64-bit x86 (amd64)</li>
 
       
         
-  <li><a href="tailscale-armv8-1.80.0-700080000-dsm7.spk">tailscale-armv8-1.80.0-700080000-dsm7.spk</a>: ARMv8 (arm64)</li>
+  <li><a href="tailscale-armv8-1.80.3-700080003-dsm7.spk">tailscale-armv8-1.80.3-700080003-dsm7.spk</a>: ARMv8 (arm64)</li>
 
       
         
-  <li><a href="tailscale-armv7-1.80.0-700080000-dsm7.spk">tailscale-armv7-1.80.0-700080000-dsm7.spk</a>: ARMv7</li>
+  <li><a href="tailscale-armv7-1.80.3-700080003-dsm7.spk">tailscale-armv7-1.80.3-700080003-dsm7.spk</a>: ARMv7</li>
 
       
         
-  <li><a href="tailscale-armv5-1.80.0-700080000-dsm7.spk">tailscale-armv5-1.80.0-700080000-dsm7.spk</a>: ARMv5</li>
+  <li><a href="tailscale-armv5-1.80.3-700080003-dsm7.spk">tailscale-armv5-1.80.3-700080003-dsm7.spk</a>: ARMv5</li>
 
       
         
-  <li><a href="tailscale-i686-1.80.0-700080000-dsm7.spk">tailscale-i686-1.80.0-700080000-dsm7.spk</a>: 32-bit x86</li>
+  <li><a href="tailscale-i686-1.80.3-700080003-dsm7.spk">tailscale-i686-1.80.3-700080003-dsm7.spk</a>: 32-bit x86</li>
 
       
         
-  <li><a href="tailscale-88f6281-1.80.0-700080000-dsm7.spk">tailscale-88f6281-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-88f6281-1.80.3-700080003-dsm7.spk">tailscale-88f6281-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-88f6282-1.80.0-700080000-dsm7.spk">tailscale-88f6282-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-88f6282-1.80.3-700080003-dsm7.spk">tailscale-88f6282-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-alpine-1.80.0-700080000-dsm7.spk">tailscale-alpine-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-alpine-1.80.3-700080003-dsm7.spk">tailscale-alpine-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-armada370-1.80.0-700080000-dsm7.spk">tailscale-armada370-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-armada370-1.80.3-700080003-dsm7.spk">tailscale-armada370-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-armada375-1.80.0-700080000-dsm7.spk">tailscale-armada375-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-armada375-1.80.3-700080003-dsm7.spk">tailscale-armada375-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-armada38x-1.80.0-700080000-dsm7.spk">tailscale-armada38x-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-armada38x-1.80.3-700080003-dsm7.spk">tailscale-armada38x-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-armadaxp-1.80.0-700080000-dsm7.spk">tailscale-armadaxp-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-armadaxp-1.80.3-700080003-dsm7.spk">tailscale-armadaxp-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-comcerto2k-1.80.0-700080000-dsm7.spk">tailscale-comcerto2k-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-comcerto2k-1.80.3-700080003-dsm7.spk">tailscale-comcerto2k-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-hi3535-1.80.0-700080000-dsm7.spk">tailscale-hi3535-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-hi3535-1.80.3-700080003-dsm7.spk">tailscale-hi3535-1.80.3-700080003-dsm7.spk</a></li>
 
       
         
-  <li><a href="tailscale-monaco-1.80.0-700080000-dsm7.spk">tailscale-monaco-1.80.0-700080000-dsm7.spk</a></li>
+  <li><a href="tailscale-monaco-1.80.3-700080003-dsm7.spk">tailscale-monaco-1.80.3-700080003-dsm7.spk</a></li>
 
       
     </ul>
