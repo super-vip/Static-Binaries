@@ -118,7 +118,7 @@ $ file ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Windows
 ./aria2/aria2c_aarch64_arm64_Windows.exe:                PE32+ executable (console) Aarch64, for MS Windows, 7 sections
 ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux:        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
-./aria2/aria2c_aarch64_arm64_musl_Linux:                 ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
+./aria2/aria2c_aarch64_arm64_musl_Linux:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_aarch_arm_Android:                        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_Linux:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -154,7 +154,7 @@ $ sha256sum ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Wi
 8aeaf6bcf7f4e897acbfc5dde154e1894403aa89722bddc45468d4e6a734d50f  ./aria2/aria2c_aarch64_arm64_Windows.exe
 84c4598d25d0150fd0ca4793eb967fa7a7ee9980c02d9e1028132f82d9ac8681  ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux
 106f8bda4748f41e41ac6c9d7940916eade60c2456add3c596a2d90996a9db85  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
-b4c9173b92f5169401021c674800f9f1087f57c799929a987bee749e957db825  ./aria2/aria2c_aarch64_arm64_musl_Linux
+9acc2c6e7dc97d4302bd197cc9ef4c2e54cc79e449ba90e252c10f53f9e74cc3  ./aria2/aria2c_aarch64_arm64_musl_Linux
 32c5f7fdff38e248f82a603026aa595490fb7771e02453d0682f3ed42e37a23f  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
 b06494c59df4c3536ad68dfc1ce5b33d3e638cd1e845ae5452709b35ed1270bb  ./aria2/aria2c_aarch_arm_Android
 1d17b0371e82a51be97f787a9b80d2ff70fbf57e0373b081562992eb8e05cbf3  ./aria2/aria2c_amd_x86_64_libressl_musl_Linux
@@ -197,7 +197,7 @@ fc88358393c8f5d5a00f2f3a7550dbc5393109cbcb0b2210ae046974a5f62d58  ./aria2/aria2c
 4.4M  aria2c_aarch64_arm64_Windows.exe
 8.1M  aria2c_aarch64_arm64_libressl_musl_Linux
 8.0M  aria2c_aarch64_arm64_libressl_musl_latest_Linux
-12M   aria2c_aarch64_arm64_musl_Linux
+11M   aria2c_aarch64_arm64_musl_Linux
 11M   aria2c_aarch64_arm64_musl_latest_Linux
 8.0M  aria2c_aarch_arm_Android
 8.3M  aria2c_amd_x86_64_libressl_musl_Linux
@@ -226,7 +226,7 @@ fc88358393c8f5d5a00f2f3a7550dbc5393109cbcb0b2210ae046974a5f62d58  ./aria2/aria2c
 14M   aria2c_mipsel_musl_latest_Linux
 11M   aria2c_x86_64_Android
 12M   aria2c_x86_Android
-7     version.txt
+11    version.txt
 ```
 
 ---
