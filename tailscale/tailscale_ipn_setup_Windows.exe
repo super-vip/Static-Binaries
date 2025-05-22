@@ -30,6 +30,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.84.0" >1.84.0</option>
+    
     <option value="1.82.5" >1.82.5</option>
     
     <option value="1.82.0" >1.82.0</option>
@@ -65,8 +67,6 @@ file URL to obtain its checksum.</p>
     <option value="1.72.0" >1.72.0</option>
     
     <option value="1.70.0" >1.70.0</option>
-    
-    <option value="1.68.2" >1.68.2</option>
     
   </select>
 </form>
@@ -1191,25 +1191,25 @@ sudo tailscale up
 
   <ul>
   
-    <li>386: <a href="tailscale_1.82.5_386.tgz">tailscale_1.82.5_386.tgz</a></li>
+    <li>386: <a href="tailscale_1.84.0_386.tgz">tailscale_1.84.0_386.tgz</a></li>
   
-    <li>amd64: <a href="tailscale_1.82.5_amd64.tgz">tailscale_1.82.5_amd64.tgz</a></li>
+    <li>amd64: <a href="tailscale_1.84.0_amd64.tgz">tailscale_1.84.0_amd64.tgz</a></li>
   
-    <li>arm: <a href="tailscale_1.82.5_arm.tgz">tailscale_1.82.5_arm.tgz</a></li>
+    <li>arm: <a href="tailscale_1.84.0_arm.tgz">tailscale_1.84.0_arm.tgz</a></li>
   
-    <li>arm64: <a href="tailscale_1.82.5_arm64.tgz">tailscale_1.82.5_arm64.tgz</a></li>
+    <li>arm64: <a href="tailscale_1.84.0_arm64.tgz">tailscale_1.84.0_arm64.tgz</a></li>
   
-    <li>geode: <a href="tailscale_1.82.5_geode.tgz">tailscale_1.82.5_geode.tgz</a></li>
+    <li>geode: <a href="tailscale_1.84.0_geode.tgz">tailscale_1.84.0_geode.tgz</a></li>
   
-    <li>mips: <a href="tailscale_1.82.5_mips.tgz">tailscale_1.82.5_mips.tgz</a></li>
+    <li>mips: <a href="tailscale_1.84.0_mips.tgz">tailscale_1.84.0_mips.tgz</a></li>
   
-    <li>mips64: <a href="tailscale_1.82.5_mips64.tgz">tailscale_1.82.5_mips64.tgz</a></li>
+    <li>mips64: <a href="tailscale_1.84.0_mips64.tgz">tailscale_1.84.0_mips64.tgz</a></li>
   
-    <li>mips64le: <a href="tailscale_1.82.5_mips64le.tgz">tailscale_1.82.5_mips64le.tgz</a></li>
+    <li>mips64le: <a href="tailscale_1.84.0_mips64le.tgz">tailscale_1.84.0_mips64le.tgz</a></li>
   
-    <li>mipsle: <a href="tailscale_1.82.5_mipsle.tgz">tailscale_1.82.5_mipsle.tgz</a></li>
+    <li>mipsle: <a href="tailscale_1.84.0_mipsle.tgz">tailscale_1.84.0_mipsle.tgz</a></li>
   
-    <li>riscv64: <a href="tailscale_1.82.5_riscv64.tgz">tailscale_1.82.5_riscv64.tgz</a></li>
+    <li>riscv64: <a href="tailscale_1.84.0_riscv64.tgz">tailscale_1.84.0_riscv64.tgz</a></li>
   
   </ul>
 
@@ -1228,24 +1228,24 @@ sudo tailscale up
   <ul>
   
     
-  <li><a href="tailscale-setup-1.82.5.exe">tailscale-setup-1.82.5.exe</a></li>
+  <li><a href="tailscale-setup-1.84.0.exe">tailscale-setup-1.84.0.exe</a></li>
 
   
     
-  <li><a href="tailscale-setup-full-1.82.5.exe">tailscale-setup-full-1.82.5.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
+  <li><a href="tailscale-setup-full-1.84.0.exe">tailscale-setup-full-1.84.0.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
 
   
   
     
-  <li><a href="tailscale-setup-1.82.5-amd64.msi">tailscale-setup-1.82.5-amd64.msi</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-setup-1.84.0-amd64.msi">tailscale-setup-1.84.0-amd64.msi</a>: 64-bit x86 (amd64)</li>
 
   
     
-  <li><a href="tailscale-setup-1.82.5-arm64.msi">tailscale-setup-1.82.5-arm64.msi</a>: 64-bit ARM64</li>
+  <li><a href="tailscale-setup-1.84.0-arm64.msi">tailscale-setup-1.84.0-arm64.msi</a>: 64-bit ARM64</li>
 
   
     
-  <li><a href="tailscale-setup-1.82.5-x86.msi">tailscale-setup-1.82.5-x86.msi</a>: 32-bit x86</li>
+  <li><a href="tailscale-setup-1.84.0-x86.msi">tailscale-setup-1.84.0-x86.msi</a>: 32-bit x86</li>
 
   
   </ul>
@@ -1441,9 +1441,9 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="Tailscale-1.82.5-macos.zip">Tailscale-1.82.5-macos.zip</a></li>
+    <li><a href="Tailscale-1.84.0-macos.zip">Tailscale-1.84.0-macos.zip</a></li>
   
-    <li><a href="Tailscale-1.82.5-macos.pkg">Tailscale-1.82.5-macos.pkg</a></li>
+    <li><a href="Tailscale-1.84.0-macos.pkg">Tailscale-1.84.0-macos.pkg</a></li>
   
   </ul>
 
@@ -1463,7 +1463,7 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="tailscale-android-universal-1.80.2.apk">tailscale-android-universal-1.80.2.apk</a></li>
+    <li><a href="tailscale-android-universal-1.84.0.apk">tailscale-android-universal-1.84.0.apk</a></li>
   
   </ul>
 
