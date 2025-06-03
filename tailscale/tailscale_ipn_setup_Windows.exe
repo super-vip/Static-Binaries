@@ -30,6 +30,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.84.1" >1.84.1</option>
+    
     <option value="1.84.0" >1.84.0</option>
     
     <option value="1.82.5" >1.82.5</option>
@@ -65,8 +67,6 @@ file URL to obtain its checksum.</p>
     <option value="1.72.1" >1.72.1</option>
     
     <option value="1.72.0" >1.72.0</option>
-    
-    <option value="1.70.0" >1.70.0</option>
     
   </select>
 </form>
@@ -160,6 +160,8 @@ file URL to obtain its checksum.</p>
     <li><a href="#rhel-8">RHEL 8</a></li>
   
     <li><a href="#rhel-9">RHEL 9</a></li>
+  
+    <li><a href="#rhel-10">RHEL 10</a></li>
   
     <li><a href="#amazon-linux-2">Amazon Linux 2</a></li>
   
@@ -864,6 +866,21 @@ sudo tailscale up
   
 
   
+    <h2><a name="rhel-10" href="#rhel-10">RHEL 10</a></h2>
+
+<pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/rhel/10/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  
+
+  
     <h2><a name="amazon-linux-2" href="#amazon-linux-2">Amazon Linux 2</a></h2>
 
 <pre>
@@ -1441,9 +1458,9 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="Tailscale-1.84.0-macos.zip">Tailscale-1.84.0-macos.zip</a></li>
+    <li><a href="Tailscale-1.84.1-macos.zip">Tailscale-1.84.1-macos.zip</a></li>
   
-    <li><a href="Tailscale-1.84.0-macos.pkg">Tailscale-1.84.0-macos.pkg</a></li>
+    <li><a href="Tailscale-1.84.1-macos.pkg">Tailscale-1.84.1-macos.pkg</a></li>
   
   </ul>
 
