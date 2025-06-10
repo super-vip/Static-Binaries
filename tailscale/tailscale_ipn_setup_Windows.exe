@@ -30,6 +30,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.84.2" >1.84.2</option>
+    
     <option value="1.84.1" >1.84.1</option>
     
     <option value="1.84.0" >1.84.0</option>
@@ -65,8 +67,6 @@ file URL to obtain its checksum.</p>
     <option value="1.72.2" >1.72.2</option>
     
     <option value="1.72.1" >1.72.1</option>
-    
-    <option value="1.72.0" >1.72.0</option>
     
   </select>
 </form>
@@ -1245,24 +1245,24 @@ sudo tailscale up
   <ul>
   
     
-  <li><a href="tailscale-setup-1.84.0.exe">tailscale-setup-1.84.0.exe</a></li>
+  <li><a href="tailscale-setup-1.84.2.exe">tailscale-setup-1.84.2.exe</a></li>
 
   
     
-  <li><a href="tailscale-setup-full-1.84.0.exe">tailscale-setup-full-1.84.0.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
+  <li><a href="tailscale-setup-full-1.84.2.exe">tailscale-setup-full-1.84.2.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
 
   
   
     
-  <li><a href="tailscale-setup-1.84.0-amd64.msi">tailscale-setup-1.84.0-amd64.msi</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-setup-1.84.2-amd64.msi">tailscale-setup-1.84.2-amd64.msi</a>: 64-bit x86 (amd64)</li>
 
   
     
-  <li><a href="tailscale-setup-1.84.0-arm64.msi">tailscale-setup-1.84.0-arm64.msi</a>: 64-bit ARM64</li>
+  <li><a href="tailscale-setup-1.84.2-arm64.msi">tailscale-setup-1.84.2-arm64.msi</a>: 64-bit ARM64</li>
 
   
     
-  <li><a href="tailscale-setup-1.84.0-x86.msi">tailscale-setup-1.84.0-x86.msi</a>: 32-bit x86</li>
+  <li><a href="tailscale-setup-1.84.2-x86.msi">tailscale-setup-1.84.2-x86.msi</a>: 32-bit x86</li>
 
   
   </ul>
@@ -1480,7 +1480,7 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="tailscale-android-universal-1.84.0.apk">tailscale-android-universal-1.84.0.apk</a></li>
+    <li><a href="tailscale-android-universal-1.84.1.apk">tailscale-android-universal-1.84.1.apk</a></li>
   
   </ul>
 
