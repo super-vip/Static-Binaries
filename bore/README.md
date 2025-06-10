@@ -128,26 +128,26 @@ $env:PROCESSOR_ARCHITECTURE
 
 --> METADATA
 ./bore/bore_aarch64_arm64_Android:         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./bore/bore_aarch64_arm64_gcc_Linux:       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=ddc8e61a7ccb03ae4f95b433ced8e4d4645220bb, for GNU/Linux 3.7.0, stripped
+./bore/bore_aarch64_arm64_gcc_Linux:       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=496077c8eee8cad1d532f64a2ff960bd5202286f, for GNU/Linux 3.7.0, stripped
 ./bore/bore_aarch64_arm64_macOS:           Mach-O 64-bit arm64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE|HAS_TLV_DESCRIPTORS>
 ./bore/bore_aarch64_arm64_musl_Linux:      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./bore/bore_amd_x86_64_Windows.exe:        PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
-./bore/bore_amd_x86_64_gcc_Linux:          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=ac5349bb82b71be8eee41b36d94f22da3bca8aeb, for GNU/Linux 3.2.0, stripped
+./bore/bore_amd_x86_64_gcc_Linux:          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=ce8b0a0a1135a9325c6cd641f39ac22e8af6577f, for GNU/Linux 3.2.0, stripped
 ./bore/bore_amd_x86_64_musl_Linux:         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./bore/bore_amd_x86_Windows.exe:           PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows, 4 sections
-./bore/bore_amd_x86_i686_gcc_Linux:        ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, BuildID[sha1]=712359ea8c66d7f0fa64dee54313ed7dc2198491, for GNU/Linux 3.2.0, stripped
+./bore/bore_amd_x86_i686_gcc_Linux:        ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, BuildID[sha1]=b8f90cc6174aa85b7fa2c5ac5475fc6631751564, for GNU/Linux 3.2.0, stripped
 ./bore/bore_amd_x86_i686_musl_Linux:       ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
-./bore/bore_arm_abi_gcc_Linux:             ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=c920139d9be1b5466083900b7d0c5d35f9beba9c, for GNU/Linux 3.2.0, stripped
+./bore/bore_arm_abi_gcc_Linux:             ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=f109ca322714e4a360a8cf726083a132d6f6ec32, for GNU/Linux 3.2.0, stripped
 ./bore/bore_arm_abi_musl_Linux:            ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./bore/bore_arm_abihf_gcc_Linux:           ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, for GNU/Linux 4.19.255, stripped
 ./bore/bore_arm_abihf_musl_Linux:          ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./bore/bore_armv7_abi_Android:             ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
-./bore/bore_armv7_abi_gcc_Linux:           ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=06178b0c4a440d8385f25bd6616bb8bf4332a078, for GNU/Linux 3.2.0, stripped
+./bore/bore_armv7_abi_gcc_Linux:           ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=18ba34e191d9af684684a0e646c93442fe1ee354, for GNU/Linux 3.2.0, stripped
 ./bore/bore_armv7_abi_musl_Linux:          ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
-./bore/bore_armv7_abihf_gcc_Linux:         ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=33a0661beeab57d37917c281fdbedeb3fa149e14, for GNU/Linux 3.2.0, stripped
+./bore/bore_armv7_abihf_gcc_Linux:         ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=d2999df8810b13457b05976a8fa701dce946e86b, for GNU/Linux 3.2.0, stripped
 ./bore/bore_armv7_abihf_musl_Linux:        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./bore/bore_armv_abi_Android:              ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
-./bore/bore_i586_gcc_Linux:                ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, BuildID[sha1]=e52c32439e6b365bc2aa203877292ce30b6582af, for GNU/Linux 3.2.0, stripped
+./bore/bore_i586_gcc_Linux:                ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, BuildID[sha1]=65ec5acb7b9ad75eab35ca198efb310f8e725a38, for GNU/Linux 3.2.0, stripped
 ./bore/bore_i586_musl_Linux:               ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
 ./bore/bore_i686_Android:                  ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
 ./bore/bore_mips64_gcc_Linux:              ELF 64-bit MSB executable, MIPS, MIPS64 rel2 version 1 (SYSV), statically linked, BuildID[sha1]=3dc8ddc1663bbf5bd2156c3c52fc4a4e13664f8d, for GNU/Linux 3.2.0, stripped
@@ -158,38 +158,38 @@ $env:PROCESSOR_ARCHITECTURE
 ./bore/bore_mips_musl_Linux:               ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, stripped
 ./bore/bore_mipsel_gcc_Linux:              ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, BuildID[sha1]=5573a0a24b5e75c5091a2e26d5f131314e566022, for GNU/Linux 3.2.0, stripped
 ./bore/bore_mipsel_musl_Linux:             ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, stripped
-./bore/bore_powerpc64_ppc64_gcc_Linux:     ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, BuildID[sha1]=32d6ab1d211259b82af51ae27d0de3c3c8ecf39d, for GNU/Linux 3.2.0, stripped
-./bore/bore_powerpc64le_ppc64le_gcc_Linux: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, BuildID[sha1]=deb55ddb59fa0b7e9c150a5dcba6714d50bca873, for GNU/Linux 3.10.0, stripped
-./bore/bore_powerpc_ppc_gcc_Linux:         ELF 32-bit MSB executable, PowerPC or cisco 4500, version 1 (SYSV), statically linked, BuildID[sha1]=730ca0bd1ce2518e5801b4885445d2a256b5757f, for GNU/Linux 3.2.0, stripped
-./bore/bore_riscv64_gcc_Linux:             ELF 64-bit LSB executable, UCB RISC-V, RVC, double-float ABI, version 1 (SYSV), statically linked, BuildID[sha1]=858aa425ba2ebec9631e3a40fc9301006170146b, for GNU/Linux 4.15.0, stripped
-./bore/bore_s390x_gcc_Linux:               ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, BuildID[sha1]=0aa40d257a1cd995fc526cbeb05ea6b7b23831b7, for GNU/Linux 3.2.0, stripped
-./bore/bore_sparc64_gcc_Linux:             ELF 64-bit MSB executable, SPARC V9, Sun UltraSPARC1 Extensions Required, total store ordering, version 1 (SYSV), statically linked, BuildID[sha1]=015aaf43a502d786d589a573b3f19b4a4f513c8e, for GNU/Linux 3.2.0, stripped
+./bore/bore_powerpc64_ppc64_gcc_Linux:     ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, BuildID[sha1]=1c052db08af5c03c52f9293adc17da68e6a77318, for GNU/Linux 3.2.0, stripped
+./bore/bore_powerpc64le_ppc64le_gcc_Linux: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, BuildID[sha1]=e20b528aae14aa6947dc8ca7a2a40251256c96b4, for GNU/Linux 3.10.0, stripped
+./bore/bore_powerpc_ppc_gcc_Linux:         ELF 32-bit MSB executable, PowerPC or cisco 4500, version 1 (SYSV), statically linked, BuildID[sha1]=56a8bb20fba9c4385576137e44ee9dfd3912d1e1, for GNU/Linux 3.2.0, stripped
+./bore/bore_riscv64_gcc_Linux:             ELF 64-bit LSB executable, UCB RISC-V, RVC, double-float ABI, version 1 (SYSV), statically linked, BuildID[sha1]=a94ce26ca48a98bb46727ff3b81410607c9f2aa6, for GNU/Linux 4.15.0, stripped
+./bore/bore_s390x_gcc_Linux:               ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, BuildID[sha1]=4fae4790f7f89a4b34ec5967d0b7d44767fb2722, for GNU/Linux 3.2.0, stripped
+./bore/bore_sparc64_gcc_Linux:             ELF 64-bit MSB executable, SPARC V9, Sun UltraSPARC1 Extensions Required, total store ordering, version 1 (SYSV), statically linked, BuildID[sha1]=8876cead22ba65e2bb7406a205ec871afa0f42fb, for GNU/Linux 3.2.0, stripped
 ./bore/bore_x86_64_macOS:                  Mach-O 64-bit x86_64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|PIE|HAS_TLV_DESCRIPTORS>
 
 --> SHA256SUM
-29e15237dab59619a9f91a0505daa20d0a2cbfacafcc4767d39ab9c4144008f0  ./bore/bore_aarch64_arm64_Android
-78fe1290f43a0eaffe644feb47aec993d3bd395495a63da5cf6a18dc5f33d614  ./bore/bore_aarch64_arm64_gcc_Linux
-93b6777935984502c8a10b61ebf79bc4680254764d1d450083d8b6b2661be099  ./bore/bore_aarch64_arm64_macOS
-044136f53c921361c57d67f657ff083fdf8fa80fe2121a1658937455cfe0ad32  ./bore/bore_aarch64_arm64_musl_Linux
-00e3c3de987c0962fa634a0f7a256a59a2c0b419ddc402785649a3223244bad5  ./bore/bore_amd_x86_64_Windows.exe
-f5e9c68054d585b5393af4d5ce53938ed579b9c59b9a7d66b046766ac213b636  ./bore/bore_amd_x86_64_gcc_Linux
-f3dc90c864fbd7b87af0efcd545b18f780ff89f58f26b6b2bd9d694c8983c147  ./bore/bore_amd_x86_64_musl_Linux
-49a07c5f64ee8c99b8f4bcc1b9eee897df121ff589a2c8e6a4845bf9d941b8d1  ./bore/bore_amd_x86_Windows.exe
-37b5c42ccb2cda3a8b7c511cb45c560f052e7493a3b14b2efdb6806afafb2081  ./bore/bore_amd_x86_i686_gcc_Linux
-31970767c06a3b2c064802596716218fc7d09b1ccddd9930b666c6614c5dcb19  ./bore/bore_amd_x86_i686_musl_Linux
-6996095f6bea35d9e60b4d14ee429fc856819e01436d64e4a87d9a04324bd664  ./bore/bore_arm_abi_gcc_Linux
-dc6dcd5e715c08385ed88c7a39515062cc1a4f692e158cbb56d8a7c1139fe713  ./bore/bore_arm_abi_musl_Linux
-4db22e02da21f1e98f87dfff339915fb249d7d27cdbc124d6493c25b99dceae8  ./bore/bore_arm_abihf_gcc_Linux
-d1ba840dc657192d8fa00f74872525ff361104c6510a8d7e0c25860994bdf2c2  ./bore/bore_arm_abihf_musl_Linux
-a4fdae3ef6c4fd80e3d1ea8e7fe6b2fc4ac534c1926ae35d4fea8f8596a81ab5  ./bore/bore_armv7_abi_Android
-dc14b38c79802370437b41546ad0e09a1f329036cdf4419d01428f1eaf5c26ea  ./bore/bore_armv7_abi_gcc_Linux
-b327a743dddcb35df4c28c085e33ea1d84b05071bbf38a4f1bdad45dd6daf61c  ./bore/bore_armv7_abi_musl_Linux
-08b6485d7eb3b67bd8ec6bf014a1829822c430638b1eb4454debe2a73251c45a  ./bore/bore_armv7_abihf_gcc_Linux
-1b1dfa260672a0f14cc15f92a11bd9200b49a37745ea3c0bdd3206e43267e241  ./bore/bore_armv7_abihf_musl_Linux
-678822677e9353093b734d5d963ff1eb6e2df35a9a835de699ce765ed54b1abf  ./bore/bore_armv_abi_Android
-4f75c984dad2cee327d767b037cfaf64ed9d48362132334c3703dcfdfc047b89  ./bore/bore_i586_gcc_Linux
-f7afa3397c5179df56b8e77e9575d28a57e313f3a0196c5ab56094c55d285814  ./bore/bore_i586_musl_Linux
-468f263f3896283748b88b39b1e98e792117791c378e10261f9fdb605959fa30  ./bore/bore_i686_Android
+03a9c76dd8e00b7159533ebc317b97fbbbc6cd83e5431ee849137447a08c67b4  ./bore/bore_aarch64_arm64_Android
+aea1886c13daa87325304c3c48ef55bd1874c874a76ace99d565aaee695942f6  ./bore/bore_aarch64_arm64_gcc_Linux
+aab3e0f13c6cf35a4203d74cf9a229b935ea4d39a98b25ee8222a3311b4d52f1  ./bore/bore_aarch64_arm64_macOS
+7fcd23e90ff1c5c53364572325dca98bbb9a846b8b0072fd65e3131ff597e202  ./bore/bore_aarch64_arm64_musl_Linux
+2706a022b1a945efa65af83524ab7611784b21c6c44f5d9285b108523a493c72  ./bore/bore_amd_x86_64_Windows.exe
+bbf55a32afe7ec070f6b2c6dd6b1e912b974bd46da5d0fdf217f16dfcfd649f2  ./bore/bore_amd_x86_64_gcc_Linux
+efe51a5366b474b0f14479063e282146b44ae1b90e0b8066ebaffdd5a43f40d7  ./bore/bore_amd_x86_64_musl_Linux
+41ae5b57f2c18676300fd8623c16979778e700d77bf271e937214ebe1aea90d7  ./bore/bore_amd_x86_Windows.exe
+051316fa76302766548c1efcf686bef7b3e6fbc225095dceaedc5f5d868aa26d  ./bore/bore_amd_x86_i686_gcc_Linux
+b11de0e3b24aaaf4cffdf6a1e28bd1e4482cd24d256131775753fdeb308f44d7  ./bore/bore_amd_x86_i686_musl_Linux
+e36c3a611ff7077539c4e8ccfc7454ba238681bd9796b0bd47f9059d006d2c49  ./bore/bore_arm_abi_gcc_Linux
+987178ff8f2751803c73aecd34effb5b0c5a1bb792881e3ff65e2d12ec47dc36  ./bore/bore_arm_abi_musl_Linux
+928eb9ef78bbccba3af209331fa6515f79090b190e0d5005f928d28cd9c9ed3b  ./bore/bore_arm_abihf_gcc_Linux
+65f016012a05c200790952648fdb4c70833c2dcf28101a5d8477ae4db9f93beb  ./bore/bore_arm_abihf_musl_Linux
+547ff47ddffb53ae44481a70bdddff7474d3f250101fc83591cd56f196e29a7a  ./bore/bore_armv7_abi_Android
+cf0e3cf9950a863864704a6c92ff11a0ad6bdbebfbb1b724c439f2c1f6864728  ./bore/bore_armv7_abi_gcc_Linux
+59ef50a9fc78ca0928af487f287828747bee9daaa757e892dc00f69e019f9323  ./bore/bore_armv7_abi_musl_Linux
+3a695ab918bfdb9555282440d0fac6e68b62cc9d62cd90d32b8240dee83a8965  ./bore/bore_armv7_abihf_gcc_Linux
+fbf0f720e1e1fec971eeddf9920b091775613bd65a3d5391b5e8676b8822bed6  ./bore/bore_armv7_abihf_musl_Linux
+8d660364026465d43ec77f4a741e2d756f4b94ee8722c315dda9cc9f7c563875  ./bore/bore_armv_abi_Android
+c0617e8083d852fe70b9ffe57969c0a191452c31d9daab70688d9c0280620b12  ./bore/bore_i586_gcc_Linux
+07272920e55b63cdfab656c5f07ae4e89d4fcc054dc5d999b069dbd64be38746  ./bore/bore_i586_musl_Linux
+c812ac196b60f0d48c97abe4fd20ce282ed4b5a17371eb4c997cfa5bd0e720cc  ./bore/bore_i686_Android
 4be810533490b43e0fc59bab2132c2485dd4285f6a68f533dfcded726ecbf104  ./bore/bore_mips64_gcc_Linux
 07ea5e96766e2b1f35feb1ef823af53adfad22d0e0ad129e94d5db8307b98012  ./bore/bore_mips64_musl_Linux
 1b413a2f4186c1c8f48b27ab15cad549c76ef2f4d40084f1936e7cae0fa44407  ./bore/bore_mips64el_gcc_Linux
@@ -198,13 +198,13 @@ f1da60bb75107d4ef527c2343a566079f7d8da8559fb409bb4e3393954c8649b  ./bore/bore_mi
 15f540a27495d8e9afd6ff422e8f6962cb56c6833a32213017ac88efbcbb7ab6  ./bore/bore_mips_musl_Linux
 9c6d0da32751dda461276975bce5c11cf373b54a47240f7958e585a66684147b  ./bore/bore_mipsel_gcc_Linux
 01b50222959e138d5acffc8ca2c98c450011b82d4630c3767bac4aac4476103c  ./bore/bore_mipsel_musl_Linux
-65ad4b03d695708413132fc5d0b8c0a45a4708f059dd5bbc12adbf0e08adb72a  ./bore/bore_powerpc64_ppc64_gcc_Linux
-a75d1f9cd2b41dcf863a88c83bb7a7eca4bfa18f904638b10b5cfc72ff6d3524  ./bore/bore_powerpc64le_ppc64le_gcc_Linux
-84e1cb313ebc8799f8e225deaf5b857811a4afdaf75c137beb41da136c3b5e7d  ./bore/bore_powerpc_ppc_gcc_Linux
-f800ff287ba8d9b02dd0d06b5d2823decfc628cc67084a27cc8630a8e908992f  ./bore/bore_riscv64_gcc_Linux
-8ce6dcffcd4062d39754318c6bd85c4c0d548fc1700a0eb7d63c09e1100788f5  ./bore/bore_s390x_gcc_Linux
-bd25be5ccffbf6fe0b120623e2648fa32cf7e2b3128516713af99764e708866f  ./bore/bore_sparc64_gcc_Linux
-7b40690709b4a458945c9a263bc94e96e7521cd6a854e90b35c0ae8de395fffa  ./bore/bore_x86_64_macOS
+b05e9d625052504bc34f8bb8bec9e287ce2a143805dc481c6855f18e23fd5c70  ./bore/bore_powerpc64_ppc64_gcc_Linux
+038f31525a60094536dbc74f04cf255ee511e7269f00097219ab177279a1dc50  ./bore/bore_powerpc64le_ppc64le_gcc_Linux
+3ca163463cd760f1a8bcc60a98064caf76b9a0a477c388151673bcc94fc8d5c1  ./bore/bore_powerpc_ppc_gcc_Linux
+4df840d7ec14fb62e4bd54861c6ca75226cef0d8e35387d873b2e44da12b51d9  ./bore/bore_riscv64_gcc_Linux
+a421969009ebd83d37ae45e9fa65542d71d73e86a4cbb150a421597efb47784d  ./bore/bore_s390x_gcc_Linux
+f43313991b10cc2a133f0420198b2d17d76e2804026897eca01028562df2b164  ./bore/bore_sparc64_gcc_Linux
+204f89169dbb89a6da0cb21a1ba5da645d14d22508888cfc46ad27353fd6c674  ./bore/bore_x86_64_macOS
 ```
 
 
@@ -215,12 +215,12 @@ bd25be5ccffbf6fe0b120623e2648fa32cf7e2b3128516713af99764e708866f  ./bore/bore_sp
 ```console
 1.7M  ./bore/bore_aarch64_arm64_Android
 1.8M  ./bore/bore_aarch64_arm64_gcc_Linux
-2.4M  ./bore/bore_aarch64_arm64_macOS
+2.3M  ./bore/bore_aarch64_arm64_macOS
 1.3M  ./bore/bore_aarch64_arm64_musl_Linux
 1.8M  ./bore/bore_amd_x86_64_Windows.exe
 2.4M  ./bore/bore_amd_x86_64_gcc_Linux
 1.5M  ./bore/bore_amd_x86_64_musl_Linux
-1.5M  ./bore/bore_amd_x86_Windows.exe
+1.4M  ./bore/bore_amd_x86_Windows.exe
 2.2M  ./bore/bore_amd_x86_i686_gcc_Linux
 1.4M  ./bore/bore_amd_x86_i686_musl_Linux
 1.7M  ./bore/bore_arm_abi_gcc_Linux
@@ -229,13 +229,13 @@ bd25be5ccffbf6fe0b120623e2648fa32cf7e2b3128516713af99764e708866f  ./bore/bore_sp
 1.3M  ./bore/bore_arm_abihf_musl_Linux
 1.2M  ./bore/bore_armv7_abi_Android
 1.7M  ./bore/bore_armv7_abi_gcc_Linux
-1.3M  ./bore/bore_armv7_abi_musl_Linux
+1.2M  ./bore/bore_armv7_abi_musl_Linux
 1.6M  ./bore/bore_armv7_abihf_gcc_Linux
 1.2M  ./bore/bore_armv7_abihf_musl_Linux
-1.6M  ./bore/bore_armv_abi_Android
+1.5M  ./bore/bore_armv_abi_Android
 2.2M  ./bore/bore_i586_gcc_Linux
 1.4M  ./bore/bore_i586_musl_Linux
-2.0M  ./bore/bore_i686_Android
+1.9M  ./bore/bore_i686_Android
 2.3M  ./bore/bore_mips64_gcc_Linux
 1.8M  ./bore/bore_mips64_musl_Linux
 2.3M  ./bore/bore_mips64el_gcc_Linux
@@ -245,10 +245,10 @@ bd25be5ccffbf6fe0b120623e2648fa32cf7e2b3128516713af99764e708866f  ./bore/bore_sp
 2.3M  ./bore/bore_mipsel_gcc_Linux
 1.8M  ./bore/bore_mipsel_musl_Linux
 2.5M  ./bore/bore_powerpc64_ppc64_gcc_Linux
-2.5M  ./bore/bore_powerpc64le_ppc64le_gcc_Linux
+2.4M  ./bore/bore_powerpc64le_ppc64le_gcc_Linux
 2.2M  ./bore/bore_powerpc_ppc_gcc_Linux
-1.7M  ./bore/bore_riscv64_gcc_Linux
-2.1M  ./bore/bore_s390x_gcc_Linux
+1.8M  ./bore/bore_riscv64_gcc_Linux
+2.0M  ./bore/bore_s390x_gcc_Linux
 2.0M  ./bore/bore_sparc64_gcc_Linux
 2.4M  ./bore/bore_x86_64_macOS
 ```
@@ -259,7 +259,7 @@ bd25be5ccffbf6fe0b120623e2648fa32cf7e2b3128516713af99764e708866f  ./bore/bore_sp
 ```console
 
 $ ./bore/bore_amd_x86_64_musl_Linux --version
-bore-cli 0.5.3
+bore-cli 0.6.0
 
 $ ./bore/bore_amd_x86_64_musl_Linux -h
 A modern, simple TCP tunnel in Rust that exposes local ports to a remote server, bypassing standard NAT connection firewalls.
