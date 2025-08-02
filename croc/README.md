@@ -178,7 +178,7 @@ $env:PROCESSOR_ARCHITECTURE
 ./croc/croc_x86_64_macOS:              Mach-O 64-bit x86_64 executable, flags:<|DYLDLINK|PIE>
 
 --> SHA256SUM
-3fb62abf5706e6504b7f9c5ab6ee0a473e259dc551878e6ca09a221b5c5f932d  ./croc/croc_386_Linux
+320fb1bf3cccbb72f32054a8a9d75ab3c3f5055ccbda05491bd738e26be531b2  ./croc/croc_386_Linux
 649b0a4a8b9e868e476e342e6621e4369a1a1cba31984da6e1c2c5b435cfb2ec  ./croc/croc_aarch64_arm64_FreeBSD
 eea7b7a87480292ac7d43f57ef09a69fd1d3c4553da093400b601a3bccbff304  ./croc/croc_aarch64_arm64_Linux
 89364d97ee5979097394216347cb8b7b5862cb2700e91e4e3f0327d3fe437321  ./croc/croc_aarch64_arm64_OpenBSD
@@ -198,15 +198,15 @@ e6c0e3c0b951049a1daf96c815a6e87baa1ad6ba02f67f798e452fdbd42e5aab  ./croc/croc_am
 137d18aa7c9827e55eb9be2d4105b5facfbf05cfba29195e1e6151e94c56af26  ./croc/croc_arm_Windows.exe
 2419b6a55fc015b0548bc9ce29c849bb9baf346889d459f463ac0dbe8575a48f  ./croc/croc_arm_abi_NetBSD
 b6f4ae2184afec08f332e4bae80293eac0f9004b25e0bac46639e66a713b3cb2  ./croc/croc_arm_abi_OpenBSD
-daa5390da37cd74b75cb9738651149e7408f88451490bfdf3903082b6649fd0b  ./croc/croc_loong64_Linux
-e6eddd4032af86ae086d596dee76241012dec4a4ad3aa5f2bff57f0041aa3802  ./croc/croc_mips64_Linux
-c404bea8872277d5af2f382cc4bea31f77a7555c6e8d36230e743098ac6bc89f  ./croc/croc_mips64le_Linux
-c513f5c250d241d4d19c8b63779ed650147e0c4d76335a64106aaf7a9b92cc0f  ./croc/croc_mips_Linux
-e075f88a380dd1c4dba6417e6de5280d06f827a6ef9ada9d55231a688f504aab  ./croc/croc_mipsle_Linux
-3cbbd21782093c12796d431482b324952cdcc9c4631595ecc4c85d13a7fed026  ./croc/croc_powerpc64_ppc64_Linux
-556ad5a7ac4083ccba16226a50322b17be8546e69fdc8a5e6636f40a8b39a565  ./croc/croc_powerpc64le_ppc64le_Linux
-1a62377469695c17cbf9597cfe9338fc11cdda149e251524e4a8cd51196e5828  ./croc/croc_riscv64_Linux
-0c4b8e3286c7536ba3a9b87c55c7c0d8b21ba3751523364846db4e9e67543a4c  ./croc/croc_s390x_Linux
+479efcc59f34dac7a5d14841d3448aeb7dd518bad680cd88443d38e1690fa725  ./croc/croc_loong64_Linux
+e3fa8d0408142d9756a737da8d3ea23a03eed153d396b64a0a11c79e216d0c0f  ./croc/croc_mips64_Linux
+350d729307db87630a969dea219a78dcc76d3ae5fce7eaa906c3a375eab119da  ./croc/croc_mips64le_Linux
+f3182f54a404c7c39d6f39fe9ceab2a0e8b92385a465799fe443dc394098dbfa  ./croc/croc_mips_Linux
+5d38626949830c38c38fdee6e2ebf6ce6427a006b1c2ef1758cb1232596bbfe0  ./croc/croc_mipsle_Linux
+60fe4f4a5a2f2d6857d13c462ee43ada5b903cf93c58fa282f2bba231ca69e05  ./croc/croc_powerpc64_ppc64_Linux
+ab90a4adbbf272227c4ad6b526a98360212b557649078b93ebdcd20c523dd7a8  ./croc/croc_powerpc64le_ppc64le_Linux
+4b523eda967e56462d08269d2eeafaca599a81cfcf00c72f157d396802637191  ./croc/croc_riscv64_Linux
+92a92e4654417978f58e2588e746f2a6ea6de7cdd9a693059b30f89ee1dbef9d  ./croc/croc_s390x_Linux
 c4cff6d739179b847862f055c31dfddf3852d18a7f2443ec2315fb11dfc96316  ./croc/croc_x86_64_macOS
 ```
 
@@ -239,11 +239,11 @@ c4cff6d739179b847862f055c31dfddf3852d18a7f2443ec2315fb11dfc96316  ./croc/croc_x8
 9.9M  ./croc/croc_loong64_Linux
 12M   ./croc/croc_mips64_Linux
 12M   ./croc/croc_mips64le_Linux
-11M   ./croc/croc_mips_Linux
-11M   ./croc/croc_mipsle_Linux
-10M   ./croc/croc_powerpc64_ppc64_Linux
-10M   ./croc/croc_powerpc64le_ppc64le_Linux
-9.7M  ./croc/croc_riscv64_Linux
+12M   ./croc/croc_mips_Linux
+12M   ./croc/croc_mipsle_Linux
+11M   ./croc/croc_powerpc64_ppc64_Linux
+11M   ./croc/croc_powerpc64le_ppc64le_Linux
+9.8M  ./croc/croc_riscv64_Linux
 11M   ./croc/croc_s390x_Linux
 11M   ./croc/croc_x86_64_macOS
 ```
