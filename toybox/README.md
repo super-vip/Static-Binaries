@@ -101,24 +101,24 @@ cd "$HOME/bin" && for i in $($HOME/bin/toybox); do ln -s toybox $i; done; PATH=$
 ./toybox/toybox_sh4_Linux:                  ELF 32-bit LSB executable, Renesas SH, version 1 (SYSV), statically linked, stripped
 
 --> SHA256SUM
-079f7ee3ed5bbb34d0b317d487a4538a7712a28e4ca28efc5bf6133596b4ac61  ./toybox/toybox_amd_x86_64_Linux
-fc459ebbf21c10df85446d63709c8c9b7ed15659d159c8ce4bd194ca04716667  ./toybox/toybox_arm64_aarch64_Linux
-749dfafc1f8fd97baadacccd16a73c4a37322504142fa20e65ccebdf54763fef  ./toybox/toybox_armv4l_Linux
-43df6a6ca7dcd1e2f49b6e92b3ffea55dd35509df3cae86f0aa52c83f2bd7bed  ./toybox/toybox_armv5l_Linux
-a25c858a0dfa217a47ed189090c9b12c00304a8e5a4452cc0e59d936b10e2c2f  ./toybox/toybox_armv7l_Linux
-f77bc7b4c49d2324422d6c8b299d213ea7a4be45ecbe6533a20f915ee97080a0  ./toybox/toybox_armv7m_Linux
-e6ec79fcedbbb9e171cf5cc4fffae8848917ebca27ed588654d90e32a43258a5  ./toybox/toybox_i486_Linux
-0cbf5ec060b04d596639b32711c6da8df62406a7425827f002b92c1a22580ca6  ./toybox/toybox_i686_Linux
-dadee06a8a6e05603466f17778a086ba45075c77e979eb875ec238445112f801  ./toybox/toybox_m68k_Linux
-4a90980a22b857b665a6bd9310622784cc1eb1cea6591758830e9c83ed55c544  ./toybox/toybox_microblaze_Linux
-f6ceb4ae71fe05a47aa3c8e2625f12357319a6bbfef05b67f444a50758a66470  ./toybox/toybox_mips64_Linux
-1479f3b9143828b0d7df7835058005a41dfeb6d24009791a76ddbb865aed9974  ./toybox/toybox_mips_Linux
-06ee96490f89a0e1218aca2f4adfee2d2222a6ec61e167f4fdc84342557faf95  ./toybox/toybox_mipsel_Linux
-2469995a015206b4e6193340e7e0dab6d784d06eef89a12781f3a8c935dd369c  ./toybox/toybox_powerpc64_Linux
-81643b6ffb2b53692709309b3990e0749f72b6e172a609eeaadf30a7630e7846  ./toybox/toybox_powerpc64le_Linux
-6e2030e9a6ea93c5f039684dee2aa93794c4b8cd5a9d56fe6b911d4055ab3cd8  ./toybox/toybox_powerpc_Linux
-1a8c835ec81ade7cd65dc49afad20c81515b19cc74fe5fcf889c795312c81c32  ./toybox/toybox_s390x_Linux
-a767e283881a42b954d4615f37a97960615880e66acd8d9db7676f5e3a74ee21  ./toybox/toybox_sh4_Linux
+8c98795a15db31ea55c8065fed379db3669766b7a714c46b009d8bfb87b25ffd  ./toybox/toybox_amd_x86_64_Linux
+b3508e5f51a0d429c1bda9d500d98d97dc0b86571762eeb099495eb238a8c52a  ./toybox/toybox_arm64_aarch64_Linux
+c3ff0963dcd8cdf22c4e681c2946c622ee2e3fa065beeff3bf64004e22e68dcc  ./toybox/toybox_armv4l_Linux
+d88dbc731da244539eb2f7569ea7243407aedf7670197953f542fdc261e276f0  ./toybox/toybox_armv5l_Linux
+57eb98200b6b15767c79af78316b6975388466146311da5ba0938790667275d4  ./toybox/toybox_armv7l_Linux
+5b928ca17ab11c30c3bd037ad228f64976064032f96cda9bfdb8468427cfe242  ./toybox/toybox_armv7m_Linux
+5e3067deff3fb88c975dbadc6dc91defaff0a4b4f163c000f0899b838f48634f  ./toybox/toybox_i486_Linux
+fa6f6751a95c971f8603cd967a98ccdbbe012f840553c0a2addc89ab0a8dfdf8  ./toybox/toybox_i686_Linux
+821ce699dcaae48d13cfe54a5ef1bb23bc601d001a813d6e86140b9661558aea  ./toybox/toybox_m68k_Linux
+e716859ea1cb522f6aa17c9124cad08699d9643f5ab5a14e80791987417af341  ./toybox/toybox_microblaze_Linux
+a529ea2379de48c4dfc7f24ad3209d2e7a632a9d475a66ad3344a9c719b644c8  ./toybox/toybox_mips64_Linux
+1dd0918db9b9677478b6318f19c79b0fa1e9d100a282b311793173fe7c7d3b8a  ./toybox/toybox_mips_Linux
+b96d3d267b732f48d43c0909f1e0df05523599cf598aa4770377abdaea964a83  ./toybox/toybox_mipsel_Linux
+8c8743cdb65599eb28c995d156d6990701db5396795e433af99ff67f1e048cf9  ./toybox/toybox_powerpc64_Linux
+2fe1dc9342592715d5e3f5b583585bfefa9c8b3cdcd38c27554e86b261d5a7d4  ./toybox/toybox_powerpc64le_Linux
+ee3455db89db011b9c5bd0ea6f34599f6c527e4e406291574c1b6e60370a805f  ./toybox/toybox_powerpc_Linux
+70c0384e635349a167556810736a63d0f123569f0e72036808dd00b66cd40f7a  ./toybox/toybox_s390x_Linux
+7749d79174df0128a02e5614f2731575a380721651654e8c21f4e6f5e33af4f6  ./toybox/toybox_sh4_Linux
 ```
 
 
@@ -126,7 +126,7 @@ a767e283881a42b954d4615f37a97960615880e66acd8d9db7676f5e3a74ee21  ./toybox/toybo
 
 - #### Bundled Commands
 ```console
-Toybox 0.8.12 multicall binary (see https://landley.net/toybox)
+Toybox 0.8.13 multicall binary (see https://landley.net/toybox)
 
 usage: toybox [--long | --help | --version | [COMMAND] [ARGUMENTS...]]
 
@@ -155,15 +155,15 @@ clear cmp comm count cp cpio crc32 cut date dd deallocvt devmem df
 dirname dmesg dnsdomainname dos2unix du echo egrep eject env expand
 factor fallocate false fgrep file find flock fmt fold free freeramdisk
 fsfreeze fstype fsync ftpget ftpput getconf getopt gpiodetect gpiofind
-gpioget gpioinfo gpioset grep groups gunzip halt head help hexedit
+gpioget gpioinfo gpioset grep groups gunzip halt hd head help hexedit
 host hostname httpd hwclock i2cdetect i2cdump i2cget i2cset i2ctransfer
 iconv id ifconfig inotifyd insmod install ionice iorenice iotop kill
 killall killall5 link linux32 ln logger login logname losetup ls lsattr
 lsmod lspci lsusb makedevs mcookie md5sum memeater microcom mix mkdir
 mkfifo mknod mkpasswd mkswap mktemp modinfo mount mountpoint mv nbd-client
-nbd-server nc netcat netstat nice nl nohup nproc nsenter od oneit
-openvt partprobe paste patch pgrep pidof ping ping6 pivot_root pkill
-pmap poweroff printenv printf prlimit ps pwd pwdx pwgen readahead
+nbd-server nc netcat netstat nice nl nohup nologin nproc nsenter od
+oneit openvt partprobe paste patch pgrep pidof ping ping6 pivot_root
+pkill pmap poweroff printenv printf prlimit ps pwd pwdx pwgen readahead
 readelf readlink realpath reboot renice reset rev rfkill rm rmdir
 rmmod route rtcwake sed seq setfattr setsid sh sha1sum sha224sum sha256sum
 sha384sum sha3sum sha512sum shred shuf sleep sntp sort split stat
@@ -179,24 +179,24 @@ wc wget which who whoami xargs xxd yes zcat
 - #### Sizes
 
 ```console
-814K   ./toybox/toybox_amd_x86_64_Linux
-898K   ./toybox/toybox_arm64_aarch64_Linux
-861K   ./toybox/toybox_armv4l_Linux
-853K   ./toybox/toybox_armv5l_Linux
-845K   ./toybox/toybox_armv7l_Linux
-726K   ./toybox/toybox_armv7m_Linux
-825K   ./toybox/toybox_i486_Linux
-825K   ./toybox/toybox_i686_Linux
-812K   ./toybox/toybox_m68k_Linux
-1.2M   ./toybox/toybox_microblaze_Linux
-1.1M   ./toybox/toybox_mips64_Linux
-1.1M   ./toybox/toybox_mips_Linux
-1.1M   ./toybox/toybox_mipsel_Linux
-1010K  ./toybox/toybox_powerpc64_Linux
-1010K  ./toybox/toybox_powerpc64le_Linux
-941K   ./toybox/toybox_powerpc_Linux
-954K   ./toybox/toybox_s390x_Linux
-780K   ./toybox/toybox_sh4_Linux
+735K  ./toybox/toybox_amd_x86_64_Linux
+815K  ./toybox/toybox_arm64_aarch64_Linux
+778K  ./toybox/toybox_armv4l_Linux
+770K  ./toybox/toybox_armv5l_Linux
+762K  ./toybox/toybox_armv7l_Linux
+643K  ./toybox/toybox_armv7m_Linux
+741K  ./toybox/toybox_i486_Linux
+741K  ./toybox/toybox_i686_Linux
+725K  ./toybox/toybox_m68k_Linux
+1.1M  ./toybox/toybox_microblaze_Linux
+963K  ./toybox/toybox_mips64_Linux
+996K  ./toybox/toybox_mips_Linux
+998K  ./toybox/toybox_mipsel_Linux
+947K  ./toybox/toybox_powerpc64_Linux
+947K  ./toybox/toybox_powerpc64le_Linux
+878K  ./toybox/toybox_powerpc_Linux
+875K  ./toybox/toybox_s390x_Linux
+697K  ./toybox/toybox_sh4_Linux
 
 ```
 
