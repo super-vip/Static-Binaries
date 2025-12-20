@@ -309,33 +309,33 @@ f348ba037d4da55268b30575d6650fa2802106bae064877ea61a9d05f408fcd6  ./tailscale/ta
 92bdc17c71b56422bf43643c08e199f78ab1c4917ac41eafbfe81b40976b86d0  ./tailscale/tailscale_i386_Linux
 544dd3824447b3517fbb04ac5535b83d91c549d9dd0695cb2a2778d57b7ec206  ./tailscale/tailscale_i386_Linux.upx
 fe485b9d5f9ad44e4f556eb3f29f2ff8d9354e7a75a47695c86b6afe1c2ad5c4  ./tailscale/tailscale_ipn_setup_Windows.exe
-a5963e775c9e5575ec92a8dbf2d2a41e254160b5bce5f0c179e00b6e3660f410  ./tailscale/tailscale_merged_aarch64_arm64_Linux
-e75de254d6cb2195fa22b12d6382699b97bca6d8b55ca0b98157cf025f6aefe7  ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
+a7f7166a9da4153112c7239ef8725bfdea25fe976233e2193097178597a59b7f  ./tailscale/tailscale_merged_aarch64_arm64_Linux
+f8b07216e82f3f5b53b0da31e4d847406f89c97c3736a45fda96c03a69ab77cc  ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
 68728bde1313493eb44dbd3be2e989eb00f60f4938d0d2845df9d45e32c25df7  ./tailscale/tailscale_merged_aarch64_arm64_macOS
-13de1b9ed173bdc6629df53d5649071a7e1c7e23a8907102e6afe7ff844bf400  ./tailscale/tailscale_merged_amd_x86_64_Linux
-d5336f7a1c81f74a4816cc8327d3f259cca70b5a3ec7744a8ed4e15396645aa8  ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
+1fc481a390804668ed31ca129b05196b14ea33d248fc7b60abfd8b8671f1e616  ./tailscale/tailscale_merged_amd_x86_64_Linux
+c70b124fc35bed4c2c0d7d8c45d829c958f98af2cf7893bffbd46d4d49f7ebe7  ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
 267bebcfe539dd8353add30caf55a042bf996f8e688aae7910b9ecf61714f3f8  ./tailscale/tailscale_merged_amd_x86_64_macOS
-5019abbca67044df8a5b430af2edca46f477d3f5a11ff12374dcd6044c41d3d9  ./tailscale/tailscale_merged_arm_Linux
-b384fc035bde445d64285dc6c75ef0a8d2b8beab288a80b5db6e3ade64c18eab  ./tailscale/tailscale_merged_arm_Linux.upx
-175b695e8ed116f2072746cf3d86138aec27019c3f027f40162fa8ec1a3d8384  ./tailscale/tailscale_merged_i386_Linux
-25e43518b6f33437e62eaa7db8c85d6285a4cb11879731aaa2e89c303913a706  ./tailscale/tailscale_merged_i386_Linux.upx
-1886e3de655d5acb20b4024e727f443f653e98f814bb77980da73a0b31cb94f5  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux
-8551172c386465668d4cd7424a14d39d23f9bca1b89887ef4c7f00954082be14  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
-7a1081d8e3e6e85751256bd650e01ccce40eb2174db07a262956e330643f6bb8  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux
-ab41051bace287eecd95b87423769e4900bd2b99ca5ad031db6c92111eb9a784  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
-d905de031df7188cc0e57841ca855715b0fc461c76fa8725d4b60a0dc9aec060  ./tailscale/tailscale_merged_s390x_Linux
+ddf1d025b29ebef4902bbd52e4f2ece3fd08a670b4c151188d8a3b78d34ef545  ./tailscale/tailscale_merged_arm_Linux
+f13f54b34ec54755c7440157518a3cce1d97e69d04a572615540653bb262d36d  ./tailscale/tailscale_merged_arm_Linux.upx
+f2de4a662dd3d10609aa7ef6cdf0d5bdd32805bffc7c16513d805aa26e4c443e  ./tailscale/tailscale_merged_i386_Linux
+7a79b11ba72bc01acb37cd5eb07a7644c2c3bb18d9007df68f9d0a5fe5a37fdb  ./tailscale/tailscale_merged_i386_Linux.upx
+8b71129f9f2ba3c7089b8cd48a8531070c2d5ca4e0979d766fd20778cb33b21c  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux
+22d9cdbcb419524278fea4c2406bae42dfc78256a9705fcb16336882ac663f62  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
+301b327b4648a4189f49fc7ba849903bff361cde3f5c9d4f294ae3ca7cae8aca  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux
+1f7cee81be6f3b09344ae96b04ddb8e1ff8b482e4c2e2938692e39eab8ecafcd  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
+f2d70c83cca1ccc23637724201b06d6aaa6f767bf17b6c5f37f08e9c8170263f  ./tailscale/tailscale_merged_s390x_Linux
 33d4aed92fcd6f4cc8c700dd2434a59f1cb54846aae079025b78a2340fdc2d61  ./tailscale/tailscale_mips64_Linux
 6cbd81f2af9bb39fae70eb75c459298dc8eecd09cb142d40e2e153ff423e4fdf  ./tailscale/tailscale_mips64le_Linux
 3c8d98e40a364efcb78d5f12bea37ad7067950a4a0116551851bbb84aaf5222b  ./tailscale/tailscale_mips_Linux
 4d398ba324d8afbf1cbec8df146bdab6aacf2947b39e251ff77768a469e5b29d  ./tailscale/tailscale_mips_Linux.upx
 472e7725bbe1c44a7dafcf9de3bd4d022dadb10cc33539cdd64653e824edd938  ./tailscale/tailscale_mipsle_Linux
 9a4c1e3000acfdccba50b67a729e52f934e4c4e1793b208953fad56ce75f46d5  ./tailscale/tailscale_mipsle_Linux.upx
-71817a1a4d93edf863f0cc62a94467ed059ebbf8d26eb5fd15604f0125536cfe  ./tailscale/tailscale_powerpc64_ppc64_Linux
-ffcd6382cf32f41ad98f66149d0d64ade5668b80c35640b238da21b9b98dd632  ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
-313f5f920117d80b1e9de6d02a739aabb1e7fa70fbe425ff27d7d9a3c1c27441  ./tailscale/tailscale_powerpc64le_ppc64le_Linux
-dacf63cf901ab07c8bfa476f4ab0c1478efd68fb0020553df5714e4757d7bc87  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
+e7ab62ecd8d612a3f37f059d88e9c96e0e359829b61d84e9cd42ac835fef54df  ./tailscale/tailscale_powerpc64_ppc64_Linux
+dc4d9cecc7f9a538394304f3099f89123171ed7bd39db786b58c64866c8c7044  ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
+b0009155e617cdcef5701e90a1ef9271adc7b8702cab0137797b65728e2f30ae  ./tailscale/tailscale_powerpc64le_ppc64le_Linux
+88281c99ecc59994de9a6a83af5c6ae309514f008ac7c5e3fcfd427ef6cd6ff7  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
 fd3bc6c60fc2febe66c4b744c9a4a8c10553d7f8cf7ef332e2d512e0075d17ed  ./tailscale/tailscale_riscv64_Linux
-ca2a481e30a207065e88cbfcdd710a05269404e87237cb5a390ed5d840055d53  ./tailscale/tailscale_s390x_Linux
+0e922e7fc6716b34d4656b45f23c916c1835aebf7a1981d02c13f26ef18d94c3  ./tailscale/tailscale_s390x_Linux
 64a8ad28cbb67a6171236abe39f75a039a761a0e1aacdef75b26781887cef9a8  ./tailscale/tailscale_setup_Windows.exe
 c20831edaf4e7b0acfd92dfd7cc5113fe07a78210f49ca7d9733fb7a0e1e5e97  ./tailscale/tailscale_x86_Windows.msi
 1b04f6abc93cdf6b6a778351352db65595ceab9f302debab5f048b391467454a  ./tailscale/tailscaled_aarch64_arm64_Linux
@@ -356,12 +356,12 @@ a912dd4fd387c6ee18f25b6294ddf500dce0a9bb0ac3690f22b092fe6e37b70a  ./tailscale/ta
 116c621e7e6726c7aea0d6c9421c960414a583d443d0cf1f9574753ae4be1cf4  ./tailscale/tailscaled_mips_Linux.upx
 5ac01da6e23619c05b20dc48876c11f846d96cfb9312a2e650cca50fdb04d92a  ./tailscale/tailscaled_mipsle_Linux
 718579de749563201d2d4d184a3efe6efb721181b576f3b5c0bc31897bd5d110  ./tailscale/tailscaled_mipsle_Linux.upx
-3b5860f393759f6fa7f88fb385126bb1d55ef89d9d8bcf098333f9fcb4bd886c  ./tailscale/tailscaled_powerpc64_ppc64_Linux
-8d3c4f1d0bfba55d3d95dd106b2a1002bd24fe3c3a6b77a5561895a038e8f7c7  ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
-f50f38f414a646683fb346353790afd03a991b4ab6b9574d723ef2971d730572  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux
-a3543824f859c75f8528446cf89b562746e2d8aa4b29438b3c57f219b8aaaf38  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
+cbb307034072513e080981239b756ee21a0a5336772dcfd47bbb2cb415cff5b2  ./tailscale/tailscaled_powerpc64_ppc64_Linux
+7cbf4508451c363243233f808b39a60b0c57255d40c469cb73497126df2b45bf  ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
+24ab0628fed984b54cf7319140d8f412ac6c84e40b429d3b664ece401b97cf07  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux
+2b80e0259ea49b21277a22c82fc282e1b33d4fbf23fa48dca9f44345cbea8742  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
 c57524de28742bcdf527d6fcc6a4992e569bd3941e422634e5caed74231395d7  ./tailscale/tailscaled_riscv64_Linux
-52a3a831c33b92f63d9550e5b3c264eeaf6f40bf99360a3602b5b578dff5c187  ./tailscale/tailscaled_s390x_Linux
+b6fd419536699d3bedaf71833595a2128b48515d653809a8207eeec654efcdb7  ./tailscale/tailscaled_s390x_Linux
 ```
 
 
@@ -446,9 +446,9 @@ c57524de28742bcdf527d6fcc6a4992e569bd3941e422634e5caed74231395d7  ./tailscale/ta
 ```console
 
 testing ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx [OK]
-  24772756 ->   5928444   23.93%   linux/ppc64   ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
+  24772756 ->   5928660   23.93%   linux/ppc64   ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
 testing ./tailscale/tailscale_merged_arm_Linux.upx [OK]
-  30343316 ->   7118508   23.46%    linux/arm    ./tailscale/tailscale_merged_arm_Linux.upx
+  30343316 ->   7118220   23.46%    linux/arm    ./tailscale/tailscale_merged_arm_Linux.upx
 testing ./tailscale/tailscaled_arm_abi_Linux.upx [OK]
   33698850 ->  13936388   41.36%    linux/arm    ./tailscale/tailscaled_arm_abi_Linux.upx
 testing ./tailscale/tailscaled_i386_Linux.upx [OK]
@@ -456,9 +456,9 @@ testing ./tailscale/tailscaled_i386_Linux.upx [OK]
 testing ./tailscale/tailscaled_mips_Linux.upx [OK]
   37466556 ->  14063740   37.54%   linux/mips    ./tailscale/tailscaled_mips_Linux.upx
 testing ./tailscale/tailscale_merged_amd_x86_64_Linux.upx [OK]
-  32415892 ->   8879320   27.39%   linux/amd64   ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
+  32415892 ->   8879360   27.39%   linux/amd64   ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
 testing ./tailscale/tailscale_merged_i386_Linux.upx [OK]
-  30453908 ->   8300828   27.26%   linux/i386    ./tailscale/tailscale_merged_i386_Linux.upx
+  30453908 ->   8300868   27.26%   linux/i386    ./tailscale/tailscale_merged_i386_Linux.upx
 testing ./tailscale/tailscale_amd_geode_Linux.upx [OK]
   17596708 ->   5125448   29.13%   linux/i386    ./tailscale/tailscale_amd_geode_Linux.upx
 testing ./tailscale/tailscale_mipsle_Linux.upx [OK]
@@ -466,29 +466,29 @@ testing ./tailscale/tailscale_mipsle_Linux.upx [OK]
 testing ./tailscale/tailscale_amd_x86_64_Linux.upx [OK]
   18578472 ->   5441716   29.29%   linux/amd64   ./tailscale/tailscale_amd_x86_64_Linux.upx
 testing ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx [OK]
-  30474388 ->   7319600   24.02%   linux/arm64   ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
+  30474388 ->   7319656   24.02%   linux/arm64   ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
 testing ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx [OK]
-  18284692 ->   4615200   25.24%  linux/ppc64le  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
+  18284692 ->   4615224   25.24%  linux/ppc64le  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
 testing ./tailscale/tailscaled_aarch64_arm64_Linux.upx [OK]
   36551267 ->  14984692   41.00%   linux/arm64   ./tailscale/tailscaled_aarch64_arm64_Linux.upx
 testing ./tailscale/tailscale_aarch64_arm64_Linux.upx [OK]
   24925244 ->  10413576   41.78%   linux/arm64   ./tailscale/tailscale_aarch64_arm64_Linux.upx
 testing ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx [OK]
-  31981716 ->   7251184   22.67%   linux/ppc64   ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
+  31981716 ->   7251016   22.67%   linux/ppc64   ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
 testing ./tailscale/tailscale_arm_abi_Linux.upx [OK]
   24998611 ->  10398184   41.60%    linux/arm    ./tailscale/tailscale_arm_abi_Linux.upx
 testing ./tailscale/tailscale_i386_Linux.upx [OK]
   17547524 ->   4727800   26.94%   linux/i386    ./tailscale/tailscale_i386_Linux.upx
 testing ./tailscale/tailscale_powerpc64_ppc64_Linux.upx [OK]
-  18284692 ->   4427492   24.21%   linux/ppc64   ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
+  18284692 ->   4427572   24.21%   linux/ppc64   ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
 testing ./tailscale/tailscale_mips_Linux.upx [OK]
   27540119 ->  10439304   37.91%   linux/mips    ./tailscale/tailscale_mips_Linux.upx
 testing ./tailscale/tailscaled_mipsle_Linux.upx [OK]
   37312140 ->  14040160   37.63%  linux/mipsel   ./tailscale/tailscaled_mipsle_Linux.upx
 testing ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx [OK]
-  24707220 ->   6149924   24.89%  linux/ppc64le  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
+  24707220 ->   6149580   24.89%  linux/ppc64le  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
 testing ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx [OK]
-  31981716 ->   7523336   23.52%  linux/ppc64le  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
+  31981716 ->   7523184   23.52%  linux/ppc64le  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
 testing ./tailscale/tailscaled_amd_x86_64_Linux.upx [OK]
   27125000 ->   7675492   28.30%   linux/amd64   ./tailscale/tailscaled_amd_x86_64_Linux.upx
 testing ./tailscale/tailscaled_amd_geode_Linux.upx [OK]
