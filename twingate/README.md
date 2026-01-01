@@ -116,7 +116,7 @@ $ ./twingate/twingate_client_amd_x86_64_dynamic_Linux --version
 Twingate 2025.342.178568 | 0.178.0
 
 Twingate 2025.342.178568 | 0.178.0
-Copyright (C) 2025 Twingate
+Copyright (C) 2026 Twingate
 
 Twingate allows you to connect to private, remote resources as if they were
 available locally. Only network traffic intended for your private resources
