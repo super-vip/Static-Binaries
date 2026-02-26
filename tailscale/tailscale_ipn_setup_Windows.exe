@@ -30,6 +30,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.94.2" >1.94.2</option>
+    
     <option value="1.94.1" >1.94.1</option>
     
     <option value="1.92.5" >1.92.5</option>
@@ -65,8 +67,6 @@ file URL to obtain its checksum.</p>
     <option value="1.88.1" >1.88.1</option>
     
     <option value="1.86.4" >1.86.4</option>
-    
-    <option value="1.86.2" >1.86.2</option>
     
   </select>
 </form>
@@ -111,6 +111,8 @@ file URL to obtain its checksum.</p>
     <li><a href="#ubuntu-plucky">Ubuntu 25.04 (Plucky Puffin)</a></li>
   
     <li><a href="#ubuntu-questing">Ubuntu 25.10 (Questing Quokka)</a></li>
+  
+    <li><a href="#ubuntu-resolute">Ubuntu 26.04 (Resolute Raccoon)</a></li>
   
     <li><a href="#debian-stretch">Debian Stretch</a></li>
   
@@ -497,6 +499,22 @@ sudo mkdir -p --mode=0755 /usr/share/keyrings
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/questing.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
 # Add the tailscale repository
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/questing.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  
+
+  
+    <h2><a name="ubuntu-resolute" href="#ubuntu-resolute">Ubuntu 26.04 (Resolute Raccoon)</a></h2>
+
+<pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/resolute.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/resolute.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
 # Install Tailscale
 sudo apt-get update && sudo apt-get install tailscale
 # Start Tailscale!
@@ -1296,25 +1314,25 @@ sudo tailscale up
 
   <ul>
   
-    <li>386: <a href="tailscale_1.94.1_386.tgz">tailscale_1.94.1_386.tgz</a></li>
+    <li>386: <a href="tailscale_1.94.2_386.tgz">tailscale_1.94.2_386.tgz</a></li>
   
-    <li>amd64: <a href="tailscale_1.94.1_amd64.tgz">tailscale_1.94.1_amd64.tgz</a></li>
+    <li>amd64: <a href="tailscale_1.94.2_amd64.tgz">tailscale_1.94.2_amd64.tgz</a></li>
   
-    <li>arm: <a href="tailscale_1.94.1_arm.tgz">tailscale_1.94.1_arm.tgz</a></li>
+    <li>arm: <a href="tailscale_1.94.2_arm.tgz">tailscale_1.94.2_arm.tgz</a></li>
   
-    <li>arm64: <a href="tailscale_1.94.1_arm64.tgz">tailscale_1.94.1_arm64.tgz</a></li>
+    <li>arm64: <a href="tailscale_1.94.2_arm64.tgz">tailscale_1.94.2_arm64.tgz</a></li>
   
-    <li>geode: <a href="tailscale_1.94.1_geode.tgz">tailscale_1.94.1_geode.tgz</a></li>
+    <li>geode: <a href="tailscale_1.94.2_geode.tgz">tailscale_1.94.2_geode.tgz</a></li>
   
-    <li>mips: <a href="tailscale_1.94.1_mips.tgz">tailscale_1.94.1_mips.tgz</a></li>
+    <li>mips: <a href="tailscale_1.94.2_mips.tgz">tailscale_1.94.2_mips.tgz</a></li>
   
-    <li>mips64: <a href="tailscale_1.94.1_mips64.tgz">tailscale_1.94.1_mips64.tgz</a></li>
+    <li>mips64: <a href="tailscale_1.94.2_mips64.tgz">tailscale_1.94.2_mips64.tgz</a></li>
   
-    <li>mips64le: <a href="tailscale_1.94.1_mips64le.tgz">tailscale_1.94.1_mips64le.tgz</a></li>
+    <li>mips64le: <a href="tailscale_1.94.2_mips64le.tgz">tailscale_1.94.2_mips64le.tgz</a></li>
   
-    <li>mipsle: <a href="tailscale_1.94.1_mipsle.tgz">tailscale_1.94.1_mipsle.tgz</a></li>
+    <li>mipsle: <a href="tailscale_1.94.2_mipsle.tgz">tailscale_1.94.2_mipsle.tgz</a></li>
   
-    <li>riscv64: <a href="tailscale_1.94.1_riscv64.tgz">tailscale_1.94.1_riscv64.tgz</a></li>
+    <li>riscv64: <a href="tailscale_1.94.2_riscv64.tgz">tailscale_1.94.2_riscv64.tgz</a></li>
   
   </ul>
 
@@ -1333,24 +1351,24 @@ sudo tailscale up
   <ul>
   
     
-  <li><a href="tailscale-setup-1.94.1.exe">tailscale-setup-1.94.1.exe</a></li>
+  <li><a href="tailscale-setup-1.94.2.exe">tailscale-setup-1.94.2.exe</a></li>
 
   
     
-  <li><a href="tailscale-setup-full-1.94.1.exe">tailscale-setup-full-1.94.1.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
+  <li><a href="tailscale-setup-full-1.94.2.exe">tailscale-setup-full-1.94.2.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
 
   
   
     
-  <li><a href="tailscale-setup-1.94.1-amd64.msi">tailscale-setup-1.94.1-amd64.msi</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-setup-1.94.2-amd64.msi">tailscale-setup-1.94.2-amd64.msi</a>: 64-bit x86 (amd64)</li>
 
   
     
-  <li><a href="tailscale-setup-1.94.1-arm64.msi">tailscale-setup-1.94.1-arm64.msi</a>: 64-bit ARM64</li>
+  <li><a href="tailscale-setup-1.94.2-arm64.msi">tailscale-setup-1.94.2-arm64.msi</a>: 64-bit ARM64</li>
 
   
     
-  <li><a href="tailscale-setup-1.94.1-x86.msi">tailscale-setup-1.94.1-x86.msi</a>: 32-bit x86</li>
+  <li><a href="tailscale-setup-1.94.2-x86.msi">tailscale-setup-1.94.2-x86.msi</a>: 32-bit x86</li>
 
   
   </ul>
@@ -1546,9 +1564,9 @@ sudo tailscale up
 
   <ul>
   
-    <li><a href="Tailscale-1.94.1-macos.zip">Tailscale-1.94.1-macos.zip</a></li>
+    <li><a href="Tailscale-1.94.2-macos.zip">Tailscale-1.94.2-macos.zip</a></li>
   
-    <li><a href="Tailscale-1.94.1-macos.pkg">Tailscale-1.94.1-macos.pkg</a></li>
+    <li><a href="Tailscale-1.94.2-macos.pkg">Tailscale-1.94.2-macos.pkg</a></li>
   
   </ul>
 
@@ -1561,14 +1579,14 @@ sudo tailscale up
   CPU architectures. Requires Android 8 or newer.</p>
 
   <p>Note that this APK does not install updates automatically. You will need to manually
-  for install new updates when they become available.</p>
+  install new updates when they become available.</p>
 
   <p>Using the version on the <a href="https://play.google.com/store/apps/details?id=com.tailscale.ipn"> Google Play Store</a>
   is recommended.</p>
 
   <ul>
   
-    <li><a href="tailscale-android-universal-1.94.1.apk">tailscale-android-universal-1.94.1.apk</a></li>
+    <li><a href="tailscale-android-universal-1.94.2.apk">tailscale-android-universal-1.94.2.apk</a></li>
   
   </ul>
 
