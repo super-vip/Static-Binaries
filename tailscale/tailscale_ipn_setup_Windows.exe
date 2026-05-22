@@ -33,6 +33,8 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.98.3" >1.98.3</option>
+    
     <option value="1.98.2" >1.98.2</option>
     
     <option value="1.98.1" >1.98.1</option>
@@ -68,8 +70,6 @@ file URL to obtain its checksum.</p>
     <option value="1.90.4" >1.90.4</option>
     
     <option value="1.90.3" >1.90.3</option>
-    
-    <option value="1.90.2" >1.90.2</option>
     
   </select>
 </form>
@@ -1026,25 +1026,25 @@ sudo tailscale up
 
     <ul>
     
-      <li>386: <a href="tailscale_1.98.2_386.tgz">tailscale_1.98.2_386.tgz</a></li>
+      <li>386: <a href="tailscale_1.98.3_386.tgz">tailscale_1.98.3_386.tgz</a></li>
     
-      <li>amd64: <a href="tailscale_1.98.2_amd64.tgz">tailscale_1.98.2_amd64.tgz</a></li>
+      <li>amd64: <a href="tailscale_1.98.3_amd64.tgz">tailscale_1.98.3_amd64.tgz</a></li>
     
-      <li>arm: <a href="tailscale_1.98.2_arm.tgz">tailscale_1.98.2_arm.tgz</a></li>
+      <li>arm: <a href="tailscale_1.98.3_arm.tgz">tailscale_1.98.3_arm.tgz</a></li>
     
-      <li>arm64: <a href="tailscale_1.98.2_arm64.tgz">tailscale_1.98.2_arm64.tgz</a></li>
+      <li>arm64: <a href="tailscale_1.98.3_arm64.tgz">tailscale_1.98.3_arm64.tgz</a></li>
     
-      <li>geode: <a href="tailscale_1.98.2_geode.tgz">tailscale_1.98.2_geode.tgz</a></li>
+      <li>geode: <a href="tailscale_1.98.3_geode.tgz">tailscale_1.98.3_geode.tgz</a></li>
     
-      <li>mips: <a href="tailscale_1.98.2_mips.tgz">tailscale_1.98.2_mips.tgz</a></li>
+      <li>mips: <a href="tailscale_1.98.3_mips.tgz">tailscale_1.98.3_mips.tgz</a></li>
     
-      <li>mips64: <a href="tailscale_1.98.2_mips64.tgz">tailscale_1.98.2_mips64.tgz</a></li>
+      <li>mips64: <a href="tailscale_1.98.3_mips64.tgz">tailscale_1.98.3_mips64.tgz</a></li>
     
-      <li>mips64le: <a href="tailscale_1.98.2_mips64le.tgz">tailscale_1.98.2_mips64le.tgz</a></li>
+      <li>mips64le: <a href="tailscale_1.98.3_mips64le.tgz">tailscale_1.98.3_mips64le.tgz</a></li>
     
-      <li>mipsle: <a href="tailscale_1.98.2_mipsle.tgz">tailscale_1.98.2_mipsle.tgz</a></li>
+      <li>mipsle: <a href="tailscale_1.98.3_mipsle.tgz">tailscale_1.98.3_mipsle.tgz</a></li>
     
-      <li>riscv64: <a href="tailscale_1.98.2_riscv64.tgz">tailscale_1.98.2_riscv64.tgz</a></li>
+      <li>riscv64: <a href="tailscale_1.98.3_riscv64.tgz">tailscale_1.98.3_riscv64.tgz</a></li>
     
     </ul>
   </details>
