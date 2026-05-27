@@ -119,7 +119,7 @@ $ file ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Windows
 ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux:        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_musl_Linux:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=f8f6e0bbc3df32c5c499ff84d46541468772157a, stripped
+./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6d35f482ec744c39136e285f4e5780dcf437ff61, stripped
 ./aria2/aria2c_aarch_arm_Android:                        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_Linux:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux:    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -155,7 +155,7 @@ $ sha256sum ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Wi
 84c4598d25d0150fd0ca4793eb967fa7a7ee9980c02d9e1028132f82d9ac8681  ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux
 106f8bda4748f41e41ac6c9d7940916eade60c2456add3c596a2d90996a9db85  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
 9acc2c6e7dc97d4302bd197cc9ef4c2e54cc79e449ba90e252c10f53f9e74cc3  ./aria2/aria2c_aarch64_arm64_musl_Linux
-1e8f35076b27db4becd4ff83482b0a1f763118c64826ca27678c9bba9b3cd42e  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
+a11b65d8618cc9408e47bb4ef1a519f09a35321e9ce056b1b06466073df800ba  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
 b06494c59df4c3536ad68dfc1ce5b33d3e638cd1e845ae5452709b35ed1270bb  ./aria2/aria2c_aarch_arm_Android
 1d17b0371e82a51be97f787a9b80d2ff70fbf57e0373b081562992eb8e05cbf3  ./aria2/aria2c_amd_x86_64_libressl_musl_Linux
 eba651b3d28f41f41d3c9d7e69c821947338374401b951e244c26b1633120537  ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux
@@ -255,7 +255,7 @@ Compiler: gcc 11.2.1 20211120
   built by  x86_64-pc-linux-gnu
   targeting aarch64-unknown-linux-musl
   on        Nov  2 2024 01:27:54
-System: Linux 6.17.0-1013-azure #13~24.04.1-Ubuntu SMP Wed Apr 15 16:52:17 UTC 2026 aarch64
+System: Linux 6.17.0-1015-azure #15~24.04.1-Ubuntu SMP Wed May  6 22:37:49 UTC 2026 aarch64
 
 Report bugs to https://github.com/aria2/aria2/issues
 Visit https://aria2.github.io/
