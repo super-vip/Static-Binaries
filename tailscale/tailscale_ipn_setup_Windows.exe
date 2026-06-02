@@ -33,6 +33,10 @@ file URL to obtain its checksum.</p>
     
     <option value="latest" selected>latest</option>
     
+    <option value="1.98.5" >1.98.5</option>
+    
+    <option value="1.98.4" >1.98.4</option>
+    
     <option value="1.98.3" >1.98.3</option>
     
     <option value="1.98.2" >1.98.2</option>
@@ -67,10 +71,6 @@ file URL to obtain its checksum.</p>
     
     <option value="1.90.5" >1.90.5</option>
     
-    <option value="1.90.4" >1.90.4</option>
-    
-    <option value="1.90.3" >1.90.3</option>
-    
   </select>
 </form>
 
@@ -97,7 +97,7 @@ file URL to obtain its checksum.</p>
 
       <ul>
       
-        <li><a href="tailscale-android-universal-1.98.2.apk">tailscale-android-universal-1.98.2.apk</a></li>
+        <li><a href="tailscale-android-universal-1.98.4.apk">tailscale-android-universal-1.98.4.apk</a></li>
       
       </ul>
     </div>
@@ -828,19 +828,19 @@ sudo tailscale up
 
     <ul>
     
-      <li>arm-x19: <a href="Tailscale_1.98.2-1_arm-x19.qpkg">Tailscale_1.98.2-1_arm-x19.qpkg</a></li>
+      <li>arm-x19: <a href="Tailscale_1.98.4-1_arm-x19.qpkg">Tailscale_1.98.4-1_arm-x19.qpkg</a></li>
     
-      <li>arm-x31: <a href="Tailscale_1.98.2-1_arm-x31.qpkg">Tailscale_1.98.2-1_arm-x31.qpkg</a></li>
+      <li>arm-x31: <a href="Tailscale_1.98.4-1_arm-x31.qpkg">Tailscale_1.98.4-1_arm-x31.qpkg</a></li>
     
-      <li>arm-x41: <a href="Tailscale_1.98.2-1_arm-x41.qpkg">Tailscale_1.98.2-1_arm-x41.qpkg</a></li>
+      <li>arm-x41: <a href="Tailscale_1.98.4-1_arm-x41.qpkg">Tailscale_1.98.4-1_arm-x41.qpkg</a></li>
     
-      <li>arm_64: <a href="Tailscale_1.98.2-1_arm_64.qpkg">Tailscale_1.98.2-1_arm_64.qpkg</a></li>
+      <li>arm_64: <a href="Tailscale_1.98.4-1_arm_64.qpkg">Tailscale_1.98.4-1_arm_64.qpkg</a></li>
     
-      <li>x86: <a href="Tailscale_1.98.2-1_x86.qpkg">Tailscale_1.98.2-1_x86.qpkg</a></li>
+      <li>x86: <a href="Tailscale_1.98.4-1_x86.qpkg">Tailscale_1.98.4-1_x86.qpkg</a></li>
     
-      <li>x86_64: <a href="Tailscale_1.98.2-1_x86_64.qpkg">Tailscale_1.98.2-1_x86_64.qpkg</a></li>
+      <li>x86_64: <a href="Tailscale_1.98.4-1_x86_64.qpkg">Tailscale_1.98.4-1_x86_64.qpkg</a></li>
     
-      <li>x86_ce53xx: <a href="Tailscale_1.98.2-1_x86_ce53xx.qpkg">Tailscale_1.98.2-1_x86_ce53xx.qpkg</a></li>
+      <li>x86_ce53xx: <a href="Tailscale_1.98.4-1_x86_ce53xx.qpkg">Tailscale_1.98.4-1_x86_ce53xx.qpkg</a></li>
     
     </ul>
   </details>
@@ -1026,25 +1026,25 @@ sudo tailscale up
 
     <ul>
     
-      <li>386: <a href="tailscale_1.98.3_386.tgz">tailscale_1.98.3_386.tgz</a></li>
+      <li>386: <a href="tailscale_1.98.4_386.tgz">tailscale_1.98.4_386.tgz</a></li>
     
-      <li>amd64: <a href="tailscale_1.98.3_amd64.tgz">tailscale_1.98.3_amd64.tgz</a></li>
+      <li>amd64: <a href="tailscale_1.98.4_amd64.tgz">tailscale_1.98.4_amd64.tgz</a></li>
     
-      <li>arm: <a href="tailscale_1.98.3_arm.tgz">tailscale_1.98.3_arm.tgz</a></li>
+      <li>arm: <a href="tailscale_1.98.4_arm.tgz">tailscale_1.98.4_arm.tgz</a></li>
     
-      <li>arm64: <a href="tailscale_1.98.3_arm64.tgz">tailscale_1.98.3_arm64.tgz</a></li>
+      <li>arm64: <a href="tailscale_1.98.4_arm64.tgz">tailscale_1.98.4_arm64.tgz</a></li>
     
-      <li>geode: <a href="tailscale_1.98.3_geode.tgz">tailscale_1.98.3_geode.tgz</a></li>
+      <li>geode: <a href="tailscale_1.98.4_geode.tgz">tailscale_1.98.4_geode.tgz</a></li>
     
-      <li>mips: <a href="tailscale_1.98.3_mips.tgz">tailscale_1.98.3_mips.tgz</a></li>
+      <li>mips: <a href="tailscale_1.98.4_mips.tgz">tailscale_1.98.4_mips.tgz</a></li>
     
-      <li>mips64: <a href="tailscale_1.98.3_mips64.tgz">tailscale_1.98.3_mips64.tgz</a></li>
+      <li>mips64: <a href="tailscale_1.98.4_mips64.tgz">tailscale_1.98.4_mips64.tgz</a></li>
     
-      <li>mips64le: <a href="tailscale_1.98.3_mips64le.tgz">tailscale_1.98.3_mips64le.tgz</a></li>
+      <li>mips64le: <a href="tailscale_1.98.4_mips64le.tgz">tailscale_1.98.4_mips64le.tgz</a></li>
     
-      <li>mipsle: <a href="tailscale_1.98.3_mipsle.tgz">tailscale_1.98.3_mipsle.tgz</a></li>
+      <li>mipsle: <a href="tailscale_1.98.4_mipsle.tgz">tailscale_1.98.4_mipsle.tgz</a></li>
     
-      <li>riscv64: <a href="tailscale_1.98.3_riscv64.tgz">tailscale_1.98.3_riscv64.tgz</a></li>
+      <li>riscv64: <a href="tailscale_1.98.4_riscv64.tgz">tailscale_1.98.4_riscv64.tgz</a></li>
     
     </ul>
   </details>
@@ -1056,79 +1056,547 @@ sudo tailscale up
     <p>
       These files are Synology Packages. Here are some guides for configuring Tailscale on Synology:
       <ul>
-        <li><a href="https://tailscale.com/kb/1131/synology/"/>Tailscale on Synology</a></li>
-        <li><a href="https://tailscale.com/kb/1131/synology/#enabling-synology-outbound-connections"/>Enabling outbound connections on DSM7</a></li>
+        <li><a href="https://tailscale.com/kb/1131/synology/">Tailscale on Synology</a></li>
+        <li><a href="https://tailscale.com/kb/1131/synology/#enabling-synology-outbound-connections">Enabling outbound connections on DSM7</a></li>
       </ul>
     </p>
+
+    
     <p>
-      To decide which package to download, see SynoCommunity's documentation on
-      <a href="https://github.com/SynoCommunity/spksrc/wiki/Synology-and-SynoCommunity-Package-Architectures">
-        which CPU your Synology device uses
-      </a>.
+      <label for="syno-model-select"><strong>Find my model:</strong></label>
+      <select id="syno-model-select">
+        <option value="">— select your Synology model —</option>
+        
+        <option value="DS1010&#43;" data-arch="x86_64">DS1010&#43;</option>
+        
+        <option value="DS1019&#43;" data-arch="x86_64">DS1019&#43;</option>
+        
+        <option value="DS109" data-arch="88f6281">DS109</option>
+        
+        <option value="DS110j" data-arch="88f6281">DS110j</option>
+        
+        <option value="DS111" data-arch="88f6281">DS111</option>
+        
+        <option value="DS112" data-arch="88f6281">DS112</option>
+        
+        <option value="DS112&#43;" data-arch="88f6281">DS112&#43;</option>
+        
+        <option value="DS112j" data-arch="88f6281">DS112j</option>
+        
+        <option value="DS114" data-arch="armada370">DS114</option>
+        
+        <option value="DS115" data-arch="armada375">DS115</option>
+        
+        <option value="DS115j" data-arch="armada370">DS115j</option>
+        
+        <option value="DS116" data-arch="armada38x">DS116</option>
+        
+        <option value="DS118" data-arch="armv8">DS118</option>
+        
+        <option value="DS119j" data-arch="armv8">DS119j</option>
+        
+        <option value="DS120j" data-arch="armv8">DS120j</option>
+        
+        <option value="DS124" data-arch="armv8">DS124</option>
+        
+        <option value="DS1511&#43;" data-arch="x86_64">DS1511&#43;</option>
+        
+        <option value="DS1512&#43;" data-arch="x86_64">DS1512&#43;</option>
+        
+        <option value="DS1513&#43;" data-arch="x86_64">DS1513&#43;</option>
+        
+        <option value="DS1515" data-arch="alpine">DS1515</option>
+        
+        <option value="DS1515&#43;" data-arch="x86_64">DS1515&#43;</option>
+        
+        <option value="DS1517" data-arch="alpine">DS1517</option>
+        
+        <option value="DS1517&#43;" data-arch="x86_64">DS1517&#43;</option>
+        
+        <option value="DS1520&#43;" data-arch="x86_64">DS1520&#43;</option>
+        
+        <option value="DS1522&#43;" data-arch="x86_64">DS1522&#43;</option>
+        
+        <option value="DS1525&#43;" data-arch="x86_64">DS1525&#43;</option>
+        
+        <option value="DS1618&#43;" data-arch="x86_64">DS1618&#43;</option>
+        
+        <option value="DS1621&#43;" data-arch="x86_64">DS1621&#43;</option>
+        
+        <option value="DS1621xs&#43;" data-arch="x86_64">DS1621xs&#43;</option>
+        
+        <option value="DS1812&#43;" data-arch="x86_64">DS1812&#43;</option>
+        
+        <option value="DS1813&#43;" data-arch="x86_64">DS1813&#43;</option>
+        
+        <option value="DS1815&#43;" data-arch="x86_64">DS1815&#43;</option>
+        
+        <option value="DS1817" data-arch="alpine">DS1817</option>
+        
+        <option value="DS1817&#43;" data-arch="x86_64">DS1817&#43;</option>
+        
+        <option value="DS1819&#43;" data-arch="x86_64">DS1819&#43;</option>
+        
+        <option value="DS1821&#43;" data-arch="x86_64">DS1821&#43;</option>
+        
+        <option value="DS1823xs&#43;" data-arch="x86_64">DS1823xs&#43;</option>
+        
+        <option value="DS1825&#43;" data-arch="x86_64">DS1825&#43;</option>
+        
+        <option value="DS2015xs" data-arch="alpine">DS2015xs</option>
+        
+        <option value="DS209" data-arch="88f6281">DS209</option>
+        
+        <option value="DS210j" data-arch="88f6281">DS210j</option>
+        
+        <option value="DS211" data-arch="88f6281">DS211</option>
+        
+        <option value="DS211&#43;" data-arch="88f6281">DS211&#43;</option>
+        
+        <option value="DS211j" data-arch="88f6281">DS211j</option>
+        
+        <option value="DS212" data-arch="88f6281">DS212</option>
+        
+        <option value="DS212&#43;" data-arch="88f6281">DS212&#43;</option>
+        
+        <option value="DS212j" data-arch="88f6281">DS212j</option>
+        
+        <option value="DS213" data-arch="88f6281">DS213</option>
+        
+        <option value="DS213&#43;" data-arch="x86_64">DS213&#43;</option>
+        
+        <option value="DS213air" data-arch="88f6281">DS213air</option>
+        
+        <option value="DS213j" data-arch="armada370">DS213j</option>
+        
+        <option value="DS214" data-arch="armadaxp">DS214</option>
+        
+        <option value="DS214&#43;" data-arch="armadaxp">DS214&#43;</option>
+        
+        <option value="DS214play" data-arch="i686">DS214play</option>
+        
+        <option value="DS214se" data-arch="armada370">DS214se</option>
+        
+        <option value="DS215&#43;" data-arch="alpine">DS215&#43;</option>
+        
+        <option value="DS215j" data-arch="armada375">DS215j</option>
+        
+        <option value="DS216" data-arch="armada38x">DS216</option>
+        
+        <option value="DS216&#43;" data-arch="x86_64">DS216&#43;</option>
+        
+        <option value="DS216&#43;II" data-arch="x86_64">DS216&#43;II</option>
+        
+        <option value="DS216j" data-arch="armada38x">DS216j</option>
+        
+        <option value="DS216play" data-arch="monaco">DS216play</option>
+        
+        <option value="DS216se" data-arch="armada370">DS216se</option>
+        
+        <option value="DS216slim" data-arch="armada38x">DS216slim</option>
+        
+        <option value="DS218" data-arch="armv8">DS218</option>
+        
+        <option value="DS218&#43;" data-arch="x86_64">DS218&#43;</option>
+        
+        <option value="DS218j" data-arch="armada38x">DS218j</option>
+        
+        <option value="DS218play" data-arch="armv8">DS218play</option>
+        
+        <option value="DS220&#43;" data-arch="x86_64">DS220&#43;</option>
+        
+        <option value="DS220j" data-arch="armv8">DS220j</option>
+        
+        <option value="DS223" data-arch="armv8">DS223</option>
+        
+        <option value="DS223j" data-arch="armv8">DS223j</option>
+        
+        <option value="DS224&#43;" data-arch="x86_64">DS224&#43;</option>
+        
+        <option value="DS225&#43;" data-arch="x86_64">DS225&#43;</option>
+        
+        <option value="DS2411&#43;" data-arch="x86_64">DS2411&#43;</option>
+        
+        <option value="DS2413&#43;" data-arch="x86_64">DS2413&#43;</option>
+        
+        <option value="DS2415&#43;" data-arch="x86_64">DS2415&#43;</option>
+        
+        <option value="DS2419&#43;" data-arch="x86_64">DS2419&#43;</option>
+        
+        <option value="DS2419&#43;II" data-arch="x86_64">DS2419&#43;II</option>
+        
+        <option value="DS2422&#43;" data-arch="x86_64">DS2422&#43;</option>
+        
+        <option value="DS3018xs" data-arch="x86_64">DS3018xs</option>
+        
+        <option value="DS3612xs" data-arch="x86_64">DS3612xs</option>
+        
+        <option value="DS3615xs" data-arch="x86_64">DS3615xs</option>
+        
+        <option value="DS3617xs" data-arch="x86_64">DS3617xs</option>
+        
+        <option value="DS3617xsII" data-arch="x86_64">DS3617xsII</option>
+        
+        <option value="DS3622xs&#43;" data-arch="x86_64">DS3622xs&#43;</option>
+        
+        <option value="DS409" data-arch="88f6281">DS409</option>
+        
+        <option value="DS409slim" data-arch="88f6281">DS409slim</option>
+        
+        <option value="DS410j" data-arch="88f6281">DS410j</option>
+        
+        <option value="DS411" data-arch="88f6281">DS411</option>
+        
+        <option value="DS411&#43;" data-arch="x86_64">DS411&#43;</option>
+        
+        <option value="DS411&#43;II" data-arch="x86_64">DS411&#43;II</option>
+        
+        <option value="DS411j" data-arch="88f6281">DS411j</option>
+        
+        <option value="DS411slim" data-arch="88f6281">DS411slim</option>
+        
+        <option value="DS412&#43;" data-arch="x86_64">DS412&#43;</option>
+        
+        <option value="DS413j" data-arch="88f6281">DS413j</option>
+        
+        <option value="DS414" data-arch="armadaxp">DS414</option>
+        
+        <option value="DS414j" data-arch="comcerto2k">DS414j</option>
+        
+        <option value="DS414slim" data-arch="armada370">DS414slim</option>
+        
+        <option value="DS415&#43;" data-arch="x86_64">DS415&#43;</option>
+        
+        <option value="DS415play" data-arch="i686">DS415play</option>
+        
+        <option value="DS416" data-arch="alpine">DS416</option>
+        
+        <option value="DS416j" data-arch="armada38x">DS416j</option>
+        
+        <option value="DS416play" data-arch="x86_64">DS416play</option>
+        
+        <option value="DS416slim" data-arch="armada38x">DS416slim</option>
+        
+        <option value="DS418" data-arch="armv8">DS418</option>
+        
+        <option value="DS418j" data-arch="armv8">DS418j</option>
+        
+        <option value="DS418play" data-arch="x86_64">DS418play</option>
+        
+        <option value="DS419slim" data-arch="armada38x">DS419slim</option>
+        
+        <option value="DS420&#43;" data-arch="x86_64">DS420&#43;</option>
+        
+        <option value="DS420j" data-arch="armv8">DS420j</option>
+        
+        <option value="DS423" data-arch="armv8">DS423</option>
+        
+        <option value="DS423&#43;" data-arch="x86_64">DS423&#43;</option>
+        
+        <option value="DS425&#43;" data-arch="x86_64">DS425&#43;</option>
+        
+        <option value="DS620slim" data-arch="x86_64">DS620slim</option>
+        
+        <option value="DS625slim" data-arch="x86_64">DS625slim</option>
+        
+        <option value="DS710&#43;" data-arch="x86_64">DS710&#43;</option>
+        
+        <option value="DS712&#43;" data-arch="x86_64">DS712&#43;</option>
+        
+        <option value="DS713&#43;" data-arch="x86_64">DS713&#43;</option>
+        
+        <option value="DS715" data-arch="alpine">DS715</option>
+        
+        <option value="DS716&#43;" data-arch="x86_64">DS716&#43;</option>
+        
+        <option value="DS716&#43;II" data-arch="x86_64">DS716&#43;II</option>
+        
+        <option value="DS718&#43;" data-arch="x86_64">DS718&#43;</option>
+        
+        <option value="DS720&#43;" data-arch="x86_64">DS720&#43;</option>
+        
+        <option value="DS723&#43;" data-arch="x86_64">DS723&#43;</option>
+        
+        <option value="DS725&#43;" data-arch="x86_64">DS725&#43;</option>
+        
+        <option value="DS916&#43;" data-arch="x86_64">DS916&#43;</option>
+        
+        <option value="DS918&#43;" data-arch="x86_64">DS918&#43;</option>
+        
+        <option value="DS920&#43;" data-arch="x86_64">DS920&#43;</option>
+        
+        <option value="DS923&#43;" data-arch="x86_64">DS923&#43;</option>
+        
+        <option value="DS925&#43;" data-arch="x86_64">DS925&#43;</option>
+        
+        <option value="DVA1622" data-arch="x86_64">DVA1622</option>
+        
+        <option value="DVA3219" data-arch="x86_64">DVA3219</option>
+        
+        <option value="DVA3221" data-arch="x86_64">DVA3221</option>
+        
+        <option value="DVA7400" data-arch="x86_64">DVA7400</option>
+        
+        <option value="EDS14" data-arch="armada370">EDS14</option>
+        
+        <option value="FS1018" data-arch="x86_64">FS1018</option>
+        
+        <option value="FS2017" data-arch="x86_64">FS2017</option>
+        
+        <option value="FS2500" data-arch="x86_64">FS2500</option>
+        
+        <option value="FS3017" data-arch="x86_64">FS3017</option>
+        
+        <option value="FS3400" data-arch="x86_64">FS3400</option>
+        
+        <option value="FS3410" data-arch="x86_64">FS3410</option>
+        
+        <option value="FS3420" data-arch="x86_64">FS3420</option>
+        
+        <option value="FS3600" data-arch="x86_64">FS3600</option>
+        
+        <option value="FS6400" data-arch="x86_64">FS6400</option>
+        
+        <option value="FS6420" data-arch="x86_64">FS6420</option>
+        
+        <option value="HD6500" data-arch="x86_64">HD6500</option>
+        
+        <option value="MR2200ac" data-arch="armv7">MR2200ac</option>
+        
+        <option value="NVR1218" data-arch="hi3535">NVR1218</option>
+        
+        <option value="NVR216" data-arch="hi3535">NVR216</option>
+        
+        <option value="PAS7700" data-arch="x86_64">PAS7700</option>
+        
+        <option value="RC18015xs&#43;" data-arch="x86_64">RC18015xs&#43;</option>
+        
+        <option value="RS10613xs&#43;" data-arch="x86_64">RS10613xs&#43;</option>
+        
+        <option value="RS1219&#43;" data-arch="x86_64">RS1219&#43;</option>
+        
+        <option value="RS1221&#43;" data-arch="x86_64">RS1221&#43;</option>
+        
+        <option value="RS1221RP&#43;" data-arch="x86_64">RS1221RP&#43;</option>
+        
+        <option value="RS1619xs&#43;" data-arch="x86_64">RS1619xs&#43;</option>
+        
+        <option value="RS18016xs&#43;" data-arch="x86_64">RS18016xs&#43;</option>
+        
+        <option value="RS18017xs&#43;" data-arch="x86_64">RS18017xs&#43;</option>
+        
+        <option value="RS212" data-arch="88f6281">RS212</option>
+        
+        <option value="RS214" data-arch="armada370">RS214</option>
+        
+        <option value="RS217" data-arch="armada38x">RS217</option>
+        
+        <option value="RS2211&#43;" data-arch="x86_64">RS2211&#43;</option>
+        
+        <option value="RS2211RP&#43;" data-arch="x86_64">RS2211RP&#43;</option>
+        
+        <option value="RS2212&#43;" data-arch="x86_64">RS2212&#43;</option>
+        
+        <option value="RS2212RP&#43;" data-arch="x86_64">RS2212RP&#43;</option>
+        
+        <option value="RS2414&#43;" data-arch="x86_64">RS2414&#43;</option>
+        
+        <option value="RS2414RP&#43;" data-arch="x86_64">RS2414RP&#43;</option>
+        
+        <option value="RS2416&#43;" data-arch="x86_64">RS2416&#43;</option>
+        
+        <option value="RS2416RP&#43;" data-arch="x86_64">RS2416RP&#43;</option>
+        
+        <option value="RS2418&#43;" data-arch="x86_64">RS2418&#43;</option>
+        
+        <option value="RS2418RP&#43;" data-arch="x86_64">RS2418RP&#43;</option>
+        
+        <option value="RS2421&#43;" data-arch="x86_64">RS2421&#43;</option>
+        
+        <option value="RS2421RP&#43;" data-arch="x86_64">RS2421RP&#43;</option>
+        
+        <option value="RS2423&#43;" data-arch="x86_64">RS2423&#43;</option>
+        
+        <option value="RS2423RP&#43;" data-arch="x86_64">RS2423RP&#43;</option>
+        
+        <option value="RS2818RP&#43;" data-arch="x86_64">RS2818RP&#43;</option>
+        
+        <option value="RS2821RP&#43;" data-arch="x86_64">RS2821RP&#43;</option>
+        
+        <option value="RS2825RP&#43;" data-arch="x86_64">RS2825RP&#43;</option>
+        
+        <option value="RS3412RPxs" data-arch="x86_64">RS3412RPxs</option>
+        
+        <option value="RS3412xs" data-arch="x86_64">RS3412xs</option>
+        
+        <option value="RS3413xs&#43;" data-arch="x86_64">RS3413xs&#43;</option>
+        
+        <option value="RS3614RPxs" data-arch="x86_64">RS3614RPxs</option>
+        
+        <option value="RS3614xs" data-arch="x86_64">RS3614xs</option>
+        
+        <option value="RS3614xs&#43;" data-arch="x86_64">RS3614xs&#43;</option>
+        
+        <option value="RS3617RPxs" data-arch="x86_64">RS3617RPxs</option>
+        
+        <option value="RS3617xs" data-arch="x86_64">RS3617xs</option>
+        
+        <option value="RS3617xs&#43;" data-arch="x86_64">RS3617xs&#43;</option>
+        
+        <option value="RS3618xs" data-arch="x86_64">RS3618xs</option>
+        
+        <option value="RS3621RPxs" data-arch="x86_64">RS3621RPxs</option>
+        
+        <option value="RS3621xs&#43;" data-arch="x86_64">RS3621xs&#43;</option>
+        
+        <option value="RS3626xs" data-arch="x86_64">RS3626xs</option>
+        
+        <option value="RS4017xs&#43;" data-arch="x86_64">RS4017xs&#43;</option>
+        
+        <option value="RS4021xs&#43;" data-arch="x86_64">RS4021xs&#43;</option>
+        
+        <option value="RS409" data-arch="88f6281">RS409</option>
+        
+        <option value="RS411" data-arch="88f6281">RS411</option>
+        
+        <option value="RS422&#43;" data-arch="x86_64">RS422&#43;</option>
+        
+        <option value="RS4826xs&#43;" data-arch="x86_64">RS4826xs&#43;</option>
+        
+        <option value="RS6426xs&#43;" data-arch="x86_64">RS6426xs&#43;</option>
+        
+        <option value="RS812" data-arch="88f6281">RS812</option>
+        
+        <option value="RS812&#43;" data-arch="x86_64">RS812&#43;</option>
+        
+        <option value="RS812RP&#43;" data-arch="x86_64">RS812RP&#43;</option>
+        
+        <option value="RS814" data-arch="armadaxp">RS814</option>
+        
+        <option value="RS814&#43;" data-arch="x86_64">RS814&#43;</option>
+        
+        <option value="RS814RP&#43;" data-arch="x86_64">RS814RP&#43;</option>
+        
+        <option value="RS815" data-arch="armadaxp">RS815</option>
+        
+        <option value="RS815&#43;" data-arch="x86_64">RS815&#43;</option>
+        
+        <option value="RS815RP&#43;" data-arch="x86_64">RS815RP&#43;</option>
+        
+        <option value="RS816" data-arch="armada38x">RS816</option>
+        
+        <option value="RS818&#43;" data-arch="x86_64">RS818&#43;</option>
+        
+        <option value="RS818RP&#43;" data-arch="x86_64">RS818RP&#43;</option>
+        
+        <option value="RS819" data-arch="armv8">RS819</option>
+        
+        <option value="RS820&#43;" data-arch="x86_64">RS820&#43;</option>
+        
+        <option value="RS820RP&#43;" data-arch="x86_64">RS820RP&#43;</option>
+        
+        <option value="RS822&#43;" data-arch="x86_64">RS822&#43;</option>
+        
+        <option value="RS822RP&#43;" data-arch="x86_64">RS822RP&#43;</option>
+        
+        <option value="RT1900ac" data-arch="armv7">RT1900ac</option>
+        
+        <option value="RT2600ac" data-arch="armv7">RT2600ac</option>
+        
+        <option value="RT6600ax" data-arch="armv8">RT6600ax</option>
+        
+        <option value="SA3200D" data-arch="x86_64">SA3200D</option>
+        
+        <option value="SA3400" data-arch="x86_64">SA3400</option>
+        
+        <option value="SA3400D" data-arch="x86_64">SA3400D</option>
+        
+        <option value="SA3410" data-arch="x86_64">SA3410</option>
+        
+        <option value="SA3600" data-arch="x86_64">SA3600</option>
+        
+        <option value="SA3610" data-arch="x86_64">SA3610</option>
+        
+        <option value="SA6400" data-arch="x86_64">SA6400</option>
+        
+        <option value="VS360HD" data-arch="hi3535">VS360HD</option>
+        
+        <option value="VS600HD" data-arch="x86_64">VS600HD</option>
+        
+        <option value="VS960HD" data-arch="hi3535">VS960HD</option>
+        
+        <option value="WRX560" data-arch="armv7">WRX560</option>
+        
+      </select>
     </p>
+    <p id="syno-model-result" style="display:none">
+      Your <strong id="syno-model-name"></strong> uses the
+      <strong id="syno-model-arch"></strong> package.
+    </p>
+    
 
     
       <h3>DSM6</h3>
       <ul>
         
           
-  <li><a href="tailscale-x86_64-1.98.2-600098002-dsm6.spk">tailscale-x86_64-1.98.2-600098002-dsm6.spk</a>: 64-bit x86 (amd64)</li>
+  <li data-spk-arch="x86_64"><a href="tailscale-x86_64-1.98.4-600098004-dsm6.spk">tailscale-x86_64-1.98.4-600098004-dsm6.spk</a>: 64-bit x86 (amd64)</li>
 
         
           
-  <li><a href="tailscale-armv8-1.98.2-600098002-dsm6.spk">tailscale-armv8-1.98.2-600098002-dsm6.spk</a>: ARMv8 (arm64)</li>
+  <li data-spk-arch="armv8"><a href="tailscale-armv8-1.98.4-600098004-dsm6.spk">tailscale-armv8-1.98.4-600098004-dsm6.spk</a>: ARMv8 (arm64)</li>
 
         
           
-  <li><a href="tailscale-armv7-1.98.2-600098002-dsm6.spk">tailscale-armv7-1.98.2-600098002-dsm6.spk</a>: ARMv7</li>
+  <li data-spk-arch="armv7"><a href="tailscale-armv7-1.98.4-600098004-dsm6.spk">tailscale-armv7-1.98.4-600098004-dsm6.spk</a>: ARMv7</li>
 
         
           
-  <li><a href="tailscale-armv5-1.98.2-600098002-dsm6.spk">tailscale-armv5-1.98.2-600098002-dsm6.spk</a>: ARMv5</li>
+  <li data-spk-arch="armv5"><a href="tailscale-armv5-1.98.4-600098004-dsm6.spk">tailscale-armv5-1.98.4-600098004-dsm6.spk</a>: ARMv5</li>
 
         
           
-  <li><a href="tailscale-i686-1.98.2-600098002-dsm6.spk">tailscale-i686-1.98.2-600098002-dsm6.spk</a>: 32-bit x86</li>
+  <li data-spk-arch="i686"><a href="tailscale-i686-1.98.4-600098004-dsm6.spk">tailscale-i686-1.98.4-600098004-dsm6.spk</a>: 32-bit x86</li>
 
         
           
-  <li><a href="tailscale-88f6281-1.98.2-600098002-dsm6.spk">tailscale-88f6281-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="88f6281"><a href="tailscale-88f6281-1.98.4-600098004-dsm6.spk">tailscale-88f6281-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-88f6282-1.98.2-600098002-dsm6.spk">tailscale-88f6282-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="88f6282"><a href="tailscale-88f6282-1.98.4-600098004-dsm6.spk">tailscale-88f6282-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-alpine-1.98.2-600098002-dsm6.spk">tailscale-alpine-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="alpine"><a href="tailscale-alpine-1.98.4-600098004-dsm6.spk">tailscale-alpine-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-armada370-1.98.2-600098002-dsm6.spk">tailscale-armada370-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="armada370"><a href="tailscale-armada370-1.98.4-600098004-dsm6.spk">tailscale-armada370-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-armada375-1.98.2-600098002-dsm6.spk">tailscale-armada375-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="armada375"><a href="tailscale-armada375-1.98.4-600098004-dsm6.spk">tailscale-armada375-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-armada38x-1.98.2-600098002-dsm6.spk">tailscale-armada38x-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="armada38x"><a href="tailscale-armada38x-1.98.4-600098004-dsm6.spk">tailscale-armada38x-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-armadaxp-1.98.2-600098002-dsm6.spk">tailscale-armadaxp-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="armadaxp"><a href="tailscale-armadaxp-1.98.4-600098004-dsm6.spk">tailscale-armadaxp-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-comcerto2k-1.98.2-600098002-dsm6.spk">tailscale-comcerto2k-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="comcerto2k"><a href="tailscale-comcerto2k-1.98.4-600098004-dsm6.spk">tailscale-comcerto2k-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-hi3535-1.98.2-600098002-dsm6.spk">tailscale-hi3535-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="hi3535"><a href="tailscale-hi3535-1.98.4-600098004-dsm6.spk">tailscale-hi3535-1.98.4-600098004-dsm6.spk</a></li>
 
         
           
-  <li><a href="tailscale-monaco-1.98.2-600098002-dsm6.spk">tailscale-monaco-1.98.2-600098002-dsm6.spk</a></li>
+  <li data-spk-arch="monaco"><a href="tailscale-monaco-1.98.4-600098004-dsm6.spk">tailscale-monaco-1.98.4-600098004-dsm6.spk</a></li>
 
         
       </ul>
@@ -1137,63 +1605,63 @@ sudo tailscale up
       <ul>
         
           
-  <li><a href="tailscale-x86_64-1.98.2-700098002-dsm7.spk">tailscale-x86_64-1.98.2-700098002-dsm7.spk</a>: 64-bit x86 (amd64)</li>
+  <li data-spk-arch="x86_64"><a href="tailscale-x86_64-1.98.4-700098004-dsm7.spk">tailscale-x86_64-1.98.4-700098004-dsm7.spk</a>: 64-bit x86 (amd64)</li>
 
         
           
-  <li><a href="tailscale-armv8-1.98.2-700098002-dsm7.spk">tailscale-armv8-1.98.2-700098002-dsm7.spk</a>: ARMv8 (arm64)</li>
+  <li data-spk-arch="armv8"><a href="tailscale-armv8-1.98.4-700098004-dsm7.spk">tailscale-armv8-1.98.4-700098004-dsm7.spk</a>: ARMv8 (arm64)</li>
 
         
           
-  <li><a href="tailscale-armv7-1.98.2-700098002-dsm7.spk">tailscale-armv7-1.98.2-700098002-dsm7.spk</a>: ARMv7</li>
+  <li data-spk-arch="armv7"><a href="tailscale-armv7-1.98.4-700098004-dsm7.spk">tailscale-armv7-1.98.4-700098004-dsm7.spk</a>: ARMv7</li>
 
         
           
-  <li><a href="tailscale-armv5-1.98.2-700098002-dsm7.spk">tailscale-armv5-1.98.2-700098002-dsm7.spk</a>: ARMv5</li>
+  <li data-spk-arch="armv5"><a href="tailscale-armv5-1.98.4-700098004-dsm7.spk">tailscale-armv5-1.98.4-700098004-dsm7.spk</a>: ARMv5</li>
 
         
           
-  <li><a href="tailscale-i686-1.98.2-700098002-dsm7.spk">tailscale-i686-1.98.2-700098002-dsm7.spk</a>: 32-bit x86</li>
+  <li data-spk-arch="i686"><a href="tailscale-i686-1.98.4-700098004-dsm7.spk">tailscale-i686-1.98.4-700098004-dsm7.spk</a>: 32-bit x86</li>
 
         
           
-  <li><a href="tailscale-88f6281-1.98.2-700098002-dsm7.spk">tailscale-88f6281-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="88f6281"><a href="tailscale-88f6281-1.98.4-700098004-dsm7.spk">tailscale-88f6281-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-88f6282-1.98.2-700098002-dsm7.spk">tailscale-88f6282-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="88f6282"><a href="tailscale-88f6282-1.98.4-700098004-dsm7.spk">tailscale-88f6282-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-alpine-1.98.2-700098002-dsm7.spk">tailscale-alpine-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="alpine"><a href="tailscale-alpine-1.98.4-700098004-dsm7.spk">tailscale-alpine-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-armada370-1.98.2-700098002-dsm7.spk">tailscale-armada370-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="armada370"><a href="tailscale-armada370-1.98.4-700098004-dsm7.spk">tailscale-armada370-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-armada375-1.98.2-700098002-dsm7.spk">tailscale-armada375-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="armada375"><a href="tailscale-armada375-1.98.4-700098004-dsm7.spk">tailscale-armada375-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-armada38x-1.98.2-700098002-dsm7.spk">tailscale-armada38x-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="armada38x"><a href="tailscale-armada38x-1.98.4-700098004-dsm7.spk">tailscale-armada38x-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-armadaxp-1.98.2-700098002-dsm7.spk">tailscale-armadaxp-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="armadaxp"><a href="tailscale-armadaxp-1.98.4-700098004-dsm7.spk">tailscale-armadaxp-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-comcerto2k-1.98.2-700098002-dsm7.spk">tailscale-comcerto2k-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="comcerto2k"><a href="tailscale-comcerto2k-1.98.4-700098004-dsm7.spk">tailscale-comcerto2k-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-hi3535-1.98.2-700098002-dsm7.spk">tailscale-hi3535-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="hi3535"><a href="tailscale-hi3535-1.98.4-700098004-dsm7.spk">tailscale-hi3535-1.98.4-700098004-dsm7.spk</a></li>
 
         
           
-  <li><a href="tailscale-monaco-1.98.2-700098002-dsm7.spk">tailscale-monaco-1.98.2-700098002-dsm7.spk</a></li>
+  <li data-spk-arch="monaco"><a href="tailscale-monaco-1.98.4-700098004-dsm7.spk">tailscale-monaco-1.98.4-700098004-dsm7.spk</a></li>
 
         
       </ul>
@@ -1622,9 +2090,9 @@ sudo tailscale up
 
       <ul>
       
-        <li><a href="Tailscale-1.98.2-macos.zip">Tailscale-1.98.2-macos.zip</a></li>
+        <li><a href="Tailscale-1.98.5-macos.zip">Tailscale-1.98.5-macos.zip</a></li>
       
-        <li><a href="Tailscale-1.98.2-macos.pkg">Tailscale-1.98.2-macos.pkg</a></li>
+        <li><a href="Tailscale-1.98.5-macos.pkg">Tailscale-1.98.5-macos.pkg</a></li>
       
       </ul>
     </div>
@@ -1644,24 +2112,24 @@ sudo tailscale up
       <ul>
       
         
-  <li><a href="tailscale-setup-1.98.2.exe">tailscale-setup-1.98.2.exe</a></li>
+  <li><a href="tailscale-setup-1.98.4.exe">tailscale-setup-1.98.4.exe</a></li>
 
       
         
-  <li><a href="tailscale-setup-full-1.98.2.exe">tailscale-setup-full-1.98.2.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
+  <li><a href="tailscale-setup-full-1.98.4.exe">tailscale-setup-full-1.98.4.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
 
       
       
         
-  <li><a href="tailscale-setup-1.98.2-amd64.msi">tailscale-setup-1.98.2-amd64.msi</a>: 64-bit x86 (amd64)</li>
+  <li><a href="tailscale-setup-1.98.4-amd64.msi">tailscale-setup-1.98.4-amd64.msi</a>: 64-bit x86 (amd64)</li>
 
       
         
-  <li><a href="tailscale-setup-1.98.2-arm64.msi">tailscale-setup-1.98.2-arm64.msi</a>: 64-bit ARM64</li>
+  <li><a href="tailscale-setup-1.98.4-arm64.msi">tailscale-setup-1.98.4-arm64.msi</a>: 64-bit ARM64</li>
 
       
         
-  <li><a href="tailscale-setup-1.98.2-x86.msi">tailscale-setup-1.98.2-x86.msi</a>: 32-bit x86</li>
+  <li><a href="tailscale-setup-1.98.4-x86.msi">tailscale-setup-1.98.4-x86.msi</a>: 32-bit x86</li>
 
       
       </ul>
