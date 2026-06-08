@@ -113,9 +113,9 @@ dd4e7cd69a5826a8deed949f3f38f71f750cc9a3f1021150f2730dece1e32ce3  ./twingate/twi
 - #### Versions
 ```console
 $ ./twingate/twingate_client_amd_x86_64_dynamic_Linux --version
-Twingate 2026.106.6379 | 0.186.0
+Twingate 2026.140.6512 | 0.188.0
 
-Twingate 2026.106.6379 | 0.186.0
+Twingate 2026.140.6512 | 0.188.0
 Copyright (C) 2026 Twingate
 
 Twingate allows you to connect to private, remote resources as if they were
