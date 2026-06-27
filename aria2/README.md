@@ -119,7 +119,7 @@ $ file ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Windows
 ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux:        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_aarch64_arm64_musl_Linux:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=d94b4683837ca5a2604e2d533bd65255837c72fc, stripped
+./aria2/aria2c_aarch64_arm64_musl_latest_Linux:          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=4a8da158832e2ebfd2105e9ada88912f924dead4, stripped
 ./aria2/aria2c_aarch_arm_Android:                        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_Linux:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux:    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -155,7 +155,7 @@ $ sha256sum ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Wi
 84c4598d25d0150fd0ca4793eb967fa7a7ee9980c02d9e1028132f82d9ac8681  ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux
 106f8bda4748f41e41ac6c9d7940916eade60c2456add3c596a2d90996a9db85  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
 9acc2c6e7dc97d4302bd197cc9ef4c2e54cc79e449ba90e252c10f53f9e74cc3  ./aria2/aria2c_aarch64_arm64_musl_Linux
-833e64aa5b0bdb88df84024985ff031adea648cbd33337591ab28d75bdb375a0  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
+bc21068a02b7b7547851797adfef278d478d7b043ce71363a43e30de4f5a0edd  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
 b06494c59df4c3536ad68dfc1ce5b33d3e638cd1e845ae5452709b35ed1270bb  ./aria2/aria2c_aarch_arm_Android
 1d17b0371e82a51be97f787a9b80d2ff70fbf57e0373b081562992eb8e05cbf3  ./aria2/aria2c_amd_x86_64_libressl_musl_Linux
 eba651b3d28f41f41d3c9d7e69c821947338374401b951e244c26b1633120537  ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux
