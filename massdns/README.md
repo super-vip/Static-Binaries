@@ -78,14 +78,14 @@ $ file ./massdns/massdns_linux_arm64_aarch64_gcc ./massdns/massdns_linux_arm64_a
 ./massdns/massdns_linux_arm64_aarch64_gcc:  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=11cfd86ab701c3cbd35af9903a0fff75a5bc2e49, for GNU/Linux 6.1.35, stripped
 ./massdns/massdns_linux_arm64_aarch64_musl: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./massdns/massdns_linux_s390x_gcc:          ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, BuildID[sha1]=d1535809c66358bf82854af562243e959743d0be, for GNU/Linux 5.4.0, stripped
-./massdns/massdns_linux_x86_64_gcc:         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9985a27a3a84db61b4b69ea1ef18fe0849a2944e, for GNU/Linux 3.2.0, stripped
+./massdns/massdns_linux_x86_64_gcc:         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=38d29dbcd7ae7704b8a208986f94a653f0a974e8, for GNU/Linux 3.2.0, stripped
 
 --> SHA256SUM
 $ sha256sum ./massdns/massdns_linux_arm64_aarch64_gcc ./massdns/massdns_linux_arm64_aarch64_musl ./massdns/massdns_linux_s390x_gcc ./massdns/massdns_linux_x86_64_gcc
 b06e1c86cce7486ca0ef41fbb5485bcc84e094d685565557f6d3d909e6db4b5d  ./massdns/massdns_linux_arm64_aarch64_gcc
 3abfb633548e5db43f750e7f2629b142291f56b6a690a56c1bd4b3608d51b159  ./massdns/massdns_linux_arm64_aarch64_musl
 8de98af4af65672f630822c547fca7f7b2a371ed6bedbe323320542522d3a960  ./massdns/massdns_linux_s390x_gcc
-f28316ad53a0953736a1fef06d1b6e4397a30c33b61a9e7bd25a305ca5266422  ./massdns/massdns_linux_x86_64_gcc
+9a6a78b991f993ec7e3abf746cce83d5d82578488aac2ec8c70cca8020c67f91  ./massdns/massdns_linux_x86_64_gcc
 ```
 
 
