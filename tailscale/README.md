@@ -224,20 +224,20 @@ sleep 4
 ```console
 
 --> METADATA
-./tailscale/tailscale_aarch64_arm64_Linux:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=EwNlFtGnFho1VHWmAaDb/JQvUOsQbfsp6DyKiydnV/XFrBc4JmWOZg-_91oHIB/UQIQZPi0OQdbcGJBesqU, BuildID[sha1]=d856471827d79fc9e7f1a5e5eabb3aec73fef629, with debug_info, not stripped
-./tailscale/tailscale_aarch64_arm64_Linux.upx:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), Go BuildID=EwNlFtGnFho1VHWmAaDb/JQvUOsQbfsp6DyKiydnV/XFrBc4JmWOZg-_91oHIB/UQIQZPi0OQdbcGJBesqU, statically linked, no section header
-./tailscale/tailscale_aarch64_arm64_Windows.msi:             Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.0, MSI Installer, Code page: 1252, Title: Installation Database, Subject: Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location. Built on WireGuard. WireGuard is a registered trademark of Jason A. Donenfeld., Author: Tailscale Inc., Keywords: Installer;Tailscale;vpn;security;privacy;wireguard;networking, Comments: This installer database contains the logic and data required to install Tailscale., Template: Arm64;1033, Revision Number: {798739BF-BF3A-4D0C-9405-8192AFAD5A5E}, Create Time/Date: Tue Jun 23 23:09:18 2026, Last Saved Time/Date: Tue Jun 23 23:09:18 2026, Number of Pages: 500, Number of Words: 2, Name of Creating Application: WiX Toolset (5.0.2.0), Security: 2
+./tailscale/tailscale_aarch64_arm64_Linux:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=sJXmdYPcAgx4otcXnzSS/psuxBsOWkS2RqtzHMO6Q/u42fTO0kAnkTucQ_VHcy/pC0PWz3bGsoDHNPtkyGS, BuildID[sha1]=fde8704f0991db6a1e46fbc9cc413003a9f6e420, with debug_info, not stripped
+./tailscale/tailscale_aarch64_arm64_Linux.upx:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), Go BuildID=sJXmdYPcAgx4otcXnzSS/psuxBsOWkS2RqtzHMO6Q/u42fTO0kAnkTucQ_VHcy/pC0PWz3bGsoDHNPtkyGS, statically linked, no section header
+./tailscale/tailscale_aarch64_arm64_Windows.msi:             Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.0, MSI Installer, Code page: 1252, Title: Installation Database, Subject: Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location. Built on WireGuard. WireGuard is a registered trademark of Jason A. Donenfeld., Author: Tailscale Inc., Keywords: Installer;Tailscale;vpn;security;privacy;wireguard;networking, Comments: This installer database contains the logic and data required to install Tailscale., Template: Arm64;1033, Revision Number: {BD90896F-7153-46F5-8D83-6E5FDB87BE0A}, Create Time/Date: Wed Jul 15 17:43:37 2026, Last Saved Time/Date: Wed Jul 15 17:43:37 2026, Number of Pages: 500, Number of Words: 2, Name of Creating Application: WiX Toolset (5.0.2.0), Security: 2
 ./tailscale/tailscale_aarch64_arm64_macOS:                   Mach-O 64-bit arm64 executable, flags:<|DYLDLINK|PIE>
-./tailscale/tailscale_amd_geode_Linux:                       ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=A5pQx26z0b1ny2ZRvh1b/BQpJuhkGu33hWRA_2FSh/2U_JyeXm2M54i6WYU-Nd/YdkJnshGjyMTqDvKTmof, BuildID[sha1]=711183d72c65d56f9dbf68436141e88640a7c947, stripped
-./tailscale/tailscale_amd_geode_Linux.upx:                   ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=A5pQx26z0b1ny2ZRvh1b/BQpJuhkGu33hWRA_2FSh/2U_JyeXm2M54i6WYU-Nd/YdkJnshGjyMTqDvKTmof, statically linked, no section header
-./tailscale/tailscale_amd_x86_64_Linux:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=NIDSnkMBzYr1MyKSLoLp/BHN6ha3HQMhigulKT4I4/nYuqIpBnxKtOxxDNhuAB/_Vjr_F3lz6sRbkw8BhOP, BuildID[sha1]=2ca171cd5fa62ee5076f5191eeea89ade5a710ca, stripped
-./tailscale/tailscale_amd_x86_64_Linux.upx:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), Go BuildID=NIDSnkMBzYr1MyKSLoLp/BHN6ha3HQMhigulKT4I4/nYuqIpBnxKtOxxDNhuAB/_Vjr_F3lz6sRbkw8BhOP, statically linked, no section header
-./tailscale/tailscale_amd_x86_64_Windows.msi:                Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.0, MSI Installer, Code page: 1252, Title: Installation Database, Subject: Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location. Built on WireGuard. WireGuard is a registered trademark of Jason A. Donenfeld., Author: Tailscale Inc., Keywords: Installer;Tailscale;vpn;security;privacy;wireguard;networking, Comments: This installer database contains the logic and data required to install Tailscale., Template: x64;1033, Revision Number: {A19AC061-059D-4B6E-ADC4-FA5DF5CDDD08}, Create Time/Date: Tue Jun 23 23:08:53 2026, Last Saved Time/Date: Tue Jun 23 23:08:53 2026, Number of Pages: 500, Number of Words: 2, Name of Creating Application: WiX Toolset (5.0.2.0), Security: 2
+./tailscale/tailscale_amd_geode_Linux:                       ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=XHH3LQtkwykMriPARltc/Vd6m2t3gH_MJdUT2X_Z1/mT2OuvLP-s3b9BrkHbuC/cYM_Jh-ox6thGKGqKDJ6, BuildID[sha1]=c40fbd19c22da9be8ced65da9d9c4d6d966a0a5f, stripped
+./tailscale/tailscale_amd_geode_Linux.upx:                   ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=XHH3LQtkwykMriPARltc/Vd6m2t3gH_MJdUT2X_Z1/mT2OuvLP-s3b9BrkHbuC/cYM_Jh-ox6thGKGqKDJ6, statically linked, no section header
+./tailscale/tailscale_amd_x86_64_Linux:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=7uTyTewnkcjGR8NfoPWe/Gh7GG0_pI9oGYakiexy0/GvKUlh8TeU2zEo3kbFKP/EF_1el0ArFvkFt_uMGqL, BuildID[sha1]=2c830384f169e4ffab6930070a143062e6ad9745, stripped
+./tailscale/tailscale_amd_x86_64_Linux.upx:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), Go BuildID=7uTyTewnkcjGR8NfoPWe/Gh7GG0_pI9oGYakiexy0/GvKUlh8TeU2zEo3kbFKP/EF_1el0ArFvkFt_uMGqL, statically linked, no section header
+./tailscale/tailscale_amd_x86_64_Windows.msi:                Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.0, MSI Installer, Code page: 1252, Title: Installation Database, Subject: Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location. Built on WireGuard. WireGuard is a registered trademark of Jason A. Donenfeld., Author: Tailscale Inc., Keywords: Installer;Tailscale;vpn;security;privacy;wireguard;networking, Comments: This installer database contains the logic and data required to install Tailscale., Template: x64;1033, Revision Number: {57AD2FCF-083B-4C32-AEBC-ABEB55DDFDD2}, Create Time/Date: Wed Jul 15 17:43:37 2026, Last Saved Time/Date: Wed Jul 15 17:43:37 2026, Number of Pages: 500, Number of Words: 2, Name of Creating Application: WiX Toolset (5.0.2.0), Security: 2
 ./tailscale/tailscale_amd_x86_64_macOS:                      Mach-O 64-bit x86_64 executable, flags:<|DYLDLINK|PIE>
-./tailscale/tailscale_arm_abi_Linux:                         ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, Go BuildID=6mPQIaSpgKrTBTMB8QHe/5A_4fBrr_kX6MDThm77_/ofpptNjlyk4paKufUDU_/JVrnn8qfdfFwDQP2vXd0, BuildID[sha1]=e3b61c5f361a78666726e44961280332246af2c7, with debug_info, not stripped
-./tailscale/tailscale_arm_abi_Linux.upx:                     ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), Go BuildID=6mPQIaSpgKrTBTMB8QHe/5A_4fBrr_kX6MDThm77_/ofpptNjlyk4paKufUDU_/JVrnn8qfdfFwDQP2vXd0, statically linked, no section header
-./tailscale/tailscale_i386_Linux:                            ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=yts0WKjpvkHqrHg7pLU3/JH50vCu5CPqG8VAK2Ol1/jPaQUhzrwmxiK3sOSFKw/G5P0V8gyAWfHCy90ZoYX, BuildID[sha1]=f80d9815fc8c21cae4f78d8b18a9861a4b5e0ef7, stripped
-./tailscale/tailscale_i386_Linux.upx:                        ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=yts0WKjpvkHqrHg7pLU3/JH50vCu5CPqG8VAK2Ol1/jPaQUhzrwmxiK3sOSFKw/G5P0V8gyAWfHCy90ZoYX, statically linked, no section header
+./tailscale/tailscale_arm_abi_Linux:                         ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, Go BuildID=CrXN7IduUeh2_R6vgGFG/GWvE2fyiDT8JXUshzjVb/fDXDZaJD-8AHwj1-r2y0/o_kyesMvyexBOM3Pl7G6, BuildID[sha1]=52f00551bcfa1e0b6ead2f67a34d1feec2ab20d7, with debug_info, not stripped
+./tailscale/tailscale_arm_abi_Linux.upx:                     ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), Go BuildID=CrXN7IduUeh2_R6vgGFG/GWvE2fyiDT8JXUshzjVb/fDXDZaJD-8AHwj1-r2y0/o_kyesMvyexBOM3Pl7G6, statically linked, no section header
+./tailscale/tailscale_i386_Linux:                            ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=waroxWBSBUeCmf9esL_K/6oqbx0Kh1Byvk0lb1fig/9BufAW8-H4p9LoSjO1Cq/TWJrt27d5Sw2BPvv5Sqc, BuildID[sha1]=afda84f6d546a15ede92b7324f42223345b1a010, stripped
+./tailscale/tailscale_i386_Linux.upx:                        ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=waroxWBSBUeCmf9esL_K/6oqbx0Kh1Byvk0lb1fig/9BufAW8-H4p9LoSjO1Cq/TWJrt27d5Sw2BPvv5Sqc, statically linked, no section header
 ./tailscale/tailscale_ipn_setup_Windows.exe:                 HTML document, Unicode text, UTF-8 text
 ./tailscale/tailscale_merged_aarch64_arm64_Linux:            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx:        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
@@ -254,114 +254,114 @@ sleep 4
 ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux:      ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx:  ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, no section header
 ./tailscale/tailscale_merged_s390x_Linux:                    ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, stripped
-./tailscale/tailscale_mips64_Linux:                          ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=-9rfTPUuVCYYmWJ6gR4x/6Wh6u3GE-1ZeYdmUc_l5/njrKOiasHDHW3ch-8zTx/LZ3e5U1MQL3YTOhhSclp, BuildID[sha1]=c989559114967c58603867bdeae670fe8b79d755, with debug_info, not stripped
-./tailscale/tailscale_mips64le_Linux:                        ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=thKCmSV3SsNkQrAcW-C2/MyoRJuRapr511UINOr49/HQ-Cyzi-5Hu-0m01pNre/RB9ESqgHv1qXQxAQDw7z, BuildID[sha1]=00f5e8823a846dcfd877ab89dc8718e3b0554efb, with debug_info, not stripped
-./tailscale/tailscale_mips_Linux:                            ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=uGZ54JzsB_2nrjQWpn1H/HS1OecyRJt4hY7nUeMOX/1hhlXXlGdIKrmcuBTAlz/x0uk8wO_eM0s1QwbVUV-, BuildID[sha1]=2167fe629afc2aeaf2285466e6fb2c66215e00f8, with debug_info, not stripped
-./tailscale/tailscale_mips_Linux.upx:                        ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=uGZ54JzsB_2nrjQWpn1H/HS1OecyRJt4hY7nUeMOX/1hhlXXlGdIKrmcuBTAlz/x0uk8wO_eM0s1QwbVUV-, statically linked, no section header
-./tailscale/tailscale_mipsle_Linux:                          ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=ElHhgXjaE4VvEGzzY3Mo/PH14lnyvLk10xo1AJ43X/o8rq-K9DfCOIm9isnTVm/2CzsxzyBNcP5oyV70rhT, BuildID[sha1]=fa6be6074971a12ce0f0c3f5c7321a3743334115, with debug_info, not stripped
-./tailscale/tailscale_mipsle_Linux.upx:                      ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=ElHhgXjaE4VvEGzzY3Mo/PH14lnyvLk10xo1AJ43X/o8rq-K9DfCOIm9isnTVm/2CzsxzyBNcP5oyV70rhT, statically linked, no section header
+./tailscale/tailscale_mips64_Linux:                          ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=KGKltxd4hLJWoxh2cj8s/kVB6GjpTEfwFnPyuKbaJ/MfA4z2qkIdt0ahZzucGE/eN8-vbgWt596aP9XWgmb, BuildID[sha1]=087cb3e5c9ecb08391986837b566eef312bea2df, with debug_info, not stripped
+./tailscale/tailscale_mips64le_Linux:                        ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=ote7KXkN_ZqzjY-pmQNE/3owGbyUl58IYFRTe-3Bf/y-pG5t9_PpgUXT9WyzvC/-s029k4Zr7Tufr9U9nSC, BuildID[sha1]=180b79ce6f6d0816601422e7504b08af6013b1ef, with debug_info, not stripped
+./tailscale/tailscale_mips_Linux:                            ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=YhtVb6lv-g_fBRHzTxZf/LefWITQecmvqHqvPRLGn/4NMcU69IwTOzDzihVEUh/pJ_kvJMqH4d6DcRBQ8z2, BuildID[sha1]=3bce79bfab207784f1c8d5e250f59c0b123b00c1, with debug_info, not stripped
+./tailscale/tailscale_mips_Linux.upx:                        ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=YhtVb6lv-g_fBRHzTxZf/LefWITQecmvqHqvPRLGn/4NMcU69IwTOzDzihVEUh/pJ_kvJMqH4d6DcRBQ8z2, statically linked, no section header
+./tailscale/tailscale_mipsle_Linux:                          ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=fiIth-XIx2Fiw704_zjZ/UbMTtUkbFUpMhP036Kfo/oAcUIwNOZrBxaful1nxa/gugI7idHPtCqXLjrIcdT, BuildID[sha1]=1d3b23adeb7a3f66dc60be63fc8daa934fdeb2a5, with debug_info, not stripped
+./tailscale/tailscale_mipsle_Linux.upx:                      ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=fiIth-XIx2Fiw704_zjZ/UbMTtUkbFUpMhP036Kfo/oAcUIwNOZrBxaful1nxa/gugI7idHPtCqXLjrIcdT, statically linked, no section header
 ./tailscale/tailscale_powerpc64_ppc64_Linux:                 ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscale_powerpc64_ppc64_Linux.upx:             ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, no section header
 ./tailscale/tailscale_powerpc64le_ppc64le_Linux:             ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx:         ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, no section header
-./tailscale/tailscale_riscv64_Linux:                         ELF 64-bit LSB executable, UCB RISC-V, double-float ABI, version 1 (SYSV), statically linked, Go BuildID=S8HgtUgLiZpKtRvPMCDa/z9z6bsjAm0AOSPd3ewf0/5mFvWFJ3MSwnJ9p0566i/yRBUFGEMG0C5hnbZz0YS, BuildID[sha1]=71a8755051cd49f0371a781752713898eba3a990, with debug_info, not stripped
+./tailscale/tailscale_riscv64_Linux:                         ELF 64-bit LSB executable, UCB RISC-V, double-float ABI, version 1 (SYSV), statically linked, Go BuildID=wO1SfEjNsbpzG8kju_0l/1CkoES4XaeCmouUcEyWw/7jqrRKD9W7A2xXWR1LMg/KKDeB47byvsdoAqVDauy, BuildID[sha1]=709f11816032ca20a8b7dbe2f61ad6e9fa3b21ed, with debug_info, not stripped
 ./tailscale/tailscale_s390x_Linux:                           ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscale_setup_Windows.exe:                     PE32 executable (GUI) Intel 80386, for MS Windows, 6 sections
-./tailscale/tailscale_x86_Windows.msi:                       Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.0, MSI Installer, Code page: 1252, Title: Installation Database, Subject: Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location. Built on WireGuard. WireGuard is a registered trademark of Jason A. Donenfeld., Author: Tailscale Inc., Keywords: Installer;Tailscale;vpn;security;privacy;wireguard;networking, Comments: This installer database contains the logic and data required to install Tailscale., Template: Intel;1033, Revision Number: {A6EC9267-AC22-4FE7-A356-FE03AD1B4B2B}, Create Time/Date: Tue Jun 23 23:09:27 2026, Last Saved Time/Date: Tue Jun 23 23:09:27 2026, Number of Pages: 500, Number of Words: 2, Name of Creating Application: WiX Toolset (5.0.2.0), Security: 2
-./tailscale/tailscaled_aarch64_arm64_Linux:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=p1vvfIg0sm0NYH1BxIcC/6Xgio1EM-Adwh18qMkhP/vPXn4ML8VZ0axDzMAoP_/1d9g5az_BOKogc1ncB9l, BuildID[sha1]=fb07572eeadc125387ea90494fe3b6561eef812c, with debug_info, not stripped
-./tailscale/tailscaled_aarch64_arm64_Linux.upx:              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), Go BuildID=p1vvfIg0sm0NYH1BxIcC/6Xgio1EM-Adwh18qMkhP/vPXn4ML8VZ0axDzMAoP_/1d9g5az_BOKogc1ncB9l, statically linked, no section header
+./tailscale/tailscale_x86_Windows.msi:                       Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.0, MSI Installer, Code page: 1252, Title: Installation Database, Subject: Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location. Built on WireGuard. WireGuard is a registered trademark of Jason A. Donenfeld., Author: Tailscale Inc., Keywords: Installer;Tailscale;vpn;security;privacy;wireguard;networking, Comments: This installer database contains the logic and data required to install Tailscale., Template: Intel;1033, Revision Number: {76580A1A-3DA6-4E64-A0FE-1AD879E01F28}, Create Time/Date: Wed Jul 15 17:43:37 2026, Last Saved Time/Date: Wed Jul 15 17:43:37 2026, Number of Pages: 500, Number of Words: 2, Name of Creating Application: WiX Toolset (5.0.2.0), Security: 2
+./tailscale/tailscaled_aarch64_arm64_Linux:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=gOB0Ofpm8MAShyQ3Iue6/fO_Nhd-zd1IYzGWrqjcz/YHxgqibJk1sATMEMerOx/ZPr_APWXBTgoWUYk24yi, BuildID[sha1]=e288fdb2b196e0870e60863576d6ebe407957f80, with debug_info, not stripped
+./tailscale/tailscaled_aarch64_arm64_Linux.upx:              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), Go BuildID=gOB0Ofpm8MAShyQ3Iue6/fO_Nhd-zd1IYzGWrqjcz/YHxgqibJk1sATMEMerOx/ZPr_APWXBTgoWUYk24yi, statically linked, no section header
 ./tailscale/tailscaled_aarch64_arm64_macOS:                  Mach-O 64-bit arm64 executable, flags:<|DYLDLINK|PIE>
-./tailscale/tailscaled_amd_geode_Linux:                      ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=jR9PwIJFDJIgzy3Rhzoz/K3O7fytYmbuJP_AaKR8p/TFNGzkCQ32LpkCbc9GzP/eB36MbxSkeEY9mUTPcNb, BuildID[sha1]=e351e34e30785ee46b93b3df233efb03fe0b7ef7, stripped
-./tailscale/tailscaled_amd_geode_Linux.upx:                  ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=jR9PwIJFDJIgzy3Rhzoz/K3O7fytYmbuJP_AaKR8p/TFNGzkCQ32LpkCbc9GzP/eB36MbxSkeEY9mUTPcNb, statically linked, no section header
-./tailscale/tailscaled_amd_x86_64_Linux:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Ub58wBf4ykY_jtMwiCX3/tbFJGrEhcyxtNt5PQr6F/xpMFE05mK4qtP5MthnR4/VCKq97dbiz67VZ5suBeF, BuildID[sha1]=77f57ad801212c5d5520134d6d17ee416926fc3c, stripped
-./tailscale/tailscaled_amd_x86_64_Linux.upx:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), Go BuildID=Ub58wBf4ykY_jtMwiCX3/tbFJGrEhcyxtNt5PQr6F/xpMFE05mK4qtP5MthnR4/VCKq97dbiz67VZ5suBeF, statically linked, no section header
+./tailscale/tailscaled_amd_geode_Linux:                      ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=DuBrqup3g-FIbwpoFYVe/47smmmtIDF8WDjFAjrMA/iPeVwu1pfvqfVUkJR9e_/UcZnAy9FTuDL__TsTTEe, BuildID[sha1]=6820292514a30a65570574949bb48214c2635a0f, stripped
+./tailscale/tailscaled_amd_geode_Linux.upx:                  ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=DuBrqup3g-FIbwpoFYVe/47smmmtIDF8WDjFAjrMA/iPeVwu1pfvqfVUkJR9e_/UcZnAy9FTuDL__TsTTEe, statically linked, no section header
+./tailscale/tailscaled_amd_x86_64_Linux:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=413G6g8_n8YSm8-xRSmn/ZoMWNAVEe4koE0uQcJqT/4Ua9qmhYI5bpMRi8QPxr/bt6HuAS_seytBN9YVej0, BuildID[sha1]=50d7a5cd657ffe16d1bf615b5c3933a40ce01787, stripped
+./tailscale/tailscaled_amd_x86_64_Linux.upx:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), Go BuildID=413G6g8_n8YSm8-xRSmn/ZoMWNAVEe4koE0uQcJqT/4Ua9qmhYI5bpMRi8QPxr/bt6HuAS_seytBN9YVej0, statically linked, no section header
 ./tailscale/tailscaled_amd_x86_64_macOS:                     Mach-O 64-bit x86_64 executable, flags:<|DYLDLINK|PIE>
-./tailscale/tailscaled_arm_abi_Linux:                        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, Go BuildID=5SrEW7EEY4BFbscn49gL/2iXGBbNtfibn4y6OuvHx/M-rADLBPO_G72TVZvanq/54LuOPnc17tp2gBO0uT-, BuildID[sha1]=119aeb391ee1dd3d00253b8f8516e8cf567eed9a, with debug_info, not stripped
-./tailscale/tailscaled_arm_abi_Linux.upx:                    ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), Go BuildID=5SrEW7EEY4BFbscn49gL/2iXGBbNtfibn4y6OuvHx/M-rADLBPO_G72TVZvanq/54LuOPnc17tp2gBO0uT-, statically linked, no section header
-./tailscale/tailscaled_i386_Linux:                           ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=lCZT-s-y5QEyCdXdFSi9/HN186i2-aYKMHNlHVW8R/9bDOD2qdLWhoQMf2qumD/cC2dOR-kBFUtkHkDyWKb, BuildID[sha1]=ec56b6dd9c95715cf303107961c56fbac8aec7f4, stripped
-./tailscale/tailscaled_i386_Linux.upx:                       ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=lCZT-s-y5QEyCdXdFSi9/HN186i2-aYKMHNlHVW8R/9bDOD2qdLWhoQMf2qumD/cC2dOR-kBFUtkHkDyWKb, statically linked, no section header
-./tailscale/tailscaled_mips64_Linux:                         ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=nYT8t1RwcD3kAX1_F_-U/mACZnEIQLOIYK78J1NFI/uWbnaY0QMOjXEWs8k3Di/TUcBwVT636CVMH28KW2F, BuildID[sha1]=7166b4e538bc462f4ea1394b327f485dc53e62df, with debug_info, not stripped
-./tailscale/tailscaled_mips64le_Linux:                       ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=WXi8XVhExFDASFQNcA81/sJo075xPUsjk0SMk9gzN/12hCJz1zfrjyH52dqLvv/_25Osx9vlSuavLva8IxQ, BuildID[sha1]=f32e55fce1dc0cff23141fc5cfde8655cfe836db, with debug_info, not stripped
-./tailscale/tailscaled_mips_Linux:                           ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=EDuonPwCBuAZ5Eo-xsy-/FbfUqAxceePPY4OOOMeO/Q7SE3CVpfkvHIqMLTrOr/Xecil6yCPb5mElsLCQjN, BuildID[sha1]=26af6fe87435de8e299207fb38191579b35918f9, with debug_info, not stripped
-./tailscale/tailscaled_mips_Linux.upx:                       ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=EDuonPwCBuAZ5Eo-xsy-/FbfUqAxceePPY4OOOMeO/Q7SE3CVpfkvHIqMLTrOr/Xecil6yCPb5mElsLCQjN, statically linked, no section header
-./tailscale/tailscaled_mipsle_Linux:                         ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=4wwxxkzP2roZ9gytdbrm/XHK_4nZC8BijhZoOod4m/qR-XDGOnhAhqphe9p8IZ/tVNhIEx7U6iOwTfmq9-M, BuildID[sha1]=e47da93b974c65aa742f67845b0267df70878181, with debug_info, not stripped
-./tailscale/tailscaled_mipsle_Linux.upx:                     ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=4wwxxkzP2roZ9gytdbrm/XHK_4nZC8BijhZoOod4m/qR-XDGOnhAhqphe9p8IZ/tVNhIEx7U6iOwTfmq9-M, statically linked, no section header
+./tailscale/tailscaled_arm_abi_Linux:                        ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, Go BuildID=g-3ljXIGyBcEPOk7m-b0/LKTToOCHneZY_BeGhBF1/Qad8p41C1m-TPeD9l26k/7ktWLZuEdY5Pz1a4VKk4, BuildID[sha1]=6ba054ca29806914d4faa01f774f366dc3b06aa8, with debug_info, not stripped
+./tailscale/tailscaled_arm_abi_Linux.upx:                    ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), Go BuildID=g-3ljXIGyBcEPOk7m-b0/LKTToOCHneZY_BeGhBF1/Qad8p41C1m-TPeD9l26k/7ktWLZuEdY5Pz1a4VKk4, statically linked, no section header
+./tailscale/tailscaled_i386_Linux:                           ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, Go BuildID=7rtQxpLcI3Ni73VIhNrF/nRCKabEdLwjY09UuVlOo/YhbHKekTUCteGBPGDnKY/s-UO9eEM_rmBmkI6VkT3, BuildID[sha1]=e661302a52aa39c3f559d9541567147c2974e57d, stripped
+./tailscale/tailscaled_i386_Linux.upx:                       ELF 32-bit LSB executable, Intel 80386, version 1 (GNU/Linux), Go BuildID=7rtQxpLcI3Ni73VIhNrF/nRCKabEdLwjY09UuVlOo/YhbHKekTUCteGBPGDnKY/s-UO9eEM_rmBmkI6VkT3, statically linked, no section header
+./tailscale/tailscaled_mips64_Linux:                         ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=7endlyTTlaS0KY4WMmg8/oeU7t4cRz33OGYJIjUVG/Wf7ZHYR9x_aOxZ0LlZus/ijuOXSWvJv_aMVgFiotN, BuildID[sha1]=5c5c3c9a3236fe3a256b7d7f7054daeab16fffb1, with debug_info, not stripped
+./tailscale/tailscaled_mips64le_Linux:                       ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, Go BuildID=XzPNb2l9RfrrzvAsF8Cc/oHfMNj8k8v2G0_RNq7yh/pUAALA8iGSEGxc3559is/0TjgyWDyOYzwCjbrN_rI, BuildID[sha1]=695ac82fd81001d4bd8ca3920f148fed8fe0a088, with debug_info, not stripped
+./tailscale/tailscaled_mips_Linux:                           ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=tLzOy5b4hyZR_f4dPxxc/GkPjHHdnL9tseFVQ9io3/W2UEZ8Ni_to9fggWy7Ma/KNZsSlsVIezjWFVRlnmz, BuildID[sha1]=8cfc56d0afd436d22dc1ba3457091ad2616b4bcf, with debug_info, not stripped
+./tailscale/tailscaled_mips_Linux.upx:                       ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=tLzOy5b4hyZR_f4dPxxc/GkPjHHdnL9tseFVQ9io3/W2UEZ8Ni_to9fggWy7Ma/KNZsSlsVIezjWFVRlnmz, statically linked, no section header
+./tailscale/tailscaled_mipsle_Linux:                         ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, Go BuildID=tmPRP00-POVqt5POQH-A/4GoJ3fIHlVz97X3Rihwr/q7msxBOW38-HNcxGXvFX/wfyb9CnH3nA099b5DWUM, BuildID[sha1]=42509938a8dca254ca8cb833de13d428b7c9fc0b, with debug_info, not stripped
+./tailscale/tailscaled_mipsle_Linux.upx:                     ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), Go BuildID=tmPRP00-POVqt5POQH-A/4GoJ3fIHlVz97X3Rihwr/q7msxBOW38-HNcxGXvFX/wfyb9CnH3nA099b5DWUM, statically linked, no section header
 ./tailscale/tailscaled_powerpc64_ppc64_Linux:                ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx:            ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, Power ELF V1 ABI, version 1 (SYSV), statically linked, no section header
 ./tailscale/tailscaled_powerpc64le_ppc64le_Linux:            ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, stripped
 ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx:        ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, no section header
-./tailscale/tailscaled_riscv64_Linux:                        ELF 64-bit LSB executable, UCB RISC-V, double-float ABI, version 1 (SYSV), statically linked, Go BuildID=GMLJ2Pk_58ZTVa0NuM4e/wWovbNBGuYZig2pDDiOy/Uh14_UAMJ0OPDwoeI7R_/6ppoAc__9t_doNeSIgSM, BuildID[sha1]=f8f0cb9732b79eac4703e9b54f293e89ccee8dd5, with debug_info, not stripped
+./tailscale/tailscaled_riscv64_Linux:                        ELF 64-bit LSB executable, UCB RISC-V, double-float ABI, version 1 (SYSV), statically linked, Go BuildID=M0pXkdzGBoRFa0VRibYp/wNW6VdKrhseWi2RZePbj/k2SGu66K_XnvR5rS1wvg/YfoW0vqfQBbXlmy7tCxM, BuildID[sha1]=f868625b8ce50b825d18b9538163dea8530c6e06, with debug_info, not stripped
 ./tailscale/tailscaled_s390x_Linux:                          ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, stripped
 
 --> SHA256SUM
-d5626ec51dc8de2da07976e27c8fd02dae99fae421b5f5f416c135a9fb9c266a  ./tailscale/tailscale_aarch64_arm64_Linux
-fd3fb1c45ca6c25e48cf63a1fc764b23a894eab055a76afe8ac29dc002526835  ./tailscale/tailscale_aarch64_arm64_Linux.upx
-1692cbaf4b0668b1a4fbbeeb50639dbc7c67b3d56652829eca8b127a1899ce4e  ./tailscale/tailscale_aarch64_arm64_Windows.msi
+b2f8daf32ca9a60453a673a7beb6bc65a70383e79110d19b847b10aa3eb311f6  ./tailscale/tailscale_aarch64_arm64_Linux
+8f7ca383bd67eead711bf3a30a181eef4153c0ca4f8b119b78ccbe84bff3d33a  ./tailscale/tailscale_aarch64_arm64_Linux.upx
+b0bf1e22091647ed3d1bc9527e39c5141629a71e03b8627e6f3f42c80277517a  ./tailscale/tailscale_aarch64_arm64_Windows.msi
 758bd296723a348a70f5274b294baeb4053abd2e2ce58e2220e210946b618c6f  ./tailscale/tailscale_aarch64_arm64_macOS
-778cf0a6f7a722dbbe93eac5610dfb0a37ac7940c34c90dd083dad2b1052e85e  ./tailscale/tailscale_amd_geode_Linux
-de210b727b89461ac6428fbcfa7bd7fb5dff1df0d0dae6e459013ba820634ad5  ./tailscale/tailscale_amd_geode_Linux.upx
-fb28ed84e222a744e2c000d2097eaee6700a3123b645ffd2fbf1c84b19d4dee7  ./tailscale/tailscale_amd_x86_64_Linux
-afcca79abb7b0043ad0209fdc6abbd380291bfbba103aada4f50d14d37355477  ./tailscale/tailscale_amd_x86_64_Linux.upx
-37416900f4990abb0e85b9cc26c7c7f96f8f181294cbee1eeb568ec3f355e87d  ./tailscale/tailscale_amd_x86_64_Windows.msi
+8861af9a79ceac5493b992de307f5a753a9fa4263f800a0bcb5d0c3b249f02bc  ./tailscale/tailscale_amd_geode_Linux
+a9797d004184570549685ebd11311b333f71ed4474841a599b8be88730b89b81  ./tailscale/tailscale_amd_geode_Linux.upx
+120a03da505fa8f745b24cee745cb59a3235d0d7d8fe0f4f6f1a5164ba805bd4  ./tailscale/tailscale_amd_x86_64_Linux
+349e22fdeb35f364348f3d1e3c7b36b063ef16cbee5ef6bf74eeba0475f76948  ./tailscale/tailscale_amd_x86_64_Linux.upx
+07bcb57d3bd34a0299d98133f1a0091db2ce66831aa7c100f456e2269a41e665  ./tailscale/tailscale_amd_x86_64_Windows.msi
 248b7930c0c4c650f988bcb90a968da042066e0b826bf58efd8fe3a69fad8e7f  ./tailscale/tailscale_amd_x86_64_macOS
-7af88aae68c54eef22d3416d747b61abb72ce234d44e89ae98ed0f6d35ae8f43  ./tailscale/tailscale_arm_abi_Linux
-8a66a1b2ec04e6dad703f2420c48f367ec35405ea6ea1fb6c085a737f8d537f9  ./tailscale/tailscale_arm_abi_Linux.upx
-f3da1dba9a3297cd9db5f9160cd10c6add6d669630aef9695f7c84336b92bae3  ./tailscale/tailscale_i386_Linux
-939ab26942050e3aa1a07ca02024998f1a50b6f3498f305ee53687607da89bb3  ./tailscale/tailscale_i386_Linux.upx
-33c3393c3ca29be6da4647539998f148bc6446c2723ba5e3e96d809b0dfc5a4d  ./tailscale/tailscale_ipn_setup_Windows.exe
-81b27078dc02b87986d3feabffaa94f1794835a6c51a03cf9e7f9733bfff8bc1  ./tailscale/tailscale_merged_aarch64_arm64_Linux
-8ecc5c67de25ea7cb0c0e9b4a2f015269ad40de2e072b939d32fd0782638cde2  ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
+a371b0f4527b442121d5494f61f44056c5ff95a692748e6baab47c42c8d632c4  ./tailscale/tailscale_arm_abi_Linux
+47b58835edc08f710b5711d95bd4d79ce6eb7c18982d96d693acbb3b8aa17416  ./tailscale/tailscale_arm_abi_Linux.upx
+ebdaf7affd04fbc958949b35f025495b2f0c13e26c8b503506c5326c98e5200b  ./tailscale/tailscale_i386_Linux
+68ccd795b9b59f73cd68c672dcedaf65a4fef658c2b86f0f1a451b79b65cf02a  ./tailscale/tailscale_i386_Linux.upx
+5d8cdc47883fb94b5df1546d1d807ae43267c67f011a7ffbfc06d95dc6ac9fcc  ./tailscale/tailscale_ipn_setup_Windows.exe
+bbf3e92e4058a8b20d8a451a76f0426f6e2792fc141581a7113166f91bb04295  ./tailscale/tailscale_merged_aarch64_arm64_Linux
+23af431dec65e0fa9271ab3a6b4f9694e8454778d5c65215b136ea7470789d87  ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
 68728bde1313493eb44dbd3be2e989eb00f60f4938d0d2845df9d45e32c25df7  ./tailscale/tailscale_merged_aarch64_arm64_macOS
-3c191731bf5fd34cf14f1a9e4e63488a58ca750de50f8c27e02a82c874ae36c1  ./tailscale/tailscale_merged_amd_x86_64_Linux
-d041a77d89818af39c3415373c5f70104614b5100c3bfc0b5ceb005cacf574ba  ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
+dd9c26761dfc8a3fbf10ee0657688c576ef2c6bf08dd3c6eca42d13f40e79643  ./tailscale/tailscale_merged_amd_x86_64_Linux
+2a1adc72b1e15159020df2c6d80a11960d415f81ac415d4b209a40ec5d3f2e2f  ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
 267bebcfe539dd8353add30caf55a042bf996f8e688aae7910b9ecf61714f3f8  ./tailscale/tailscale_merged_amd_x86_64_macOS
-f12b9fca51ec3364cdebcff2c9d8b49e40873f06769a6f88f5461d30bde8023d  ./tailscale/tailscale_merged_arm_Linux
-3969fd8a92c227c628ef2ca60b354f9020f529ab2b6a376008d9887882221419  ./tailscale/tailscale_merged_arm_Linux.upx
-2d8815ba4f49dc36bf45f3f212d1ee88f639f04ed2c9f8adadd899052a0de722  ./tailscale/tailscale_merged_i386_Linux
-155ec6a988232bfe3c3547a9462ee082cbce5460ea2c91beba26ce4c0dd08275  ./tailscale/tailscale_merged_i386_Linux.upx
-882c164f76764e76aea205052b30ef77284d075224a40a3bc64fe7ea144256c7  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux
-6a2a5ef4f19a490d72d4ac450115b281bc351e446657a69163f92b5d9041dcbc  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
-7550a1da6d6073ca7660bc5b8e2a8c4faa58722004e0493c050b37079ba45a86  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux
-fe31703b11e579b10ef945e5211452431bc240a6f299dce92eb0f47c5ac052f7  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
-08872368ae577c0254d7fb2a1463c663a3e57f53060704b2397d3b3c60057b8e  ./tailscale/tailscale_merged_s390x_Linux
-47f3f3557c8e0740bb0adcbed4420349064ee4b3ed655e895971eb3b15ec9c37  ./tailscale/tailscale_mips64_Linux
-a65249ae998f9cc810fd4b6ef87cee57cacdd00e29620f9e95e496fb8824c9d9  ./tailscale/tailscale_mips64le_Linux
-e2902ad260377ad35dc51e0b04718dc3b5579b0f33df7df1eae6f521f56558fc  ./tailscale/tailscale_mips_Linux
-9f0902f6971720a620fa63a0ec8fe2cbef4292b6903755fdeddca10ec284ca99  ./tailscale/tailscale_mips_Linux.upx
-ab32340c727c37bcd03a5abdd326ed0aaa7bea152a2b58a91ea6600f077b6f0d  ./tailscale/tailscale_mipsle_Linux
-2d997fa5ece0c87032e2adba07f60a2699c9f5d91e7bb67e871ba8d7d9865b45  ./tailscale/tailscale_mipsle_Linux.upx
-299783fa5c346398efa79b8115e2697d7cf26c7aac11f171616cf05aa153217f  ./tailscale/tailscale_powerpc64_ppc64_Linux
-211e34deb4ea01048f0358fa75dd0e8df9dbee1279806e0001256da45852fd82  ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
-c5ccadfb6f23fd7d8a83b32ab64f46bf5858f6fe6221486ae290efe7004837b7  ./tailscale/tailscale_powerpc64le_ppc64le_Linux
-d1e666839e9083dec6b04adceeacc919676f7d3ac1d3481e6f2f810d21dc5ed0  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
-e907ae13f421bcf4ee94a4c3d7e38e6f3ea857c760c7b410e2b040c1d15bb412  ./tailscale/tailscale_riscv64_Linux
-0d54fe4a1a3754c510904a638b9e475dfa349e3b7b05167b2743ac5bc82d3dcc  ./tailscale/tailscale_s390x_Linux
+f33a0dadfc758e48a5f9c8b93c7bdd90a86dbbbdde0a8766072eb16b78db1c07  ./tailscale/tailscale_merged_arm_Linux
+ba96a43dd8ec34bddec90abfc04bf5e651819ad8c0f16b2ade73c028397ea46b  ./tailscale/tailscale_merged_arm_Linux.upx
+784f97c98f3de24d107ac3b85f35c63ef9414abb4f57ae23499012c15f4794fa  ./tailscale/tailscale_merged_i386_Linux
+22f0e83d082deeb9918b9c8c0493474001d22ab860cda68b6e338a1b943c6b4a  ./tailscale/tailscale_merged_i386_Linux.upx
+a0d758e59ca83a0fa71d6ac6e25df67a68317bb9e6eb4724c06ddb92f303f554  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux
+f87d6b53ae5139a7c9ba2613b3000c75f88a2b736087035fb183076a20b2eb71  ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
+a50a584849bf6d3ee867e467e66dc084c7b4cc4d9f9e60e8bb2467335f737231  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux
+4e4b3b922de0a7a1fff828816792ec0567ac51a89fda0398a111f5cca98f0b13  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
+656dc085fc98bec381ec591d107215cf77016f37f404e6e92eb4ed4434ef48ea  ./tailscale/tailscale_merged_s390x_Linux
+384bc215380aa3b30a1cd7554a7f38c34656307a110829ab92c05b68f6289879  ./tailscale/tailscale_mips64_Linux
+8d654cdbcad0d1c3f50f9048bc30583bdd3d8194cc929f58c21e9f37bbe8c8b3  ./tailscale/tailscale_mips64le_Linux
+7fcaf9d2d8e7088a266fc022c26513e79d675f7b8224cf79bfc0c4f782f10a9e  ./tailscale/tailscale_mips_Linux
+87d57772ac01c56397bc6ceb04f2587e1aeb24ccdb85406797ccecf0dd80fe62  ./tailscale/tailscale_mips_Linux.upx
+e693b43c49cbb489d7f809473cb14ecad4b84b7d10d98181909d52348147d59f  ./tailscale/tailscale_mipsle_Linux
+0a858a4e8752cffa4dd6250a1bc7440ad3972c1a8410f50f6edf1ebb89864d30  ./tailscale/tailscale_mipsle_Linux.upx
+00d4bdcf2d7db5c2cba23f5c6038033a3148f7eeb3604087216399a107dfd545  ./tailscale/tailscale_powerpc64_ppc64_Linux
+fe87b5464aa7856f2370393940d299c911dd964c9a48111f6c59a35729cf9224  ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
+db97da0d3a6c241f09c77f0f2860c36103d0ba64e26fbc2e42822dca968e5351  ./tailscale/tailscale_powerpc64le_ppc64le_Linux
+4193c2a368d331fa04f803ca3d8eca8280a5d548eb750202e3172b36a823c35b  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
+d511fc3ab5a0fc67bf88b32c0b11ca62f074e168925f64b22f2d4879baf6e3b3  ./tailscale/tailscale_riscv64_Linux
+75e816e67957ba62d34cb18418cb4fea35c6b2b6285bff95a04fa07b26b9a968  ./tailscale/tailscale_s390x_Linux
 64a8ad28cbb67a6171236abe39f75a039a761a0e1aacdef75b26781887cef9a8  ./tailscale/tailscale_setup_Windows.exe
-36b47e4df15ec04969297300da81cca87254ecc5e79fae8360b2cfc90868640e  ./tailscale/tailscale_x86_Windows.msi
-a595b290bc114f921b3211fbf760f8157bc39e57ceccb38a6b00d45b144b41f5  ./tailscale/tailscaled_aarch64_arm64_Linux
-534493606552d70894e7725bd1677ea17b89b966b0c9fd0340b9ea1a3a9f00ec  ./tailscale/tailscaled_aarch64_arm64_Linux.upx
+1abe6a132d2579e382da57f50059adad32fd6cc1e3e88a64a031c8d908287b37  ./tailscale/tailscale_x86_Windows.msi
+620e4ed4f6709282bb67c27d137c7a589ddae4403c2e1ccbea6675bccbc32f9b  ./tailscale/tailscaled_aarch64_arm64_Linux
+b937b6301732cb51b67e303113cd10dd8b382ed2f7e12e6c2cf46d484e5e3bc7  ./tailscale/tailscaled_aarch64_arm64_Linux.upx
 3045786fe6191b3d64ae9d2b03b5fffcf080e3cb3073a3c2e8e69e57ea05e2cf  ./tailscale/tailscaled_aarch64_arm64_macOS
-713c69b6628abbecd056b16f31f7dbbca013ea4e603ca1cf4005e35b31d81ec4  ./tailscale/tailscaled_amd_geode_Linux
-65ce499b28d2e31037a366c098206a0207090c8fb49aabba2ea73f89e593579f  ./tailscale/tailscaled_amd_geode_Linux.upx
-5e47c852d8842e5d60f41a0d9cc5b295bc1cbfc7e25e27de254728dc2c10200b  ./tailscale/tailscaled_amd_x86_64_Linux
-9567cbb1a16ed9188d3f12bb59d89be1b4573742dec689cac2282e96464754d3  ./tailscale/tailscaled_amd_x86_64_Linux.upx
+f1ff3f8ab7d6a5b80c5295859e024dd730edde6948a581d7a7c85a35b2aa6622  ./tailscale/tailscaled_amd_geode_Linux
+647a56ff0e3764850d99c9a25ca362fb8305db3c997d9a58c887ea00ac21aec4  ./tailscale/tailscaled_amd_geode_Linux.upx
+abbd3cc8290d0d1fb23b93c990cbb60be0c521bf7ebfe265d926c0046fa196f3  ./tailscale/tailscaled_amd_x86_64_Linux
+912ba823c95efa824fdc27d29a8d2963874acfd1b0b1e84027139a99a41cbc8e  ./tailscale/tailscaled_amd_x86_64_Linux.upx
 b5304b43985998d94d5c2c94e0eeb9e160a76906fa0ecb224af45c3b878e684d  ./tailscale/tailscaled_amd_x86_64_macOS
-44fc4d0945de389c78943a18f4a7115c85ab418ddc9731f8cc53d8822fca4309  ./tailscale/tailscaled_arm_abi_Linux
-651c64b6cdfbe32f96134bd6d664564e0c7e70fd20e73a2f9a9bedd16331e86c  ./tailscale/tailscaled_arm_abi_Linux.upx
-091923f5efe86711b83b6ea13d91930035286fa3167998a5c5a0d3cdbe8ce9aa  ./tailscale/tailscaled_i386_Linux
-355ed1fc6dffd3f3f45fbff2768534f8b45a8a586fe0abad5bcab17c32c823da  ./tailscale/tailscaled_i386_Linux.upx
-027d901d12e9accf1a96095b1ecf24b7b1110186627b9bc85f09178a844d70bc  ./tailscale/tailscaled_mips64_Linux
-62554fe0f9c7ffbf0dc34623945632f451aa5f68b542f9acd82f8f67ce8c5442  ./tailscale/tailscaled_mips64le_Linux
-62895a1cb9866abc1aa853bb43e6723b95adefd90eb33b191616b14201b481cf  ./tailscale/tailscaled_mips_Linux
-16f0710fc75d85081af9447a80094ec43a8d354d7c962e63f05d074a74a9bb88  ./tailscale/tailscaled_mips_Linux.upx
-917fbd1fcf797353f33be9136f22e041a01e0422745dad00bf89c5e29fc8cd69  ./tailscale/tailscaled_mipsle_Linux
-a7c691a554b771a7d30a97c0aa7d944329e78964fad7a89fa59f53c8d8b0afa3  ./tailscale/tailscaled_mipsle_Linux.upx
-6b4ea3a078b9d89c45a636fa779be423f6414bcad16a389e716858c9ce9047fb  ./tailscale/tailscaled_powerpc64_ppc64_Linux
-db9cbe0869676740c7e3257ef7b8da2e15eedb91129a41a08be66913e63cbb8e  ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
-df97c8ce1020957fb1d0d469bc87609acd3a043e6c2256e936cfebffa9f330ea  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux
-12b85225dd6648032a2c114753fb5818fc5f69d0c8709232e663f25101e34c92  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
-657880dba9f2a21b284635d107c770e171fc0cc7f4a47afc3d19252a0c203a95  ./tailscale/tailscaled_riscv64_Linux
-8121f7e5d6888ccb034ae441727506a7ae5e0cac383686946e5b4cefc3151ac8  ./tailscale/tailscaled_s390x_Linux
+b90475b0f27e28743f8a1dfeef627944bbfbcd1492f3a6cf650a7c82c9b89b00  ./tailscale/tailscaled_arm_abi_Linux
+79f19879c903976c788cdaaa3ddd92888d4439b28f1348f45d4cebffa8b8daa6  ./tailscale/tailscaled_arm_abi_Linux.upx
+5c8b4a2a3ca51e3b2df34ddfb350c92872702efd0739922a66d159d6b2fbbd3c  ./tailscale/tailscaled_i386_Linux
+01128993af6745ee455f36152f16411ad43f98f61f5945e6952de4b169c22ab5  ./tailscale/tailscaled_i386_Linux.upx
+84e1220f59ad09837bea9657a2c4806cb1c095120d6ad727e05f46b68515afcf  ./tailscale/tailscaled_mips64_Linux
+411b180c1cc4fc5f5f38957e613f5633e369ad77de6a314d5b3816572da14c74  ./tailscale/tailscaled_mips64le_Linux
+893b2b6ba99feda6a08626a84159b0b2c9bbb6128dabcee05f2ccd47688f49d9  ./tailscale/tailscaled_mips_Linux
+ebcc9fac18f9b1bb8cb4b96dad81ca549794e263147ced98bd7458a71ce42d04  ./tailscale/tailscaled_mips_Linux.upx
+9c8a1987fa3a861b8519cf6d75b2f72f05c8d3f9b374535f390a99bac3ed5298  ./tailscale/tailscaled_mipsle_Linux
+5ba6e13ae0ce0c8acc74b94a44e7414f3d573927aa4b0ced1dd99b68b356c1c5  ./tailscale/tailscaled_mipsle_Linux.upx
+a79341db00d636d7e4c39701fe92ca440ef23f2612830b6143c65baec3816ba0  ./tailscale/tailscaled_powerpc64_ppc64_Linux
+2e63ae1ffe90faf768cad2a57e2bc5f5972bf3128cb1a8ea76ece6074f05cc96  ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
+cd5b3547014ac211a2b6b9ac14bee7c1f34fee6979bcf215f42328fe647ff32e  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux
+187d68d1c4f9214609676c4989517a8e389fdd18eec598fae3cccce4ded10e55  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
+957ecd842b9d5c528a6f26e4d17a2a9f586a7601246c050c9861113ae37db544  ./tailscale/tailscaled_riscv64_Linux
+92f0fcf2a4af0436ea0a4d1df418af053fcf76d4969aaad57a2dc2987ec08408  ./tailscale/tailscaled_s390x_Linux
 ```
 
 
@@ -375,7 +375,7 @@ df97c8ce1020957fb1d0d469bc87609acd3a043e6c2256e936cfebffa9f330ea  ./tailscale/ta
 33M   ./tailscale/tailscale_aarch64_arm64_Windows.msi
 11M   ./tailscale/tailscale_aarch64_arm64_macOS
 20M   ./tailscale/tailscale_amd_geode_Linux
-5.1M  ./tailscale/tailscale_amd_geode_Linux.upx
+5.6M  ./tailscale/tailscale_amd_geode_Linux.upx
 22M   ./tailscale/tailscale_amd_x86_64_Linux
 6.0M  ./tailscale/tailscale_amd_x86_64_Linux.upx
 35M   ./tailscale/tailscale_amd_x86_64_Windows.msi
@@ -413,7 +413,7 @@ df97c8ce1020957fb1d0d469bc87609acd3a043e6c2256e936cfebffa9f330ea  ./tailscale/ta
 28M   ./tailscale/tailscale_riscv64_Linux
 22M   ./tailscale/tailscale_s390x_Linux
 51M   ./tailscale/tailscale_setup_Windows.exe
-34M   ./tailscale/tailscale_x86_Windows.msi
+35M   ./tailscale/tailscale_x86_Windows.msi
 37M   ./tailscale/tailscaled_aarch64_arm64_Linux
 16M   ./tailscale/tailscaled_aarch64_arm64_Linux.upx
 19M   ./tailscale/tailscaled_aarch64_arm64_macOS
@@ -445,54 +445,54 @@ df97c8ce1020957fb1d0d469bc87609acd3a043e6c2256e936cfebffa9f330ea  ./tailscale/ta
 - #### UPX
 ```console
 
-testing ./tailscale/tailscaled_i386_Linux.upx [OK]
-  24699308 ->   7085144   28.69%   linux/i386    ./tailscale/tailscaled_i386_Linux.upx
 testing ./tailscale/tailscale_i386_Linux.upx [OK]
-  20718468 ->   5777152   27.88%   linux/i386    ./tailscale/tailscale_i386_Linux.upx
-testing ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx [OK]
-  34078846 ->   8027364   23.56%   linux/arm64   ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
-testing ./tailscale/tailscale_aarch64_arm64_Linux.upx [OK]
-  29579204 ->  12088124   40.87%   linux/arm64   ./tailscale/tailscale_aarch64_arm64_Linux.upx
-testing ./tailscale/tailscaled_mips_Linux.upx [OK]
-  39035571 ->  14682840   37.61%   linux/mips    ./tailscale/tailscaled_mips_Linux.upx
-testing ./tailscale/tailscale_merged_amd_x86_64_Linux.upx [OK]
-  36733054 ->   9789224   26.65%   linux/amd64   ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
-testing ./tailscale/tailscaled_amd_x86_64_Linux.upx [OK]
-  28590232 ->   8009108   28.01%   linux/amd64   ./tailscale/tailscaled_amd_x86_64_Linux.upx
-testing ./tailscale/tailscale_mipsle_Linux.upx [OK]
-  32243494 ->  11915588   36.96%  linux/mipsel   ./tailscale/tailscale_mipsle_Linux.upx
-testing ./tailscale/tailscaled_mipsle_Linux.upx [OK]
-  38867659 ->  14655000   37.70%  linux/mipsel   ./tailscale/tailscaled_mipsle_Linux.upx
-testing ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx [OK]
-  25690238 ->   6158848   23.97%   linux/ppc64   ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
-testing ./tailscale/tailscale_amd_x86_64_Linux.upx [OK]
-  22278248 ->   6207204   27.86%   linux/amd64   ./tailscale/tailscale_amd_x86_64_Linux.upx
-testing ./tailscale/tailscaled_amd_geode_Linux.upx [OK]
-  24736172 ->   7094912   28.68%   linux/i386    ./tailscale/tailscaled_amd_geode_Linux.upx
-testing ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx [OK]
-  21364862 ->   5191264   24.30%  linux/ppc64le  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
-testing ./tailscale/tailscaled_aarch64_arm64_Linux.upx [OK]
-  38487580 ->  15814420   41.09%   linux/arm64   ./tailscale/tailscaled_aarch64_arm64_Linux.upx
-testing ./tailscale/tailscale_amd_geode_Linux.upx [OK]
-  20771716 ->   5319560   25.61%   linux/i386    ./tailscale/tailscale_amd_geode_Linux.upx
-testing ./tailscale/tailscale_merged_i386_Linux.upx [OK]
-  34390142 ->   9146560   26.60%   linux/i386    ./tailscale/tailscale_merged_i386_Linux.upx
-testing ./tailscale/tailscale_merged_arm_Linux.upx [OK]
-  33882238 ->   7832252   23.12%    linux/arm    ./tailscale/tailscale_merged_arm_Linux.upx
-testing ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx [OK]
-  25690238 ->   6389216   24.87%  linux/ppc64le  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
-testing ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx [OK]
-  35913854 ->   8261228   23.00%  linux/ppc64le  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
-testing ./tailscale/tailscale_powerpc64_ppc64_Linux.upx [OK]
-  21364862 ->   4980476   23.31%   linux/ppc64   ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
-testing ./tailscale/tailscaled_arm_abi_Linux.upx [OK]
-  35040923 ->  14515892   41.43%    linux/arm    ./tailscale/tailscaled_arm_abi_Linux.upx
+  20726660 ->   5777932   27.88%   linux/i386    ./tailscale/tailscale_i386_Linux.upx
 testing ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx [OK]
-  35913854 ->   7971152   22.20%   linux/ppc64   ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
+  35979390 ->   7975196   22.17%   linux/ppc64   ./tailscale/tailscale_merged_powerpc64_ppc64_Linux.upx
+testing ./tailscale/tailscale_aarch64_arm64_Linux.upx [OK]
+  29580597 ->  12090360   40.87%   linux/arm64   ./tailscale/tailscale_aarch64_arm64_Linux.upx
+testing ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx [OK]
+  25755774 ->   6160060   23.92%   linux/ppc64   ./tailscale/tailscaled_powerpc64_ppc64_Linux.upx
+testing ./tailscale/tailscale_merged_arm_Linux.upx [OK]
+  33882238 ->   7834036   23.12%    linux/arm    ./tailscale/tailscale_merged_arm_Linux.upx
 testing ./tailscale/tailscale_mips_Linux.upx [OK]
-  32392606 ->  11949236   36.89%   linux/mips    ./tailscale/tailscale_mips_Linux.upx
+  32393645 ->  11950364   36.89%   linux/mips    ./tailscale/tailscale_mips_Linux.upx
+testing ./tailscale/tailscale_powerpc64_ppc64_Linux.upx [OK]
+  21364862 ->   4980840   23.31%   linux/ppc64   ./tailscale/tailscale_powerpc64_ppc64_Linux.upx
+testing ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx [OK]
+  21364862 ->   5191632   24.30%  linux/ppc64le  ./tailscale/tailscale_powerpc64le_ppc64le_Linux.upx
+testing ./tailscale/tailscaled_arm_abi_Linux.upx [OK]
+  35045030 ->  14519784   41.43%    linux/arm    ./tailscale/tailscaled_arm_abi_Linux.upx
+testing ./tailscale/tailscale_merged_i386_Linux.upx [OK]
+  34402430 ->   9148876   26.59%   linux/i386    ./tailscale/tailscale_merged_i386_Linux.upx
+testing ./tailscale/tailscaled_i386_Linux.upx [OK]
+  24711596 ->   7088116   28.68%   linux/i386    ./tailscale/tailscaled_i386_Linux.upx
+testing ./tailscale/tailscaled_amd_x86_64_Linux.upx [OK]
+  28594392 ->   8013220   28.02%   linux/amd64   ./tailscale/tailscaled_amd_x86_64_Linux.upx
+testing ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx [OK]
+  34078846 ->   8026876   23.55%   linux/arm64   ./tailscale/tailscale_merged_aarch64_arm64_Linux.upx
+testing ./tailscale/tailscale_mipsle_Linux.upx [OK]
+  32245721 ->  11921868   36.97%  linux/mipsel   ./tailscale/tailscale_mipsle_Linux.upx
+testing ./tailscale/tailscaled_mipsle_Linux.upx [OK]
+  38873354 ->  14659736   37.71%  linux/mipsel   ./tailscale/tailscaled_mipsle_Linux.upx
+testing ./tailscale/tailscale_merged_amd_x86_64_Linux.upx [OK]
+  36741246 ->   9795384   26.66%   linux/amd64   ./tailscale/tailscale_merged_amd_x86_64_Linux.upx
 testing ./tailscale/tailscale_arm_abi_Linux.upx [OK]
-  29259774 ->  11844380   40.48%    linux/arm    ./tailscale/tailscale_arm_abi_Linux.upx
+  29260393 ->  11843336   40.48%    linux/arm    ./tailscale/tailscale_arm_abi_Linux.upx
+testing ./tailscale/tailscaled_aarch64_arm64_Linux.upx [OK]
+  38490605 ->  15820976   41.10%   linux/arm64   ./tailscale/tailscaled_aarch64_arm64_Linux.upx
+testing ./tailscale/tailscale_amd_geode_Linux.upx [OK]
+  20779908 ->   5788768   27.86%   linux/i386    ./tailscale/tailscale_amd_geode_Linux.upx
+testing ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx [OK]
+  35913854 ->   8265844   23.02%  linux/ppc64le  ./tailscale/tailscale_merged_powerpc64le_ppc64le_Linux.upx
+testing ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx [OK]
+  25755774 ->   6391412   24.82%  linux/ppc64le  ./tailscale/tailscaled_powerpc64le_ppc64le_Linux.upx
+testing ./tailscale/tailscale_amd_x86_64_Linux.upx [OK]
+  22282344 ->   6207996   27.86%   linux/amd64   ./tailscale/tailscale_amd_x86_64_Linux.upx
+testing ./tailscale/tailscaled_mips_Linux.upx [OK]
+  39037974 ->  14686528   37.62%   linux/mips    ./tailscale/tailscaled_mips_Linux.upx
+testing ./tailscale/tailscaled_amd_geode_Linux.upx [OK]
+  24740268 ->   7095460   28.68%   linux/i386    ./tailscale/tailscaled_amd_geode_Linux.upx
 
 ```
 
@@ -501,11 +501,11 @@ testing ./tailscale/tailscale_arm_abi_Linux.upx [OK]
 - #### Version
 ```console
 $ ./tailscale/tailscale_amd_x86_64_Linux --version
-1.98.8
-  tailscale commit: 1241b225bc798707d02db3570992625d3a16594f
-  long version: 1.98.8-t1241b225b-g0520dfda5
-  other commit: 0520dfda5d034816c38a15a8661160eb9a6d5ac4
-  go version: go1.26.3 (tailscale/go e877d97384)
+1.98.9
+  tailscale commit: 4fb758c39ae5b208b974af14ba6bc896a250394c
+  long version: 1.98.9-t4fb758c39-g200941d74
+  other commit: 200941d74860e4e5843de3d7d22ef7191fcac6ef
+  go version: go1.26.5 (tailscale/go 63ae404c82)
 
 The easiest, most secure way to use WireGuard.
 
@@ -557,11 +557,11 @@ FLAGS
     	path to tailscaled socket (default /var/run/tailscale/tailscaled.sock)
 
 $ ./tailscale/tailscaled_amd_x86_64_Linux -version
-1.98.8
-  tailscale commit: 1241b225bc798707d02db3570992625d3a16594f
-  long version: 1.98.8-t1241b225b-g0520dfda5
-  other commit: 0520dfda5d034816c38a15a8661160eb9a6d5ac4
-  go version: go1.26.3 (tailscale/go e877d97384)
+1.98.9
+  tailscale commit: 4fb758c39ae5b208b974af14ba6bc896a250394c
+  long version: 1.98.9-t4fb758c39-g200941d74
+  other commit: 200941d74860e4e5843de3d7d22ef7191fcac6ef
+  go version: go1.26.5 (tailscale/go 63ae404c82)
 
 Usage of ./tailscale/tailscaled_amd_x86_64_Linux:
   -bird-socket string
