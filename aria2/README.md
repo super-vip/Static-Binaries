@@ -255,7 +255,7 @@ Compiler: gcc 11.2.1 20211120
   built by  x86_64-pc-linux-gnu
   targeting aarch64-unknown-linux-musl
   on        Nov  2 2024 01:27:54
-System: Linux 6.17.0-1020-azure #20~24.04.1-Ubuntu SMP Fri Jun 19 20:09:14 UTC 2026 aarch64
+System: Linux 6.17.0-1021-azure #21~24.04.1-Ubuntu SMP Wed Jul  1 21:45:31 UTC 2026 aarch64
 
 Report bugs to https://github.com/aria2/aria2/issues
 Visit https://aria2.github.io/
