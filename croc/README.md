@@ -178,36 +178,36 @@ $env:PROCESSOR_ARCHITECTURE
 ./croc/croc_x86_64_macOS:              Mach-O 64-bit x86_64 executable, flags:<|DYLDLINK|PIE>
 
 --> SHA256SUM
-82884f7f3476d47aa2ed131c146f1ead0afd79dcf877ef7b5256f6df0ed4ae3b  ./croc/croc_386_Linux
-75181484b706aee694d28533875dfe564156a815d40dcbbc5608dbf0d048be7a  ./croc/croc_aarch64_arm64_FreeBSD
-ad53e2fe74266543b480793a69867371d3148845d21a07de2fe34e723ca4944c  ./croc/croc_aarch64_arm64_Linux
-0be6723e0eb779460d5e46bac58b752509b3c750918b11b8aec266fe0cb63d9f  ./croc/croc_aarch64_arm64_OpenBSD
-e0d31673b15ab9e0d7b58934de79fc096a54158a1d4b98de4048e429ec990169  ./croc/croc_aarch64_arm64_Windows.exe
-0a216886c0ece78eca861661812d0b35bee7451bd7fc6de9e474831137b8a2d5  ./croc/croc_aarch64_arm64_macOS
-cc30cedaf2cd8255c6bff3f32f8d9b81a3395d8a18663288e314193881b1899b  ./croc/croc_amd_x86_64_DragonFlyBSD
-edd18a68b97c878fb0c25179c33ec4a2860c3f6d3dec3886e345baa091691815  ./croc/croc_amd_x86_64_FreeBSD
-f5d06c45d1a80ce5eede90f11cc004a173f425bcf8cbe2664a50d42509be81f6  ./croc/croc_amd_x86_64_Linux
-241086804a7907ed4775960fca1e18f1b987603d139fac95a5104a35d918653a  ./croc/croc_amd_x86_64_NetBSD
-e65392b3e0c8e03d7f21074d106c57665fbd8c8c1f33e345098e2b98e45eb39e  ./croc/croc_amd_x86_64_OpenBSD
-35dd2af32dea10bf65a05a523c268fbca9e2efc1b0508c63e76a1d516ffd89a4  ./croc/croc_amd_x86_64_Windows.exe
+b2b52171bece1b4584cb3beded5a564e78ffd11c8ab1e35fafed66f9a98356bc  ./croc/croc_386_Linux
+314978aaa7fb7c56e5c08b50cf8d74dbe783e0d20faeb72300f2a59a58565151  ./croc/croc_aarch64_arm64_FreeBSD
+f09f41133bb5f31061f7214130cd8d742b6f0dc122c92008eae3c43bca044b4b  ./croc/croc_aarch64_arm64_Linux
+dc65c50169cc451dc86a51126aaefc296a3ef0bd5f8bacb77fda7966e996e67f  ./croc/croc_aarch64_arm64_OpenBSD
+69e9f2a0cd235dc87c0a7a703f4b35b099bb82b70a944d01792a85837da80170  ./croc/croc_aarch64_arm64_Windows.exe
+b6f4a79aacd9633e1cb30665e83455954114e5f362471bcea7086ffc01e5e6bb  ./croc/croc_aarch64_arm64_macOS
+122f7065743b718cfdd3b7e9b0822f1d6fac4937fbdee65462dfbef61c8d8fde  ./croc/croc_amd_x86_64_DragonFlyBSD
+5aff17e95056824506721844ab228737d7adbd9003387ffbaf20854c3e626c3b  ./croc/croc_amd_x86_64_FreeBSD
+3a6b9f82f6d7bf11d64520761ada87f9e6118bd21b07e2014a46f784ec74707e  ./croc/croc_amd_x86_64_Linux
+4e974d2b23ce1141fa9d354902bc449327a7779ab254545898d27da91611c0db  ./croc/croc_amd_x86_64_NetBSD
+fafc6ab322bbdee84f948632fb93e6449b1494d19fb678896eb20ea5b2c08ecb  ./croc/croc_amd_x86_64_OpenBSD
+97c303eccc604cd13c856d294739a2bd89efc90f202dab1168cb64d98b9cb88c  ./croc/croc_amd_x86_64_Windows.exe
 7ff1b6c223ed59e440118debc349e65254d507e82865377f3e2904184258b08e  ./croc/croc_amd_x86_FreeBSD
-362ac3f65dd78ed1e34aa7d1512ae53b544c58bae60456a386640e68c539e50d  ./croc/croc_amd_x86_Linux
-d9772d2a1c0274d8795ba2395f947affcc64df0c4152f93037869c0b8dd05014  ./croc/croc_amd_x86_NetBSD
+701a8c0f27d479ee2faf5eaa3fdd6a5cda9fe29ab8bbb6005b389d5e9bdc93a6  ./croc/croc_amd_x86_Linux
+e80eee045ef53d869939c8eda3e64da47cb5518022090c62b3bc027a2775d987  ./croc/croc_amd_x86_NetBSD
 9964c8ee5e7abcce36d282ccadeae66e1f2244bcff4befdb2b2bf9f974da957d  ./croc/croc_amd_x86_OpenBSD
-c92697bb45b688b272a8e1075470d244bd244c0b591ffc27df7b41f46658d4a1  ./croc/croc_amd_x86_Windows.exe
+81e5d2a810bed867c90f27ed9dd6fb7e4b477f1ad0677b86b327a2ca75f67fa3  ./croc/croc_amd_x86_Windows.exe
 ed657a7f38152378e377ac7b7df5720e550362cf5d411203aab105e3ad389e5f  ./croc/croc_arm_Windows.exe
 2419b6a55fc015b0548bc9ce29c849bb9baf346889d459f463ac0dbe8575a48f  ./croc/croc_arm_abi_NetBSD
 b6f4ae2184afec08f332e4bae80293eac0f9004b25e0bac46639e66a713b3cb2  ./croc/croc_arm_abi_OpenBSD
-1b7b4672837eb323d1d147a05e8c5d2e96047a596fdddae3769982866373cdc1  ./croc/croc_loong64_Linux
-2dffa70d2213eec4a962c9e5f89432d56b2ada9137a147df8a8f76bd59ca7ff2  ./croc/croc_mips64_Linux
-902019bd61daa4ef40bc8651707c5b931667f30607484ed382e09605badbb9c0  ./croc/croc_mips64le_Linux
-3f6014c30b472303e662124029ca2aca2f475c3b74378e48eb42c48378d82107  ./croc/croc_mips_Linux
-2e8a5c24d3abde60db7d6efc20ae3a7ed57128cad9c0d406df883396a655f67f  ./croc/croc_mipsle_Linux
-b07544c87acd4a2baee7242dec35884d7c8204cc00f7379aba818400609c48c5  ./croc/croc_powerpc64_ppc64_Linux
-88d950e0a54193cd704c180c6e759d6f87a78adf9cbf67e8d9510eabedd4b55a  ./croc/croc_powerpc64le_ppc64le_Linux
-630e1f345e9a0ce223a77449784eae357faf7ce8f99ec3c0d2a6b5f0a2caab0d  ./croc/croc_riscv64_Linux
-6c1e8f759e52de5471173bed2f65d47ebfd948b260e3192f3d2f62838ae51482  ./croc/croc_s390x_Linux
-85ba2bd1ee4e0ece05ed2a1751cf327d785b6aae974dd507bd53a799ae0975dd  ./croc/croc_x86_64_macOS
+6b64a6007bc53b8a1056eff0c4794f023e0d6321753ab84b58fc45c0d23b7902  ./croc/croc_loong64_Linux
+ce53c54f57fba2a6ccb272fb21311e65b6da3903548f2f35b9aa219e813b6c62  ./croc/croc_mips64_Linux
+4a053b42777ee32e9fe13138c0cd7a60756a96cff24e3369d0757aed47c80c33  ./croc/croc_mips64le_Linux
+6b4f99c2c0d044f478587f3c6359167f1f50b6b611890097bde305b913e5d89e  ./croc/croc_mips_Linux
+3613b5befa04f2cbb2d107eb7f872d5e3967c04bb13ccdf5d23b458da447676b  ./croc/croc_mipsle_Linux
+6c34a8913f17ef72ec35da911e3270e2dfd3d4bf0c06cd5d7cba1a8a83fa597d  ./croc/croc_powerpc64_ppc64_Linux
+ef8d36a15eb4ffb8c2c68d6799e6892066eb663aaf2bc844590ae8ace94efa42  ./croc/croc_powerpc64le_ppc64le_Linux
+394ffe17f45f90ed3affde3089f65699012505629942b49f4b90b54e777b8d91  ./croc/croc_riscv64_Linux
+9be4f5ad84c6a76f768f626093d00988886c90b6dab2bd940b2b64698835830f  ./croc/croc_s390x_Linux
+f95da7ce9819e4bdd4b8985bfd4e6cee920cadc13fe3a87a0640889de695708e  ./croc/croc_x86_64_macOS
 ```
 
 
@@ -254,7 +254,7 @@ b07544c87acd4a2baee7242dec35884d7c8204cc00f7379aba818400609c48c5  ./croc/croc_po
 ```console
 
 $ ./croc/croc_amd_x86_64_Linux --version
-croc version 11.1.1
+croc version 11.1.2
 
 $ ./croc/croc_amd_x86_64_Linux -h
 NAME:
@@ -283,7 +283,7 @@ USAGE:
       croc secret-code
 
 VERSION:
-   11.1.1
+   11.1.2
 
 COMMANDS:
    send     send file(s), or folder (see options with croc send -h)
