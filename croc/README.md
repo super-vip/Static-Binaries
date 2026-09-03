@@ -178,36 +178,36 @@ $env:PROCESSOR_ARCHITECTURE
 ./croc/croc_x86_64_macOS:              Mach-O 64-bit x86_64 executable, flags:<|DYLDLINK|PIE>
 
 --> SHA256SUM
-2c50ac73ccd8bd3f86000536b0f604fcb3d3b42884291ab3e93e719b97105667  ./croc/croc_386_Linux
-cd8dfe3e6d47f7873ed106c05e7f5b416d05146931c9e8ada17b6137bd10602d  ./croc/croc_aarch64_arm64_FreeBSD
-bdd78067427de8de5b569eb9134a61323e0e64604d796d559c307606e0e9e144  ./croc/croc_aarch64_arm64_Linux
-1d9cc67652245349d0a92208e5950b1dc087c3a40138b5139e6449751676f025  ./croc/croc_aarch64_arm64_OpenBSD
-b58cdc3518d0e7af91bf29ea8f8e62c3deafbfe4ff3511595189e4f899c47103  ./croc/croc_aarch64_arm64_Windows.exe
-dc8d8178e7bac418db399ab7f3c3410b1f2420ce14b3dfd5212482ba9766c39a  ./croc/croc_aarch64_arm64_macOS
-dbd96b6426ca12f8539b16fdac4f33fe414833bd04fa3639cc8a247956896cbc  ./croc/croc_amd_x86_64_DragonFlyBSD
-a8b832d503b85edf1062a91509c171f4561c9366176fdc9c23523fd6f8f7e355  ./croc/croc_amd_x86_64_FreeBSD
-e966395fd7da904ba1414908d284f1badabb1e695da8767f5a2b7e08f9ec44ee  ./croc/croc_amd_x86_64_Linux
-ac8d77786f691d91e89a78abde89ff4c86e492cbfb4d2404228ba712581cd2e9  ./croc/croc_amd_x86_64_NetBSD
-88a87d1067e6b7571c6747dacc1c3e0a5364484f790dcd645d7619efe9d6ca06  ./croc/croc_amd_x86_64_OpenBSD
-eb8d3b65a04b28fa0501eff461cfba32b5cffab24bce174403774beefe5698b2  ./croc/croc_amd_x86_64_Windows.exe
+8488352276c96891102ebdfdd74fd07a4cedc9fab9c4ea8252c27d9c40b4ce4f  ./croc/croc_386_Linux
+5f8086767944d3e7b0a0acb0076f2b47611e98316a7024bb8e092ca966f7f005  ./croc/croc_aarch64_arm64_FreeBSD
+64944a64b3ce2d4274ad4509e31ccd24e5fd695dd55cd8520c6e4132dec6f0d2  ./croc/croc_aarch64_arm64_Linux
+cebd81a5fbd191bad7c04611a3e609b39c1ca7fed27d5ae97bd3393252569aa3  ./croc/croc_aarch64_arm64_OpenBSD
+fe62d4e28e2386baa74555dbe546bd559f55a630482a936e0a316c10e8e4e633  ./croc/croc_aarch64_arm64_Windows.exe
+a732023a9c0d5464fb077f279267e357a562a39ae0669a84d921c4be2253c617  ./croc/croc_aarch64_arm64_macOS
+4798d043e8cc9f524984b2374c963adf36671d74d1016e034b0aee8cf1b18eb4  ./croc/croc_amd_x86_64_DragonFlyBSD
+3c62c881198093eea68865b385f1c7ecfa13fd920202448d10fcd38f66402fb4  ./croc/croc_amd_x86_64_FreeBSD
+96fd84d90f365cd3e03fdcb7a6e3583370593252528f3333ba04a1e94b2ae58c  ./croc/croc_amd_x86_64_Linux
+5802e65b6b570e837ed1cf1e33b25f5614283fe3b0a733b172853145febd3855  ./croc/croc_amd_x86_64_NetBSD
+2a1b4abacbddeb24e96cbdc2f85b23c410f755dbaaca13bf96c373979f4bfc98  ./croc/croc_amd_x86_64_OpenBSD
+669e00e2a60d253f93bbdd382773aca47066833bd2360173de028924feb33575  ./croc/croc_amd_x86_64_Windows.exe
 7ff1b6c223ed59e440118debc349e65254d507e82865377f3e2904184258b08e  ./croc/croc_amd_x86_FreeBSD
-3800965cd4627dfea73a1e053cd4ebf353e4fb3b5e183c674087a319c4b81905  ./croc/croc_amd_x86_Linux
-ec3d3be52396f4868a0901ea07be3b323c9b233366cce426b4e86465ae810dea  ./croc/croc_amd_x86_NetBSD
+f011216297f50dc00a64a232a43693cda8bcb50822c48c1672f1932f75ca461b  ./croc/croc_amd_x86_Linux
+f77d6e8344b7d86b6b14afc143ce423f6ad571e16928fe8e06132adcd212cb60  ./croc/croc_amd_x86_NetBSD
 9964c8ee5e7abcce36d282ccadeae66e1f2244bcff4befdb2b2bf9f974da957d  ./croc/croc_amd_x86_OpenBSD
-4bef92e1894e3852a2e853a10c2815195a18c7cf597e623120694863da359705  ./croc/croc_amd_x86_Windows.exe
+d757866ac87e52ab37e649135a9bdee3202602d9bf02c8fb7c45d1cda7eed299  ./croc/croc_amd_x86_Windows.exe
 ed657a7f38152378e377ac7b7df5720e550362cf5d411203aab105e3ad389e5f  ./croc/croc_arm_Windows.exe
 2419b6a55fc015b0548bc9ce29c849bb9baf346889d459f463ac0dbe8575a48f  ./croc/croc_arm_abi_NetBSD
 b6f4ae2184afec08f332e4bae80293eac0f9004b25e0bac46639e66a713b3cb2  ./croc/croc_arm_abi_OpenBSD
-741c1ba1506524148b5544c77387454ef82db4d2905115268eb9aa525b33386f  ./croc/croc_loong64_Linux
-7150cca3beb825b04ddcf0bd81aaaeb6c0e85135e19a8f2ca8df2b3f71078df5  ./croc/croc_mips64_Linux
-26b822576e80aa18cc2d8af15b03b69c8bfaf7158d047c2288dfe8410e095577  ./croc/croc_mips64le_Linux
-9fb68d59c0d5e62639ef00000169a0a85f47d2f079f9820844c65878588bece2  ./croc/croc_mips_Linux
-220b1d046d28a13cee8d0a785f2514150ef85baf3b3aebe48476f3937a595927  ./croc/croc_mipsle_Linux
-15e4adf9bcbf81fb2b94dba1331d82a992d12570143d1f2a453bb3fa554c8106  ./croc/croc_powerpc64_ppc64_Linux
-bd304931fe63d20699ae863a925009437fe5b7a2d5c5b71c1f36f523c1d5be87  ./croc/croc_powerpc64le_ppc64le_Linux
-0e8b493dbcda5cfd75db23dc2f99b76c618e879bea78c26e063eccd19c14df0b  ./croc/croc_riscv64_Linux
-db9cfa1683148e85a4bfa6d0fc3335b0b40fd0926bc82300d025e35148fc35b6  ./croc/croc_s390x_Linux
-047256eaa89fa282d30a972dd51231e133d7ba9e0ac8dd038e58e2bbd88a1f60  ./croc/croc_x86_64_macOS
+52e681020de64a8b85ea8822cc51a9a1dc2d2e2a8c2c1e35219c73eb8b39027f  ./croc/croc_loong64_Linux
+b0edbf92c3be952544a0ecfd144219ba973c73585e09a75f819f198986a92847  ./croc/croc_mips64_Linux
+1537f2d6d3159a9b2997144b9ae405caa259bd6f3419c4c4e7dc3370f91699ce  ./croc/croc_mips64le_Linux
+1d44d48fb389a7564202e0b15e51ebb9f39e8c701c2f5237d67c517ca8d2e644  ./croc/croc_mips_Linux
+628da3e6ba3f7ec95dd43d452851a3079dbc026c8e7fbac6464372c2b874712b  ./croc/croc_mipsle_Linux
+b8c6205bdf1d5bab981a1638b19b0f52a22d7b4f412c506c2193d364d37d15f6  ./croc/croc_powerpc64_ppc64_Linux
+9c439ba3716ae6665b024d0669724f939f8025dcb81253585ec403884bd94ae4  ./croc/croc_powerpc64le_ppc64le_Linux
+f88f8aca180c5015dd178d0fe6e4388f4ccc3206c8a465cae9ee5a58d0772f1d  ./croc/croc_riscv64_Linux
+17e993d6bff94798fc947bd25ea0f961a731492dc897004c8899c8588cb37510  ./croc/croc_s390x_Linux
+b3e239ffbcdfa4d58ee39f0efdfc2de2907e88ae362c032b64858cf7c5671d8e  ./croc/croc_x86_64_macOS
 ```
 
 
@@ -216,36 +216,36 @@ db9cfa1683148e85a4bfa6d0fc3335b0b40fd0926bc82300d025e35148fc35b6  ./croc/croc_s3
 - #### Sizes
 
 ```console
-20M   ./croc/croc_386_Linux
-19M   ./croc/croc_aarch64_arm64_FreeBSD
-20M   ./croc/croc_aarch64_arm64_Linux
-19M   ./croc/croc_aarch64_arm64_OpenBSD
+21M   ./croc/croc_386_Linux
+20M   ./croc/croc_aarch64_arm64_FreeBSD
+21M   ./croc/croc_aarch64_arm64_Linux
+20M   ./croc/croc_aarch64_arm64_OpenBSD
 20M   ./croc/croc_aarch64_arm64_Windows.exe
 20M   ./croc/croc_aarch64_arm64_macOS
-9.1M  ./croc/croc_amd_x86_64_DragonFlyBSD
+9.2M  ./croc/croc_amd_x86_64_DragonFlyBSD
 21M   ./croc/croc_amd_x86_64_FreeBSD
-21M   ./croc/croc_amd_x86_64_Linux
+22M   ./croc/croc_amd_x86_64_Linux
 9.1M  ./croc/croc_amd_x86_64_NetBSD
 21M   ./croc/croc_amd_x86_64_OpenBSD
-21M   ./croc/croc_amd_x86_64_Windows.exe
+22M   ./croc/croc_amd_x86_64_Windows.exe
 7.1M  ./croc/croc_amd_x86_FreeBSD
-20M   ./croc/croc_amd_x86_Linux
+21M   ./croc/croc_amd_x86_Linux
 8.7M  ./croc/croc_amd_x86_NetBSD
 7.1M  ./croc/croc_amd_x86_OpenBSD
-20M   ./croc/croc_amd_x86_Windows.exe
+21M   ./croc/croc_amd_x86_Windows.exe
 15M   ./croc/croc_arm_Windows.exe
 7.2M  ./croc/croc_arm_abi_NetBSD
 7.2M  ./croc/croc_arm_abi_OpenBSD
-21M   ./croc/croc_loong64_Linux
-23M   ./croc/croc_mips64_Linux
-23M   ./croc/croc_mips64le_Linux
-23M   ./croc/croc_mips_Linux
-23M   ./croc/croc_mipsle_Linux
-21M   ./croc/croc_powerpc64_ppc64_Linux
-21M   ./croc/croc_powerpc64le_ppc64le_Linux
-19M   ./croc/croc_riscv64_Linux
-22M   ./croc/croc_s390x_Linux
-21M   ./croc/croc_x86_64_macOS
+22M   ./croc/croc_loong64_Linux
+24M   ./croc/croc_mips64_Linux
+24M   ./croc/croc_mips64le_Linux
+24M   ./croc/croc_mips_Linux
+24M   ./croc/croc_mipsle_Linux
+22M   ./croc/croc_powerpc64_ppc64_Linux
+22M   ./croc/croc_powerpc64le_ppc64le_Linux
+20M   ./croc/croc_riscv64_Linux
+23M   ./croc/croc_s390x_Linux
+22M   ./croc/croc_x86_64_macOS
 ```
 
 ---
@@ -254,11 +254,11 @@ db9cfa1683148e85a4bfa6d0fc3335b0b40fd0926bc82300d025e35148fc35b6  ./croc/croc_s3
 ```console
 
 $ ./croc/croc_amd_x86_64_Linux --version
-croc version 11.3.6
+croc version 11.4.0
 
 $ ./croc/croc_amd_x86_64_Linux -h
 NAME:
-   croc - easily and securely transfer stuff from one computer to another
+   croc - securely transfer files or share a terminal
 
 USAGE:
    croc [GLOBAL OPTIONS] [COMMAND] [COMMAND OPTIONS] [filename(s) or folder]
@@ -282,11 +282,18 @@ USAGE:
    Receive a file using code:
       croc secret-code
 
+   Share a terminal:
+      croc ssh
+
+   Join a shared terminal:
+      CROC_SECRET=six-word-invitation croc ssh
+
 VERSION:
-   11.3.6
+   11.4.0
 
 COMMANDS:
    send     send file(s), or folder (see options with croc send -h)
+   ssh      share or join a secure, collaborative terminal
    relay    start your own relay (optional)
    help, h  Shows a list of commands or help for one command
 
