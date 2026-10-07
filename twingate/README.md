@@ -76,7 +76,7 @@ $env:PROCESSOR_ARCHITECTURE
 $ file ./twingate/twingate_client_aarch64_arm64_dynamic_Linux ./twingate/twingate_client_amd_x86_64_dynamic_Linux ./twingate/twingate_client_amd_x86_64_staticx_Linux ./twingate/twingate_connector_aarch64_arm64_dynamic_Linux ./twingate/twingate_connector_amd_x86_64_dynamic_Linux ./twingate/twingate_connector_amd_x86_64_staticx_Linux ./twingate/twingate_connector_arm32v7_dynamic_Linux ./twingate/twingate_connector_version.txt ./twingate/twingate_connectorctl_aarch64_arm64_dynamic_Linux ./twingate/twingate_connectorctl_amd_x86_64_dynamic_Linux ./twingate/twingate_connectorctl_amd_x86_64_staticx_Linux ./twingate/twingate_connectorctl_arm32v7_dynamic_Linux ./twingate/twingate_notifier_aarch64_arm64_dynamic_Linux ./twingate/twingate_notifier_amd_x86_64_dynamic_Linux ./twingate/twingate_notifier_amd_x86_64_staticx_Linux ./twingate/twingate_version.txt
 $ grep -v .txt
 ./twingate/twingate_client_aarch64_arm64_dynamic_Linux:       ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, BuildID[sha1]=30227c6d237ae8126b43ec3f1b9c6c20c8b3e6b4, stripped
-./twingate/twingate_client_amd_x86_64_dynamic_Linux:          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=27bab78bc10c5284036f0c9523cfaa368ac79b52, stripped
+./twingate/twingate_client_amd_x86_64_dynamic_Linux:          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=0bbc390363667ae100a55b2d9e2cea629a3f5fc3, stripped
 ./twingate/twingate_client_amd_x86_64_staticx_Linux:          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./twingate/twingate_connector_aarch64_arm64_dynamic_Linux:    ELF 64-bit LSB pie executable, ARM aarch64, version 1 (GNU/Linux), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=2156e99428eb3af0f4c90a8d7c7d9f7cbb581147, for GNU/Linux 3.7.0, stripped
 ./twingate/twingate_connector_amd_x86_64_dynamic_Linux:       ELF 64-bit LSB pie executable, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=130f145fa0bfbc679f036ec7ae91e6032baba4cf, for GNU/Linux 3.2.0, stripped
@@ -87,13 +87,13 @@ $ grep -v .txt
 ./twingate/twingate_connectorctl_amd_x86_64_staticx_Linux:    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./twingate/twingate_connectorctl_arm32v7_dynamic_Linux:       ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, BuildID[sha1]=dc2f48e4dbea7bcfe3007bd4b1395209cf9f3bef, for GNU/Linux 3.2.0, stripped
 ./twingate/twingate_notifier_aarch64_arm64_dynamic_Linux:     ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, BuildID[sha1]=3c1a9f699db6404c756f96f52ef7e795b09819bc, stripped
-./twingate/twingate_notifier_amd_x86_64_dynamic_Linux:        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=b658c26cb182b7d6a4fd46674d2c802ca333319a, stripped
+./twingate/twingate_notifier_amd_x86_64_dynamic_Linux:        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=19e428d10e1b78a2972d13c32e0590ace82aae0f, stripped
 ./twingate/twingate_notifier_amd_x86_64_staticx_Linux:        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 
 --> SHA256SUM
 f5d73a69847bf06828143055bc375bfe386ea399c78e200d1da8c16f36048910  ./twingate/twingate_client_aarch64_arm64_dynamic_Linux
-d4d62d479cd83c3f744540dbc2e99e7ee68b60e80a8402325fea33bcdebbe64b  ./twingate/twingate_client_amd_x86_64_dynamic_Linux
-e616491d7c49f3ac35ed2493201382af44ccd887e3f88997d703ec278f37bb3a  ./twingate/twingate_client_amd_x86_64_staticx_Linux
+1bd9cba7e7a42988c7e033b7bff22643d7a525f64c10acc559eacea6307f48f4  ./twingate/twingate_client_amd_x86_64_dynamic_Linux
+f2b578a5a9943e7017433c12b7c54ba0e460432156c1a0346b9c413b465644f4  ./twingate/twingate_client_amd_x86_64_staticx_Linux
 9ef98bd4b3465b6608d797e436a0f23794e41874f9cb0e72d647cf2ad3e3832e  ./twingate/twingate_connector_aarch64_arm64_dynamic_Linux
 f5e411bf2c7d5fc38477d9fb1f66fc3190ed12788d76e8206678167b47f2bb17  ./twingate/twingate_connector_amd_x86_64_dynamic_Linux
 0325ec399a8c60afc575e2040cc13637c1354fd07c5ddca455b5c4934c782991  ./twingate/twingate_connector_amd_x86_64_staticx_Linux
@@ -103,8 +103,8 @@ e2bef700e5e3b935477d3fa72acdbfa1d6782657f76a699a7f38d5acaf07b2cb  ./twingate/twi
 dd4e7cd69a5826a8deed949f3f38f71f750cc9a3f1021150f2730dece1e32ce3  ./twingate/twingate_connectorctl_amd_x86_64_staticx_Linux
 7f652d4ed30fe8740313033ad496f1ffc9d4a8f7415cfd62ab330957d1c3a8e9  ./twingate/twingate_connectorctl_arm32v7_dynamic_Linux
 3a245da6f21d238de16de1034f9338dcd8dd347d52bf8833b4cecbf28482dd7e  ./twingate/twingate_notifier_aarch64_arm64_dynamic_Linux
-c0498cdaa4e8cb440ccd0ce1699788a24e4b75da453276925be56a61b5cfda0c  ./twingate/twingate_notifier_amd_x86_64_dynamic_Linux
-52d107dc38c9d00f08ab8d2d09c98689211fda2459c736a3454bace8d1224c5d  ./twingate/twingate_notifier_amd_x86_64_staticx_Linux
+055a165638a3f384c4697a85ccfa5e461d807b6d8f4f8cd93e18897197eee983  ./twingate/twingate_notifier_amd_x86_64_dynamic_Linux
+9b0dd461cab279174d7c5820c46b15f93c58b4bbc1cad2c7fc356f5e3f7e1a43  ./twingate/twingate_notifier_amd_x86_64_staticx_Linux
 ```
 
 
@@ -113,9 +113,9 @@ c0498cdaa4e8cb440ccd0ce1699788a24e4b75da453276925be56a61b5cfda0c  ./twingate/twi
 - #### Versions
 ```console
 $ ./twingate/twingate_client_amd_x86_64_dynamic_Linux --version
-Twingate 2026.160.6555 | 0.192.0
+Twingate 2026.239.6882 | 0.196.0
 
-Twingate 2026.160.6555 | 0.192.0
+Twingate 2026.239.6882 | 0.196.0
 Copyright (C) 2026 Twingate
 
 Twingate allows you to connect to private, remote resources as if they were
@@ -189,7 +189,7 @@ Options:
 
 ```console
 4.8M  ./twingate/twingate_client_aarch64_arm64_dynamic_Linux
-13M   ./twingate/twingate_client_amd_x86_64_dynamic_Linux
+12M   ./twingate/twingate_client_amd_x86_64_dynamic_Linux
 5.2M  ./twingate/twingate_client_amd_x86_64_staticx_Linux
 17M   ./twingate/twingate_connector_aarch64_arm64_dynamic_Linux
 17M   ./twingate/twingate_connector_amd_x86_64_dynamic_Linux
@@ -200,8 +200,8 @@ Options:
 4.6M  ./twingate/twingate_connectorctl_amd_x86_64_staticx_Linux
 7.1M  ./twingate/twingate_connectorctl_arm32v7_dynamic_Linux
 4.2M  ./twingate/twingate_notifier_aarch64_arm64_dynamic_Linux
-9.6M  ./twingate/twingate_notifier_amd_x86_64_dynamic_Linux
-5.3M  ./twingate/twingate_notifier_amd_x86_64_staticx_Linux
+9.5M  ./twingate/twingate_notifier_amd_x86_64_dynamic_Linux
+5.2M  ./twingate/twingate_notifier_amd_x86_64_staticx_Linux
 
 ```
 
