@@ -1,0 +1,2147 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tailscale Packages - stable track</title>
+  <link rel="stylesheet" href="/minimal.css">
+  <script src="/track.js"></script>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<h1>Tailscale Packages - stable track</h1>
+
+<p><b>Notice</b>: Use of this package server is governed by <a
+href="https://tailscale.com/terms">Tailscale's Terms of
+Service</a>. By using this server to install Tailscale, you
+acknowledge that you have read and accepted those terms.</p>
+
+<p>Looking for the source code? It's on <a
+href="https://github.com/tailscale/tailscale">GitHub</a>.</p>
+
+<p>Looking for a checksum? You can append <code>.sha256</code> to the
+file URL to obtain its checksum.</p>
+
+
+  <p>Want to know what's new? Check the <a href="https://tailscale.com/changelog/">Tailscale changelog</a>.</p>
+
+
+
+<form action="/stable/" method="GET">
+  <label for="v">View older version:</label>
+  <select name="v" id="v">
+    
+    <option value="latest" selected>latest</option>
+    
+    <option value="1.104.1" >1.104.1</option>
+    
+    <option value="1.102.5" >1.102.5</option>
+    
+    <option value="1.102.4" >1.102.4</option>
+    
+    <option value="1.102.3" >1.102.3</option>
+    
+    <option value="1.102.2" >1.102.2</option>
+    
+    <option value="1.102.1" >1.102.1</option>
+    
+    <option value="1.98.10" >1.98.10</option>
+    
+    <option value="1.98.9" >1.98.9</option>
+    
+    <option value="1.98.8" >1.98.8</option>
+    
+    <option value="1.98.5" >1.98.5</option>
+    
+    <option value="1.98.4" >1.98.4</option>
+    
+    <option value="1.98.3" >1.98.3</option>
+    
+    <option value="1.98.2" >1.98.2</option>
+    
+    <option value="1.98.1" >1.98.1</option>
+    
+    <option value="1.96.5" >1.96.5</option>
+    
+    <option value="1.96.4" >1.96.4</option>
+    
+    <option value="1.96.3" >1.96.3</option>
+    
+    <option value="1.96.2" >1.96.2</option>
+    
+    <option value="1.94.2" >1.94.2</option>
+    
+  </select>
+</form>
+
+
+
+
+<p id="os_label">Packages are available for the following operating systems:</p>
+
+<div id="os_groups">
+
+
+  <details id="android" class="os-group" data-os-name="Android" open>
+    <summary><a href="#android">Android</a></summary>
+    <div class="os-group-content">
+      <p>Universal Android application package (APK). This universal APK is larger in size compared to
+      the standard Tailscale Play Store download  as it includes support for most Android devices and
+      CPU architectures. Requires Android 8 or newer.</p>
+
+      <p>Note that this APK does not install updates automatically. You will need to manually
+      install new updates when they become available.</p>
+
+      <p>Using the version on the <a href="https://play.google.com/store/apps/details?id=com.tailscale.ipn"> Google Play Store</a>
+      is recommended.</p>
+
+      <ul>
+      
+        <li><a href="tailscale-android-universal-1.104.1.apk">tailscale-android-universal-1.104.1.apk</a></li>
+      
+      </ul>
+    </div>
+  </details>
+
+
+
+
+
+  <details id="linux" class="os-group" data-os-name="Linux" open>
+    <summary><a href="#linux">Linux</a></summary>
+    <div class="os-group-content">
+      <p>Packages are available for the following distributions:</p>
+
+
+  
+    
+  <details id="amazon-linux-2023" class="os-linux linux-distro" open>
+    <summary><a href="#amazon-linux-2023">Amazon Linux 2023</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/amazon-linux/2023/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="amazon-linux-2022" class="os-linux linux-distro" open>
+    <summary><a href="#amazon-linux-2022">Amazon Linux 2022</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/amazon-linux/2022/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="amazon-linux-2" class="os-linux linux-distro" open>
+    <summary><a href="#amazon-linux-2">Amazon Linux 2</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/amazon-linux/2/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+  <details id="archlinux" class="os-linux linux-distro" open>
+    <summary><a href="#archlinux">Arch Linux</a></summary>
+    <p>The <a href="https://wiki.archlinux.org/title/Tailscale">Arch Wiki</a> contains instructions for installing Tailscale from the Arch User Repository (AUR).</p>
+  </details>
+  
+
+  
+    
+  <details id="centos-8" class="os-linux linux-distro" open>
+    <summary><a href="#centos-8">CentOS 8</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/centos/8/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="centos-7" class="os-linux linux-distro" open>
+    <summary><a href="#centos-7">CentOS 7</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/centos/7/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="centos-10" class="os-linux linux-distro" open>
+    <summary><a href="#centos-10">CentOS Stream 10</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/centos/10/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="centos-9" class="os-linux linux-distro" open>
+    <summary><a href="#centos-9">CentOS Stream 9</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/centos/9/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-bookworm" class="os-linux linux-distro" open>
+    <summary><a href="#debian-bookworm">Debian Bookworm (oldstable)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-bullseye" class="os-linux linux-distro" open>
+    <summary><a href="#debian-bullseye">Debian Bullseye</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/debian/bullseye.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/bullseye.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-buster" class="os-linux linux-distro" open>
+    <summary><a href="#debian-buster">Debian Buster</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/debian/buster.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/buster.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-forky" class="os-linux linux-distro" open>
+    <summary><a href="#debian-forky">Debian Forky (testing)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/debian/forky.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/forky.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-sid" class="os-linux linux-distro" open>
+    <summary><a href="#debian-sid">Debian Sid (unstable)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/debian/sid.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/sid.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-stretch" class="os-linux linux-distro" open>
+    <summary><a href="#debian-stretch">Debian Stretch</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/debian/stretch.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/stretch.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="debian-trixie" class="os-linux linux-distro" open>
+    <summary><a href="#debian-trixie">Debian Trixie (stable)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/debian/trixie.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/debian/trixie.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-39" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-39">Fedora 39</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/39/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-38" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-38">Fedora 38</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/38/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-37" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-37">Fedora 37</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/37/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-36" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-36">Fedora 36</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/36/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-35" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-35">Fedora 35</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/35/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-34" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-34">Fedora 34</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/34/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora-33" class="os-linux linux-distro" open>
+    <summary><a href="#fedora-33">Fedora 33</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/33/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="fedora" class="os-linux linux-distro" open>
+    <summary><a href="#fedora">Fedora</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-42.3" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-42.3">openSUSE Leap 42.3</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/42.3/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-42.2" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-42.2">openSUSE Leap 42.2</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/42.2/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-42.1" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-42.1">openSUSE Leap 42.1</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/42.1/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-16.0" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-16.0">openSUSE Leap 16.0</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/16.0/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.6" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.6">openSUSE Leap 15.6</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.6/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.5" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.5">openSUSE Leap 15.5</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.5/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.4" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.4">openSUSE Leap 15.4</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.4/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.3" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.3">openSUSE Leap 15.3</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.3/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.2" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.2">openSUSE Leap 15.2</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.2/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.1" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.1">openSUSE Leap 15.1</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.1/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-leap-15.0" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-leap-15.0">openSUSE Leap 15.0</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/leap/15.0/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="opensuse-tumbleweed" class="os-linux linux-distro" open>
+    <summary><a href="#opensuse-tumbleweed">openSUSE Tumbleweed</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo zypper ar -g -r https://pkgs.tailscale.com/stable/opensuse/tumbleweed/tailscale.repo
+# Install Tailscale
+sudo zypper ref && sudo zypper in tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="oracle-10" class="os-linux linux-distro" open>
+    <summary><a href="#oracle-10">Oracle Linux 10</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/oracle/10/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="oracle-9" class="os-linux linux-distro" open>
+    <summary><a href="#oracle-9">Oracle Linux 9</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/oracle/9/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="oracle-8" class="os-linux linux-distro" open>
+    <summary><a href="#oracle-8">Oracle Linux 8</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/oracle/8/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="oracle-7" class="os-linux linux-distro" open>
+    <summary><a href="#oracle-7">Oracle Linux 7</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/oracle/7/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+  <details id="qpkgs" class="os-linux linux-distro" open>
+    <summary><a href="#qpkgs">QNAP packages</a></summary>
+    <p>
+      These files are QNAP Packages. See <a href="https://tailscale.com/kb/1273/qnap"/>Tailscale on QNAP</a> for more information.
+    </p>
+
+    <ul>
+    
+      <li>arm-x19: <a href="Tailscale_1.104.1-1_arm-x19.qpkg">Tailscale_1.104.1-1_arm-x19.qpkg</a></li>
+    
+      <li>arm-x31: <a href="Tailscale_1.104.1-1_arm-x31.qpkg">Tailscale_1.104.1-1_arm-x31.qpkg</a></li>
+    
+      <li>arm-x41: <a href="Tailscale_1.104.1-1_arm-x41.qpkg">Tailscale_1.104.1-1_arm-x41.qpkg</a></li>
+    
+      <li>arm_64: <a href="Tailscale_1.104.1-1_arm_64.qpkg">Tailscale_1.104.1-1_arm_64.qpkg</a></li>
+    
+      <li>x86: <a href="Tailscale_1.104.1-1_x86.qpkg">Tailscale_1.104.1-1_x86.qpkg</a></li>
+    
+      <li>x86_64: <a href="Tailscale_1.104.1-1_x86_64.qpkg">Tailscale_1.104.1-1_x86_64.qpkg</a></li>
+    
+      <li>x86_ce53xx: <a href="Tailscale_1.104.1-1_x86_ce53xx.qpkg">Tailscale_1.104.1-1_x86_ce53xx.qpkg</a></li>
+    
+    </ul>
+  </details>
+  
+
+  
+    
+  <details id="raspbian-bookworm" class="os-linux linux-distro" open>
+    <summary><a href="#raspbian-bookworm">Raspbian Bookworm (for Raspberry Pi)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/bookworm.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/bookworm.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="raspbian-bullseye" class="os-linux linux-distro" open>
+    <summary><a href="#raspbian-bullseye">Raspbian Bullseye (for Raspberry Pi)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/bullseye.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/bullseye.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="raspbian-buster" class="os-linux linux-distro" open>
+    <summary><a href="#raspbian-buster">Raspbian Buster (for Raspberry Pi)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/buster.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/buster.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="raspbian-stretch" class="os-linux linux-distro" open>
+    <summary><a href="#raspbian-stretch">Raspbian Stretch (for Raspberry Pi)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/stretch.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/stretch.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="raspbian-trixie" class="os-linux linux-distro" open>
+    <summary><a href="#raspbian-trixie">Raspbian Trixie (for Raspberry Pi)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/trixie.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/raspbian/trixie.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="rhel-10" class="os-linux linux-distro" open>
+    <summary><a href="#rhel-10">RHEL 10</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/rhel/10/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="rhel-9" class="os-linux linux-distro" open>
+    <summary><a href="#rhel-9">RHEL 9</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/rhel/9/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="rhel-8" class="os-linux linux-distro" open>
+    <summary><a href="#rhel-8">RHEL 8</a></summary>
+    <pre>
+# Add the tailscale repository
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/rhel/8/tailscale.repo
+# Install Tailscale
+sudo dnf install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="rhel-7" class="os-linux linux-distro" open>
+    <summary><a href="#rhel-7">RHEL 7</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/rhel/7/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+  <details id="static" class="os-linux linux-distro" open>
+    <summary><a href="#static">Static binaries (other distros)</a></summary>
+    <p>These tarballs contain static builds of the <tt>tailscale</tt> and
+    <tt>tailscaled</tt> binaries, as well as a systemd service
+    definition.</p>
+
+    <p>If you use these files, please also let us know your distro at <a
+    href="mailto:info@tailscale.com">info@tailscale.com</a>, so that we
+    can consider supporting it directly.</p>
+
+    <ul>
+    
+      <li>386: <a href="tailscale_1.104.1_386.tgz">tailscale_1.104.1_386.tgz</a></li>
+    
+      <li>amd64: <a href="tailscale_1.104.1_amd64.tgz">tailscale_1.104.1_amd64.tgz</a></li>
+    
+      <li>arm: <a href="tailscale_1.104.1_arm.tgz">tailscale_1.104.1_arm.tgz</a></li>
+    
+      <li>arm64: <a href="tailscale_1.104.1_arm64.tgz">tailscale_1.104.1_arm64.tgz</a></li>
+    
+      <li>geode: <a href="tailscale_1.104.1_geode.tgz">tailscale_1.104.1_geode.tgz</a></li>
+    
+      <li>mips: <a href="tailscale_1.104.1_mips.tgz">tailscale_1.104.1_mips.tgz</a></li>
+    
+      <li>mips64: <a href="tailscale_1.104.1_mips64.tgz">tailscale_1.104.1_mips64.tgz</a></li>
+    
+      <li>mips64le: <a href="tailscale_1.104.1_mips64le.tgz">tailscale_1.104.1_mips64le.tgz</a></li>
+    
+      <li>mipsle: <a href="tailscale_1.104.1_mipsle.tgz">tailscale_1.104.1_mipsle.tgz</a></li>
+    
+      <li>riscv64: <a href="tailscale_1.104.1_riscv64.tgz">tailscale_1.104.1_riscv64.tgz</a></li>
+    
+    </ul>
+  </details>
+  
+
+  
+  <details id="spks" class="os-linux linux-distro" open>
+    <summary><a href="#spks">Synology packages</a></summary>
+    <p>
+      These files are Synology Packages. Here are some guides for configuring Tailscale on Synology:
+      <ul>
+        <li><a href="https://tailscale.com/kb/1131/synology/">Tailscale on Synology</a></li>
+        <li><a href="https://tailscale.com/kb/1131/synology/#enabling-synology-outbound-connections">Enabling outbound connections on DSM7</a></li>
+      </ul>
+    </p>
+
+    
+    <p>
+      <label for="syno-model-select"><strong>Find my model:</strong></label>
+      <select id="syno-model-select">
+        <option value="">— select your Synology model —</option>
+        
+        <option value="DS1010&#43;" data-arch="x86_64">DS1010&#43;</option>
+        
+        <option value="DS1019&#43;" data-arch="x86_64">DS1019&#43;</option>
+        
+        <option value="DS109" data-arch="88f6281">DS109</option>
+        
+        <option value="DS110j" data-arch="88f6281">DS110j</option>
+        
+        <option value="DS111" data-arch="88f6281">DS111</option>
+        
+        <option value="DS112" data-arch="88f6281">DS112</option>
+        
+        <option value="DS112&#43;" data-arch="88f6281">DS112&#43;</option>
+        
+        <option value="DS112j" data-arch="88f6281">DS112j</option>
+        
+        <option value="DS114" data-arch="armada370">DS114</option>
+        
+        <option value="DS115" data-arch="armada375">DS115</option>
+        
+        <option value="DS115j" data-arch="armada370">DS115j</option>
+        
+        <option value="DS116" data-arch="armada38x">DS116</option>
+        
+        <option value="DS118" data-arch="armv8">DS118</option>
+        
+        <option value="DS119j" data-arch="armv8">DS119j</option>
+        
+        <option value="DS120j" data-arch="armv8">DS120j</option>
+        
+        <option value="DS124" data-arch="armv8">DS124</option>
+        
+        <option value="DS1511&#43;" data-arch="x86_64">DS1511&#43;</option>
+        
+        <option value="DS1512&#43;" data-arch="x86_64">DS1512&#43;</option>
+        
+        <option value="DS1513&#43;" data-arch="x86_64">DS1513&#43;</option>
+        
+        <option value="DS1515" data-arch="alpine">DS1515</option>
+        
+        <option value="DS1515&#43;" data-arch="x86_64">DS1515&#43;</option>
+        
+        <option value="DS1517" data-arch="alpine">DS1517</option>
+        
+        <option value="DS1517&#43;" data-arch="x86_64">DS1517&#43;</option>
+        
+        <option value="DS1520&#43;" data-arch="x86_64">DS1520&#43;</option>
+        
+        <option value="DS1522&#43;" data-arch="x86_64">DS1522&#43;</option>
+        
+        <option value="DS1525&#43;" data-arch="x86_64">DS1525&#43;</option>
+        
+        <option value="DS1618&#43;" data-arch="x86_64">DS1618&#43;</option>
+        
+        <option value="DS1621&#43;" data-arch="x86_64">DS1621&#43;</option>
+        
+        <option value="DS1621xs&#43;" data-arch="x86_64">DS1621xs&#43;</option>
+        
+        <option value="DS1812&#43;" data-arch="x86_64">DS1812&#43;</option>
+        
+        <option value="DS1813&#43;" data-arch="x86_64">DS1813&#43;</option>
+        
+        <option value="DS1815&#43;" data-arch="x86_64">DS1815&#43;</option>
+        
+        <option value="DS1817" data-arch="alpine">DS1817</option>
+        
+        <option value="DS1817&#43;" data-arch="x86_64">DS1817&#43;</option>
+        
+        <option value="DS1819&#43;" data-arch="x86_64">DS1819&#43;</option>
+        
+        <option value="DS1821&#43;" data-arch="x86_64">DS1821&#43;</option>
+        
+        <option value="DS1823xs&#43;" data-arch="x86_64">DS1823xs&#43;</option>
+        
+        <option value="DS1825&#43;" data-arch="x86_64">DS1825&#43;</option>
+        
+        <option value="DS2015xs" data-arch="alpine">DS2015xs</option>
+        
+        <option value="DS209" data-arch="88f6281">DS209</option>
+        
+        <option value="DS210j" data-arch="88f6281">DS210j</option>
+        
+        <option value="DS211" data-arch="88f6281">DS211</option>
+        
+        <option value="DS211&#43;" data-arch="88f6281">DS211&#43;</option>
+        
+        <option value="DS211j" data-arch="88f6281">DS211j</option>
+        
+        <option value="DS212" data-arch="88f6281">DS212</option>
+        
+        <option value="DS212&#43;" data-arch="88f6281">DS212&#43;</option>
+        
+        <option value="DS212j" data-arch="88f6281">DS212j</option>
+        
+        <option value="DS213" data-arch="88f6281">DS213</option>
+        
+        <option value="DS213&#43;" data-arch="x86_64">DS213&#43;</option>
+        
+        <option value="DS213air" data-arch="88f6281">DS213air</option>
+        
+        <option value="DS213j" data-arch="armada370">DS213j</option>
+        
+        <option value="DS214" data-arch="armadaxp">DS214</option>
+        
+        <option value="DS214&#43;" data-arch="armadaxp">DS214&#43;</option>
+        
+        <option value="DS214play" data-arch="i686">DS214play</option>
+        
+        <option value="DS214se" data-arch="armada370">DS214se</option>
+        
+        <option value="DS215&#43;" data-arch="alpine">DS215&#43;</option>
+        
+        <option value="DS215j" data-arch="armada375">DS215j</option>
+        
+        <option value="DS216" data-arch="armada38x">DS216</option>
+        
+        <option value="DS216&#43;" data-arch="x86_64">DS216&#43;</option>
+        
+        <option value="DS216&#43;II" data-arch="x86_64">DS216&#43;II</option>
+        
+        <option value="DS216j" data-arch="armada38x">DS216j</option>
+        
+        <option value="DS216play" data-arch="monaco">DS216play</option>
+        
+        <option value="DS216se" data-arch="armada370">DS216se</option>
+        
+        <option value="DS216slim" data-arch="armada38x">DS216slim</option>
+        
+        <option value="DS218" data-arch="armv8">DS218</option>
+        
+        <option value="DS218&#43;" data-arch="x86_64">DS218&#43;</option>
+        
+        <option value="DS218j" data-arch="armada38x">DS218j</option>
+        
+        <option value="DS218play" data-arch="armv8">DS218play</option>
+        
+        <option value="DS220&#43;" data-arch="x86_64">DS220&#43;</option>
+        
+        <option value="DS220j" data-arch="armv8">DS220j</option>
+        
+        <option value="DS223" data-arch="armv8">DS223</option>
+        
+        <option value="DS223j" data-arch="armv8">DS223j</option>
+        
+        <option value="DS224&#43;" data-arch="x86_64">DS224&#43;</option>
+        
+        <option value="DS225&#43;" data-arch="x86_64">DS225&#43;</option>
+        
+        <option value="DS2411&#43;" data-arch="x86_64">DS2411&#43;</option>
+        
+        <option value="DS2413&#43;" data-arch="x86_64">DS2413&#43;</option>
+        
+        <option value="DS2415&#43;" data-arch="x86_64">DS2415&#43;</option>
+        
+        <option value="DS2419&#43;" data-arch="x86_64">DS2419&#43;</option>
+        
+        <option value="DS2419&#43;II" data-arch="x86_64">DS2419&#43;II</option>
+        
+        <option value="DS2422&#43;" data-arch="x86_64">DS2422&#43;</option>
+        
+        <option value="DS3018xs" data-arch="x86_64">DS3018xs</option>
+        
+        <option value="DS3612xs" data-arch="x86_64">DS3612xs</option>
+        
+        <option value="DS3615xs" data-arch="x86_64">DS3615xs</option>
+        
+        <option value="DS3617xs" data-arch="x86_64">DS3617xs</option>
+        
+        <option value="DS3617xsII" data-arch="x86_64">DS3617xsII</option>
+        
+        <option value="DS3622xs&#43;" data-arch="x86_64">DS3622xs&#43;</option>
+        
+        <option value="DS409" data-arch="88f6281">DS409</option>
+        
+        <option value="DS409slim" data-arch="88f6281">DS409slim</option>
+        
+        <option value="DS410j" data-arch="88f6281">DS410j</option>
+        
+        <option value="DS411" data-arch="88f6281">DS411</option>
+        
+        <option value="DS411&#43;" data-arch="x86_64">DS411&#43;</option>
+        
+        <option value="DS411&#43;II" data-arch="x86_64">DS411&#43;II</option>
+        
+        <option value="DS411j" data-arch="88f6281">DS411j</option>
+        
+        <option value="DS411slim" data-arch="88f6281">DS411slim</option>
+        
+        <option value="DS412&#43;" data-arch="x86_64">DS412&#43;</option>
+        
+        <option value="DS413j" data-arch="88f6281">DS413j</option>
+        
+        <option value="DS414" data-arch="armadaxp">DS414</option>
+        
+        <option value="DS414j" data-arch="comcerto2k">DS414j</option>
+        
+        <option value="DS414slim" data-arch="armada370">DS414slim</option>
+        
+        <option value="DS415&#43;" data-arch="x86_64">DS415&#43;</option>
+        
+        <option value="DS415play" data-arch="i686">DS415play</option>
+        
+        <option value="DS416" data-arch="alpine">DS416</option>
+        
+        <option value="DS416j" data-arch="armada38x">DS416j</option>
+        
+        <option value="DS416play" data-arch="x86_64">DS416play</option>
+        
+        <option value="DS416slim" data-arch="armada38x">DS416slim</option>
+        
+        <option value="DS418" data-arch="armv8">DS418</option>
+        
+        <option value="DS418j" data-arch="armv8">DS418j</option>
+        
+        <option value="DS418play" data-arch="x86_64">DS418play</option>
+        
+        <option value="DS419slim" data-arch="armada38x">DS419slim</option>
+        
+        <option value="DS420&#43;" data-arch="x86_64">DS420&#43;</option>
+        
+        <option value="DS420j" data-arch="armv8">DS420j</option>
+        
+        <option value="DS423" data-arch="armv8">DS423</option>
+        
+        <option value="DS423&#43;" data-arch="x86_64">DS423&#43;</option>
+        
+        <option value="DS425&#43;" data-arch="x86_64">DS425&#43;</option>
+        
+        <option value="DS620slim" data-arch="x86_64">DS620slim</option>
+        
+        <option value="DS625slim" data-arch="x86_64">DS625slim</option>
+        
+        <option value="DS710&#43;" data-arch="x86_64">DS710&#43;</option>
+        
+        <option value="DS712&#43;" data-arch="x86_64">DS712&#43;</option>
+        
+        <option value="DS713&#43;" data-arch="x86_64">DS713&#43;</option>
+        
+        <option value="DS715" data-arch="alpine">DS715</option>
+        
+        <option value="DS716&#43;" data-arch="x86_64">DS716&#43;</option>
+        
+        <option value="DS716&#43;II" data-arch="x86_64">DS716&#43;II</option>
+        
+        <option value="DS718&#43;" data-arch="x86_64">DS718&#43;</option>
+        
+        <option value="DS720&#43;" data-arch="x86_64">DS720&#43;</option>
+        
+        <option value="DS723&#43;" data-arch="x86_64">DS723&#43;</option>
+        
+        <option value="DS725&#43;" data-arch="x86_64">DS725&#43;</option>
+        
+        <option value="DS916&#43;" data-arch="x86_64">DS916&#43;</option>
+        
+        <option value="DS918&#43;" data-arch="x86_64">DS918&#43;</option>
+        
+        <option value="DS920&#43;" data-arch="x86_64">DS920&#43;</option>
+        
+        <option value="DS923&#43;" data-arch="x86_64">DS923&#43;</option>
+        
+        <option value="DS925&#43;" data-arch="x86_64">DS925&#43;</option>
+        
+        <option value="DVA1622" data-arch="x86_64">DVA1622</option>
+        
+        <option value="DVA3219" data-arch="x86_64">DVA3219</option>
+        
+        <option value="DVA3221" data-arch="x86_64">DVA3221</option>
+        
+        <option value="DVA7400" data-arch="x86_64">DVA7400</option>
+        
+        <option value="EDS14" data-arch="armada370">EDS14</option>
+        
+        <option value="FS1018" data-arch="x86_64">FS1018</option>
+        
+        <option value="FS2017" data-arch="x86_64">FS2017</option>
+        
+        <option value="FS2500" data-arch="x86_64">FS2500</option>
+        
+        <option value="FS3017" data-arch="x86_64">FS3017</option>
+        
+        <option value="FS3400" data-arch="x86_64">FS3400</option>
+        
+        <option value="FS3410" data-arch="x86_64">FS3410</option>
+        
+        <option value="FS3420" data-arch="x86_64">FS3420</option>
+        
+        <option value="FS3600" data-arch="x86_64">FS3600</option>
+        
+        <option value="FS6400" data-arch="x86_64">FS6400</option>
+        
+        <option value="FS6420" data-arch="x86_64">FS6420</option>
+        
+        <option value="HD6500" data-arch="x86_64">HD6500</option>
+        
+        <option value="MR2200ac" data-arch="armv7">MR2200ac</option>
+        
+        <option value="NVR1218" data-arch="hi3535">NVR1218</option>
+        
+        <option value="NVR216" data-arch="hi3535">NVR216</option>
+        
+        <option value="PAS7700" data-arch="x86_64">PAS7700</option>
+        
+        <option value="RC18015xs&#43;" data-arch="x86_64">RC18015xs&#43;</option>
+        
+        <option value="RS10613xs&#43;" data-arch="x86_64">RS10613xs&#43;</option>
+        
+        <option value="RS1219&#43;" data-arch="x86_64">RS1219&#43;</option>
+        
+        <option value="RS1221&#43;" data-arch="x86_64">RS1221&#43;</option>
+        
+        <option value="RS1221RP&#43;" data-arch="x86_64">RS1221RP&#43;</option>
+        
+        <option value="RS1619xs&#43;" data-arch="x86_64">RS1619xs&#43;</option>
+        
+        <option value="RS18016xs&#43;" data-arch="x86_64">RS18016xs&#43;</option>
+        
+        <option value="RS18017xs&#43;" data-arch="x86_64">RS18017xs&#43;</option>
+        
+        <option value="RS212" data-arch="88f6281">RS212</option>
+        
+        <option value="RS214" data-arch="armada370">RS214</option>
+        
+        <option value="RS217" data-arch="armada38x">RS217</option>
+        
+        <option value="RS2211&#43;" data-arch="x86_64">RS2211&#43;</option>
+        
+        <option value="RS2211RP&#43;" data-arch="x86_64">RS2211RP&#43;</option>
+        
+        <option value="RS2212&#43;" data-arch="x86_64">RS2212&#43;</option>
+        
+        <option value="RS2212RP&#43;" data-arch="x86_64">RS2212RP&#43;</option>
+        
+        <option value="RS2414&#43;" data-arch="x86_64">RS2414&#43;</option>
+        
+        <option value="RS2414RP&#43;" data-arch="x86_64">RS2414RP&#43;</option>
+        
+        <option value="RS2416&#43;" data-arch="x86_64">RS2416&#43;</option>
+        
+        <option value="RS2416RP&#43;" data-arch="x86_64">RS2416RP&#43;</option>
+        
+        <option value="RS2418&#43;" data-arch="x86_64">RS2418&#43;</option>
+        
+        <option value="RS2418RP&#43;" data-arch="x86_64">RS2418RP&#43;</option>
+        
+        <option value="RS2421&#43;" data-arch="x86_64">RS2421&#43;</option>
+        
+        <option value="RS2421RP&#43;" data-arch="x86_64">RS2421RP&#43;</option>
+        
+        <option value="RS2423&#43;" data-arch="x86_64">RS2423&#43;</option>
+        
+        <option value="RS2423RP&#43;" data-arch="x86_64">RS2423RP&#43;</option>
+        
+        <option value="RS2818RP&#43;" data-arch="x86_64">RS2818RP&#43;</option>
+        
+        <option value="RS2821RP&#43;" data-arch="x86_64">RS2821RP&#43;</option>
+        
+        <option value="RS2825RP&#43;" data-arch="x86_64">RS2825RP&#43;</option>
+        
+        <option value="RS3412RPxs" data-arch="x86_64">RS3412RPxs</option>
+        
+        <option value="RS3412xs" data-arch="x86_64">RS3412xs</option>
+        
+        <option value="RS3413xs&#43;" data-arch="x86_64">RS3413xs&#43;</option>
+        
+        <option value="RS3614RPxs" data-arch="x86_64">RS3614RPxs</option>
+        
+        <option value="RS3614xs" data-arch="x86_64">RS3614xs</option>
+        
+        <option value="RS3614xs&#43;" data-arch="x86_64">RS3614xs&#43;</option>
+        
+        <option value="RS3617RPxs" data-arch="x86_64">RS3617RPxs</option>
+        
+        <option value="RS3617xs" data-arch="x86_64">RS3617xs</option>
+        
+        <option value="RS3617xs&#43;" data-arch="x86_64">RS3617xs&#43;</option>
+        
+        <option value="RS3618xs" data-arch="x86_64">RS3618xs</option>
+        
+        <option value="RS3621RPxs" data-arch="x86_64">RS3621RPxs</option>
+        
+        <option value="RS3621xs&#43;" data-arch="x86_64">RS3621xs&#43;</option>
+        
+        <option value="RS3626xs" data-arch="x86_64">RS3626xs</option>
+        
+        <option value="RS4017xs&#43;" data-arch="x86_64">RS4017xs&#43;</option>
+        
+        <option value="RS4021xs&#43;" data-arch="x86_64">RS4021xs&#43;</option>
+        
+        <option value="RS409" data-arch="88f6281">RS409</option>
+        
+        <option value="RS411" data-arch="88f6281">RS411</option>
+        
+        <option value="RS422&#43;" data-arch="x86_64">RS422&#43;</option>
+        
+        <option value="RS4826xs&#43;" data-arch="x86_64">RS4826xs&#43;</option>
+        
+        <option value="RS6426xs&#43;" data-arch="x86_64">RS6426xs&#43;</option>
+        
+        <option value="RS812" data-arch="88f6281">RS812</option>
+        
+        <option value="RS812&#43;" data-arch="x86_64">RS812&#43;</option>
+        
+        <option value="RS812RP&#43;" data-arch="x86_64">RS812RP&#43;</option>
+        
+        <option value="RS814" data-arch="armadaxp">RS814</option>
+        
+        <option value="RS814&#43;" data-arch="x86_64">RS814&#43;</option>
+        
+        <option value="RS814RP&#43;" data-arch="x86_64">RS814RP&#43;</option>
+        
+        <option value="RS815" data-arch="armadaxp">RS815</option>
+        
+        <option value="RS815&#43;" data-arch="x86_64">RS815&#43;</option>
+        
+        <option value="RS815RP&#43;" data-arch="x86_64">RS815RP&#43;</option>
+        
+        <option value="RS816" data-arch="armada38x">RS816</option>
+        
+        <option value="RS818&#43;" data-arch="x86_64">RS818&#43;</option>
+        
+        <option value="RS818RP&#43;" data-arch="x86_64">RS818RP&#43;</option>
+        
+        <option value="RS819" data-arch="armv8">RS819</option>
+        
+        <option value="RS820&#43;" data-arch="x86_64">RS820&#43;</option>
+        
+        <option value="RS820RP&#43;" data-arch="x86_64">RS820RP&#43;</option>
+        
+        <option value="RS822&#43;" data-arch="x86_64">RS822&#43;</option>
+        
+        <option value="RS822RP&#43;" data-arch="x86_64">RS822RP&#43;</option>
+        
+        <option value="RT1900ac" data-arch="armv7">RT1900ac</option>
+        
+        <option value="RT2600ac" data-arch="armv7">RT2600ac</option>
+        
+        <option value="RT6600ax" data-arch="armv8">RT6600ax</option>
+        
+        <option value="SA3200D" data-arch="x86_64">SA3200D</option>
+        
+        <option value="SA3400" data-arch="x86_64">SA3400</option>
+        
+        <option value="SA3400D" data-arch="x86_64">SA3400D</option>
+        
+        <option value="SA3410" data-arch="x86_64">SA3410</option>
+        
+        <option value="SA3600" data-arch="x86_64">SA3600</option>
+        
+        <option value="SA3610" data-arch="x86_64">SA3610</option>
+        
+        <option value="SA6400" data-arch="x86_64">SA6400</option>
+        
+        <option value="VS360HD" data-arch="hi3535">VS360HD</option>
+        
+        <option value="VS600HD" data-arch="x86_64">VS600HD</option>
+        
+        <option value="VS960HD" data-arch="hi3535">VS960HD</option>
+        
+        <option value="WRX560" data-arch="armv7">WRX560</option>
+        
+      </select>
+    </p>
+    <p id="syno-model-result" style="display:none">
+      Your <strong id="syno-model-name"></strong> uses the
+      <strong id="syno-model-arch"></strong> package.
+    </p>
+    
+
+    
+      <h3>DSM6</h3>
+      <ul>
+        
+          
+  <li data-spk-arch="x86_64"><a href="tailscale-x86_64-1.104.1-600104001-dsm6.spk">tailscale-x86_64-1.104.1-600104001-dsm6.spk</a>: 64-bit x86 (amd64)</li>
+
+        
+          
+  <li data-spk-arch="armv8"><a href="tailscale-armv8-1.104.1-600104001-dsm6.spk">tailscale-armv8-1.104.1-600104001-dsm6.spk</a>: ARMv8 (arm64)</li>
+
+        
+          
+  <li data-spk-arch="armv7"><a href="tailscale-armv7-1.104.1-600104001-dsm6.spk">tailscale-armv7-1.104.1-600104001-dsm6.spk</a>: ARMv7</li>
+
+        
+          
+  <li data-spk-arch="armv5"><a href="tailscale-armv5-1.104.1-600104001-dsm6.spk">tailscale-armv5-1.104.1-600104001-dsm6.spk</a>: ARMv5</li>
+
+        
+          
+  <li data-spk-arch="i686"><a href="tailscale-i686-1.104.1-600104001-dsm6.spk">tailscale-i686-1.104.1-600104001-dsm6.spk</a>: 32-bit x86</li>
+
+        
+          
+  <li data-spk-arch="88f6281"><a href="tailscale-88f6281-1.104.1-600104001-dsm6.spk">tailscale-88f6281-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="88f6282"><a href="tailscale-88f6282-1.104.1-600104001-dsm6.spk">tailscale-88f6282-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="alpine"><a href="tailscale-alpine-1.104.1-600104001-dsm6.spk">tailscale-alpine-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armada370"><a href="tailscale-armada370-1.104.1-600104001-dsm6.spk">tailscale-armada370-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armada375"><a href="tailscale-armada375-1.104.1-600104001-dsm6.spk">tailscale-armada375-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armada38x"><a href="tailscale-armada38x-1.104.1-600104001-dsm6.spk">tailscale-armada38x-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armadaxp"><a href="tailscale-armadaxp-1.104.1-600104001-dsm6.spk">tailscale-armadaxp-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="comcerto2k"><a href="tailscale-comcerto2k-1.104.1-600104001-dsm6.spk">tailscale-comcerto2k-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="hi3535"><a href="tailscale-hi3535-1.104.1-600104001-dsm6.spk">tailscale-hi3535-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+          
+  <li data-spk-arch="monaco"><a href="tailscale-monaco-1.104.1-600104001-dsm6.spk">tailscale-monaco-1.104.1-600104001-dsm6.spk</a></li>
+
+        
+      </ul>
+    
+      <h3>DSM7</h3>
+      <ul>
+        
+          
+  <li data-spk-arch="x86_64"><a href="tailscale-x86_64-1.104.1-700104001-dsm7.spk">tailscale-x86_64-1.104.1-700104001-dsm7.spk</a>: 64-bit x86 (amd64)</li>
+
+        
+          
+  <li data-spk-arch="armv8"><a href="tailscale-armv8-1.104.1-700104001-dsm7.spk">tailscale-armv8-1.104.1-700104001-dsm7.spk</a>: ARMv8 (arm64)</li>
+
+        
+          
+  <li data-spk-arch="armv7"><a href="tailscale-armv7-1.104.1-700104001-dsm7.spk">tailscale-armv7-1.104.1-700104001-dsm7.spk</a>: ARMv7</li>
+
+        
+          
+  <li data-spk-arch="armv5"><a href="tailscale-armv5-1.104.1-700104001-dsm7.spk">tailscale-armv5-1.104.1-700104001-dsm7.spk</a>: ARMv5</li>
+
+        
+          
+  <li data-spk-arch="i686"><a href="tailscale-i686-1.104.1-700104001-dsm7.spk">tailscale-i686-1.104.1-700104001-dsm7.spk</a>: 32-bit x86</li>
+
+        
+          
+  <li data-spk-arch="88f6281"><a href="tailscale-88f6281-1.104.1-700104001-dsm7.spk">tailscale-88f6281-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="88f6282"><a href="tailscale-88f6282-1.104.1-700104001-dsm7.spk">tailscale-88f6282-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="alpine"><a href="tailscale-alpine-1.104.1-700104001-dsm7.spk">tailscale-alpine-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armada370"><a href="tailscale-armada370-1.104.1-700104001-dsm7.spk">tailscale-armada370-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armada375"><a href="tailscale-armada375-1.104.1-700104001-dsm7.spk">tailscale-armada375-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armada38x"><a href="tailscale-armada38x-1.104.1-700104001-dsm7.spk">tailscale-armada38x-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="armadaxp"><a href="tailscale-armadaxp-1.104.1-700104001-dsm7.spk">tailscale-armadaxp-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="comcerto2k"><a href="tailscale-comcerto2k-1.104.1-700104001-dsm7.spk">tailscale-comcerto2k-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="hi3535"><a href="tailscale-hi3535-1.104.1-700104001-dsm7.spk">tailscale-hi3535-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+          
+  <li data-spk-arch="monaco"><a href="tailscale-monaco-1.104.1-700104001-dsm7.spk">tailscale-monaco-1.104.1-700104001-dsm7.spk</a></li>
+
+        
+      </ul>
+    
+  </details>
+  
+
+  
+    
+  <details id="ubuntu-resolute" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-resolute">Ubuntu 26.04 (Resolute Raccoon)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/resolute.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/resolute.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-questing" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-questing">Ubuntu 25.10 (Questing Quokka)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/questing.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/questing.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-plucky" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-plucky">Ubuntu 25.04 (Plucky Puffin)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/plucky.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/plucky.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-oracular" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-oracular">Ubuntu 24.10 (Oracular Oriole)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/oracular.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/oracular.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-noble" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-noble">Ubuntu 24.04 (Noble Numbat)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-mantic" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-mantic">Ubuntu 23.10 (Mantic Minotaur)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/mantic.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/mantic.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-minotaur" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-minotaur">Ubuntu 23.10 (Mantic Minotaur)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/minotaur.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/minotaur.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-lunar" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-lunar">Ubuntu 23.04 (Lunar Lobster)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/lunar.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/lunar.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-kinetic" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-kinetic">Ubuntu 22.10 (Kinetic Kudu)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/kinetic.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/kinetic.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-jammy" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-jammy">Ubuntu 22.04 LTS (Jammy Jellyfish)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/jammy.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/jammy.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-impish" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-impish">Ubuntu 21.10 (Impish)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/impish.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/impish.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-hirsute" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-hirsute">Ubuntu 21.04 (Hirsute)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/hirsute.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/hirsute.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-groovy" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-groovy">Ubuntu 20.10 (Groovy)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/groovy.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/groovy.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-focal" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-focal">Ubuntu 20.04 LTS (Focal)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-eoan" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-eoan">Ubuntu 19.10 (Eoan)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/eoan.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/eoan.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-bionic" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-bionic">Ubuntu 18.04 LTS (Bionic)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/bionic.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/bionic.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-xenial" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-xenial">Ubuntu 16.04 LTS (Xenial)</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/xenial.asc | sudo apt-key add -
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/xenial.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="ubuntu-juniper" class="os-linux linux-distro" open>
+    <summary><a href="#ubuntu-juniper">Ubuntu Kylin</a></summary>
+    <pre>
+# Add Tailscale's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/juniper.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+# Add the tailscale repository
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/juniper.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+# Install Tailscale
+sudo apt-get update && sudo apt-get install tailscale
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="photon-5" class="os-linux linux-distro" open>
+    <summary><a href="#photon-5">VMware Photon OS 5</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/photon/5/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="photon-4" class="os-linux linux-distro" open>
+    <summary><a href="#photon-4">VMware Photon OS 4</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/photon/4/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+  
+    
+  <details id="photon-3" class="os-linux linux-distro" open>
+    <summary><a href="#photon-3">VMware Photon OS 3</a></summary>
+    <pre>
+# Install yum-config-manager if missing
+sudo yum install yum-utils
+# Add the tailscale repository
+sudo yum-config-manager --add-repo https://pkgs.tailscale.com/stable/photon/3/tailscale.repo
+# Install Tailscale
+sudo yum install tailscale
+# Enable and start tailscaled
+sudo systemctl enable --now tailscaled
+# Start Tailscale!
+sudo tailscale up
+</pre>
+  </details>
+    
+  
+
+
+    </div>
+  </details>
+
+
+
+  <details id="macos" class="os-group" data-os-name="macOS" open>
+    <summary><a href="#macos">macOS</a></summary>
+    <div class="os-group-content">
+      <p>This is the standalone GUI version of the macOS app.  It is offered as
+      either an installable .app that can be manually dragged into the Applications
+      folder of your Mac, or a .pkg installer that will install Tailscale automatically.</p>
+
+      <p>The manually installable .app must be moved into /Applications
+      as it contains a macOS "System Extension".  You must stop Tailscale and quit the
+      application prior to overwriting an existing version.  Rebooting after installation
+      is recommended.  To avoid conflicts, only one copy of Tailscale.app should exist on your Mac.</p>
+
+      <p>Using the .pkg installer is recommended.</p>
+
+      <ul>
+      
+        <li><a href="Tailscale-1.104.1-macos.zip">Tailscale-1.104.1-macos.zip</a></li>
+      
+        <li><a href="Tailscale-1.104.1-macos.pkg">Tailscale-1.104.1-macos.pkg</a></li>
+      
+      </ul>
+    </div>
+  </details>
+
+
+
+  <details id="windows" class="os-group" data-os-name="Windows" open>
+    <summary><a href="#windows">Windows</a></summary>
+    <div class="os-group-content">
+      <p>These files are Windows installers.</p>
+      
+        <p>Unlike the <code>*.exe</code> files, the MSI files are architecture-specific; you must download the one that matches your CPU architecture.</p>
+      
+
+      <h3>Windows 10 or later, Windows Server 2016 or later</h3>
+      <ul>
+      
+        
+  <li><a href="tailscale-setup-1.104.1.exe">tailscale-setup-1.104.1.exe</a></li>
+
+      
+        
+  <li><a href="tailscale-setup-full-1.104.1.exe">tailscale-setup-full-1.104.1.exe</a>: full installer (all MSI packages are embedded in the self-extracting executable)</li>
+
+      
+      
+        
+  <li><a href="tailscale-setup-1.104.1-amd64.msi">tailscale-setup-1.104.1-amd64.msi</a>: 64-bit x86 (amd64)</li>
+
+      
+        
+  <li><a href="tailscale-setup-1.104.1-arm64.msi">tailscale-setup-1.104.1-arm64.msi</a>: 64-bit ARM64</li>
+
+      
+        
+  <li><a href="tailscale-setup-1.104.1-x86.msi">tailscale-setup-1.104.1-x86.msi</a>: 32-bit x86</li>
+
+      
+      </ul>
+    </div>
+  </details>
+
+
+</div>
+
+<br /><hr />
+
+<p>Tailscale is a trademark of <a href="https://tailscale.com">Tailscale Inc.</a></p>
+
+</body>
+</html>

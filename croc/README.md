@@ -1,0 +1,340 @@
+
+---
+- #### Download [croc](https://github.com/schollz/croc#install)
+> - **Sources**
+> > ```bash
+> > --> Android:
+> >      - Built using dockercross (Dynamic Only)
+> >      - Currently this fails with: loadinternal: cannot find runtime/cgo
+> >
+> > --> DragonFlyBSD:
+> >      - https://github.com/schollz/croc/releases
+> > 
+> > --> FreeBSD:
+> >      - https://github.com/schollz/croc/releases
+> > 
+> > --> Linux:
+> >      - https://github.com/schollz/croc/releases
+> >      - Binaries for '386' | 'loong64' | 'mips' | 'mipsle' | 'mips64' | 'mips64le' |'ppc64' | 'ppc64le' | 'riscv64' | 's390x' are crosscompiled
+> > 
+> > --> NetBSD:
+> >      - https://github.com/schollz/croc/releases
+> > 
+> > --> macOS:
+> >      - https://github.com/schollz/croc/releases
+> > 
+> > --> OpenBSD:
+> >      - https://github.com/schollz/croc/releases
+> > 
+> > --> Windows:
+> >      - https://github.com/schollz/croc/releases
+> > ```
+> > 
+```bash
+!# Get CPU Arch (Android)
+[ADB]
+adb shell getprop ro.product.cpu.abi
+[Termux]
+getprop ro.product.cpu.abi
+
+!# Get CPU Arch (Linux)
+ uname -m || dpkg --print-architecture
+
+!# Get CPU Arch (Windows)
+[cmd prompt]
+echo %PROCESSOR_ARCHITECTURE%
+[Powershell]
+$env:PROCESSOR_ARCHITECTURE
+
+!# Index (ARCH || ALT_ARCH)
+
+!# DragonFlyBSD
+--> Amd x86_64 || x86_64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_64_DragonFlyBSD"
+
+!# FreeBSD
+--> aarch64 || arm64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_aarch64_arm64_FreeBSD"
+--> Amd x86|| x86 [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_FreeBSD"
+--> Amd x86_64 || x86_64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_64_FreeBSD"
+
+!# Linux
+--> aarch64 || arm64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_aarch64_arm64_Linux"
+--> Amd x86 || x86 [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_Linux"
+--> Amd x86_64 || x86_64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_64_Linux"
+--> ARM_abi|| ARMv4 || ARMv5 || ARMv7 (?) [32-bit]
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_arm_abi_Linux"
+--> i386 || Intel 80386 [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_i386_Linux"
+--> MIPS (Big-Endian) [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_mips_Linux"
+--> MIPSel || MIPSle (Little-Endian) [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_mipsle_Linux"
+--> MIPS64 (Big-Endian) [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_mips64_Linux"
+--> MIPS64le (Little-Endian) [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_mips64le_Linux"
+--> powerpc64|| ppc64 || cisco 7500 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_powerpc64_ppc64_Linux"
+--> powerpc64le || ppc64le || cisco 7500 || OpenPOWER ELF V2 ABI (Little-Endian) [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_powerpc64le_ppc64le_Linux"
+--> risc64 || CB RISC-V || RVC [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_riscv64_Linux"
+--> s390x || IBM S/390 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_s390x_Linux"
+
+!# macOS
+--> aarch64 || arm64
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_aarch64_arm64_macOS"
+--> Amd x86_64 || x86_64
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_x86_64_macOS"
+
+!# NetBSD
+--> Amd x86 || x86 [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_NetBSD"
+--> Amd x86_64 || x86_64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_64_NetBSD"
+--> ARM_abi|| ARMv4 || ARMv5 || ARMv7 (?) [32-bit]
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_arm_abi_NetBSD"
+
+!# OpenBSD
+--> aarch64 || arm64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_aarch64_arm64_OpenBSD"
+--> Amd x86 || x86 [32-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_OpenBSD"
+--> Amd x86_64 || x86_64 [64-bit] (SYSV)
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_64_OpenBSD"
+--> ARM_abi|| ARMv4 || ARMv5 || ARMv7 (?) [32-bit]
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_arm_abi_OpenBSD"
+
+#Windows
+--> aarch64 || arm64 [64-bit]
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_aarch64_arm64_Windows.exe"
+--> Amd_x86 || x86 [32-bit]
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_Windows.exe"
+--> Amd x86_64 || x86_64 [64-bit]
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_amd_x86_64_Windows.exe"
+--> ARM_abi|| ARMv4 || ARMv5 || ARMv7 (?) 
+-->  curl -qfSLO "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/croc/croc_arm_Windows.exe"
+
+```
+---
+- #### Install croc
+```bash
+!# Recommended way to install croc is:
+ curl https://getcroc.schollz.com | bash
+!# Compile Dynamically using go
+  go install github.com/schollz/croc/v9@latest
+
+!# Copy downloaded croc binaries to /usr/bin || /usr/local/bin
+!# For $HOME/bin
+ mkdir -p "$HOME/bin" && export PATH="$HOME/bin:$PATH"
+
+!# Move Downloaded croc binaries to that DIR
+ mv "$Path_To_croc_Binary" "/usr/bin/croc"
+
+!# Give Writeable Perms
+ chmod +xwr /usr/bin/croc*
+```
+
+---
+```console
+
+--> METADATA
+./croc/croc_386_Linux:                 ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
+./croc/croc_aarch64_arm64_FreeBSD:     ELF 64-bit LSB executable, ARM aarch64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, stripped
+./croc/croc_aarch64_arm64_Linux:       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./croc/croc_aarch64_arm64_OpenBSD:     ELF 64-bit LSB executable, ARM aarch64, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, stripped
+./croc/croc_aarch64_arm64_Windows.exe: PE32+ executable (console) Aarch64, for MS Windows, 6 sections
+./croc/croc_aarch64_arm64_macOS:       Mach-O 64-bit arm64 executable, flags:<|DYLDLINK|PIE>
+./croc/croc_amd_x86_64_DragonFlyBSD:   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+./croc/croc_amd_x86_64_FreeBSD:        ELF 64-bit LSB executable, x86-64, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, stripped
+./croc/croc_amd_x86_64_Linux:          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+./croc/croc_amd_x86_64_NetBSD:         ELF 64-bit LSB executable, x86-64, version 1 (NetBSD), statically linked, for NetBSD 7.0, stripped
+./croc/croc_amd_x86_64_OpenBSD:        ELF 64-bit LSB executable, x86-64, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, stripped
+./croc/croc_amd_x86_64_Windows.exe:    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+./croc/croc_amd_x86_FreeBSD:           ELF 32-bit LSB executable, Intel 80386, version 1 (FreeBSD), statically linked, for FreeBSD 12.3, FreeBSD-style, Go BuildID=pzNrEUJBJW2rS8WbBo1i/efB3Y9OPU_FNUsEveobp/eHFP7W8to9BzwgUQ0dYW/9Bo7qlkEzoieE5kfcHL3, stripped
+./croc/croc_amd_x86_Linux:             ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
+./croc/croc_amd_x86_NetBSD:            ELF 32-bit LSB executable, Intel 80386, version 1 (NetBSD), statically linked, for NetBSD 7.0, stripped
+./croc/croc_amd_x86_OpenBSD:           ELF 32-bit LSB executable, Intel 80386, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=QJxeN-dGsKofnMKOHiqI/-nycADcw5xsi0Hxak8HL/DuUbViwnVIXgJHYxTg-F/NnSTXqNJaWdfOy8QkASY, stripped
+./croc/croc_amd_x86_Windows.exe:       PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows, 6 sections
+./croc/croc_arm_Windows.exe:           PE32 executable (console) ARMv7 Thumb, for MS Windows, 14 sections
+./croc/croc_arm_abi_NetBSD:            ELF 32-bit LSB executable, ARM, EABI5 version 1 (NetBSD), statically linked, for NetBSD 7.0, Go BuildID=8uSMKwcUg1iN7BfQ7wYN/hwB71Wn3g4HL1_ZEyTkC/u3lfuo7obGubolbbz-Zc/SWAXosYtZD8AfdJ-u9b_, stripped
+./croc/croc_arm_abi_OpenBSD:           ELF 32-bit LSB executable, ARM, version 1 (OpenBSD), dynamically linked, interpreter /usr/libexec/ld.so, for OpenBSD, Go BuildID=KEk2TdQLPEAlnn114S38/p1hVwSb4OB8mvl4t8V8s/I7pHswwhjFgaHMUbyvpF/sfMTszszjzGjmte8nIul, stripped
+./croc/croc_loong64_Linux:             ELF 64-bit LSB executable, LoongArch, version 1 (SYSV), statically linked, stripped
+./croc/croc_mips64_Linux:              ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, stripped
+./croc/croc_mips64le_Linux:            ELF 64-bit LSB executable, MIPS, MIPS-III version 1 (SYSV), statically linked, stripped
+./croc/croc_mips_Linux:                ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, stripped
+./croc/croc_mipsle_Linux:              ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), statically linked, stripped
+./croc/croc_powerpc64_ppc64_Linux:     ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, stripped
+./croc/croc_powerpc64le_ppc64le_Linux: ELF 64-bit LSB executable, 64-bit PowerPC or cisco 7500, OpenPOWER ELF V2 ABI, version 1 (SYSV), statically linked, stripped
+./croc/croc_riscv64_Linux:             ELF 64-bit LSB executable, UCB RISC-V, double-float ABI, version 1 (SYSV), statically linked, stripped
+./croc/croc_s390x_Linux:               ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), statically linked, stripped
+./croc/croc_x86_64_macOS:              Mach-O 64-bit x86_64 executable, flags:<|DYLDLINK|PIE>
+
+--> SHA256SUM
+95aedc4d9a310cb04f779c450a7712d5b951b014978235a1d434f0f537d78dd8  ./croc/croc_386_Linux
+7ab2eca56c28d5db8206aaba0b8cf6d6c1bd80cda2762d858e8629074e3c7253  ./croc/croc_aarch64_arm64_FreeBSD
+4c23b4697bff52d98c6d5d66037ef393daf41b503da2db66f0542f14e4e63b04  ./croc/croc_aarch64_arm64_Linux
+9f60a421308f86abd103e8ac411e599c159b605cf2cd2296c207c201139c7823  ./croc/croc_aarch64_arm64_OpenBSD
+9ec9a18a8b6701f1a210f5b29eee6478308b232e91ed71ec479885fdcfeac745  ./croc/croc_aarch64_arm64_Windows.exe
+57e1b804550aeb736a1994096ac7a9aa534408be3cbb5e064d211270bd6fe43b  ./croc/croc_aarch64_arm64_macOS
+8282ef1c9d19692d28f5ecd4e95cdbddb1f17a38d9d2eaa9854baf4855f9cc6c  ./croc/croc_amd_x86_64_DragonFlyBSD
+626678b7a7e2a8aa57b07d4ea15b68212127822a576e21c9243e4b6ab5055fcc  ./croc/croc_amd_x86_64_FreeBSD
+d0ac9a2668b98fcc0456a2bdc4168e5d81e8564d923c290802331193062c302b  ./croc/croc_amd_x86_64_Linux
+1964299ffd7d7e9e43da1e0fb068e426670263e4dd9eed2601dcb302d3506a82  ./croc/croc_amd_x86_64_NetBSD
+eb270ea3af8c98b2db84bf3c80eeccd443ccbde48b63d7bc0e9921450b05b325  ./croc/croc_amd_x86_64_OpenBSD
+b2d489afa6f4e4af7c893bb8d8d03c87fcc3d7f1d0091d6a9a2d40cdc284cbdf  ./croc/croc_amd_x86_64_Windows.exe
+7ff1b6c223ed59e440118debc349e65254d507e82865377f3e2904184258b08e  ./croc/croc_amd_x86_FreeBSD
+64148bf2826c651796b2559a6be3af1163b713e940286e439badc59749989c60  ./croc/croc_amd_x86_Linux
+ade2700b1c8cf217d28e754cf9a1dca630ffa07e305ba793986989849f6378e6  ./croc/croc_amd_x86_NetBSD
+9964c8ee5e7abcce36d282ccadeae66e1f2244bcff4befdb2b2bf9f974da957d  ./croc/croc_amd_x86_OpenBSD
+902823d1053db113676dbd68217b5f8214fd842c5dc9eca72a5d5bd540d5259b  ./croc/croc_amd_x86_Windows.exe
+ed657a7f38152378e377ac7b7df5720e550362cf5d411203aab105e3ad389e5f  ./croc/croc_arm_Windows.exe
+2419b6a55fc015b0548bc9ce29c849bb9baf346889d459f463ac0dbe8575a48f  ./croc/croc_arm_abi_NetBSD
+b6f4ae2184afec08f332e4bae80293eac0f9004b25e0bac46639e66a713b3cb2  ./croc/croc_arm_abi_OpenBSD
+af8cbe25494badf20bf75cd43518a887094e0454d48d819f1975a2083db03ff4  ./croc/croc_loong64_Linux
+7514e6dcdca0bf453d7033972f45ee763a5cf707d839f6bff39c95c697c4b557  ./croc/croc_mips64_Linux
+5b36d12c627877bcbb9781acf3adad081ec1cb4158cdcd7767ec4f6408371346  ./croc/croc_mips64le_Linux
+a76f5242e5529aa30f82faebac0b9dffc4c7b46e13aeced6c7984127310de4ef  ./croc/croc_mips_Linux
+ecd8518b874e6c3fba4edc3d196b7960a8e13594814530f97de7aed70e79dc8f  ./croc/croc_mipsle_Linux
+6d0072384ee84bedabe60be789f7f93e4910a531ff09730dc8af413aa950d617  ./croc/croc_powerpc64_ppc64_Linux
+f2dd1a590aab7c00f271e6d046e473d0befb4a11d979d38f93154477f864ec1c  ./croc/croc_powerpc64le_ppc64le_Linux
+d2a44b71267e860ed827271948324c13d9e78a998da55bc7ee6d794eec866f91  ./croc/croc_riscv64_Linux
+f276302ca09e010e241aa6c9596f189c6b2510a52e57a5f270e449d3124768c9  ./croc/croc_s390x_Linux
+a519fe9b5a493642a71ea01c7e7efbd9101d4081be92e6422da99cd062a491c9  ./croc/croc_x86_64_macOS
+```
+
+
+---
+
+- #### Sizes
+
+```console
+21M   ./croc/croc_386_Linux
+20M   ./croc/croc_aarch64_arm64_FreeBSD
+21M   ./croc/croc_aarch64_arm64_Linux
+20M   ./croc/croc_aarch64_arm64_OpenBSD
+21M   ./croc/croc_aarch64_arm64_Windows.exe
+21M   ./croc/croc_aarch64_arm64_macOS
+9.5M  ./croc/croc_amd_x86_64_DragonFlyBSD
+22M   ./croc/croc_amd_x86_64_FreeBSD
+23M   ./croc/croc_amd_x86_64_Linux
+9.5M  ./croc/croc_amd_x86_64_NetBSD
+22M   ./croc/croc_amd_x86_64_OpenBSD
+22M   ./croc/croc_amd_x86_64_Windows.exe
+7.1M  ./croc/croc_amd_x86_FreeBSD
+21M   ./croc/croc_amd_x86_Linux
+9.0M  ./croc/croc_amd_x86_NetBSD
+7.1M  ./croc/croc_amd_x86_OpenBSD
+21M   ./croc/croc_amd_x86_Windows.exe
+15M   ./croc/croc_arm_Windows.exe
+7.2M  ./croc/croc_arm_abi_NetBSD
+7.2M  ./croc/croc_arm_abi_OpenBSD
+22M   ./croc/croc_loong64_Linux
+25M   ./croc/croc_mips64_Linux
+25M   ./croc/croc_mips64le_Linux
+24M   ./croc/croc_mips_Linux
+24M   ./croc/croc_mipsle_Linux
+22M   ./croc/croc_powerpc64_ppc64_Linux
+22M   ./croc/croc_powerpc64le_ppc64le_Linux
+20M   ./croc/croc_riscv64_Linux
+23M   ./croc/croc_s390x_Linux
+22M   ./croc/croc_x86_64_macOS
+```
+
+---
+
+- #### Version
+```console
+
+$ ./croc/croc_amd_x86_64_Linux --version
+croc version 11.5.4
+
+$ ./croc/croc_amd_x86_64_Linux -h
+NAME:
+   croc - securely transfer files or share a terminal
+
+USAGE:
+   croc [GLOBAL OPTIONS] [COMMAND] [COMMAND OPTIONS] [filename(s) or folder]
+
+   USAGE EXAMPLES:
+   Send a file:
+      croc send file.txt
+
+      -git to respect your .gitignore
+   Send multiple files:
+      croc send file1.txt file2.txt file3.txt
+    or
+      croc send *.jpg
+
+   Send everything in a folder:
+      croc send example-folder-name
+
+   Send a file with a custom code:
+      croc send --code secret-code file.txt
+
+   Receive a file using code:
+      croc secret-code
+
+   Store files for later download:
+      croc store --downloads 3 --expiration 3d file.txt
+
+   Share a terminal:
+      croc ssh
+
+   Join a shared terminal:
+      CROC_SECRET=six-word-invitation croc ssh
+
+VERSION:
+   11.5.4
+
+COMMANDS:
+   send             send file(s), or folder (see options with croc send -h)
+   store            upload encrypted files for later download
+   ssh              share or join a secure, collaborative terminal
+   update, upgrade  check for and safely install a newer croc release
+   relay            start your own relay (optional)
+   help, h          Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --internal-dns          use a built-in DNS stub resolver rather than the host operating system (default: false)
+   --classic               toggle between the classic mode (insecure due to local attack vector) and new mode (secure) (default: false)
+   --remember              save these settings to reuse next time (default: false)
+   --debug                 toggle debug mode (default: false)
+   --yes                   automatically agree to all prompts (default: false)
+   --stdout                redirect file to stdout (default: false)
+   --no-compress           disable compression (default: false)
+   --ask                   make sure sender and recipient are prompted (default: false)
+   --local                 force to use only local connections (default: false)
+   --ignore-stdin          ignore piped stdin (default: false)
+   --overwrite             do not prompt to overwrite or resume (default: false)
+   --rename                receive files that already exist under a new name instead of prompting (default: false)
+   --testing               flag for testing purposes (default: false)
+   --quiet                 disable all output (default: false)
+   --disable-clipboard     disable copy to clipboard (default: false)
+   --extended-clipboard    copy full command with secret as env variable to clipboard (default: false)
+   --revoke value          revoke a stored transfer using its local sender receipt
+   --multicast value       multicast address to use for local discovery (default: "239.255.255.250")
+   --curve value           choose an encryption curve (p521, p256, p384, siec, ed25519) (default: "p256")
+   --ip value              set sender ip if known e.g. 10.0.0.1:9009, [::1]:9009
+   --relay value           address of the relay (default: "croc.schollz.com:9009") [$CROC_RELAY]
+   --relay6 value          ipv6 address of the relay (default: "croc6.schollz.com:9009") [$CROC_RELAY6]
+   --out value             specify an output folder to receive the file (default: ".")
+   --pass value            password for the relay (default: "pass123") [$CROC_PASS]
+   --socks5 value          SOCKS5 proxy address (relay DNS is resolved by the proxy) [$SOCKS5_PROXY]
+   --connect value         add a http proxy [$HTTP_PROXY]
+   --throttleUpload value  throttle the upload speed e.g. 500k
+   --help, -h              show help (default: false)
+   --version, -v           print the version (default: false)
+
+
+```
+
+---
+
