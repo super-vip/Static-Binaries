@@ -155,7 +155,7 @@ $ sha256sum ./aria2/aria2c_aarch64_arm64_Android ./aria2/aria2c_aarch64_arm64_Wi
 84c4598d25d0150fd0ca4793eb967fa7a7ee9980c02d9e1028132f82d9ac8681  ./aria2/aria2c_aarch64_arm64_libressl_musl_Linux
 106f8bda4748f41e41ac6c9d7940916eade60c2456add3c596a2d90996a9db85  ./aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux
 99a057bd383a28f1d5fab6e8cc5f6f3ed4172f5e65c59548242e965454d654c1  ./aria2/aria2c_aarch64_arm64_musl_Linux
-ce2fcd626a86b98265f2ab6ca873563b12ab9f9848ef21f2d51e696cb024e1eb  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
+baa0adb8997bf7461301b58b4a71c066d5c6324785c6010ce4ff2d71776ca3fe  ./aria2/aria2c_aarch64_arm64_musl_latest_Linux
 b06494c59df4c3536ad68dfc1ce5b33d3e638cd1e845ae5452709b35ed1270bb  ./aria2/aria2c_aarch_arm_Android
 1d17b0371e82a51be97f787a9b80d2ff70fbf57e0373b081562992eb8e05cbf3  ./aria2/aria2c_amd_x86_64_libressl_musl_Linux
 eba651b3d28f41f41d3c9d7e69c821947338374401b951e244c26b1633120537  ./aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux
@@ -226,7 +226,7 @@ fc88358393c8f5d5a00f2f3a7550dbc5393109cbcb0b2210ae046974a5f62d58  ./aria2/aria2c
 14M   aria2c_mipsel_musl_latest_Linux
 11M   aria2c_x86_64_Android
 12M   aria2c_x86_Android
-11    version.txt
+7     version.txt
 ```
 
 ---
