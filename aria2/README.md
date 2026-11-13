@@ -226,7 +226,7 @@ fc88358393c8f5d5a00f2f3a7550dbc5393109cbcb0b2210ae046974a5f62d58  ./aria2/aria2c
 14M   aria2c_mipsel_musl_latest_Linux
 11M   aria2c_x86_64_Android
 12M   aria2c_x86_Android
-7     version.txt
+11    version.txt
 ```
 
 ---
@@ -255,7 +255,7 @@ Compiler: gcc 11.2.1 20211120
   built by  x86_64-pc-linux-gnu
   targeting aarch64-unknown-linux-musl
   on        Nov  2 2024 01:27:54
-System: Linux 7.0.0-1017-azure #17~24.04.1-Ubuntu SMP PREEMPT Thu Sep 24 18:46:57 UTC 2026 aarch64
+System: Linux 7.0.0-1014-aws #14~24.04.1-Ubuntu SMP PREEMPT Fri Sep 18 21:24:59 UTC 2026 aarch64
 
 Report bugs to https://github.com/aria2/aria2/issues
 Visit https://aria2.github.io/
